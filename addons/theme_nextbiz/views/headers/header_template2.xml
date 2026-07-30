@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="theme_nextbiz_header_new2" inherit_id="website.layout" name="Header Two"
+		active="False">
+		<xpath expr="//header//nav" position="replace">
+			<div class="oe_structure o_editable" id="nextbiz-header-new-2-top">
+				<section class="s_text_block top-header o_cc o_colored_level d-none d-md-block">
+					<div class="container">
+						<div class="top-data d-flex">
+							<h6 class="top-quote-line m-0">No1 : World's best Finance company</h6>
+							<ul class="navbar-nav ms-auto">
+								<li class="nav-item">
+									<t t-call="website.placeholder_header_social_links">
+										<t t-set="_div_class"
+											t-valuef="d-flex align-items-center justify-content-end h-100" />
+									</t>
+								</li>
+
+								<li class="nav-item">
+									<t t-call="website.placeholder_header_language_selector">
+										<t t-set="_div_classes"
+											t-valuef="my-auto ms-0 menu-language" />dropdown-toggle </t>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section
+					class="s_text_block middle-header pt16 pb16 o_cc o_colored_level navbar-light"
+					id="oe_structure_header_contact_2">
+					<div class="container">
+						<div class="middle-data d-flex align-items-center">
+							<div class="header-brand d-flex">
+								<div class="d-flex header_position">
+									<t t-call="website.placeholder_header_brand" />
+								</div>
+							</div>
+							<div class="mobile-sidebar-toggle ms-auto d-block d-md-none">
+								<button type="button" id="show-sidebar"
+									class="btn btn-sm d-block d-md-none">
+									<span class="ri ri-function-line text-secondary fa-2x"></span>
+								</button>
+							</div>
+
+							<div class="middle-contact ms-auto d-none d-md-block">
+								<div t-if="is_view_active('website.header_text_element')"
+									class="user-info">
+									<ul class="d-flex my-0 ps-0">
+										<li class="nav-item me-3">
+											<a class="nav-link d-inline-flex">
+												<div class="contact-icon mr8 my-auto">
+													<i class="icon ri ri-phone-line fa-2x"></i>
+												</div>
+												<div class="contact-data">
+													<small class="text-muted">Requesting a Call:</small>
+													<h5 t-out="res_company.phone"></h5>
+												</div>
+											</a>
+										</li>
+										<li class="nav-item px-3">
+											<a class="nav-link d-inline-flex">
+												<div class="contact-icon mr8 my-auto">
+													<i class="icon ri ri-time-line fa-2x"></i>
+												</div>
+												<div class="contact-data">
+													<small class="text-muted">Monday-Saturday</small>
+													<h5 class="text">9am-8pm</h5>
+												</div>
+											</a>
+										</li>
+										<li class="nav-item ms-2">
+											<a class="nav-link d-inline-flex">
+												<div class="contact-icon mr8 my-auto">
+													<i class="icon ri ri-map-pin-line fa-2x"></i>
+												</div>
+												<div class="contact-data">
+													<small class="text-muted"
+														t-out="res_company.street" />
+													<h5 t-out="res_company.city"></h5>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<nav data-name="Navbar" id="nextbiz-header-new-2"
+				class="#nextbiz-header-new-2 pb32 navbar navbar-expand-md o_colored_level o_cc o_colored_level d-none d-md-block py-0 navbar-light">
+				<div class="bottom-header">
+					<div id="top_menu_container" class="container">
+						<div class="row align-items-center bottom-header-content rounded">
+							<div class="col-md-8 col-lg-9 header_left">
+								<nav class="navbar navbar-expand-md p-0 d-none d-md-block bizople-header-new2" id="top_menu_collapse_mobile">
+									<div class="collapse navbar-collapse " id="header_new2-menuitem">
+										<t t-call="website.navbar_nav" id="top_menu">
+											<t t-set="_nav_class" t-valuef="me-auto" />
+											<t t-foreach="website.menu_id.child_id" t-as="submenu">
+												<t t-call="website.submenu">
+													<t t-set="item_class" t-value="'nav-item'" />
+													<t t-set="link_class" t-value="'nav-link'" />
+												</t>
+											</t>
+										</t>
+									</div>
+								</nav>
+							</div>
+							<div class="col-md-4 col-lg-3 header_right">
+								<ul id="top_menu" class="nav navbar-nav ms-auto">
+									<t t-call="portal.placeholder_user_sign_in">
+										<t t-set="_item_class" t-value="'nav-item'" />
+										<t t-set="_link_class" t-value="'nav-link'" />
+									</t>
+									<t t-call="portal.user_dropdown">
+										<t t-set="_user_name" t-value="true" />
+										<t t-set="_item_class" t-value="'nav-item dropdown'" />
+										<t t-set="_link_class" t-value="'nav-link'" />
+										<t t-set="_dropdown_menu_class"
+											t-value="'dropdown-menu-end'" />
+									</t>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</xpath>
+		<xpath expr="//header" position="after">
+			<div class="d-block d-md-none">
+				<t t-call="theme_nextbiz.bizople_mobile_bottom_icon_bar" />
+			</div>
+		</xpath>
+	</template>
+
+	<template id="bizople_mbl_side_bar" name="Bizople Side Bar">
+		<nav id="sidebar" class="sidebar-wrapper bg-white d-block d-md-none">
+			<div class="sidebar-content">
+				<div class="card bg-white">
+					<div class="card-header d-flex align-items-center justify-content-between">
+						<div class="header-brand mt16 mb16 text-start">
+							<a href="/" t-attf-class="navbar-brand logo #{_link_class}">
+								<span t-field="website.sidebar_logo" t-options="{'widget': 'image'}"
+									role="img" t-att-aria-label="'Logo of %s' % website.name"
+									t-att-title="website.name" />
+							</a>
+						</div>
+						<div class="">
+							<div class="close-mbl-sidebar  text-center">
+								<a href="#" class="text-decoration-none">
+									<span class="ri ri-close-line text-black" id="close_mbl_sidebar"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="card-body tab-content">
+						<div class="tab-pane fade active show" id="nav_tabs_content_1595584408392_2"
+							role="tabpanel" aria-labelledby="nav_tabs_link_1595584408392_2">
+							<ul class="nav navbar-nav align-items-md-center" id="top_menu">
+								<t t-foreach="website.menu_id.child_id" t-as="submenu">
+									<t t-call="website.submenu">
+										<t t-set="item_class" t-value="'nav-item'" />
+										<t t-set="link_class" t-value="'nav-link'" />
+									</t>
+								</t>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</template>
+
+	<template id="bizople_mbl_side_bar_header_tcall" name="Bizople sidebar Menu Call"
+		inherit_id="website.layout">
+		<xpath expr="//footer" position="after">
+			<t t-call="theme_nextbiz.bizople_mbl_side_bar" />
+		</xpath>
+	</template>
+
+
+	<template id="theme_nextbiz_header2_align_center"
+		inherit_id="theme_nextbiz.theme_nextbiz_header_new2"
+		active="False">
+		<xpath expr="//t[@id='top_menu']" position="attributes">
+			<attribute name="_nav_class.f">mx-auto</attribute>
+		</xpath>
+	</template>
+	<template id="theme_nextbiz_header2_align_right"
+		inherit_id="theme_nextbiz.theme_nextbiz_header_new2"
+		active="False">
+		<xpath expr="//t[@id='top_menu']" position="attributes">
+			<attribute name="_nav_class.f">ms-auto</attribute>
+		</xpath>
+	</template>
+</odoo>

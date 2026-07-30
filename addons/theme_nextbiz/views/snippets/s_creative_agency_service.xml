@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_creative_agency_service" name="Services">
+		<section class="creative-service">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 mb-3">
+						<div class="service-content">
+							<div class="image">
+								<span class="ri ri-lightbulb-line fa-4x"/>
+							</div>
+							<div class="info">
+								<h4>Best Ideas</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb-3">
+						<div class="service-content">
+							<div class="image">
+								<span class="ri ri-settings-3-line fa-4x"/>
+							</div>
+							<div class="info">
+								<h4>Our Speciality</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb-3">
+						<div class="service-content">
+							<div class="image">
+								<span class="fa fa-refresh fa-4x"/>
+							</div>
+							<div class="info">
+								<h4>Structured Process</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

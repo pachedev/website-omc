@@ -1,0 +1,157 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+@if o-website-value('footer-template') == "nextbiz-footer-4"{
+	#footer_theme_common4{
+		.newsletter-description{
+			font-size: 14px;
+			line-height: 1.66;
+		}
+		.block-subscribe-footer {
+			margin-bottom: 25px;
+			.subscribe {
+				display: table;
+				width: 100%;
+			}
+			.js_subscribe_email{
+				display: table-cell;
+				vertical-align: top;
+				width: 100%;
+				border-radius: 0px !important;
+				height: 48px !important;
+			}
+			.input-group-append button{
+				display: table-cell;
+				vertical-align: top;
+				height: 48px !important;
+				line-height: 35px !important;
+				border-radius: 0px !important;
+			}
+		}
+		.newsletter-content{
+			h4{
+				font-weight: 500;
+				margin-bottom: 30px !important;
+				font-size: 20px;
+			}
+			.newsletter-description{
+				line-height: 24px;
+				color: #333333;
+			}
+		}
+		.copyright-section{
+			background-color: #ffffff;
+		}
+		border-top: 1px solid #e5e5e5;
+	}
+}
+$-footer-template: o-website-value('footer-template');
+    @if index(('nextbiz-footer-4', 'nextbiz-footer-5'), $-footer-template) {
+		#footer_theme_common4, #footer_theme_common5{
+			.contact-content{
+				.contact-icon{
+					.ri{
+						font-size: 25px;
+						margin-right: 15px;
+						margin-top: 30px;
+						display: inline-block;
+					}
+				}
+				.contact-info{
+					h6{
+						font-size: 16px;
+					}
+				}
+			}
+			.apps-link{
+				.title h6{
+					color: inherit;
+					font-weight: 500;
+					font-size: 20px;
+				}
+				.app-box{
+					padding: 13px 21px;
+					border: 2px solid #e5e5e5;
+					border-radius: 8px;
+					display: inline-block;
+					-webkit-transition: all 0.3s ease-in-out;
+					-moz-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+					align-items: center;
+					justify-content: center;
+					&:hover{
+						.apple-logo{
+							color: #1b1b1b !important;
+						}
+						.android-logo{
+							color: #238a23 !important;
+						}
+						// border-color: $primary;
+					}
+				}
+				.app-icon{
+					.fa{
+						color: #1b1b1b;
+						font-size: 35px;
+						margin-right: 15px;
+						-webkit-transition: all 0.3s ease-in-out;
+						-moz-transition: all 0.3s ease-in-out;
+						-ms-transition: all 0.3s ease-in-out;
+						-o-transition: all 0.3s ease-in-out;
+						transition: all 0.3s ease-in-out;
+					}
+				}
+				.app-content{
+					h6{
+						a{
+							color: inherit;
+							text-decoration: none;
+							-webkit-transition: all 0.3s ease-in-out;
+							-moz-transition: all 0.3s ease-in-out;
+							-ms-transition: all 0.3s ease-in-out;
+							-o-transition: all 0.3s ease-in-out;
+							transition: all 0.3s ease-in-out;
+
+						}
+						font-size: 20px;
+					}
+					p{
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+$-footer-template: o-website-value('footer-template');
+    @if index(('nextbiz-footer-4', 'nextbiz-footer-5', 'nextbiz-footer-6', 'nextbiz-footer-8'), $-footer-template) {
+    	#footer_theme_common4, #footer_theme_common5, #footer_theme_common6, #footer_theme_common8{
+			.footer-pricelist, .footer-language{
+				p{
+				  span{
+					font-size: 16px;
+				  }
+				  img{
+					width: 16px;
+					height: 16px;
+					border-radius: 50%;
+				  }
+				}
+				a.dropdown-toggle{
+				  &:after{
+					font-family: 'remixicon' !important;
+					border: 0;
+					font-size: 12px;
+					vertical-align: middle;
+					content: '\ea4c';
+				  }
+				  font-size: 15px;
+				//   color: inherit;
+				  text-decoration: none;
+				}
+				margin-bottom: 10px;
+			}
+    	}
+    }

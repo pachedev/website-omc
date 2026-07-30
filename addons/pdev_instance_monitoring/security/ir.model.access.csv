@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pdev_instance_monitoring_user,pdev.instance.monitoring.user,model_pdev_instance_monitoring,pdev_instance_monitoring.group_pdev_instance_monitoring_user,1,0,0,0
+access_pdev_instance_monitoring_manager,pdev.instance.monitoring.manager,model_pdev_instance_monitoring,pdev_instance_monitoring.group_pdev_instance_monitoring_manager,1,1,1,1

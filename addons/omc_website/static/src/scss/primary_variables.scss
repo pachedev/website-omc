@@ -1,0 +1,88 @@
+//
+// Odoo Mobile Client — brand palette
+//
+// Registered as a selectable Website palette ('omc-1') and activated through
+// the editor's own mechanism in hooks.py, so the color combinations (o_cc1..
+// o_cc5) resolve text, headings, links and buttons with correct contrast on
+// every background. Sections declare a combo instead of hardcoding colors.
+//
+//   o-color-1  purple #9531AD  primary: buttons, links, accents
+//   o-color-2  cyan   #05A2D8  secondary
+//   o-color-3  light  #F7F8FC  soft section background
+//   o-color-4  white  #FFFFFF  surface
+//   o-color-5  navy   #081C4E  dark sections and footer
+//
+// Brand blue #035EBE is not a palette slot: it only appears inside the hero
+// gradient, next to the purple.
+//
+
+$o-color-palettes: map-merge($o-color-palettes,
+    ('omc-1': (
+        'o-color-1': #9531AD,
+        'o-color-2': #05A2D8,
+        'o-color-3': #F7F8FC,
+        'o-color-4': #FFFFFF,
+        'o-color-5': #081C4E,
+
+        // cc1 — sections on white
+        'o-cc1-text': #4A5578,
+        'o-cc1-headings': 'o-color-5',
+        'o-cc1-link': 'o-color-1',
+        'o-cc1-btn-primary': 'o-color-1',
+        'o-cc1-btn-secondary': 'o-color-2',
+
+        // cc2 — sections on the soft background
+        'o-cc2-bg': 'o-color-3',
+        'o-cc2-text': #4A5578,
+        'o-cc2-headings': 'o-color-5',
+        'o-cc2-link': 'o-color-1',
+        'o-cc2-btn-primary': 'o-color-1',
+        'o-cc2-btn-secondary': 'o-color-5',
+
+        // cc3 — bands on navy (stats, highlights)
+        'o-cc3-bg': 'o-color-5',
+        'o-cc3-text': #D3DCF2,
+        'o-cc3-headings': 'o-color-4',
+        'o-cc3-link': 'o-color-2',
+        'o-cc3-btn-primary': 'o-color-4',
+        'o-cc3-btn-secondary': 'o-color-2',
+
+        // cc4 — sections on the brand purple
+        'o-cc4-bg': 'o-color-1',
+        'o-cc4-text': #F2E4F7,
+        'o-cc4-headings': 'o-color-4',
+        'o-cc4-link': 'o-color-4',
+        'o-cc4-btn-primary': 'o-color-4',
+        'o-cc4-btn-secondary': 'o-color-2',
+
+        // cc5 — footer and copyright bar on navy
+        'o-cc5-bg': 'o-color-5',
+        'o-cc5-text': #C6D1EC,
+        'o-cc5-headings': 'o-color-4',
+        'o-cc5-link': 'o-color-4',
+        'o-cc5-btn-primary': 'o-color-1',
+        'o-cc5-btn-secondary': 'o-color-2',
+
+        // Menu on combo 1 (white): the header itself paints the background —
+        // transparent over the hero, solid white once scrolled — in
+        // omc_frontend.scss. A colored combo here would repaint the inner
+        // navbar and defeat that.
+        'menu': 1,
+        'footer': 5,
+        'copyright': 5,
+    )));
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'omc-1');
+
+// The theme widens the xl container to 1320px; keep that generous width but
+// pair it with real side padding (see omc_frontend.scss) so content is not
+// glued to the viewport edges on smaller laptops.
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1302px,
+);
+
+$o-theme-headings-font-weight: 700;

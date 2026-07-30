@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="login_template_inherited" inherit_id="website.login_layout" name="Login/Signup Template">
+
+	</template>
+</odoo>

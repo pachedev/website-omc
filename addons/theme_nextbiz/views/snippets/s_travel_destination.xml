@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_travel_destination" name="Destination">
+		<section class="travel-destination" style="background-image: url('/theme_nextbiz/static/src/img/travel-destination-bg.jpg');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-md-8">
+						<div class="heading">
+							<span>Choose Your</span>
+							<h1>Travel Destination</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_nextbiz/static/src/img/travel-destination1.jpg" data-original-src="/theme_nextbiz/static/src/img/travel-destination1.jpg" />
+							</div>
+							<div class="icons">
+								<span class="fa fa-star"/>
+							</div>
+							<div class="text">
+								<h3>Netherlands</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_nextbiz/static/src/img/travel-destination2.jpg" data-original-src="/theme_nextbiz/static/src/img/travel-destination2.jpg" />
+							</div>
+							<div class="text">
+								<h3>Greece</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_nextbiz/static/src/img/travel-destination3.jpg" data-original-src="/theme_nextbiz/static/src/img/travel-destination3.jpg" />
+							</div>
+							<div class="text">
+								<h3>Italy</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

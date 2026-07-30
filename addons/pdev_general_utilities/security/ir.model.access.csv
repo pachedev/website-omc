@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+public_access_web_background_image,public_access_web_background_image,model_web_background_image,,1,0,0,0
+access_web_background_image,access_web_background_image,model_web_background_image,base.group_system,1,1,1,1

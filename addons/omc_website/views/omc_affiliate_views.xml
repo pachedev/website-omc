@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="omc_affiliate_click_view_list" model="ir.ui.view">
+        <field name="name">omc.affiliate.click.list</field>
+        <field name="model">omc.affiliate.click</field>
+        <field name="arch" type="xml">
+            <list string="Affiliate Clicks" create="false">
+                <field name="create_date" string="Clicked on" />
+                <field name="source" />
+                <field name="lang" optional="show" />
+            </list>
+        </field>
+    </record>
+
+    <record id="omc_affiliate_click_view_graph" model="ir.ui.view">
+        <field name="name">omc.affiliate.click.graph</field>
+        <field name="model">omc.affiliate.click</field>
+        <field name="arch" type="xml">
+            <graph string="Affiliate Clicks" type="bar">
+                <field name="source" />
+                <field name="create_date" interval="month" />
+            </graph>
+        </field>
+    </record>
+
+    <record id="omc_affiliate_click_view_search" model="ir.ui.view">
+        <field name="name">omc.affiliate.click.search</field>
+        <field name="model">omc.affiliate.click</field>
+        <field name="arch" type="xml">
+            <search string="Affiliate Clicks">
+                <field name="source" />
+                <filter name="filter_month" string="This month"
+                    domain="[('create_date', '&gt;=', (context_today().replace(day=1)).strftime('%Y-%m-%d'))]" />
+                <group>
+                    <filter name="group_source" string="Source" context="{'group_by': 'source'}" />
+                    <filter name="group_lang" string="Language" context="{'group_by': 'lang'}" />
+                    <filter name="group_month" string="Clicked on"
+                        context="{'group_by': 'create_date:month'}" />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="omc_affiliate_click_action" model="ir.actions.act_window">
+        <field name="name">Affiliate Clicks</field>
+        <field name="res_model">omc.affiliate.click</field>
+        <field name="view_mode">graph,list</field>
+        <field name="context">{'search_default_group_source': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">No clicks yet</p>
+            <p>Visitors without an Odoo server who follow the affiliate link show up here,
+                grouped by where on the site they clicked.</p>
+        </field>
+    </record>
+
+    <menuitem id="menu_omc_affiliate_clicks" name="Affiliate Clicks" parent="menu_omc_root"
+        action="omc_affiliate_click_action" sequence="20" />
+
+</odoo>

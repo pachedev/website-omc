@@ -1,0 +1,31 @@
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+    <template id="nextbiz_s_searchbar_input"
+        name="Search Snippet"
+        inherit_id="website.website_search_box" primary="True">
+        <xpath expr="//input[@name='search']" position="attributes">
+            <attribute name="t-att-data-search-type">search_type or 'all'</attribute>
+            <attribute name="t-att-data-limit">limit or '5'</attribute>
+            <attribute name="t-att-data-display-image">display_image or 'true'</attribute>
+            <attribute name="t-att-data-display-description">display_description or 'true'</attribute>
+            <attribute name="t-att-data-display-extra-link">display_extra_link or 'true'</attribute>
+            <attribute name="t-att-data-display-detail">display_detail or 'true'</attribute>
+            <attribute name="t-att-data-order-by">order_by or 'name asc'</attribute>
+        </xpath>
+        <xpath expr="//div[@role='search']" position="attributes">
+            <attribute name="t-attf-class" remove="s_searchbar_input" separator=" " />
+        </xpath>
+        <xpath expr="//div[@role='search']" position="replace">
+            <form t-attf-class="o_searchbar_form s_searchbar_input #{_form_classes}"
+                t-att-action="action" method="get" t-attf-data-snippet="nextbiz_s_searchbar_input">
+                <t>$0</t>
+                <input name="order" type="hidden" class="o_search_order_by oe_unremovable"
+                    t-att-value="order_by if order_by else 'name asc'" />
+                <t t-out="0" />
+            </form>
+        </xpath>
+    </template>
+
+</odoo>

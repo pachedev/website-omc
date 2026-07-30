@@ -1,0 +1,130 @@
+/* El ancho 100% solo aplica al login (.container.body_login, definido abajo);
+   un selector .container global rompe el max-width del website. */
+
+#background {
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(0px);
+    z-index: -1;
+}
+
+.body_login {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+}
+
+#mcard {
+    padding: 2rem;
+    max-width: 350px;
+}
+
+#bcard {
+    padding: 2rem;
+    height: 100%;
+}
+
+.body_login input,
+.body_login select {
+    background-color: transparent !important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #596773;
+    border-radius: 0px;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    transition: border-color 0.7s ease;
+    box-shadow: none !important;
+    text-align: center;
+}
+
+.effect:hover {
+    box-shadow: 0 0 0 0.25rem rgb(133 149 162 / 41%);
+}
+
+.custom-oauth-background {
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(0px);
+    z-index: -1;
+}
+
+.custom-oauth-layout-middle {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.custom-oauth-layout-left {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    min-height: 100vh;
+}
+
+.custom-oauth-layout-right {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5rem;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 500px) {
+    .custom-oauth-layout-left {
+        padding-left: 3rem;
+    }
+
+    .custom-oauth-layout-right {
+        padding-right: 3rem;
+    }
+}
+
+.powered-by-pdev {
+    color: #172B4D;
+    font-weight: 600;
+}
+
+.form-alerts {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-alerts .alert {
+    text-wrap: pretty;
+    padding: 0.5rem;
+}
+
+.container.body_login,
+.custom-oauth-layout-middle {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.o_auth_oauth_providers .list-group-item {
+    text-align: center;
+    text-overflow: ellipsis;
+}

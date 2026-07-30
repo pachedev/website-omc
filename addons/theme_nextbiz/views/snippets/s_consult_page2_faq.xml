@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_consult_page2_faq" name="Consult Two Faq">
+        <section class="consult_pages">
+            <section class="consult-two-faq">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-7 col-lg-5">
+                            <div class="">
+                                <h6 class="title fw-bold mb-3">Thinking</h6>
+                                <h2 class="fw-bold">Knowledge is the best Thing</h2>
+                                <section class="s_faq_collapse pt32 pb32 o_colored_level" data-snippet="s_faq_collapse" data-name="FAQ Block" style="background-image: none;" data-vcss="001">
+                                    <div class="s_col_no_bgcolor" data-name="Accordion Box">
+                                        <div data-name="Accordion" class="s_accordion">
+                                            <div id="myCollapse" class="accordion accordion-flush">
+                                                <div class="accordion-item mb-3 position-relative z-1 border-0" data-name="Accordion Item">
+												<button type="button" class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed" data-bs-toggle="collapse" aria-expanded="false" id="accordion-button909253_1" data-bs-target="#myCollapseTab909253_1" aria-controls="myCollapseTab909253_1"><span class="flex-grow-1 o_default_snippet_text">No rocket science included</span></button>
+												<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab909253_1" aria-labelledby="accordion-button909253_1">
+													<div class="accordion-body">
+														<p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 position-relative z-1 border-0" data-name="Accordion Item">
+												<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="accordion-button909253_2" data-bs-target="#myCollapseTab909253_2" aria-controls="myCollapseTab909253_2"><span class="flex-grow-1 o_default_snippet_text">Blazing Site Performance</span></button>
+												<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab909253_2" aria-labelledby="accordion-button909253_2">
+													<div class="accordion-body">
+														<p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 position-relative z-1 border-0" data-name="Accordion Item">
+												<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="accordion-button909253_3" data-bs-target="#myCollapseTab909253_3" aria-controls="myCollapseTab909253_3"><span class="flex-grow-1 o_default_snippet_text">Bonus Plugins Included</span></button>
+												<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab909253_3" aria-labelledby="accordion-button909253_3">
+													<div class="accordion-body">
+														<p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+													</div>
+												</div>
+											</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="left_content oe_img_bg  w-50 d-none d-lg-block" style="background-image:url('/theme_nextbiz/static/src/img/consultpage2_faq2.jpg');">
+                </section>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

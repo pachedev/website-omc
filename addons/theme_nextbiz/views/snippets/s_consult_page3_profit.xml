@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+    <template id="s_consult_page3_profit" name="Consult Three Profit">
+        <section class="consult_pages">
+            <section class="consult-three-profit">
+                <div class="container">
+                    <div class="mb64 w-100 w-xl-50">
+                        <h2 class="fw-bold mb-3">We Help Our Clients to Make Profit</h2>
+                        <p>Our Experts Will Help You To Get Profit.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 my-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-envelope-o fa-1x profit_icon text-primary d-flex align-items-center justify-content-center"/>
+                                <p class="mb-0 font-large ms-3">Knowledge Sharing</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 my-2">
+                            <div class="d-flex align-items-center">
+                                <i class="ri ri-settings-3-line fa-1x profit_icon text-primary d-flex align-items-center justify-content-center"/>
+                                <p class="mb-0 font-large ms-3">Customer Services</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 my-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-heart-o fa-1x profit_icon text-primary d-flex align-items-center justify-content-center"/>
+                                <p class="mb-0 font-large ms-3">Expert Advice</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 my-2">
+                            <div class="d-flex align-items-center">
+                                <i class="ri ri-shopping-cart-2-line fa-1x profit_icon text-primary d-flex align-items-center justify-content-center"/>
+                                <p class="mb-0 font-large ms-3">Portfolio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="knowledge mt-5">
+                        <div class="row m-0">
+                            <div class="col-xl-5 col-lg-6">
+                                <img src="/theme_nextbiz/static/src/img/consultpage3_prepared7.png"
+                                    data-original-src="/theme_nextbiz/static/src/img/consultpage3_prepared7.png"
+                                    class="img img-fluid pb-5 pb-lg-0" />
+                            </div>
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="px-3 px-xl-5">
+                                    <div class="mb40">
+                                        <h3 class="fw-bold">Knowledge Sharing</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                    <div class="row mb40">
+                                        <div class="col-md-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="img img-fluid me-3" src="/theme_nextbiz/static/src/img/consulrpage1_service4.png" data-original-src="/theme_nextbiz/static/src/img/consulrpage1_service4.png"/>
+                                                <h6 class="fw-bold">Life Insurance Consulting</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="d-flex align-items-center">
+                                                <img class="img img-fluid me-3" src="/theme_nextbiz/static/src/img/consulrpage1_service5.png" data-original-src="/theme_nextbiz/static/src/img/consulrpage1_service5.png"/>
+                                                <h6 class="fw-bold">Health Insurance Consulting</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btn btn-outline-primary btn-lg" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

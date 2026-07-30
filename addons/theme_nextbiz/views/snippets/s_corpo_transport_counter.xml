@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_transport_counter" name="Counter">
+      	
+      	<section class="corpo_transport_counter s_numbers o_cc o_cc2 pt24 pb24 o_colored_level bg-light" data-snippet="s_numbers" data-name="Numbers">
+      		<div class="oe_structure"/>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+						<span class="ri ri-clipboard-line fa-3x text-reset"/>
+						<span class="text-reset text-start ps-2">
+							<span class="s_number display-4 fw-bold o_default_snippet_text d-block">
+							320
+							</span>
+							<span class="o_default_snippet_text display-6">Projects Done</span>
+						</span>
+					</div>
+					<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+						<span class="ri ri-global-line fa-3x text-reset"/>
+						<span class="text-reset text-start ps-2">
+							<span class="s_number display-4 fw-bold o_default_snippet_text d-block">
+							72
+							</span>
+							<span class="o_default_snippet_text display-6">Clients Worldwide</span>
+						</span>
+					</div>
+					<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+						<span class="ri ri-truck-line fa-3x text-reset"/>
+						<span class="text-reset text-start ps-2">
+							<span class="s_number display-4 fw-bold o_default_snippet_text d-block">
+							153
+							</span>
+							<span class="o_default_snippet_text display-6">Owned Vehicles</span>
+						</span>
+					</div>
+					<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+						<span class="ri ri-team-line fa-3x text-reset"/>
+						<span class="text-reset text-start ps-2">
+							<span class="s_number display-4 fw-bold o_default_snippet_text d-block">
+							114
+							</span>
+							<span class="o_default_snippet_text display-6">People in Team</span>
+						</span>
+					</div>
+				</div>
+			</div>
+      		<div class="oe_structure"/>
+		</section>	
+	</template>
+</odoo>

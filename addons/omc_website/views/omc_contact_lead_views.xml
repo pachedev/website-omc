@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="omc_contact_lead_view_list" model="ir.ui.view">
+        <field name="name">omc.contact.lead.list</field>
+        <field name="model">omc.contact.lead</field>
+        <field name="arch" type="xml">
+            <list string="Contact Leads">
+                <field name="create_date" string="Received" />
+                <field name="name" />
+                <field name="email" />
+                <field name="company" optional="show" />
+                <field name="inquiry_type" />
+                <field name="odoo_version" optional="show" />
+                <field name="tag_ids" widget="many2many_tags" optional="hide" />
+                <field name="state" widget="badge"
+                    decoration-info="state == 'new'"
+                    decoration-success="state == 'customer'"
+                    decoration-muted="state == 'discarded'" />
+            </list>
+        </field>
+    </record>
+
+    <record id="omc_contact_lead_view_form" model="ir.ui.view">
+        <field name="name">omc.contact.lead.form</field>
+        <field name="model">omc.contact.lead</field>
+        <field name="arch" type="xml">
+            <form string="Contact Lead">
+                <header>
+                    <field name="state" widget="statusbar" options="{'clickable': '1'}" />
+                    <field name="crm_installed" invisible="1" />
+                    <button name="action_convert_to_crm" type="object" string="Convert to CRM"
+                        class="btn-secondary"
+                        invisible="not crm_installed or crm_lead_id" />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Name" />
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="email" widget="email" />
+                            <field name="company" />
+                            <field name="inquiry_type" />
+                            <field name="odoo_version" />
+                        </group>
+                        <group>
+                            <field name="create_date" string="Received" readonly="1" />
+                            <field name="tag_ids" widget="many2many_tags"
+                                options="{'color_field': 'color'}" />
+                            <field name="consent" />
+                            <field name="turnstile_passed" />
+                            <field name="crm_lead_id" readonly="1" invisible="not crm_lead_id" />
+                        </group>
+                    </group>
+                    <group string="Message">
+                        <field name="message" nolabel="1" />
+                    </group>
+                </sheet>
+                <chatter />
+            </form>
+        </field>
+    </record>
+
+    <record id="omc_contact_lead_view_kanban" model="ir.ui.view">
+        <field name="name">omc.contact.lead.kanban</field>
+        <field name="model">omc.contact.lead</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="state">
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_details">
+                            <strong>
+                                <field name="name" />
+                            </strong>
+                            <div class="text-muted">
+                                <field name="email" />
+                            </div>
+                            <div t-if="record.company.raw_value">
+                                <field name="company" />
+                            </div>
+                            <div class="mt-1">
+                                <field name="inquiry_type" widget="badge" />
+                                <field name="tag_ids" widget="many2many_tags"
+                                    options="{'color_field': 'color'}" />
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="omc_contact_lead_view_search" model="ir.ui.view">
+        <field name="name">omc.contact.lead.search</field>
+        <field name="model">omc.contact.lead</field>
+        <field name="arch" type="xml">
+            <search string="Contact Leads">
+                <field name="name" />
+                <field name="email" />
+                <field name="company" />
+                <field name="message" />
+                <filter name="filter_new" string="New" domain="[('state', '=', 'new')]" />
+                <filter name="filter_open" string="Open"
+                    domain="[('state', 'not in', ['customer', 'discarded'])]" />
+                <separator />
+                <filter name="filter_sales" string="Sales" domain="[('inquiry_type', '=', 'sales')]" />
+                <filter name="filter_support" string="Support"
+                    domain="[('inquiry_type', '=', 'support')]" />
+                <group>
+                    <filter name="group_state" string="Status" context="{'group_by': 'state'}" />
+                    <filter name="group_type" string="Inquiry type"
+                        context="{'group_by': 'inquiry_type'}" />
+                    <filter name="group_month" string="Received"
+                        context="{'group_by': 'create_date:month'}" />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="omc_contact_tag_view_list" model="ir.ui.view">
+        <field name="name">omc.contact.tag.list</field>
+        <field name="model">omc.contact.tag</field>
+        <field name="arch" type="xml">
+            <list string="Tags" editable="bottom">
+                <field name="name" />
+                <field name="color" widget="color_picker" />
+            </list>
+        </field>
+    </record>
+
+    <record id="omc_contact_lead_action" model="ir.actions.act_window">
+        <field name="name">Contact Leads</field>
+        <field name="res_model">omc.contact.lead</field>
+        <field name="view_mode">kanban,list,form</field>
+        <field name="context">{'search_default_filter_open': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">No contact requests yet</p>
+            <p>Messages sent from the website contact form show up here.</p>
+        </field>
+    </record>
+
+    <record id="omc_contact_tag_action" model="ir.actions.act_window">
+        <field name="name">Tags</field>
+        <field name="res_model">omc.contact.tag</field>
+        <field name="view_mode">list</field>
+    </record>
+
+    <menuitem id="menu_omc_root" name="Odoo Mobile Client" sequence="80"
+        web_icon="omc_website,static/description/icon_menu.png" />
+    <menuitem id="menu_omc_leads" name="Contact Leads" parent="menu_omc_root"
+        action="omc_contact_lead_action" sequence="10" />
+    <menuitem id="menu_omc_config" name="Configuration" parent="menu_omc_root" sequence="90" />
+    <menuitem id="menu_omc_tags" name="Tags" parent="menu_omc_config"
+        action="omc_contact_tag_action" sequence="10" />
+
+</odoo>

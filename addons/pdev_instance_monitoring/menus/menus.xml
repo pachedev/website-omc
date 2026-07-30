@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_instance_monitoring" model="ir.actions.act_window">
+            <field name="name">Monitoreo de la instancia</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pdev.instance.monitoring</field>
+            <field name="view_mode">form</field>
+            <field name="res_id" eval="ref('pdev_instance_monitoring.instance_monitoring_config')"/>
+        </record>
+
+        <menuitem id="menu_pdev_monitoring_root"
+                  name="Monitoreo"
+                  sequence="200"
+                  web_icon="pdev_instance_monitoring,static/description/icon.png"
+                  groups="pdev_instance_monitoring.group_pdev_instance_monitoring_user"/>
+
+        <menuitem id="menu_pdev_monitoring_config"
+                  name="Configuración"
+                  parent="menu_pdev_monitoring_root"
+                  action="action_instance_monitoring"
+                  sequence="10"
+                  groups="pdev_instance_monitoring.group_pdev_instance_monitoring_user"/>
+    </data>
+</odoo>

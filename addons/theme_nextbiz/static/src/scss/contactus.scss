@@ -1,0 +1,149 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+.contact-heading {
+  padding: 0.8rem 0;
+  background-color: $primary;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  a:hover {
+    text-decoration: none;
+  }
+}
+.contactus-section {
+  .page-title {
+    margin: 48px 0 15px;
+    padding-left: 10px;
+    border-left: 4px solid $primary;
+    color: $secondary;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+  .description {
+    margin-bottom: 70px;
+    font-size: 16px;
+  }
+  .block-title {
+    margin-bottom: 45px;
+    text-align: center;
+    line-height: 1;
+    font-size: 25px;
+    color: inherit;
+    font-weight: 400;
+  }
+  .form {
+    padding: 50px;
+    border: 1px solid #efefef;
+  }
+  label {
+    min-width: 100px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]) {
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid #c3c3c3;
+    border-radius: 2px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 18px;
+    height: 50px;
+    color: #666666;
+  }
+  textarea {
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid #c3c3c3;
+    border-radius: 2px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 18px;
+    height: 100px;
+    color: #666666;
+  }
+  .s_website_form_send {
+    border-radius: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .contact-details {
+    margin-top: 70px;
+    padding-left: 2rem;
+    .detail-container {
+      margin-bottom: 40px;
+    }
+    .detail-icon {
+      font-size: 2rem;
+    }
+    .detail-title {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .detail-info {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+}
+.shopify-section {
+  .promo-content {
+    padding: 15px;
+    border-left: 1px solid #e5e5e5;
+  }
+  .icon {
+    padding-right: 10px;
+    font-size: 35px;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .info {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 0;
+  }
+  @media (max-width: 767px) {
+    .promo-content {
+      border: none !important;
+    }
+  }
+}
+.oe_website_login_container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  .oe_login_form,
+  .oe_signup_form {
+    max-width: 400px !important;
+    padding: 50px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+  }
+  .oe_login_form,
+  .oe_signup_form {
+    label {
+      color: $secondary;
+    }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  @media (max-width: 767px) {
+    padding: 20px !important;
+    background-size: unset !important;
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 30px 0 !important;
+  }
+}

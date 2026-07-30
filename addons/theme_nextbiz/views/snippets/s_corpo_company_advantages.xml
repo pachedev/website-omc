@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_company_advantages" name="Advantages">     	
+      	<section class="corpo_comapany_advantages pt80 pb80" style="background-image: url('/theme_nextbiz/static/src/img/company-advbg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+      		<div class="oe_structure"/>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 offset-lg-5">
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-12">
+								<div>
+									<p class="m-0 section-heading one-side-heading-line text-uppercase">Advantages</p>
+								</div>
+							</div>
+						</div>
+						<div class="row text-start mt-5">
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="ri ri-bar-chart-box-line text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="fw-light mt8">
+											Customizable Themes
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="ri ri-time-line text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="fw-light mt8">
+											SEO Optimised
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="fa fa-rocket text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="fw-light mt8">
+											Fully Responsive
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="ri ri-cloud-line text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="fw-light mt8">
+											Website Design
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      		<div class="oe_structure"/>
+		</section>
+	</template>
+</odoo>

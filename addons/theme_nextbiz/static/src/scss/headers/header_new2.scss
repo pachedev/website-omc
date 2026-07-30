@@ -1,0 +1,269 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+@if o-website-value('header-template')=="nextbiz-header-2" {
+
+  header #nextbiz-header-new-2-top,
+  #nextbiz-header-new-2 {
+    .o_extra_menu_items {
+
+      .nav-link {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  #nextbiz-header-new-2-top {
+    .top-header {
+
+      background-color: $secondary;
+
+      .top-data {
+        align-items: center;
+
+        .top-quote-line {
+          color: #fff;
+        }
+
+        .nav-link {
+          color: #fff !important;
+
+          &:hover {
+            color: $primary !important;
+          }
+        }
+
+        .navbar-nav {
+          flex-direction: row;
+
+          .nav-item {
+            padding: 7px 9px;
+
+            .nav-link {
+              color: #fff;
+            }
+
+            &:last-child {
+              padding-right: 0px;
+              border-left: 1px solid #fff;
+
+              img {
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+              }
+            }
+          }
+
+          .menu-language {
+            font-size: 20px;
+
+            .btn {
+              color: #ffffff !important;
+
+              &:hover,
+              &.show,
+              &:focus,
+              &:active {
+                background-color: unset !important;
+              }
+            }
+
+            .dropdown-item.active {
+              color: #ffffff !important;
+            }
+
+            .dropdown {
+              .nav-link.dropdown-toggle {
+                >span {
+                  vertical-align: middle;
+                }
+
+                &:after {
+                  content: "\f107";
+                  font-family: "FontAwesome";
+                  vertical-align: middle;
+                  border: 0 !important;
+                }
+              }
+
+              .dropdown-menu {
+                right: -50px !important;
+                left: auto !important;
+                position: absolute;
+                border-radius: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .middle-header {
+      .middle-contact {
+        ul {
+          list-style-type: none;
+
+          li.nav-item {
+            &:hover {
+              .contact-icon {
+                transform: translate(0px, -10px);
+                transition: 0.4s;
+                -webkit-transition: 0.4s;
+              }
+            }
+
+            &:nth-child(2) {
+              border-right: 1px dashed $primary;
+              border-left: 1px dashed $primary;
+            }
+
+            &:last-child {
+              .nav-link {
+                padding-right: 0px;
+              }
+            }
+
+            .contact-icon {
+              .ri {
+                font-weight: 700;
+              }
+            }
+
+            .contact-data {
+              .text {
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+
+      @include media-breakpoint-only(md) {
+        .middle-contact {
+          li.nav-item {
+            &:nth-child(2) {
+              display: none;
+            }
+
+            &:last-child {
+              border-left: 1px dashed $primary;
+            }
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    }
+  }
+
+  #nextbiz-header-new-2 {
+    .o_extra_menu_items .o-no-caret{
+      i {
+        transition: transform 0.3s ease;
+
+        &::before {
+          display: none !important;
+        }
+
+        &::after {
+          content: "\f107" !important;
+          font-family: "FontAwesome";
+          display: inline-block;
+          transition: transform 0.3s ease;
+        }
+      }
+
+      .nav-link.show i::after {
+        transform: rotate(180deg);
+      }
+    }
+
+    .navbar-light {
+      a.nav-link {
+        color: inherit;
+      }
+    }
+
+    .bottom-header {
+      margin-bottom: -27px;
+
+      .bottom-header-content {
+
+        .header_left {
+          li.nav-item {
+            padding: 7px 3px;
+
+
+            &:hover {
+              background-color: $secondary;
+              transition: 0.4s;
+              -webkit-transition: 0.4s;
+
+              .contact-icon {
+                transform: translate(0px, -10px);
+                transition: 0.4s;
+                -webkit-transition: 0.4s;
+              }
+            }
+          }
+        }
+
+        .header_right {
+          text-align: right;
+
+          .dropdown-menu {
+            margin-top: 0;
+            border-radius: 0 !important;
+          }
+
+          .dropdown-toggle {
+            padding-right: 11px !important;
+
+            &:after {
+              border: 0 !important;
+              content: "\f107";
+              font-family: "FontAwesome";
+              vertical-align: middle !important;
+            }
+          }
+
+          >div {
+            padding-right: 0px !important;
+            padding: 5px;
+
+            &:hover {
+              .dropdown-toggle {
+                &:after {
+                  transition: 0.4s;
+                  -webkit-transition: 0.4s;
+                }
+              }
+            }
+          }
+
+          .dropdown-menu {
+            left: unset !important;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.o_header_is_scrolled {
+  #nextbiz-header-new-2-top {
+
+    .top-header,
+    .middle-header {
+      display: none !important;
+    }
+  }
+
+}

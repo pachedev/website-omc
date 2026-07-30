@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+    <template id="s_yoga_testimonial" name="Testimonial">
+        <section class="yoga-testimonial pt96 pb96"
+            style="background-image: url('/theme_nextbiz/static/src/img/yoga-testimonial-bg.jpg');">
+            <div class="container">
+                <div class="heading pb48">
+                    <h2 class="text-primary w-lg-75">Testimonial</h2>
+                    <p class="w-lg-75">Our customer's review about us</p>
+                </div>
+                <section class="s_carousel_wrapper row" data-vxml="001"
+                    data-vcss="001"
+                    data-snippet="s_carousel">
+                    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover"
+                        data-bs-interval="7000" data-bs-ride="true"
+                        id="Businessyogatestimonialcarousel3" style="background-image: none;">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active p-0">
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 mb-md-0">
+                                        <section class="testimonial-box bg-white">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Maecenas pretium imperdiet leo at venenatis.
+                                                Phasellus aliquet augue sit amet justo elementum
+                                                iaculis. Sed molestie augue ac aliquam laoreet.</p>
+                                            <div class="customer d-flex align-items-center">
+                                                <div class="image">
+                                                    <img class="img img-fluid"
+                                                        src="/theme_nextbiz/static/src/img/app-team2.png" data-original-src="/theme_nextbiz/static/src/img/app-team2.png" />
+                                                </div>
+                                                <div class="info">
+                                                    <h6>Tina Williamson</h6>
+                                                    <span>Customer</span>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-md-6 mb-4 mb-md-0">
+                                        <section class="testimonial-box bg-white">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Maecenas pretium imperdiet leo at venenatis.
+                                                Phasellus aliquet augue sit amet justo elementum
+                                                iaculis. Sed molestie augue ac aliquam laoreet.</p>
+                                            <div class="customer d-flex align-items-center">
+                                                <div class="image">
+                                                    <img class="img img-fluid"
+                                                        src="/theme_nextbiz/static/src/img/app-team1.png" data-original-src="/theme_nextbiz/static/src/img/app-team1.png" />
+                                                </div>
+                                                <div class="info">
+                                                    <h6>Tina Williamson</h6>
+                                                    <span>Customer</span>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item p-0">
+                                <div class="row">
+                                    <div class="col-md-6 mb-4 mb-md-0">
+                                        <section class="testimonial-box bg-white">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Maecenas pretium imperdiet leo at venenatis.
+                                                Phasellus aliquet augue sit amet justo elementum
+                                                iaculis. Sed molestie augue ac aliquam laoreet.</p>
+                                            <div class="customer d-flex align-items-center">
+                                                <div class="image">
+                                                    <img class="img img-fluid"
+                                                        src="/theme_nextbiz/static/src/img/app-team3.png" data-original-src="/theme_nextbiz/static/src/img/app-team3.png" />
+                                                </div>
+                                                <div class="info">
+                                                    <h6>Randall Lewis</h6>
+                                                    <span>Customer</span>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-md-6 mb-4 mb-md-0">
+                                        <section class="testimonial-box bg-white">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Maecenas pretium imperdiet leo at venenatis.
+                                                Phasellus aliquet augue sit amet justo elementum
+                                                iaculis. Sed molestie augue ac aliquam laoreet.</p>
+                                            <div class="customer d-flex align-items-center">
+                                                <div class="image">
+                                                    <img class="img img-fluid"
+                                                        src="/theme_nextbiz/static/src/img/app-team4.png" data-original-src="/theme_nextbiz/static/src/img/app-team4.png" />
+                                                </div>
+                                                <div class="info">
+                                                    <h6>Doris Cole</h6>
+                                                    <span>Customer</span>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                            data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+                            href="#Businessyogatestimonialcarousel3">
+                            <span class="fa fa-angle-left" />
+                            <span class="sr-only o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                            data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                            href="#Businessyogatestimonialcarousel3">
+                            <span class="fa fa-angle-right" />
+                            <span class="sr-only o_default_snippet_text">Next</span>
+                        </a>
+                        <div class="carousel-indicators s_carousel_indicators_hidden">
+                            <button data-bs-target="#Businessyogatestimonialcarousel3"
+                                data-bs-slide-to="0" class="active" />
+                            <button data-bs-target="#Businessyogatestimonialcarousel3"
+                                data-bs-slide-to="1" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+
+</odoo>

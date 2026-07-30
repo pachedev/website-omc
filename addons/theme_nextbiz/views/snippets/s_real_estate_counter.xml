@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_real_estate_counter" name="Counter">
+		<section class="real-estate-counters">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="counter-box">
+							<h4 class="heading">
+								<span class="counter">846</span>
+								<span>+</span>
+							</h4>
+							<p>Happy Customers</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="counter-box">
+							<h4 class="heading">
+								<span class="counter">760</span>
+								<span>+</span>
+							</h4>
+							<p>5-Star Rating</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="counter-box">
+							<h4 class="heading">
+								<span class="counter">958</span>
+								<span>+</span>
+							</h4>
+							<p>Questions Answered</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

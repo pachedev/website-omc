@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Affiliate call to action for visitors who do not run Odoo yet.
+         Call it with a `variant` ('card', 'band' or 'inline') and a `source`
+         matching omc.affiliate SOURCES, e.g.:
+
+             <t t-call="omc_website.affiliate_cta">
+                 <t t-set="variant" t-value="'card'"/>
+                 <t t-set="source" t-value="'download'"/>
+             </t>
+
+         Renders nothing when the affiliate URL parameter is empty, so the whole
+         feature can be switched off from Settings. Links go through /go/odoo so
+         clicks are counted, and carry rel="sponsored" as Google requires for
+         affiliate links. -->
+    <template id="affiliate_cta" name="OMC Affiliate CTA">
+        <t t-set="affiliate_url" t-value="request.env['omc.affiliate'].sudo().get_url()"/>
+        <t t-if="affiliate_url">
+            <t t-set="go_url" t-value="'/go/odoo?from=%s' % (source or 'other')"/>
+
+            <!-- Card: sits next to other cards, e.g. the download requirements -->
+            <t t-if="variant == 'card'">
+                <div class="omc-card omc-affiliate-card h-100 p-4">
+                    <span class="omc-icon-box mb-3"><i class="fa fa-rocket"/></span>
+                    <h5>Don't have Odoo yet?</h5>
+                    <p class="mb-3">Create your Odoo account, pick the apps your business needs
+                        and then connect the app to your own server.</p>
+                    <a t-att-href="go_url" target="_blank" rel="sponsored nofollow noopener"
+                       class="btn btn-outline-primary omc-pill">Get started with Odoo</a>
+                    <div class="omc-affiliate-note mt-2">Affiliate link</div>
+                </div>
+            </t>
+
+            <!-- Band: full-width highlight inside a container -->
+            <t t-if="variant == 'band'">
+                <div class="o_cc o_cc2 omc-band-outline omc-affiliate-band p-4 p-lg-5">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-8">
+                            <h3 class="mb-2">Don't have Odoo yet?</h3>
+                            <p class="mb-0">Odoo Mobile Client connects to an Odoo server you
+                                control. If you are not running Odoo yet, you can create your
+                                account and start with the apps you need.</p>
+                            <div class="omc-affiliate-note mt-2">Affiliate link</div>
+                        </div>
+                        <div class="col-12 col-lg-4 text-lg-end mt-3 mt-lg-0">
+                            <a t-att-href="go_url" target="_blank" rel="sponsored nofollow noopener"
+                               class="btn btn-outline-primary omc-pill">Get started with Odoo</a>
+                        </div>
+                    </div>
+                </div>
+            </t>
+
+            <!-- Inline: a quiet sentence inside running text -->
+            <t t-if="variant == 'inline'">
+                <p class="omc-affiliate-inline mb-0">
+                    Not using Odoo yet?
+                    <a t-att-href="go_url" target="_blank" rel="sponsored nofollow noopener">Start here</a>
+                    <span class="omc-affiliate-note">(affiliate link)</span>
+                </p>
+            </t>
+        </t>
+    </template>
+
+</odoo>

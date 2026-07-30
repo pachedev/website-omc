@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_use_cases" model="ir.ui.view">
+        <field name="name">OMC Use Cases</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.use_cases</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.use_cases">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <section class="omc-hero pt56 pb56">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h1 class="mb-3">Odoo in the field, in the warehouse, in the boardroom</h1>
+                                        <p class="lead mb-0">Wherever your team works, their Odoo apps go with them. Here is what Odoo Mobile Client looks like in real businesses.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Sales -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <div class="row align-items-center g-5">
+                                    <div class="col-12 col-lg-7">
+                                        <span class="omc-badge mb-3">Sales teams</span>
+                                        <h2 class="mb-3">Close deals between meetings</h2>
+                                        <p>Your sales reps check customer history on the way in, update the opportunity on the way out, and send the quote from the parking lot. No more "I'll do it when I'm back at the office".</p>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Mobile CRM: leads, opportunities and activities</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Quotations and sales orders on the go</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Customer contact details always at hand</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-lg-5 text-center">
+                                        <img class="img-fluid" style="max-height: 320px;"
+                                             src="/theme_nextbiz/static/src/img/app2-boost1.png"
+                                             alt="Salesperson updating Odoo CRM opportunities from a mobile phone"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Warehouse -->
+                        <section class="o_cc o_cc2 pt56 pb40">
+                            <div class="container">
+                                <div class="row align-items-center g-5 flex-lg-row-reverse">
+                                    <div class="col-12 col-lg-7">
+                                        <span class="omc-badge mb-3">Warehouse and operations</span>
+                                        <h2 class="mb-3">Inventory answers without walking back to a desk</h2>
+                                        <p>Stock levels, incoming receipts and internal transfers — right where the products are. Your warehouse staff validates operations on the spot instead of writing them down for later.</p>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Check stock by product or location</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Receive and transfer goods from the floor</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Fewer errors from double data entry</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-lg-5 text-center">
+                                        <img class="img-fluid" style="max-height: 320px;"
+                                             src="/theme_nextbiz/static/src/img/app2-boost2.png"
+                                             alt="Warehouse worker checking Odoo inventory levels on a mobile device"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Managers -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <div class="row align-items-center g-5">
+                                    <div class="col-12 col-lg-7">
+                                        <span class="omc-badge mb-3">Managers and owners</span>
+                                        <h2 class="mb-3">Run the business from wherever you are</h2>
+                                        <p>Sales figures before breakfast, an expense approval from the airport, a quick look at cash flow between calls. The business does not pause when you leave the office — neither should your visibility.</p>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Dashboards and reports on your phone</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Approve time off, expenses and purchases anywhere</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Stay on top of every company you manage</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-lg-5 text-center">
+                                        <img class="img-fluid" style="max-height: 320px;"
+                                             src="/theme_nextbiz/static/src/img/app2-activity.png"
+                                             alt="Business owner reviewing Odoo dashboards and reports on a smartphone"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Services -->
+                        <section class="o_cc o_cc2 pt56 pb56">
+                            <div class="container">
+                                <div class="row align-items-center g-5 flex-lg-row-reverse">
+                                    <div class="col-12 col-lg-7">
+                                        <span class="omc-badge mb-3">Services and consulting</span>
+                                        <h2 class="mb-3">Your agenda and projects, next to your client</h2>
+                                        <p>Consultants and field technicians live at the customer's site, not at their desk. Timesheets, project tasks and the day's schedule stay one tap away.</p>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Today's meetings and tasks at a glance</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Log hours the moment the work is done</li>
+                                            <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Project updates visible to the whole team</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-lg-5 text-center">
+                                        <img class="img-fluid" style="max-height: 320px;"
+                                             src="/theme_nextbiz/static/src/img/app2-right-there.png"
+                                             alt="Consultant logging timesheets and project tasks in Odoo from a phone"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- CTA -->
+                        <section class="pt40 pb56">
+                            <div class="container">
+                                <div class="o_cc o_cc3 omc-band p-4 p-lg-5">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-lg-8">
+                                            <h3 class="mb-1">Your team already knows Odoo. Now hand it to them.</h3>
+                                            <p class="mb-0">Free on Google Play, with a public demo server to try it first.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-4 text-lg-end mt-4 mt-lg-0">
+                                            <a href="/download" class="btn btn-primary">Download the app</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_use_cases" model="website.page">
+        <field name="name">Use cases</field>
+        <field name="url">/use-cases</field>
+        <field name="view_id" ref="view_use_cases"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">Use cases — Mobile CRM, inventory and approvals | Odoo Mobile Client</field>
+        <field name="website_meta_description">How sales teams, warehouses, managers and consultants use the Odoo mobile app: mobile CRM, inventory on the floor, approvals and timesheets from anywhere.</field>
+    </record>
+
+</odoo>

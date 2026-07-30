@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_creative_agency_features" name="Features">
+		<section class="creative-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+						<div class="feature-content">
+							<div class="d-flex">
+								<div class="icon">
+									<span class="fa fa-smile-o fa-3x"/>
+								</div>
+								<div class="info">
+									<h4>24/7 Available support</h4>
+									<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+						<div class="feature-content">
+							<div class="d-flex">
+								<div class="icon">
+									<span class="ri ri-star-line fa-3x"/>
+								</div>
+								<div class="info">
+									<h4>Social marketing</h4>
+									<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+						<div class="feature-content">
+							<div class="d-flex">
+								<div class="icon">
+									<span class="ri ri-heart-line fa-3x"/>
+								</div>
+								<div class="info">
+									<h4>Unique strategy</h4>
+									<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

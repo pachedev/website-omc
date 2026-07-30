@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Header (theme_nextbiz header 8) is activated in hooks.py: theme views
+         live as theme.ir.ui.view templates and their real per-website
+         ir.ui.view copies have a key but no xmlid, so no <record>/<template>
+         can target them from a regular module. The CTA replacement view is
+         created there too. -->
+
+    <!-- Only the admin signs in to this Odoo: hide the public "Sign in" link
+         that the header pulls in through portal.placeholder_user_sign_in. -->
+    <record id="portal.user_sign_in" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+
+    <!-- The language selector lives in the footer, so it is switched off in the
+         header to leave room for the menu and the download CTA. -->
+    <record id="website.header_language_selector" model="ir.ui.view">
+        <field name="active" eval="False" />
+    </record>
+
+    <!-- Brand footer. Colors come from the o_cc5 combo (navy background with
+         readable text), so no color overrides are needed here. -->
+    <template id="omc_footer" inherit_id="website.layout" name="OMC Footer" active="True">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo o_cc o_cc5 omc-footer" t-ignore="true"
+                t-if="not no_footer">
+                <section class="pt56 pb40">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-12 col-lg-4 pe-lg-5">
+                                <div class="h5 omc-footer-brand mb-2">Odoo Mobile Client</div>
+                                <p class="omc-footer-tagline mb-3">The mobile app that puts your own
+                                    Odoo server in your team's pocket.</p>
+                                <t t-if="len(frontend_languages) &gt; 1" t-call="portal.language_selector">
+                                    <t t-set="_div_classes" t-value="'omc-lang-selector d-flex align-items-center'"/>
+                                    <t t-set="_btn_class" t-value="'btn btn-sm'"/>
+                                </t>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <h6>Product</h6>
+                                <ul class="omc-footer-links">
+                                    <li>
+                                        <a href="/how-it-works">How it works</a>
+                                    </li>
+                                    <li>
+                                        <a href="/use-cases">Use cases</a>
+                                    </li>
+                                    <li>
+                                        <a href="/free-vs-advanced">Free vs Advanced</a>
+                                    </li>
+                                    <li>
+                                        <a href="/pricing">Pricing</a>
+                                    </li>
+                                    <t t-set="affiliate_url"
+                                       t-value="request.env['omc.affiliate'].sudo().get_url()"/>
+                                    <li t-if="affiliate_url">
+                                        <a href="/go/odoo?from=footer" target="_blank"
+                                           rel="sponsored nofollow noopener">Get started with Odoo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <h6>Support</h6>
+                                <ul class="omc-footer-links">
+                                    <li>
+                                        <a href="/faq">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="/contactus">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:contact@pachedev.com">contact@pachedev.com</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://buymeacoffee.com/pachedev" target="_blank"
+                                           rel="noopener">
+                                            <span class="fa fa-coffee me-2" />Support the project </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <h6>Get the app</h6>
+                                <ul class="omc-footer-links">
+                                    <li>
+                                        <a href="/download">
+                                            <span class="fa fa-android me-2" />Google Play </a>
+                                    </li>
+                                    <li>
+                                        <a href="/download">
+                                            <span class="fa fa-apple me-2" />App Store </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <h6>Legal</h6>
+                                <ul class="omc-footer-links">
+                                    <li>
+                                        <a href="/privacy">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="/terms">Terms &amp; Conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

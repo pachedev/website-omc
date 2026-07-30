@@ -1,0 +1,251 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+.footer-language {
+  .js_language_selector {
+    position: relative;
+
+    .dropdown-menu {
+      transform: unset !important;
+      top: 100% !important;
+      width: fit-content !important;
+      max-height: 115px;
+      overflow: auto;
+    }
+  }
+}
+
+.footer_theme_common1 {
+  .middle-footer {
+    background-color: #ffffff;
+  }
+
+  .copyright {
+    background-color: $primary;
+  }
+}
+
+
+.footer_theme_common {
+  .nextbiz-newsletter {
+    .input-group-append button {
+      display: table-cell;
+      vertical-align: top;
+      height: 48px !important;
+      line-height: 35px !important;
+      border-radius: 0px !important;
+    }
+
+    .input-group-append button {
+      border: none !important;
+      width: auto;
+      font-size: 85.714% !important;
+      height: 43px;
+      line-height: 43px;
+      text-transform: uppercase;
+      font-weight: 400;
+      padding: 0 20px !important;
+      color: #fff !important;
+      text-decoration: none !important;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+    }
+
+    .title-block-footer {
+      margin-bottom: 20px;
+
+      h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.25em;
+      }
+    }
+  }
+}
+
+.footer_theme_common3 {
+  .nextbiz-newsletter {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .o_default_snippet_text {
+    font-size: 18px;
+    text-transform: uppercase !important;
+    white-space: nowrap !important;
+    font-weight: 600;
+    vertical-align: middle !important;
+    margin-right: 1.5rem !important;
+  }
+
+  .newsletter-description {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .copyright-section {
+    padding-bottom: 83px !important;
+  }
+}
+
+@if o-website-value('footer-template')=="nextbiz-footer-2" {
+  .o_footer:has(#footer_theme_common) {
+    background-color: black;
+    color: white;
+
+  }
+}
+
+@if o-website-value('footer-template')=="nextbiz-footer-6" {
+  .o_footer:has(#footer_theme_common6) {
+    background-color: black;
+    color: white;
+
+    .footer-section .footer-links .title {
+      color: inherit;
+    }
+  }
+}
+
+@if o-website-value('footer-template')=="nextbiz-footer-8" {
+  .o_footer:has(#footer_theme_common8) {
+    background-color: black;
+    color: white;
+    
+  }
+}
+
+
+$-footer-template: o-website-value('footer-template');
+
+@if index(('nextbiz-footer-4', 'nextbiz-footer-5', 'nextbiz-footer-8'), $-footer-template) {
+
+  #footer_theme_common4,
+  #footer_theme_common5,
+  #footer_theme_common8 {
+    .footer-logo {
+      img {
+        max-width: 220px !important;
+      }
+    }
+
+    .social-share {
+      a.link {
+        font-size: 18px;
+        margin-right: 27px;
+      }
+    }
+
+    .contact-content {
+      .contact-info {
+        p {
+          margin-bottom: 10px;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .footer-links {
+      h6 {
+        font-weight: 500;
+        margin-bottom: 30px !important;
+        font-size: 20px;
+        color: inherit;
+      }
+
+      p {
+        a {
+          line-height: 30px;
+          text-decoration: none;
+          color: inherit;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+        }
+
+        margin: 0;
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .footer-links {
+        h6 {
+          font-size: 17px;
+        }
+
+        p {
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .newsletter-content {
+        h4 {
+          font-size: 17px;
+        }
+
+        .newsletter-description {
+          font-size: 12px;
+        }
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .contact-content {
+        .contact-icon {
+          .icon {
+            font-size: 20px;
+            margin-top: 25px;
+          }
+        }
+
+        .contact-info {
+          p {
+            font-size: 12px;
+          }
+
+          h6 {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .social-share {
+        a.link {
+          font-size: 16px;
+          margin-right: 20px;
+        }
+      }
+
+      .footer-links {
+        h6 {
+          font-size: 11px;
+        }
+
+        p {
+          a {
+            font-size: 10px;
+            line-height: 24px;
+          }
+        }
+      }
+
+      .newsletter-content {
+        h4 {
+          font-size: 11px;
+        }
+
+        .newsletter-description {
+          font-size: 10px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

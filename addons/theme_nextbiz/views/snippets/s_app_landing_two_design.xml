@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_app_landing_two_design" name="Powerfull Design">
+		<section class="app2-interface">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="heading">
+							<h4>Powerfull Design For You</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+                    <section class="s_carousel_wrapper" data-vxml="001" data-vcss="001"
+                        data-snippet="s_carousel">
+                        <div class="s_carousel s_carousel_arrows_hidden carousel slide"
+                            data-bs-interval="10000" data-bs-ride="true"
+                            id="App2ScreenshotsCarousel2" style="background-image: none;">
+                           
+                            <div class="carousel-inner">
+                                <div class="carousel-item p-0 active" style="" data-name="Slide">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots1.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots1.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots2.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots2.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots3.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots3.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots4.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots4.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item p-0 " style="" data-name="Slide">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots1.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots1.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots2.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots2.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots3.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots3.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 mb24">
+                                                <div class="text-center">
+                                                    <div class="service-img">
+                                                        <img src="/theme_nextbiz/static/src/img/app2-screenshots4.png" data-original-src="/theme_nextbiz/static/src/img/app2-screenshots4.png" class="img img-fluid"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#App2ScreenshotsCarousel2">
+                                <span class="carousel-control-prev-icon "></span>
+                                <span class="sr-only o_default_snippet_text">Previous</span>
+                            </a>
+                            <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#App2ScreenshotsCarousel2">
+                                <span class="carousel-control-next-icon "></span>
+                                <span class="sr-only o_default_snippet_text">Next</span>
+                            </a>
+                            <div
+                                class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+                                <button data-bs-slide-to="0" class="active"
+                                    data-bs-target="#App2ScreenshotsCarousel2"></button>
+                                <button data-bs-slide-to="1"
+                                    data-bs-target="#App2ScreenshotsCarousel2" class=""></button>
+                            </div>
+                        </div>
+                    </section>
+				</div>
+			</div>
+		</section>
+	</template>
+</odoo>

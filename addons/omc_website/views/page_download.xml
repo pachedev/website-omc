@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_download" model="ir.ui.view">
+        <field name="name">OMC Download</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.download</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.download">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <section class="omc-hero pt56 pb56 text-center">
+                            <div class="container">
+                                <h1 class="mb-3">Get Odoo Mobile Client</h1>
+                                <p class="lead mb-0">Two editions, one experience. Both available on Google Play — the iOS release is on its way.</p>
+                            </div>
+                        </section>
+
+                        <!-- Edition cards -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <div class="row justify-content-center g-4">
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <div class="omc-card h-100 p-4 p-lg-5">
+                                            <h3>OMC Free</h3>
+                                            <p class="text-muted">Everyday mobile access to your Odoo.</p>
+                                            <ul class="list-unstyled mt-4 mb-4">
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 12 to 19+</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>All your Odoo apps on your phone</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Multi-server and biometric unlock</li>
+                                            </ul>
+                                            <p class="small text-muted">Requires the free <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener"><strong>odoo_mobile_client</strong></a> module on your server, available on the Odoo App Store.</p>
+                                            <a href="https://play.google.com/store/apps/details?id=com.pachedev.omc"
+                                               target="_blank" rel="noopener"
+                                               class="btn btn-primary omc-pill w-100 mb-2">
+                                                <span class="fa fa-android me-2"/>Get Free on Google Play
+                                            </a>
+                                            <a href="#" class="btn btn-outline-secondary omc-pill w-100 disabled" aria-disabled="true">
+                                                <span class="fa fa-apple me-2"/>App Store — coming soon
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <div class="omc-card omc-card-accent h-100 p-4 p-lg-5">
+                                            <h3>OMC Advanced</h3>
+                                            <p class="text-muted">Push notifications and automatic alerts, on top of everything in Free.</p>
+                                            <ul class="list-unstyled mt-4 mb-4">
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 17 to 19+</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Alerts for sales, purchases, inventory, accounting, HR</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Open the exact record from the notification</li>
+                                            </ul>
+                                            <p class="small text-muted">Requires the paid <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener"><strong>odoo_mobile_client_advanced</strong></a> module from the Odoo App Store — the module purchase is the only cost, the app itself is free.</p>
+                                            <a href="https://play.google.com/store/apps/details?id=com.pachedev.omc.advanced"
+                                               target="_blank" rel="noopener"
+                                               class="btn btn-primary omc-pill w-100 mb-2">
+                                                <span class="fa fa-android me-2"/>Get Advanced on Google Play
+                                            </a>
+                                            <a href="#" class="btn btn-outline-secondary omc-pill w-100 disabled" aria-disabled="true">
+                                                <span class="fa fa-apple me-2"/>App Store — coming soon
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Demo band -->
+                        <section class="pt40 pb40">
+                            <div class="container">
+                                <div class="o_cc o_cc3 omc-band p-4 p-lg-5">
+                                    <div class="row align-items-center g-4">
+                                        <div class="col-12 col-lg-6">
+                                            <span class="omc-badge mb-3">Demo server</span>
+                                            <h3 class="mb-2">Try it before you connect your own server</h3>
+                                            <p class="mb-0">Point the app to our demo server and explore Odoo with sample data — it works for both Free and Advanced.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <!-- Values come from the system parameter
+                                                 omc_website.demo_credentials (see
+                                                 models/omc_demo_credentials.py), so they can be
+                                                 changed from the backend at any time. -->
+                                            <t t-set="demo" t-value="request.env['omc.demo.credentials'].sudo().get_credentials()"/>
+                                            <div class="omc-demo-box">
+                                                <div class="omc-demo-field">
+                                                    <label class="omc-demo-label" for="omcDemoServer">Server</label>
+                                                    <div class="omc-demo-control">
+                                                        <input id="omcDemoServer" type="password" class="omc-demo-input"
+                                                               readonly="readonly" autocomplete="off"
+                                                               t-att-value="demo['server']"/>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_toggle"
+                                                                data-omc-target="omcDemoServer"
+                                                                aria-label="Show or hide">
+                                                            <i class="fa fa-eye"/>
+                                                        </button>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_copy"
+                                                                data-omc-target="omcDemoServer"
+                                                                aria-label="Copy">
+                                                            <i class="fa fa-clone"/>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="omc-demo-field">
+                                                    <label class="omc-demo-label" for="omcDemoUser">User</label>
+                                                    <div class="omc-demo-control">
+                                                        <input id="omcDemoUser" type="password" class="omc-demo-input"
+                                                               readonly="readonly" autocomplete="off"
+                                                               t-att-value="demo['user']"/>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_toggle"
+                                                                data-omc-target="omcDemoUser"
+                                                                aria-label="Show or hide">
+                                                            <i class="fa fa-eye"/>
+                                                        </button>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_copy"
+                                                                data-omc-target="omcDemoUser"
+                                                                aria-label="Copy">
+                                                            <i class="fa fa-clone"/>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="omc-demo-field">
+                                                    <label class="omc-demo-label" for="omcDemoPassword">Password</label>
+                                                    <div class="omc-demo-control">
+                                                        <input id="omcDemoPassword" type="password" class="omc-demo-input"
+                                                               readonly="readonly" autocomplete="off"
+                                                               t-att-value="demo['password']"/>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_toggle"
+                                                                data-omc-target="omcDemoPassword"
+                                                                aria-label="Show or hide">
+                                                            <i class="fa fa-eye"/>
+                                                        </button>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_copy"
+                                                                data-omc-target="omcDemoPassword"
+                                                                aria-label="Copy">
+                                                            <i class="fa fa-clone"/>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="omc-demo-reveal-all js_omc_demo_toggle_all">
+                                                    <i class="fa fa-eye me-2"/>
+                                                    <span class="js_omc_label_show">Show credentials</span>
+                                                    <span class="js_omc_label_hide d-none">Hide credentials</span>
+                                                </button>
+                                            </div>
+                                            <p class="small mb-0 mt-2">Shared demo environment — data is visible to other visitors and resets periodically.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Requirements -->
+                        <section class="o_cc o_cc2 pt56 pb56">
+                            <div class="container">
+                                <span class="omc-badge mb-3">Requirements</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">What you need</h2>
+                                    </div>
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-mobile"/></span>
+                                            <h5>A modern phone</h5>
+                                            <p class="mb-0">Any recent Android or iOS device.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-globe"/></span>
+                                            <h5>Your Odoo address</h5>
+                                            <p class="mb-0">The same web address you use to open Odoo in your browser.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-puzzle-piece"/></span>
+                                            <h5>The OMC module on your server</h5>
+                                            <p class="mb-0">Get it on the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">free module</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">paid module</a> for Advanced.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row g-4 mt-1">
+                                    <div class="col-12">
+                                        <t t-call="omc_website.affiliate_cta">
+                                            <t t-set="variant" t-value="'band'"/>
+                                            <t t-set="source" t-value="'download'"/>
+                                        </t>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <a href="/how-it-works" class="btn btn-outline-primary">See the full setup guide</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="o_cc o_cc1 pt40 pb56 text-center">
+                            <div class="container">
+                                <h3 class="mb-2">Questions before you install?</h3>
+                                <p class="mb-0">Check the <a href="/faq">frequently asked questions</a> or <a href="/contactus">write to us</a> — we answer fast.</p>
+                            </div>
+                        </section>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_download" model="website.page">
+        <field name="name">Download</field>
+        <field name="url">/download</field>
+        <field name="view_id" ref="view_download"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">Download Free and Advanced for Android | Odoo Mobile Client</field>
+        <field name="website_meta_description">Download OMC Free (Odoo 12–19+) and OMC Advanced (Odoo 17–19+) on Google Play. Try both with our public demo server before connecting yours.</field>
+    </record>
+
+</odoo>

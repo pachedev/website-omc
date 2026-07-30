@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_form_general_utilities" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.general.utilities</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="priority" eval="8"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='languages']" position="after">
+                <block title="Inicio de Sesión" name="pdev_general_utilities_setting_container">
+
+                    <!-- Login style + border -->
+                    <setting help="Selecciona el estilo que deseas usar para el inicio de sesión.">
+                        <field name="login_style"/>
+                        <div class="d-flex flex-column gap-2">
+                            <field name="credential_border"
+                                invisible="not login_style"
+                                style="width: 100%"/>
+                        </div>
+                    </setting>
+
+                    <!-- Background type + color inline (when color) -->
+                    <setting help="Selecciona el tipo de fondo de pantalla del inicio de sesión."
+                        invisible="not login_style">
+                        <field name="background"/>
+                        <div class="d-flex flex-column gap-2">
+                            <field name="color" widget="color" nolabel="1"
+                                invisible="background != 'color'"/>
+                        </div>
+                    </setting>
+
+                    <!-- Background image — right after background selector -->
+                    <setting help="Selecciona la imagen de fondo."
+                        invisible="not login_style or background != 'image'">
+                        <field name="b_image_id"
+                            options="{'no_create': True, 'no_open': True}"/>
+                    </setting>
+
+                    <!-- Video — right after background selector -->
+                    <setting help="Añade un video para reproducir en la pagina de inicio de sesión."
+                        invisible="not login_style or background != 'video'">
+                        <field name="video"/>
+                    </setting>
+
+                    <!-- Top gradient -->
+                    <setting help="Selecciona la configuración del gradiente superior para el fondo del inicio de sesión."
+                        invisible="not login_style">
+                        <field name="gradient_top_color" widget="color"/>
+                        <field name="gradient_top_opacity" style="width: 45%"/>
+                        <span>%</span>
+                    </setting>
+
+                    <!-- Bottom gradient -->
+                    <setting help="Selecciona la configuración del gradiente inferior para el fondo del inicio de sesión."
+                        invisible="not login_style">
+                        <field name="gradient_bottom_color" widget="color"/>
+                        <field name="gradient_bottom_opacity" style="width: 45%"/>
+                        <span>%</span>
+                    </setting>
+
+                    <!-- Card opacity -->
+                    <setting help="Selecciona la opacidad que deseas usar para el recuadro de la tarjeta."
+                        invisible="not login_style">
+                        <field name="credential_opacity"/>
+                        <span>%</span>
+                    </setting>
+
+                    <!-- Card element color -->
+                    <setting help="Selecciona el color a usar para el recuadro de la tarjeta."
+                        invisible="not login_style">
+                        <field name="credential_element_color" widget="color"/>
+                    </setting>
+
+                    <!-- flex row-break: forces next two settings to always start together on a new line -->
+                    <div style="flex-basis: 100%; height: 0; margin: 0; padding: 0;"/>
+
+                    <!-- Remove powered by -->
+                    <setting string="Eliminar powered by"
+                        help="Ocultar la opción en todas las pantallas de inicio de sesión, registro y restablecimiento de contraseña"
+                        id="web_remove_powered_by">
+                        <field name="web_remove_powered_by"/>
+                    </setting>
+
+                    <!-- Disable passkey -->
+                    <setting string="Desactivar llave de seguridad"
+                        help="Ocultar la opción de acceder con llave de seguridad"
+                        id="disable_passkey">
+                        <field name="disable_passkey"/>
+                    </setting>
+
+                </block>
+            </xpath>
+        </field>
+    </record>
+</odoo>

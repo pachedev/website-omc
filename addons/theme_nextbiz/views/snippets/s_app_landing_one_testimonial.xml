@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_app_landing_one_testimonial" name="Testimonial">
+		<section class="app-testimonial" style="background-image: url('/theme_nextbiz/static/src/img/app-testimonial-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="title">
+							<span>TESTIMONIAL</span>
+							<h3>What People Say</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<section class="s_carousel_wrapper" data-vxml="001" data-vcss="001"
+						data-snippet="s_carousel">
+						<div
+							class="s_carousel s_carousel_arrows_hidden carousel slide s_carousel_controllers_indicators_outside"
+							data-bs-interval="10000" data-bs-ride="true"
+							id="AppTestimonialCarousel3" style="background-image: none;">
+							
+							<div class="carousel-inner">
+								<div class="carousel-item active p-0" style="" data-name="Slide">
+									<div class="container">
+										<div class="single-testimonial">
+											<div class="thumb">
+												<img src="/theme_nextbiz/static/src/img/app-testimonial1.png"
+													data-original-src="/theme_nextbiz/static/src/img/app-testimonial1.png"
+													class="img img-fluid" />
+											</div>
+											<div class="content">
+												<section class="inner-content">
+													<div class="icon">
+														<i class="fa fa-quote-left fa-2x rounded-circle bg-primary"/>
+													</div>
+													<p>Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate. Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus.</p>
+													<div class="auther">
+														<h4>Anita Oliver</h4>
+														<span>Web Developer</span>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item p-0" style="" data-name="Slide">
+									<div class="container">
+										<div class="single-testimonial">
+											<div class="thumb">
+												<img src="/theme_nextbiz/static/src/img/app-testimonial2.png"
+													data-original-src="/theme_nextbiz/static/src/img/app-testimonial2.png"
+													class="img img-fluid" />
+											</div>
+											<div class="content">
+												<section class="inner-content">
+													<div class="icon">
+														<i class="fa fa-quote-left fa-2x rounded-circle bg-primary"/>
+													</div>
+													<p>Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate. Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus.</p>
+													<div class="auther">
+														<h4>Paul Williams</h4>
+														<span>Graphic Designer</span>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item p-0" style="" data-name="Slide">
+									<div class="container">
+										<div class="single-testimonial">
+											<div class="thumb">
+												<img src="/theme_nextbiz/static/src/img/app-testimonial3.png"
+													data-original-src="/theme_nextbiz/static/src/img/app-testimonial3.png"
+													class="img img-fluid" />
+											</div>
+											<div class="content">
+												<section class="inner-content">
+													<div class="icon">
+														<i class="fa fa-quote-left fa-2x rounded-circle bg-primary"/>
+													</div>
+													<p>Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate. Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus.</p>
+													<div class="auther">
+														<h4>Jessy Pinkman</h4>
+														<span>Project Manager</span>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#AppTestimonialCarousel3">
+								<span class="carousel-control-prev-icon"></span>
+								<span class="sr-only o_default_snippet_text">Previous</span>
+							</a>
+							<a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#AppTestimonialCarousel3">
+								<span class="carousel-control-next-icon"></span>
+								<span class="sr-only o_default_snippet_text">Next</span>
+							</a>
+							<div
+								class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+								<button data-bs-slide-to="0" class="active"
+									data-bs-target="#AppTestimonialCarousel3"></button>
+								<button data-bs-slide-to="1"
+									data-bs-target="#AppTestimonialCarousel3" class=""></button>
+								<button data-bs-slide-to="2"
+									data-bs-target="#AppTestimonialCarousel3" class=""></button>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+	</template>
+</odoo>

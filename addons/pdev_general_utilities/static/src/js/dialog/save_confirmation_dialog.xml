@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+  <t t-name="pdev_general_utilities.DialogSaveConfirmation" owl="1">
+    <Dialog size="'md'" title="props.title" modalRef="modalRef">
+      <t t-esc="props.body" /> <br/><br/><br/>
+
+      <t t-set-slot="footer" owl="1">
+          <button class="btn btn-secondary" t-on-click="_save" t-esc="props.saveLabel"/>
+          <button class="btn btn-secondary" t-on-click="_discard" t-esc="props.discardLabel"/>
+          <button class="btn btn-primary" t-ref="cancelButton" t-on-click="_cancel" t-esc="props.cancelLabel"/>
+      </t>
+    </Dialog>
+  </t>
+</templates>

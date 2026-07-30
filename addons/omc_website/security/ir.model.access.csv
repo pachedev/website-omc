@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_omc_contact_lead_user,omc.contact.lead.user,model_omc_contact_lead,base.group_user,1,1,1,0
+access_omc_contact_lead_manager,omc.contact.lead.manager,model_omc_contact_lead,base.group_system,1,1,1,1
+access_omc_contact_tag_user,omc.contact.tag.user,model_omc_contact_tag,base.group_user,1,0,0,0
+access_omc_contact_tag_manager,omc.contact.tag.manager,model_omc_contact_tag,base.group_system,1,1,1,1
+access_omc_affiliate_click_user,omc.affiliate.click.user,model_omc_affiliate_click,base.group_user,1,0,0,0
+access_omc_affiliate_click_manager,omc.affiliate.click.manager,model_omc_affiliate_click,base.group_system,1,1,1,1

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+    <template id="s_it_solution_case_studies" name="Case Studies">
+        <section class="It-case-studies">
+            <div class="container-fluid">
+                <div class="justify-content-center">
+                    <div class="heading text-center">
+                        <h2>Our Case Studies</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod
+                            tempor incididunt utlabore et dolore magna aliqua.</p>
+                    </div>
+                    <section class="s_carousel_wrapper row" data-vxml="001" data-vcss="001"
+                        data-snippet="s_carousel">
+                        <div
+                            class="s_carousel s_carousel_arrows_hidden carousel slide s_carousel_controllers_indicators_outside"
+                            data-pause="hover"
+                            data-bs-interval="7000" data-bs-ride="true" id="ITservicecarousel2"
+                            style="background-image: none;">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active p-0">
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy1.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy1.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Branding for Theme Designer</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy2.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy2.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Button Designs Free</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy3.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy3.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Branding &amp; Co Agency</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy4.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy4.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Zukandre Phoniex</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item p-0">
+                                    <div class="">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy1.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy1.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Branding for Theme Designer</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy2.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy2.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Button Designs Free</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy3.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy3.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Branding &amp; Co Agency</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 mb16">
+                                                <div class="service-wrapper text-center">
+                                                    <div class="service-img">
+                                                        <img
+                                                            src="/theme_nextbiz/static/src/img/solution-casestudy4.jpg"
+                                                            data-original-src="/theme_nextbiz/static/src/img/solution-casestudy4.jpg"
+                                                            class="img img-fluid" />
+                                                    </div>
+                                                    <div class="service-text">
+                                                        <h4>Zukandre Phoniex</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                                data-bs-slide="prev" role="img" aria-label="Previous"
+                                title="Previous" href="#ITservicecarousel2">
+                                <span class="carousel-control-prev-icon" />
+                                <span class="sr-only o_default_snippet_text">Previous</span>
+                            </a>
+                            <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                                data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                                href="#ITservicecarousel2">
+                                <span class="carousel-control-next-icon" />
+                                <span class="sr-only o_default_snippet_text">Next</span>
+                            </a>
+                            <div
+                                class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+                                <button data-bs-slide-to="0" class="active"
+                                    data-bs-target="#ITservicecarousel2"></button>
+                                <button data-bs-slide-to="1" data-bs-target="#ITservicecarousel2"
+                                    class=""></button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

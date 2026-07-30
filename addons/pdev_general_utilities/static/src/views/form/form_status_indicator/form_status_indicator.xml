@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id="template" xml:space="preserve">
+	<t t-name="pdev_general_utilities.FormView" t-inherit="web.FormView" t-inherit-mode="extension" owl="1">
+		<xpath expr="//t[@t-if='canEdit']" position="replace">
+			<t t-if="canEdit or readonlyFirst">
+				<FormStatusIndicator model="model" readonly.bind="readonly" edit.bind="edit" discard.bind="discard" save.bind="saveButtonClicked" isDisabled="state.isDisabled" mode="state.mode"/>
+			</t>
+		</xpath>
+	</t>
+	<t t-name="pdev_general_utilities.FormStatusIndicator" t-inherit="web.FormStatusIndicator" t-inherit-mode="extension" owl="1">
+		<xpath expr="//div[hasclass('o_form_status_indicator')]" position="replace">
+			<div class="o_form_status_indicator d-md-flex align-items-center order-0 mr-0" t-att-class="{ o_form_status_indicator_new_record: props.model.root.isNew }">
+				<div class="o_form_status_indicator_buttons d-flex">
+					<button
+						type="button"
+						class="o_form_button_save btn btn-primary py-1"
+						t-if="props.mode === 'readonly' and !isNew"
+						data-hotkey="e"
+						t-on-click.stop="edit"
+						data-tooltip="Edit manually"
+						aria-label="edit manually"
+						t-ref="edit">
+						Edit
+					</button>
+					<button
+						type="button"
+						class="o_form_button_save btn btn-primary py-1"
+						t-if="props.mode === 'edit' or isNew"
+						data-hotkey="s"
+						t-on-click.stop="save"
+						data-tooltip="Save manually"
+						aria-label="Save manually"
+						t-ref="save">
+						Save
+					</button>
+					<button
+						type="button"
+						class="o_form_button_cancel btn btn-outline-primary ms-2 py-1"
+						t-if="props.mode === 'edit' or isNew"
+						data-hotkey="j"
+						t-on-click.stop="discard"
+						data-tooltip="Discard changes"
+						aria-label="Discard changes">
+						Discard
+					</button>
+				</div>
+			</div>
+		</xpath>
+	</t>
+</templates>

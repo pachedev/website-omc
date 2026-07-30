@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_medical_banner" name="Home Banner">
+		<section class="business-medical-home-banner">
+            <section class="s_carousel_wrapper s_carousel_wrapper_banner" data-vxml="001"
+                data-vcss="001"
+                data-snippet="s_carousel">
+                <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-bs-interval="7000" data-bs-ride="true" id="Businessmedicalcarousel2" style="background-image: none;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active pt256 pb256" style="background-image: url('/theme_nextbiz/static/src/img/medical-banner2.jpg');">
+                            <div class="container-fluid">
+                                <div class="row position-relative">
+                                    <div class="col-md-8 col-8">
+                                        <div class="banner-content text-center">
+                                            <span>Safety First</span>
+                                            <h1 class="title1">Medical N95<br></br> Mask</h1>
+                                            <div class="s_btn" data-name="Button">
+                                                <a href="#" class="btn btn-primary bizople_button">Shop Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256" style="background-image: url('/theme_nextbiz/static/src/img/medical-banner3.jpg');">
+                            <div class="container-fluid">
+                                <div class="row position-relative">
+                                    <div class="col-md-8 col-12 offset-md-4">
+                                        <div class="banner-content text-center">
+                                            <span>Home Equipments</span>
+                                            <h1 class="title1">Equipments For Anykind<br></br> of Emergency</h1>
+                                            <div class="s_btn" data-name="Button">
+                                                <a href="#" class="btn btn-primary bizople_button">View Collection</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256" style="background-image: url('/theme_nextbiz/static/src/img/medical-banner1.jpg');">
+                            <div class="container-fluid">
+                                <div class="row position-relative justify-content-center">
+                                    <div class="col-md-8 col-8">
+                                        <div class="banner-content text-center">
+                                            <span>Medical Equipment's</span>
+                                            <h1 class="title1 text-dark">For Professional Doctor<br></br>&amp; Physician</h1>
+                                            <div class="s_btn" data-name="Button">
+                                                <a href="#" class="btn btn-primary bizople_button">View Products</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Businessmedicalcarousel2">
+                        <span class="fa fa-angle-left"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#Businessmedicalcarousel2">
+                        <span class="fa fa-angle-right"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </a>
+                    <div class="carousel-indicators s_carousel_indicators_hidden">
+                        <button data-bs-target="#Businessmedicalcarousel1" data-bs-slide-to="0"
+                            class="active" />
+                        <button data-bs-target="#Businessmedicalcarousel1" data-bs-slide-to="1" />
+                        <button data-bs-target="#Businessmedicalcarousel1" data-bs-slide-to="2" />
+                    </div>
+                </div>
+            </section>
+		</section>
+	</template>
+
+</odoo>

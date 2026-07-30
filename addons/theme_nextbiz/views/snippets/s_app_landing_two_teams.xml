@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_app_landing_two_teams" name="Marketing Teams">
+		<section class="app2-team">
+            <div class="container-fluid pb128">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h4>Built for sales and marketing teams</h4>
+						</div>
+						<div class="clients row">
+							<div class="col-lg-3 col-md-6 col-6 text-center mb16">
+								<img class="img img-fluid"
+									src="/theme_nextbiz/static/src/img/furniture-brand1.png" data-original-src="/theme_nextbiz/static/src/img/furniture-brand1.png" />
+							</div>
+							<div class="col-lg-3 col-md-6 col-6 text-center mb16">
+								<img class="img img-fluid"
+									src="/theme_nextbiz/static/src/img/furniture-brand2.png" data-original-src="/theme_nextbiz/static/src/img/furniture-brand2.png" />
+							</div>
+							<div class="col-lg-3 col-md-6 col-6 text-center mb16">
+								<img class="img img-fluid"
+									src="/theme_nextbiz/static/src/img/furniture-brand3.png" data-original-src="/theme_nextbiz/static/src/img/furniture-brand3.png" />
+							</div>
+							<div class="col-lg-3 col-md-6 col-6 text-center mb16">
+								<img class="img img-fluid"
+									src="/theme_nextbiz/static/src/img/furniture-brand4.png" data-original-src="/theme_nextbiz/static/src/img/furniture-brand4.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+                    <section class="s_carousel_wrapper" data-vxml="001" data-vcss="001"
+                        data-snippet="s_carousel">
+                        <div
+                            class="s_carousel s_carousel_arrows_hidden carousel slide s_carousel_controllers_indicators_outside"
+                            data-bs-interval="10000" data-bs-ride="true" id="AppTestimonial3"
+                            style="background-image: none;">
+                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active p-0 " style="" data-name="Slide">
+                                    <div class="container-fluid">
+                                        <div class="row position-relative justify-content-center">
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team1.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team1.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team2.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team2.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team3.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team3.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team1.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team1.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item p-0" style="" data-name="Slide">
+                                    <div class="container-fluid">
+                                        <div class="row position-relative justify-content-center">
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team1.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team1.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team2.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team2.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team3.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team3.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-6 mb16">
+                                                <section class="client-content">
+                                                    <div class="review">
+                                                        <span class="fa fa-quote-right fa-4x"/>
+                                                    </div>
+                                                    <div class="client-info">
+                                                        <p>“Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.”</p>
+                                                    </div>
+                                                    <div class="image-info d-flex align-items-center">
+                                                        <div class="image">
+                                                            <a href="#">
+                                                                <img src="/theme_nextbiz/static/src/img/vouge-team1.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team1.png" class="img img-fluid"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="author">
+                                                            <h5>Paul Williams</h5>
+                                                            <h6>Developer</h6>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#AppTestimonial3">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only o_default_snippet_text">Previous</span>
+                            </a>
+                            <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#AppTestimonial3">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only o_default_snippet_text">Next</span>
+                            </a>
+                            <div
+                                class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+                                <button data-bs-slide-to="0" class="active"
+                                    data-bs-target="#AppTestimonial3"></button>
+                                <button data-bs-slide-to="1" data-bs-target="#AppTestimonial3"
+                                    class=""></button>
+                            </div>
+                        </div>
+                    </section>
+				</div>
+			</div>
+		</section>
+	</template>
+</odoo>

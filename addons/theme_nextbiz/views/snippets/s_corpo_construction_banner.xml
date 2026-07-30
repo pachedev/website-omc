@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_construction_banner" name="Home Banner">
+
+		<section class="s_carousel_wrapper corpo_construct_banner">
+			<div class="oe_structure" />
+			<section class="s_carousel_wrapper s_carousel_wrapper_banner" data-vxml="001"
+				data-vcss="001"
+				data-snippet="s_carousel">
+				<div class="s_carousel s_carousel_boxed carousel slide" data-bs-interval="10000"
+					data-bs-ride="true" id="ConstructBanner2" style="background-image: none;">
+
+
+					<div class="carousel-inner">
+						<div
+							class="carousel-item pt240 pb240 o_colored_level oe_img_bg o_bg_img_center active"
+							style="background-image: url(&quot;/theme_nextbiz/static/src/img/construct-banner1.jpg&quot;);"
+							data-name="Slide">
+							<div class="container">
+								<div class="row content">
+									<div class="carousel-content col-md-9 col-lg-7 o_colored_level">
+										<section class="content-box p-5 bg-white">
+											<h1>
+												From concept to creation, Building futures
+											</h1>
+											<p class="lead o_default_snippet_text my-4">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit, sed do eiusmod tempor incididunt ut labore et
+												dolore magna aliqua.
+											</p>
+										</section>
+										<div class="content-btn transform-50-up">
+											<p class="ms-5">
+												<a href="/contactus"
+													class="btn btn-primary rounded-0 flat mt-2 o_default_snippet_text px-4 py-3 fw-bold">
+													Our Services
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="carousel-item pt240 pb240 o_colored_level oe_img_bg o_bg_img_center"
+							style="background-image: url(&quot;/theme_nextbiz/static/src/img/construct-banner2.jpg&quot;);"
+							data-name="Slide">
+							<div class="container">
+								<div class="row content">
+									<div class="carousel-content col-md-9 col-lg-7 o_colored_level">
+										<section class="content-box p-5 bg-white">
+											<h1>
+												From concept to creation, Building futures
+											</h1>
+											<p class="lead o_default_snippet_text my-4">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit, sed do eiusmod tempor incididunt ut labore et
+												dolore magna aliqua.
+											</p>
+										</section>
+										<div class="content-btn transform-50-up">
+											<p class="ms-5">
+												<a href="/contactus"
+													class="btn btn-primary rounded-0 flat mt-2 o_default_snippet_text px-4 py-3 fw-bold">
+													Our Services
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev o_not_editable o_we_no_overlay"
+						data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+						href="#ConstructBanner2">
+						<span class="ri ri-arrow-left-s-line fa-1x"></span>
+						<span class="sr-only o_default_snippet_text">Previous</span>
+					</a>
+					<a class="carousel-control-next o_not_editable o_we_no_overlay"
+						data-bs-slide="next" role="img" aria-label="Next" title="Next"
+						href="#ConstructBanner2">
+						<span class="ri ri-arrow-right-s-line fa-1x"></span>
+						<span class="sr-only o_default_snippet_text">Next</span>
+					</a>
+					<div class="carousel-indicators s_carousel_indicators_hidden">
+						<button data-bs-target="#ConstructBanner2" data-bs-slide-to="0"
+							class="active" />
+						<button data-bs-target="#ConstructBanner2" data-bs-slide-to="1" />
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+		</section>
+
+	</template>
+</odoo>

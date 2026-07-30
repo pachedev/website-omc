@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<templates xml:space="preserve">
+    <t t-inherit-mode="extension" t-inherit="website.HeaderTemplateOption">
+        <xpath expr="//BuilderRow[@label.translate='Scroll Effect']" position="after">
+            <BuilderRow label.translate="⌙ Width" t-if="isActiveItem('nextbiz_header_new3')">
+                <BuilderNumberInput
+                    action="'customizeWebsiteVariable'"
+                    actionParam="'sidebar-width'"
+                    unit="'px'"
+                    saveUnit="'rem'"
+                />
+            </BuilderRow>
+        </xpath>
+        <xpath expr="//BuilderRow[@label.translate=&quot;Template&quot;]/BuilderSelect" position="inside">
+            <BuilderSelectItem
+                id="'nextbiz_header_new1'"
+                title.translate="NextBiz Header 1"
+                actionParam="[
+                            {
+                                action: 'websiteConfig',
+                                actionParam: {
+                                    views: ['theme_nextbiz.theme_nextbiz_header_new1'],
+                                    vars: { 'header-template': 'nextbiz-header-1' },
+                                    checkVars: false
+                                }
+                            }
+                        ]">
+                            <Img
+                    attrs="{ style: 'width: calc(100% - 0.5rem); max-width:226px;' }"
+                    class="'m-auto py-1'"
+                    src="'/theme_nextbiz/static/description/header1.png'"
+                />
+            </BuilderSelectItem>
+            <BuilderSelectItem
+                id="'nextbiz_header_new2'"
+                title.translate="NextBiz Header 2"
+                actionParam="[
+                            {
+                                action: 'websiteConfig',
+                                actionParam: {
+                                    views: ['theme_nextbiz.theme_nextbiz_header_new2'],
+                                    vars: { 'header-template': 'nextbiz-header-2' },
+                                    checkVars: false
+                                }
+                            }
+                        ]">
+                            <Img
+                    attrs="{ style: 'width: calc(100% - 0.5rem); max-width:226px;' }"
+                    class="'m-auto py-1'"
+                    src="'/theme_nextbiz/static/description/header2.png'"
+                />
+            </BuilderSelectItem>
+
+            <BuilderSelectItem
+                id="'nextbiz_header_new3'"
+                title.translate="NextBiz Header 3"
+                actionParam="[
+                            {
+                                action: 'websiteConfig',
+                                actionParam: {
+                                    views: ['theme_nextbiz.theme_nextbiz_header_new3', 'website.no_autohide_menu'],
+                                    vars: { 'header-template': 'sidebar' },
+                                    checkVars: false
+                                }
+                            }
+                        ]">
+                            <Img
+                    attrs="{ style: 'width: calc(100% - 0.5rem); max-width:226px;' }"
+                    class="'m-auto py-1'"
+                    src="'/theme_nextbiz/static/description/header3.png'"
+                />
+            </BuilderSelectItem>
+
+            <BuilderSelectItem
+                id="'nextbiz_header_new4'"
+                title.translate="NextBiz Header 4"
+                actionParam="[
+                            {
+                                action: 'websiteConfig',
+                                actionParam: {
+                                    views: ['theme_nextbiz.theme_nextbiz_header8'],
+                                    vars: { 'header-template': 'nextbiz-header-8' },
+                                    checkVars: false
+                                }
+                            }
+                        ]">
+                            <Img
+                    attrs="{ style: 'width: calc(100% - 0.5rem); max-width:226px;' }"
+                    class="'m-auto py-1'"
+                    src="'/theme_nextbiz/static/description/header4.png'"
+                />
+            </BuilderSelectItem>
+
+            <BuilderSelectItem
+                id="'nextbiz_header_new5'"
+                title.translate="NextBiz Header 5"
+                actionParam="[
+                            {
+                                action: 'websiteConfig',
+                                actionParam: {
+                                    views: ['theme_nextbiz.theme_nextbiz_header9'],
+                                    vars: { 'header-template': 'nextbiz-header-9' },
+                                    checkVars: false
+                                }
+                            }
+                        ]">
+                            <Img
+                    attrs="{ style: 'width: calc(100% - 0.5rem); max-width:226px;' }"
+                    class="'m-auto py-1'"
+                    src="'/theme_nextbiz/static/description/header5.png'"
+                />
+            </BuilderSelectItem>
+
+            <BuilderSelectItem
+                id="'nextbiz_header_new6'"
+                title.translate="NextBiz Header 6"
+                actionParam="[
+                            {
+                                action: 'websiteConfig',
+                                actionParam: {
+                                    views: ['theme_nextbiz.theme_nextbiz_header10'],
+                                    vars: { 'header-template': 'nextbiz-header-10' },
+                                    checkVars: false
+                                }
+                            }
+                        ]">
+                            <Img
+                    attrs="{ style: 'width: calc(100% - 0.5rem); max-width:226px;' }"
+                    class="'m-auto py-1'"
+                    src="'/theme_nextbiz/static/description/header6.png'"
+                />
+            </BuilderSelectItem>
+        </xpath>
+    </t>
+    <t t-inherit="website.FooterTemplateOption" t-inherit-mode="extension">
+        <BuilderSelect position="inside">
+                <BuilderSelectItem
+                    id="'next_biz_footer_one'"
+                    title.translate="NextBiz Footer 1"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer1',
+                        vars: { 'footer-template': 'nextbiz-footer-1' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer1.png'" />
+                </BuilderSelectItem>
+            
+                <BuilderSelectItem
+                    id="'next_biz_footer_two'"
+                    title.translate="NextBiz Footer 2"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer2',
+                        vars: { 'footer-template': 'nextbiz-footer-2' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer2.png'" />
+                </BuilderSelectItem>
+            
+                <BuilderSelectItem
+                    id="'next_biz_footer_three'"
+                    title.translate="NextBiz Footer 3"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer3',
+                        vars: { 'footer-template': 'nextbiz-footer-3' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer3.png'" />
+                </BuilderSelectItem>
+            
+                <BuilderSelectItem
+                    id="'next_biz_footer_four'"
+                    title.translate="NextBiz Footer 4"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer4',
+                        vars: { 'footer-template': 'nextbiz-footer-4' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer4.png'" />
+                </BuilderSelectItem>
+            
+                <BuilderSelectItem
+                    id="'next_biz_footer_five'"
+                    title.translate="NextBiz Footer 5"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer5',
+                        vars: { 'footer-template': 'nextbiz-footer-5' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer5.png'" />
+                </BuilderSelectItem>
+            
+                <BuilderSelectItem
+                    id="'next_biz_footer_six'"
+                    title.translate="NextBiz Footer 6"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer6',
+                        vars: { 'footer-template': 'nextbiz-footer-6' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer6.png'" />
+                </BuilderSelectItem>
+                <BuilderSelectItem
+                    id="'next_biz_footer_eight'"
+                    title.translate="NextBiz Footer 7"
+                    actionParam="{
+                        view: 'theme_nextbiz.theme_common_footer8',
+                        vars: { 'footer-template': 'nextbiz-footer-8' }
+                    }"
+                    >
+                    <Img attrs="{ style: 'width: 100%; max-width:234px;' }" class="'m-auto py-1'"
+                        src="'/theme_nextbiz/static/description/footer8.png'" />
+                </BuilderSelectItem>
+        </BuilderSelect>
+    </t>
+
+    <t t-inherit-mode="extension" t-inherit="website.TopMenuVisibilityOption">
+        <xpath expr="//BuilderRow[@label.translate='Text Color']" position="after">
+            <BuilderRow label.translate="Text" level="1">
+                <BuilderColorPicker
+                    enabledTabs="['solid', 'custom']"
+                    styleAction="'color'"
+                    action="'setPageWebsiteDirty'"
+                />
+            </BuilderRow>
+        </xpath>
+    </t>
+
+</templates>

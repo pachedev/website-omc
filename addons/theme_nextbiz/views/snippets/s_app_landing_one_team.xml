@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+    <template id="s_app_landing_one_team" name="Our Team">
+        <section class="app-team">
+            <div class="container">
+                <div class="title">
+                    <span>OUR TEAM</span>
+                    <h3>Meet Our Team</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim
+                        turpis, et condimentum justo interdum in quisque.</p>
+                </div>
+                <section class="s_carousel_wrapper row" data-vxml="001"
+                    data-vcss="001"
+                    data-snippet="s_carousel">
+                    <div
+                        class="s_carousel s_carousel_arrows_hidden carousel slide"
+                        data-bs-interval="10000" data-bs-ride="true" id="AppTeamCarousel3"
+                        style="background-image: none;">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active p-0 p64" style="" data-name="Slide">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team1.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team1.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Paul Williams</h4>
+                                                    <span>Software Engineer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team2.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team2.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Anita Oliver</h4>
+                                                    <span>Web Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team3.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team3.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Andrew Petersons</h4>
+                                                    <span>Graphics Designer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team4.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team4.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Jessy Pinkman</h4>
+                                                    <span>Project Manager</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item  p-0 p64" style="" data-name="Slide">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team1.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team1.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Paul Williams</h4>
+                                                    <span>Software Engineer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team2.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team2.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Anita Oliver</h4>
+                                                    <span>Web Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team3.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team3.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Andrew Petersons</h4>
+                                                    <span>Graphics Designer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb24">
+                                            <div class="single-member text-center">
+                                                <div class="image">
+                                                    <img
+                                                        src="/theme_nextbiz/static/src/img/app-team4.png"
+                                                        data-original-src="/theme_nextbiz/static/src/img/app-team4.png"
+                                                        class="img img-fluid" />
+                                                    <section class="img-hover">
+                                                        <ul class="social-icons">
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-facebook" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-twitter" />
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="link" href="#">
+                                                                    <i class="fa fa-linkedin" />
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Jessy Pinkman</h4>
+                                                    <span>Project Manager</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                            data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+                            href="#AppTeamCarousel3">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                            data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                            href="#AppTeamCarousel3">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only o_default_snippet_text">Next</span>
+                        </a>
+
+                        <div class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+                            <button data-bs-slide-to="0" class="active"
+                                data-bs-target="#AppTeamCarousel3"></button>
+                            <button data-bs-slide-to="1" data-bs-target="#AppTeamCarousel3" class=""></button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+</odoo>

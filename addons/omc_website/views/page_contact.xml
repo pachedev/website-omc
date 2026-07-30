@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Regular website.page: the builder can open it. Only the POST lives in
+         controllers/contact.py; validation errors come back through the
+         session, and the Turnstile widget reads its site key here. -->
+    <record id="view_contact" model="ir.ui.view">
+        <field name="name">OMC Contact</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.contact</field>
+        <field name="website_meta_title">Contact us | Odoo Mobile Client</field>
+        <field name="website_meta_description">Questions about Odoo Mobile Client, the server modules or the demo? Write to contact@pachedev.com or use the contact form — we answer fast.</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.contact">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <!-- On a failed submit the controller re-renders this page and
+                             passes the errors through request.params, which also carries
+                             the submitted values so nothing typed is lost. Anonymous
+                             sessions are not persisted in Odoo, so they cannot be used
+                             for this round trip. -->
+                        <t t-set="values" t-value="request.params or {}"/>
+                        <t t-set="errors" t-value="request.params.get('omc_errors') or {}"/>
+                        <t t-set="turnstile_site_key"
+                           t-value="request.env['ir.config_parameter'].sudo().search([('key', '=', 'cf.turnstile_site_key')], limit=1).value"/>
+
+                        <section class="omc-hero pt56 pb56">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h1 class="mb-3">Contact us</h1>
+                                        <p class="lead mb-0">Questions about the app, the server modules or the demo? Tell us what you need and we will get back to you.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="o_cc o_cc1 pt56 pb56">
+                            <div class="container">
+                                <div class="row g-4">
+                                    <div class="col-12 col-lg-7">
+                                        <div class="omc-card omc-form p-4 p-lg-5">
+                                            <form action="/contactus/send" method="post">
+                                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                                <!-- Anti-spam honeypot: invisible to humans -->
+                                                <input type="text" name="website_url_hp" value="" tabindex="-1"
+                                                       autocomplete="off" class="d-none" aria-hidden="true"/>
+
+                                                <div class="row g-3">
+                                                    <div class="col-12 col-md-6">
+                                                        <label class="form-label" for="omcName">Name *</label>
+                                                        <input type="text" class="form-control" id="omcName" name="name"
+                                                               required="required"
+                                                               t-att-value="values and values.get('name')"/>
+                                                        <div t-if="errors and errors.get('name')"
+                                                             class="invalid-feedback d-block" t-out="errors['name']"/>
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <label class="form-label" for="omcEmail">Email *</label>
+                                                        <input type="email" class="form-control" id="omcEmail" name="email"
+                                                               required="required"
+                                                               t-att-value="values and values.get('email')"/>
+                                                        <div t-if="errors and errors.get('email')"
+                                                             class="invalid-feedback d-block" t-out="errors['email']"/>
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <label class="form-label" for="omcCompany">Company</label>
+                                                        <input type="text" class="form-control" id="omcCompany" name="company"
+                                                               t-att-value="values and values.get('company')"/>
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <label class="form-label" for="omcOdooVersion">Your Odoo version</label>
+                                                        <select class="form-select" id="omcOdooVersion" name="odoo_version">
+                                                            <option value="">— Select an option —</option>
+                                                            <option value="19">Odoo 19</option>
+                                                            <option value="18">Odoo 18</option>
+                                                            <option value="17">Odoo 17</option>
+                                                            <option value="16">Odoo 16</option>
+                                                            <option value="15">Odoo 15</option>
+                                                            <option value="14 or older">Odoo 14 or older</option>
+                                                            <option value="unknown">I am not sure</option>
+                                                            <option value="none">I don't have Odoo yet</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="form-label" for="omcInquiryType">What is your question about?</label>
+                                                        <select class="form-select" id="omcInquiryType" name="inquiry_type">
+                                                            <option value="sales">Buying or licensing (sales)</option>
+                                                            <option value="support">Using the app (support)</option>
+                                                            <option value="other" selected="selected">Something else</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="form-label" for="omcMessage">Message *</label>
+                                                        <textarea class="form-control" id="omcMessage" name="message" rows="6"
+                                                                  required="required"><t t-esc="values.get('message') if values else ''"/></textarea>
+                                                        <div t-if="errors and errors.get('message')"
+                                                             class="invalid-feedback d-block" t-out="errors['message']"/>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" id="omcConsent"
+                                                                   name="consent" required="required"/>
+                                                            <label class="form-check-label small" for="omcConsent">
+                                                                I have read and accept the
+                                                                <a href="/privacy" target="_blank">privacy policy</a>
+                                                                and agree to my data being used to answer my request. *
+                                                            </label>
+                                                        </div>
+                                                        <div t-if="errors and errors.get('consent')"
+                                                             class="invalid-feedback d-block" t-out="errors['consent']"/>
+                                                    </div>
+                                                    <div class="col-12" t-if="errors and errors.get('turnstile')">
+                                                        <div class="invalid-feedback d-block" t-out="errors['turnstile']"/>
+                                                    </div>
+                                                    <!-- Cloudflare Turnstile, mounted directly so it
+                                                         renders visibly and posts its token as
+                                                         `turnstile_captcha`. Rendered only when a site
+                                                         key is configured. -->
+                                                    <div class="col-12" t-if="turnstile_site_key">
+                                                        <div class="cf-turnstile"
+                                                             t-att-data-sitekey="turnstile_site_key"
+                                                             data-action="omc_contact"
+                                                             data-response-field-name="turnstile_captcha"
+                                                             data-appearance="always"/>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button type="submit" class="btn btn-primary omc-pill">
+                                                            Send message <i class="fa fa-paper-plane ms-1"/>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-5">
+                                        <div class="omc-card p-4 mb-3">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-envelope-o"/></span>
+                                            <h6 class="fw-semibold mb-1">Email</h6>
+                                            <p class="mb-0"><a href="mailto:contact@pachedev.com">contact@pachedev.com</a></p>
+                                        </div>
+                                        <div class="omc-card p-4 mb-3">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-question-circle-o"/></span>
+                                            <h6 class="fw-semibold mb-1">Check the FAQ first</h6>
+                                            <p class="mb-0 small">Many questions are already answered in the <a href="/faq">frequently asked questions</a>.</p>
+                                        </div>
+                                        <div class="omc-card p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-mobile"/></span>
+                                            <h6 class="fw-semibold mb-1">Try the demo</h6>
+                                            <p class="mb-0 small">You can explore both editions right now with our <a href="/download">public demo server</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <script t-if="turnstile_site_key" async="async" defer="defer"
+                                src="https://challenges.cloudflare.com/turnstile/v0/api.js"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_contact" model="website.page">
+        <field name="name">Contact us</field>
+        <field name="url">/contactus</field>
+        <field name="view_id" ref="view_contact"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+    </record>
+
+    <!-- Thank-you page (redirect target after a successful submit) -->
+    <record id="view_contact_thanks" model="ir.ui.view">
+        <field name="name">OMC Contact Thanks</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.contact_thanks</field>
+        <field name="website_meta_title">Thank you — Message sent | Odoo Mobile Client</field>
+        <field name="website_meta_description">Your message has been sent to the Odoo Mobile Client team. We will get back to you shortly.</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.contact_thanks">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+                        <section class="o_cc o_cc1 pt56 pb56 text-center">
+                            <div class="container">
+                                <span class="omc-icon-box mb-3"><i class="fa fa-paper-plane"/></span>
+                                <h1 class="mb-3">Thank you!</h1>
+                                <p class="lead mb-4">Your message has been sent. We will get back to you shortly.</p>
+                                <a href="/" class="btn btn-primary omc-pill">Back to home</a>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_contact_thanks" model="website.page">
+        <field name="name">Contact thanks</field>
+        <field name="url">/contactus-thank-you</field>
+        <field name="view_id" ref="view_contact_thanks"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="False"/>
+    </record>
+
+</odoo>

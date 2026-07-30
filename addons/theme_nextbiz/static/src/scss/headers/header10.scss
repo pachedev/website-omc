@@ -1,0 +1,310 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+@if o-website-value('header-template')=="nextbiz-header-10" {
+  #nextbiz-header10 {
+    .o_extra_menu_items .o-no-caret {
+      i {
+        transition: transform 0.3s ease;
+
+        &::before {
+          display: none !important;
+        }
+
+        &::after {
+          content: "\f107" !important;
+          font-family: "FontAwesome";
+          display: inline-block;
+          transition: transform 0.3s ease;
+        }
+      }
+
+      .nav-link.show i::after {
+        transform: rotate(180deg);
+      }
+    }
+
+    /* mega menu alignment */
+    .middle-header {
+      .row.align-items-center {
+        .header-center {
+          .bizople-header-ten {
+            #top_menu {
+              .o_mega_menu {
+                top: 50px;
+              }
+            }
+
+            position: unset;
+          }
+
+          position: unset;
+        }
+
+        position: relative;
+      }
+    }
+
+    /* mega menu alignment end */
+    .dropdown,
+    .header-myaccount {
+      .dropdown-menu {
+        border-radius: 0;
+      }
+    }
+
+    .middle-header {
+      @media (max-width:767px) {
+
+        .header_position {
+          position: absolute;
+          right: 2%;
+        }
+      }
+
+      .dropdown-toggle:after {
+        font-family: "remixicon" !important;
+        border: 0;
+        font-size: 12px;
+        vertical-align: middle;
+        content: "\ea4c";
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+      }
+
+      .dropdown.show,
+      .header-myaccount.show {
+        .dropdown-toggle:after {
+          transform: rotate(180deg) !important;
+        }
+      }
+    }
+
+    .top-header {
+      .contact-time {
+        p {
+          .fa {
+            font-size: 17px;
+          }
+
+          font-size: 14px;
+          line-height: 1.7;
+        }
+      }
+
+      .header-media {
+        li::marker {
+          display: none !important;
+        }
+
+        .login_nav {
+          a.nav-link {
+            color: white !important;
+            position: absolute;
+            bottom: 0;
+            top: 2px;
+            right: -37px;
+          }
+        }
+
+        .s_social_media {
+          .nav-link {
+            color: white !important;
+
+            &:hover {
+              font-weight: lighter !important;
+            }
+
+          }
+        }
+      }
+
+      .header-language {
+        right: -11px;
+        top: 2px;
+
+        .btn {
+
+          &:hover,
+          &.show,
+          &:focus,
+          &:active {
+            background-color: unset !important;
+          }
+
+          span {
+            text-transform: capitalize !important;
+          }
+
+          padding: 0 30px;
+          font-size: 14px;
+          line-height: 44px;
+          text-transform: capitalize;
+          border-radius: 0;
+          position: relative;
+          box-shadow: unset;
+          color: #ffffff !important;
+          // background-color: $primary !important;
+
+          &:after {
+            content: "\ea4c";
+            margin: 0 !important;
+            border: 0 !important;
+            font-family: "remixicon" !important;
+            vertical-align: middle;
+            transition: 0.2s;
+            -webkit-transition: 0.2s;
+          }
+
+          &:hover {
+            background-color: unset !important;
+          }
+        }
+
+        .dropdown.show>.btn {
+          &:after {
+            transform: rotate(180deg) !important;
+          }
+        }
+
+        .dropdown.show>.dropdown-menu {
+          a {
+            color: #ffffff;
+            background-color: $primary !important;
+            border: 1px solid $primary !important;
+            transition: 0.2s;
+            border-radius: 0;
+            padding: 10px 20px;
+            width: fit-content;
+            line-height: 20px;
+
+            &:hover {
+              border-bottom: 1px solid #ffffff !important;
+            }
+          }
+
+          transform: unset !important;
+          margin: 0;
+          top: unset !important;
+          background-color: $primary;
+          border-color: $primary;
+          color: #ffffff;
+          width: 100%;
+          min-width: unset;
+        }
+      }
+
+      background-color: $secondary;
+      line-height: 44px;
+    }
+
+    .middle-header {
+      .header_left {
+        .navbar-brand {
+          line-height: 75px;
+        }
+
+        .mobile-cart {
+          a.nav-link {
+            .ri {
+              font-size: 20px;
+            }
+
+            sup {
+              position: absolute;
+              top: -10px;
+              right: -10px;
+              width: 20px;
+              height: 20px;
+              line-height: 20px;
+              font-size: 11px;
+              border-radius: 50%;
+              padding: 0;
+            }
+
+            padding: 0;
+            position: relative;
+          }
+        }
+      }
+
+      .header-center {
+        #top_menu {
+          li.o_extra_menu_items {
+            >.dropdown-menu {
+              >li {
+                border: 0 !important;
+              }
+            }
+          }
+        }
+      }
+
+      .header_right {
+        a.nav-link {
+          color: $secondary;
+
+          sup {
+            position: absolute;
+            top: -4px;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 11px;
+            border-radius: 50%;
+            padding: 0;
+          }
+
+          font-size: 16px;
+          position: relative;
+        }
+
+        .acc-dropdown:after {
+          margin: 0;
+        }
+
+        .header-myaccount {
+          .js_usermenu {
+            top: 18px !important;
+            left: 0px !important;
+            transform: translate3d(0px, 26px, 0px) !important;
+
+            &:before {
+              content: "";
+              position: absolute;
+              left: unset;
+              top: -8px;
+              right: 20px;
+              border-left: 8px solid transparent;
+              border-right: 8px solid transparent;
+              border-bottom: 8px solid #e5e5e5;
+              z-index: 100;
+            }
+          }
+
+          a.dropdown-toggle::after {
+            position: absolute;
+            top: 7px;
+            right: 0;
+            line-height: 30px;
+          }
+
+          .user_img {
+            margin: 0;
+            padding: 0;
+          }
+
+          position: relative;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        box-shadow: 0px 0px 3px #757575;
+      }
+
+      padding: 10px 0;
+    }
+  }
+}

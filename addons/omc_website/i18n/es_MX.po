@@ -1,0 +1,3050 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* omc_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260609\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-30 16:54+0000\n"
+"PO-Revision-Date: 2026-07-30 16:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "(free) for Free,"
+msgstr "(gratuito) para Free y"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"(paid) for Advanced. The Advanced app itself is a free download — the module"
+" license is the only cost."
+msgstr ""
+"(de pago) para Advanced. La app Advanced es una descarga gratuita — la "
+"licencia del módulo es el único costo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "1. Information the app handles"
+msgstr "1. Información que maneja la app"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "1. What the app is"
+msgstr "1. Qué es la app"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "10. Contact"
+msgstr "10. Contacto"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "12 to 19+"
+msgstr "12 a 19+"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "17 to 19+"
+msgstr "17 a 19+"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "2. Where your credentials are stored"
+msgstr "2. Dónde se guardan tus credenciales"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "2. Your responsibilities"
+msgstr "2. Tus responsabilidades"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "3. Biometric unlock"
+msgstr "3. Desbloqueo biométrico"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "3. License"
+msgstr "3. Licencia"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "4. Acceptable use"
+msgstr "4. Uso aceptable"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "4. No data collection, no third parties"
+msgstr "4. Sin recolección de datos, sin terceros"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "5. Data deletion"
+msgstr "5. Eliminación de datos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "5. No warranty"
+msgstr "5. Sin garantía"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "6. Limitation of liability"
+msgstr "6. Limitación de responsabilidad"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "6. Your rights"
+msgstr "6. Tus derechos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "7. Changes to this policy"
+msgstr "7. Cambios a esta política"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "7. Support"
+msgstr "7. Soporte"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "8. Contact"
+msgstr "8. Contacto"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "8. Trademarks"
+msgstr "8. Marcas registradas"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "9. Changes to these Terms"
+msgstr "9. Cambios a estos Términos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Approve time off, expenses and "
+"purchases anywhere"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Aprueba vacaciones, gastos y "
+"compras desde donde estés"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Check stock by product or "
+"location"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Consulta existencias por "
+"producto o ubicación"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Customer contact details always "
+"at hand"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Datos de contacto de tus "
+"clientes siempre a la mano"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Dashboards and reports on your "
+"phone"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Tableros y reportes en tu "
+"teléfono"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Fewer errors from double data "
+"entry"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Menos errores por capturar dos "
+"veces"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Log hours the moment the work is"
+" done"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Registra horas justo al terminar"
+" el trabajo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Mobile CRM: leads, opportunities"
+" and activities"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>CRM móvil: leads, oportunidades "
+"y actividades"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Project updates visible to the "
+"whole team"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Avances de proyecto visibles "
+"para todo el equipo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Quotations and sales orders on "
+"the go"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Cotizaciones y pedidos de venta "
+"en movimiento"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Receive and transfer goods from "
+"the floor"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Recibe y transfiere mercancía "
+"desde el piso de almacén"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Stay on top of every company you"
+" manage"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Mantén el control de cada "
+"empresa que administras"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Today's meetings and tasks at a "
+"glance"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Las reuniones y tareas del día "
+"de un vistazo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You are ready to license the "
+"Advanced server module"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Estás listo para licenciar el "
+"módulo de servidor de Advanced"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "<i class=\"fa fa-check text-primary me-2\"/>You run Odoo 17 to 19+"
+msgstr "<i class=\"fa fa-check text-primary me-2\"/>Usas Odoo 17 a 19+"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You run any Odoo from 12 to 19+"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Usas cualquier Odoo de 12 a 19+"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You want to start today at no "
+"cost"
+msgstr "<i class=\"fa fa-check text-primary me-2\"/>Quieres empezar hoy sin costo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You want your team notified the "
+"moment something happens in Odoo"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Quieres que tu equipo se entere "
+"en el momento en que algo pasa en Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Your team mainly needs to "
+"consult and update Odoo on the move"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Tu equipo sobre todo necesita "
+"consultar y actualizar Odoo en movimiento"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Access all your Odoo apps from "
+"your phone"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Accede a todas tus aplicaciones "
+"de Odoo desde tu teléfono"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Alert rules you configure "
+"yourself"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Reglas de alerta que tú mismo "
+"configuras"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Alerts for sales, purchases, "
+"inventory, accounting, HR"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Alertas de ventas, compras, "
+"inventario, contabilidad, RRHH"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>All your Odoo apps on your phone"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Todas tus aplicaciones de Odoo "
+"en tu teléfono"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Automatic alerts: sales, "
+"purchases, inventory, accounting, HR"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Alertas automáticas: ventas, "
+"compras, inventario, contabilidad, RRHH"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<i class=\"fa fa-check text-success me-2\"/>Everything in Free"
+msgstr "<i class=\"fa fa-check text-success me-2\"/>Todo lo de Free"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<i class=\"fa fa-check text-success me-2\"/>Fingerprint or face unlock"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Desbloqueo con huella o rostro"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Free server module on the Odoo "
+"App Store"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Módulo de servidor gratuito en "
+"la Odoo App Store"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Multi-server and biometric "
+"unlock"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Multi-servidor y desbloqueo "
+"biométrico"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Multiple servers and "
+"environments"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Múltiples servidores y entornos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Open the exact record from the "
+"notification"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Abre el registro exacto desde la"
+" notificación"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Push notifications on your phone"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Notificaciones push en tu "
+"teléfono"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<i class=\"fa fa-check text-success me-2\"/>Works with Odoo 12 to 19+"
+msgstr "<i class=\"fa fa-check text-success me-2\"/>Funciona con Odoo 12 a 19+"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<i class=\"fa fa-check text-success me-2\"/>Works with Odoo 17 to 19+"
+msgstr "<i class=\"fa fa-check text-success me-2\"/>Funciona con Odoo 17 a 19+"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"<i class=\"fa fa-eye me-2\"/>\n"
+"                                                    <span class=\"js_omc_label_show\">Show credentials</span>\n"
+"                                                    <span class=\"js_omc_label_hide d-none\">Hide credentials</span>"
+msgstr ""
+"<i class=\"fa fa-eye me-2\"/>\n"
+"                                                    <span class=\"js_omc_label_show\">Mostrar credenciales</span>\n"
+"                                                    <span class=\"js_omc_label_hide d-none\">Ocultar credenciales</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"<i class=\"fa fa-lock\"/>\n"
+"                                                <small>Your data stays on your server</small>"
+msgstr ""
+"<i class=\"fa fa-lock\"/>\n"
+"                                                <small>Tus datos se quedan en tu servidor</small>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"<i class=\"fa fa-mobile\"/>\n"
+"                                                <small>Android and iOS</small>"
+msgstr ""
+"<i class=\"fa fa-mobile\"/>\n"
+"                                                <small>Android y iOS</small>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"<i class=\"fa fa-plug\"/>\n"
+"                                                <small>Works with your existing Odoo</small>"
+msgstr ""
+"<i class=\"fa fa-plug\"/>\n"
+"                                                <small>Funciona con tu Odoo actual</small>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid ""
+"<select class=\"form-select\" id=\"omcInquiryType\" name=\"inquiry_type\">\n"
+"                                                            <option value=\"sales\">Buying or licensing (sales)</option>\n"
+"                                                            <option value=\"support\">Using the app (support)</option>\n"
+"                                                            <option value=\"other\" selected=\"selected\">Something else</option>\n"
+"                                                        </select>"
+msgstr ""
+"<select class=\"form-select\" id=\"omcInquiryType\" name=\"inquiry_type\">\n"
+"                                                            <option value=\"sales\">Compra o licenciamiento (ventas)</option>\n"
+"                                                            <option value=\"support\">Uso de la app (soporte)</option>\n"
+"                                                            <option value=\"other\" selected=\"selected\">Otra cosa</option>\n"
+"                                                        </select>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid ""
+"<select class=\"form-select\" id=\"omcOdooVersion\" name=\"odoo_version\">\n"
+"                                                            <option value=\"\">— Select an option —</option>\n"
+"                                                            <option value=\"19\">Odoo 19</option>\n"
+"                                                            <option value=\"18\">Odoo 18</option>\n"
+"                                                            <option value=\"17\">Odoo 17</option>\n"
+"                                                            <option value=\"16\">Odoo 16</option>\n"
+"                                                            <option value=\"15\">Odoo 15</option>\n"
+"                                                            <option value=\"14 or older\">Odoo 14 or older</option>\n"
+"                                                            <option value=\"unknown\">I am not sure</option>\n"
+"                                                            <option value=\"none\">I don't have Odoo yet</option>\n"
+"                                                        </select>"
+msgstr ""
+"<select class=\"form-select\" id=\"omcOdooVersion\" name=\"odoo_version\">\n"
+"                                                            <option value=\"\">— Selecciona una opción —</option>\n"
+"                                                            <option value=\"19\">Odoo 19</option>\n"
+"                                                            <option value=\"18\">Odoo 18</option>\n"
+"                                                            <option value=\"17\">Odoo 17</option>\n"
+"                                                            <option value=\"16\">Odoo 16</option>\n"
+"                                                            <option value=\"15\">Odoo 15</option>\n"
+"                                                            <option value=\"14 or older\">Odoo 14 o anterior</option>\n"
+"                                                            <option value=\"unknown\">No estoy seguro</option>\n"
+"                                                            <option value=\"none\">Aún no tengo Odoo</option>\n"
+"                                                        </select>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"<small class=\"text-uppercase fw-semibold\" style=\"letter-"
+"spacing:.08em;\">Works with the Odoo you already run</small>"
+msgstr ""
+"<small class=\"text-uppercase fw-semibold\" style=\"letter-"
+"spacing:.08em;\">Funciona con el Odoo que ya usas</small>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "<span class=\"fa fa-android me-2\"/>Get Advanced on Google Play"
+msgstr "<span class=\"fa fa-android me-2\"/>Consigue Advanced en Google Play"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "<span class=\"fa fa-android me-2\"/>Get Free on Google Play"
+msgstr "<span class=\"fa fa-android me-2\"/>Consigue Free en Google Play"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"fa fa-android me-2\"/>Google Play"
+msgstr "<span class=\"fa fa-android me-2\"/>Google Play"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"fa fa-apple me-2\"/>App Store"
+msgstr "<span class=\"fa fa-apple me-2\"/>App Store"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "<span class=\"fa fa-apple me-2\"/>App Store — coming soon"
+msgstr "<span class=\"fa fa-apple me-2\"/>App Store — muy pronto"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "<span class=\"fa fa-check text-success\" title=\"Included\"/>"
+msgstr "<span class=\"fa fa-check text-success\" title=\"Incluido\"/>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "<span class=\"fa fa-coffee me-2\"/>Support the project"
+msgstr "<span class=\"fa fa-coffee me-2\"/>Apoya el proyecto"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "<span class=\"fa fa-minus text-muted\" title=\"Not included\"/>"
+msgstr "<span class=\"fa fa-minus text-muted\" title=\"No incluido\"/>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid "<span class=\"omc-affiliate-note\">(affiliate link)</span>"
+msgstr "<span class=\"omc-affiliate-note\">(enlace de afiliado)</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "<span class=\"omc-badge mb-3\">Comparison</span>"
+msgstr "<span class=\"omc-badge mb-3\">Comparativa</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "<span class=\"omc-badge mb-3\">Demo server</span>"
+msgstr "<span class=\"omc-badge mb-3\">Servidor demo</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-badge mb-3\">Features</span>"
+msgstr "<span class=\"omc-badge mb-3\">Funciones</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "<span class=\"omc-badge mb-3\">Good to know</span>"
+msgstr "<span class=\"omc-badge mb-3\">Bueno saberlo</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-badge mb-3\">How it works</span>"
+msgstr "<span class=\"omc-badge mb-3\">Cómo funciona</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "<span class=\"omc-badge mb-3\">Managers and owners</span>"
+msgstr "<span class=\"omc-badge mb-3\">Gerentes y dueños</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<span class=\"omc-badge mb-3\">Pricing questions</span>"
+msgstr "<span class=\"omc-badge mb-3\">Preguntas sobre precios</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "<span class=\"omc-badge mb-3\">Requirements</span>"
+msgstr "<span class=\"omc-badge mb-3\">Requisitos</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "<span class=\"omc-badge mb-3\">Sales teams</span>"
+msgstr "<span class=\"omc-badge mb-3\">Equipos de ventas</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "<span class=\"omc-badge mb-3\">Services and consulting</span>"
+msgstr "<span class=\"omc-badge mb-3\">Servicios y consultoría</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "<span class=\"omc-badge mb-3\">Step 1</span>"
+msgstr "<span class=\"omc-badge mb-3\">Paso 1</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "<span class=\"omc-badge mb-3\">Step 2</span>"
+msgstr "<span class=\"omc-badge mb-3\">Paso 2</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "<span class=\"omc-badge mb-3\">Step 3</span>"
+msgstr "<span class=\"omc-badge mb-3\">Paso 3</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-badge mb-3\">Two editions</span>"
+msgstr "<span class=\"omc-badge mb-3\">Dos ediciones</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-badge mb-3\">Use cases</span>"
+msgstr "<span class=\"omc-badge mb-3\">Casos de uso</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "<span class=\"omc-badge mb-3\">Warehouse and operations</span>"
+msgstr "<span class=\"omc-badge mb-3\">Almacén y operaciones</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "<span class=\"omc-badge mb-3\">Which one</span>"
+msgstr "<span class=\"omc-badge mb-3\">Cuál elegir</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-step-num mb-3\">1</span>"
+msgstr "<span class=\"omc-step-num mb-3\">1</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-step-num mb-3\">2</span>"
+msgstr "<span class=\"omc-step-num mb-3\">2</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "<span class=\"omc-step-num mb-3\">3</span>"
+msgstr "<span class=\"omc-step-num mb-3\">3</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"<span><strong>Free</strong> · Odoo 12 to 19+</span>\n"
+"                                    <span><strong>Advanced</strong> · Odoo 17 to 19+</span>\n"
+"                                    <span>Community &amp; Enterprise</span>\n"
+"                                    <span>Odoo.sh or self-hosted</span>"
+msgstr ""
+"<span><strong>Free</strong> · Odoo 12 a 19+</span>\n"
+"                                    <span><strong>Advanced</strong> · Odoo 17 a 19+</span>\n"
+"                                    <span>Community y Enterprise</span>\n"
+"                                    <span>Odoo.sh o autoalojado</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.footer_legal_links
+msgid ""
+"<span>Odoo is a trademark of Odoo S.A. This application is not affiliated "
+"with or endorsed by Odoo S.A.</span>"
+msgstr ""
+"<span>Odoo es una marca registrada de Odoo S.A. Esta aplicación no está "
+"afiliada a Odoo S.A. ni cuenta con su respaldo.</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<strong>odoo_mobile_client</strong>"
+msgstr "<strong>odoo_mobile_client</strong>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<strong>odoo_mobile_client_advanced</strong>"
+msgstr "<strong>odoo_mobile_client_advanced</strong>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "A modern phone"
+msgstr "Un teléfono moderno"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_home
+msgid ""
+"Access your own Odoo server from Android and iOS. Odoo Mobile Client gives "
+"your team mobile CRM, inventory, projects and more — no extra development "
+"needed."
+msgstr ""
+"Accede a tu propio servidor Odoo desde Android y iOS. Odoo Mobile Client le "
+"da a tu equipo CRM móvil, inventario, proyectos y más — sin desarrollo "
+"extra."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Advanced"
+msgstr "Advanced"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Advanced makes your Odoo reach out to you: push notifications on your phone,"
+" automatic alerts for events in sales, purchases, inventory, accounting and "
+"HR, and the ability to open the exact record straight from the notification."
+" It is available now — get it from the Download page."
+msgstr ""
+"Advanced hace que tu Odoo te busque a ti: notificaciones push en tu "
+"teléfono, alertas automáticas de eventos en ventas, compras, inventario, "
+"contabilidad y RRHH, y la posibilidad de abrir el registro exacto "
+"directamente desde la notificación. Ya está disponible — consíguela en la "
+"página de Descargas."
+
+#. module: omc_website
+#: model:ir.actions.act_window,name:omc_website.omc_affiliate_click_action
+#: model:ir.ui.menu,name:omc_website.menu_omc_affiliate_clicks
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_graph
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_list
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_search
+msgid "Affiliate Clicks"
+msgstr "Clics de afiliado"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid "Affiliate link"
+msgstr "Enlace de afiliado"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_faq
+msgid ""
+"Answers about the Odoo mobile app: is it free, does it need server changes, "
+"credential security, multiple servers and what the Advanced edition adds."
+msgstr ""
+"Respuestas sobre la app móvil de Odoo: si es gratis, si requiere cambios en "
+"el servidor, seguridad de credenciales, múltiples servidores y qué agrega la"
+" edición Advanced."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Any recent Android or iOS device."
+msgstr "Cualquier dispositivo Android o iOS reciente."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Automatic alerts for sales, purchases, inventory, accounting and HR"
+msgstr ""
+"Alertas automáticas de ventas, compras, inventario, contabilidad y RRHH"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact_thanks
+msgid "Back to home"
+msgstr "Volver al inicio"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"Both apps are free to download. You only pay for the Advanced server module "
+"— once, on the Odoo App Store."
+msgstr ""
+"Las dos apps son gratis de descargar. Solo pagas el módulo de servidor de "
+"Advanced — una vez, en la Odoo App Store."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Both editions are on Google Play. Try them with our demo server before "
+"connecting yours."
+msgstr ""
+"Las dos ediciones están en Google Play. Pruébalas con nuestro servidor demo "
+"antes de conectar el tuyo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Both editions use a server module from the Odoo App Store:"
+msgstr "Las dos ediciones usan un módulo de servidor de la Odoo App Store:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Business owner reviewing Odoo dashboards and reports on a smartphone"
+msgstr ""
+"Dueño de negocio revisando tableros y reportes de Odoo en un smartphone"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__crm_lead_id
+msgid "CRM Lead ID"
+msgstr "ID del lead en CRM"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Can I connect more than one Odoo server?"
+msgstr "¿Puedo conectar más de un servidor Odoo?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Can other people in my company use it too?"
+msgstr "¿Otras personas de mi empresa también pueden usarla?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Check customers, update opportunities and send quotes between meetings."
+msgstr ""
+"Consulta clientes, actualiza oportunidades y envía cotizaciones entre "
+"reuniones."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Check the"
+msgstr "Revisa las"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Check the FAQ first"
+msgstr "Revisa primero las preguntas frecuentes"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Choose Advanced if…"
+msgstr "Elige Advanced si…"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Choose Free if…"
+msgstr "Elige Free si…"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_list
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_search
+msgid "Clicked on"
+msgstr "Fecha del clic"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Close deals between meetings"
+msgstr "Cierra ventas entre reuniones"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__color
+msgid "Color"
+msgstr "Color"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__company
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Company"
+msgstr "Empresa"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Compare Free vs Advanced"
+msgstr "Compara Free vs Advanced"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_free_vs_advanced
+msgid ""
+"Compare Odoo Mobile Client Free and Advanced: mobile access to Odoo is free;"
+" Advanced adds push notifications and automatic business alerts."
+msgstr ""
+"Compara Odoo Mobile Client Free y Advanced: el acceso móvil a Odoo es "
+"gratis; Advanced agrega notificaciones push y alertas automáticas de tu "
+"negocio."
+
+#. module: omc_website
+#: model:ir.ui.menu,name:omc_website.menu_omc_config
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Connect the Odoo Mobile Client app to your own Odoo server and run your "
+"business from anywhere — no extra development, no separate app for every "
+"module."
+msgstr ""
+"Conecta la app Odoo Mobile Client a tu propio servidor Odoo y maneja tu "
+"negocio desde donde estés — sin desarrollo extra y sin una app distinta por "
+"cada módulo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Connect your Odoo server"
+msgstr "Conecta tu servidor Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Connecting the app to a company Odoo server with a login form"
+msgstr ""
+"Conexión de la app al servidor Odoo de una empresa con un formulario de "
+"acceso"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Consultant logging timesheets and project tasks in Odoo from a phone"
+msgstr ""
+"Consultor registrando horas y tareas de proyecto en Odoo desde un teléfono"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"Consultants and field technicians live at the customer's site, not at their "
+"desk. Timesheets, project tasks and the day's schedule stay one tap away."
+msgstr ""
+"Los consultores y técnicos de campo viven en las instalaciones del cliente, "
+"no en su escritorio. Las horas, las tareas de proyecto y la agenda del día "
+"quedan a un toque de distancia."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_form
+msgid "Contact Lead"
+msgstr "Contacto"
+
+#. module: omc_website
+#: model:ir.model,name:omc_website.model_omc_contact_tag
+msgid "Contact Lead Tag"
+msgstr "Etiqueta de contacto"
+
+#. module: omc_website
+#: model:ir.actions.act_window,name:omc_website.omc_contact_lead_action
+#: model:ir.ui.menu,name:omc_website.menu_omc_leads
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_list
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "Contact Leads"
+msgstr "Contactos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Contact us"
+msgstr "Contáctanos"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_contact
+msgid "Contact us | Odoo Mobile Client"
+msgstr "Contáctanos | Odoo Mobile Client"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__contacted
+msgid "Contacted"
+msgstr "Contactado"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_form
+msgid "Convert to CRM"
+msgstr "Convertir a CRM"
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/models/omc_contact_lead.py:0
+msgid "Converted to a CRM lead (ID %s)."
+msgstr "Convertido en lead de CRM (ID %s)."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Copy"
+msgstr "Copiar"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid ""
+"Create your Odoo account, pick the apps your business needs\n"
+"                        and then connect the app to your own server."
+msgstr ""
+"Crea tu cuenta de Odoo, elige las aplicaciones que necesita tu negocio\n"
+"                        y después conecta la app a tu propio servidor."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__create_uid
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__create_uid
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__create_date
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__create_date
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__crm_installed
+msgid "Crm Installed"
+msgstr "CRM instalado"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__customer
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__discarded
+msgid "Discarded"
+msgstr "Descartado"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_ir_config_parameter__display_name
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate__display_name
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__display_name
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__display_name
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__display_name
+#: model:ir.model.fields,field_description:omc_website.field_omc_demo_credentials__display_name
+msgid "Display Name"
+msgstr "Nombre en pantalla"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Do I need to change anything on my Odoo server?"
+msgstr "¿Necesito cambiar algo en mi servidor Odoo?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Do I need to have Odoo to use the app?"
+msgstr "¿Necesito tener Odoo para usar la app?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Do I pay anything to Odoo?"
+msgstr "¿Le pago algo adicional a Odoo?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Does it work with Odoo Enterprise, Odoo.sh and Community?"
+msgstr "¿Funciona con Odoo Enterprise, Odoo.sh y Community?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid "Don't have Odoo yet?"
+msgstr "¿Aún no tienes Odoo?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Download Advanced"
+msgstr "Descargar Advanced"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_download
+msgid "Download Free and Advanced for Android | Odoo Mobile Client"
+msgstr "Descarga Free y Advanced para Android | Odoo Mobile Client"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_download
+msgid ""
+"Download OMC Free (Odoo 12–19+) and OMC Advanced (Odoo 17–19+) on Google "
+"Play. Try both with our public demo server before connecting yours."
+msgstr ""
+"Descarga OMC Free (Odoo 12–19+) y OMC Advanced (Odoo 17–19+) en Google Play."
+" Prueba ambas con nuestro servidor demo público antes de conectar el tuyo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Download now"
+msgstr "Descargar ahora"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_affiliate_click__source__download
+msgid "Download page"
+msgstr "Página de descargas"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Download the app"
+msgstr "Descarga la app"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_how_it_works
+msgid ""
+"Download the app, connect your company's Odoo server and use Odoo from your "
+"phone. One connector module from the Odoo App Store, no custom development."
+msgstr ""
+"Descarga la app, conecta el servidor Odoo de tu empresa y usa Odoo desde tu "
+"celular. Un módulo conector de la Odoo App Store, sin desarrollo a la "
+"medida."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Download the app, or explore it first with our demo server."
+msgstr "Descarga la app, o explórala primero con nuestro servidor demo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Downloading the Odoo Mobile Client app on a smartphone"
+msgstr "Descarga de la app Odoo Mobile Client en un smartphone"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__email
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Email *"
+msgstr "Correo electrónico *"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Everyday mobile access to your Odoo."
+msgstr "Acceso móvil diario a tu Odoo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Everyone sees exactly what their Odoo user allows — nothing more, nothing "
+"less. Access control stays in your hands."
+msgstr ""
+"Cada quien ve exactamente lo que su usuario de Odoo le permite — ni más, ni "
+"menos. El control de acceso sigue en tus manos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Everything most people ask before putting Odoo in their pocket."
+msgstr "Todo lo que la mayoría pregunta antes de llevar Odoo en el bolsillo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Everything your team already does in Odoo, now available on their phones."
+msgstr ""
+"Todo lo que tu equipo ya hace en Odoo, ahora disponible en sus teléfonos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Explore use cases"
+msgstr "Explora los casos de uso"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_affiliate_click__source__faq
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_faq
+msgid "FAQ — Support and common questions | Odoo Mobile Client"
+msgstr "Preguntas frecuentes — Soporte y dudas comunes | Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Feature"
+msgstr "Función"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Fingerprint or face unlock"
+msgstr "Desbloqueo con huella o rostro"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"First time? Install the connector module on your server from the Odoo App "
+"Store:"
+msgstr ""
+"¿Primera vez? Instala el módulo conector en tu servidor desde la Odoo App "
+"Store:"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_affiliate_click__source__footer
+msgid "Footer"
+msgstr "Pie de página"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "For any privacy question or request, write to"
+msgstr "Para cualquier duda o solicitud de privacidad, escribe a"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "For teams that want their Odoo to speak up."
+msgstr "Para equipos que quieren que su Odoo les avise."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Forever. For every user."
+msgstr "Para siempre. Para todos los usuarios."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Free"
+msgstr "Free"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Free and Advanced are two separate apps — install the one that matches the "
+"module on your server:"
+msgstr ""
+"Free y Advanced son dos apps separadas — instala la que corresponda al "
+"módulo de tu servidor:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Free on Google Play, with a public demo server to try it first."
+msgstr ""
+"Gratis en Google Play, con un servidor demo público para probarla antes."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Free to download. Connects to the Odoo server you already have."
+msgstr "Gratis para descargar. Se conecta al servidor Odoo que ya tienes."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Free vs Advanced"
+msgstr "Free vs Advanced"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_free_vs_advanced
+msgid "Free vs Advanced — Feature comparison | Odoo Mobile Client"
+msgstr "Free vs Advanced — Comparativa de funciones | Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Frequently asked questions"
+msgstr "Preguntas frecuentes"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"From the app store to your Odoo data in less than five minutes. No technical"
+" setup, no changes to how your team already works."
+msgstr ""
+"De la tienda de aplicaciones a tus datos de Odoo en menos de cinco minutos. "
+"Sin configuración técnica, sin cambios en tu servidor."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "From the app store to your own Odoo data in minutes."
+msgstr "De la tienda de aplicaciones a tus datos de Odoo en minutos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Get Odoo Mobile Client"
+msgstr "Consigue Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Get Odoo Mobile Client for Android or iOS, free."
+msgstr "Consigue Odoo Mobile Client para Android o iOS, gratis."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Get Odoo Mobile Client from Google Play or the App Store. It is free, "
+"lightweight and works on any modern Android or iOS phone."
+msgstr ""
+"Consigue Odoo Mobile Client en Google Play o App Store. Es gratis, ligera y "
+"funciona en cualquier teléfono Android o iOS moderno."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Get it on the Odoo App Store:"
+msgstr "Consíguelo en la Odoo App Store:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Get started with Free today"
+msgstr "Empieza hoy con Free"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Get started with Odoo"
+msgstr "Empezar con Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Get the app"
+msgstr "Consigue la app"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Go to downloads"
+msgstr "Ir a descargas"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "How Odoo Mobile Client works"
+msgstr "Cómo funciona Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "How do I get support?"
+msgstr "¿Cómo obtengo soporte?"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_affiliate_click__source__how_it_works
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "How it works"
+msgstr "Cómo funciona"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_how_it_works
+msgid ""
+"How it works — Connect your Odoo server in 3 steps | Odoo Mobile Client"
+msgstr ""
+"Cómo funciona — Conecta tu servidor Odoo en 3 pasos | Odoo Mobile Client"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_use_cases
+msgid ""
+"How sales teams, warehouses, managers and consultants use the Odoo mobile "
+"app: mobile CRM, inventory on the floor, approvals and timesheets from "
+"anywhere."
+msgstr ""
+"Cómo usan la app móvil de Odoo los equipos de ventas, almacenes, gerentes y "
+"consultores: CRM móvil, inventario en piso, aprobaciones y horas desde "
+"cualquier lugar."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "I have read and accept the"
+msgstr "He leído y acepto la"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_ir_config_parameter__id
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate__id
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__id
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__id
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__id
+#: model:ir.model.fields,field_description:omc_website.field_omc_demo_credentials__id
+msgid "ID"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__message_has_error
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"If this policy changes, the new version will be published on this page with "
+"an updated date. Material changes will be highlighted inside the app."
+msgstr ""
+"Si esta política cambia, la nueva versión se publicará en esta página con la"
+" fecha actualizada. Los cambios relevantes se destacarán dentro de la app."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__inquiry_type
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "Inquiry type"
+msgstr "Tipo de consulta"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__interested
+msgid "Interested"
+msgstr "Interesado"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Inventory answers without walking back to a desk"
+msgstr "Respuestas de inventario sin regresar al escritorio"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Is Free really free?"
+msgstr "¿Free es realmente gratis?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Is the app really free?"
+msgstr "¿La app es realmente gratis?"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__lang
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_search
+msgid "Language"
+msgstr "Idioma"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__write_uid
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__write_uid
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__write_date
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__write_date
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "Last updated: July 10, 2026"
+msgstr "Última actualización: 10 de julio de 2026"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Learn more about how it works"
+msgstr "Conoce más sobre cómo funciona"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Legal"
+msgstr "Legal"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Log in with the same Odoo username and password your team already uses. No "
+"new accounts to manage."
+msgstr ""
+"Inicia sesión con el mismo usuario y contraseña de Odoo que tu equipo ya "
+"usa. Sin cuentas nuevas que administrar."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Look up stock, receive goods and validate transfers right from the floor."
+msgstr ""
+"Consulta existencias, recibe mercancía y valida transferencias desde el piso"
+" de almacén."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.footer_legal_links
+msgid "Made by"
+msgstr "Hecho por"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Made for the people who move your business"
+msgstr "Hecha para la gente que mueve tu negocio"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Manage your agenda, projects and timesheets while you are with clients."
+msgstr "Maneja tu agenda, proyectos y horas mientras estás con tus clientes."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Managers and owners"
+msgstr "Gerentes y dueños"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Many questions are already answered in the"
+msgstr "Muchas preguntas ya están respondidas en las"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_form
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Message *"
+msgstr "Mensaje *"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.actions.act_window,help:omc_website.omc_contact_lead_action
+msgid "Messages sent from the website contact form show up here."
+msgstr ""
+"Los mensajes enviados desde el formulario de contacto del sitio aparecen "
+"aquí."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Mobile access to all your Odoo apps"
+msgstr "Acceso móvil a todas tus aplicaciones de Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Multiple servers"
+msgstr "Múltiples servidores"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Multiple servers and environments"
+msgstr "Múltiples servidores y entornos"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__name
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__name
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_tag__name
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Name *"
+msgstr "Nombre *"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Native sign-in with your Odoo account"
+msgstr "Inicio de sesión nativo con tu cuenta de Odoo"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__new
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "New"
+msgstr "Nuevo"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.actions.act_window,help:omc_website.omc_affiliate_click_action
+msgid "No clicks yet"
+msgstr "Aún no hay clics"
+
+#. module: omc_website
+#: model_terms:ir.actions.act_window,help:omc_website.omc_contact_lead_action
+msgid "No contact requests yet"
+msgstr "Aún no hay solicitudes de contacto"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "No surprises for your IT team"
+msgstr "Sin sorpresas para tu equipo de TI"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid "Not using Odoo yet?"
+msgstr "¿Todavía no usas Odoo?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"Nothing extra. You keep your current Odoo plan — the app simply connects to "
+"the server you already pay for (or host yourself)."
+msgstr ""
+"Nada extra. Conservas tu plan actual de Odoo — la app simplemente se conecta"
+" al servidor que ya pagas (o que alojas tú mismo)."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Notification rules you configure yourself"
+msgstr "Reglas de notificación que tú mismo configuras"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "OMC Advanced"
+msgstr "OMC Advanced"
+
+#. module: omc_website
+#: model:ir.model,name:omc_website.model_omc_affiliate_click
+msgid "OMC Affiliate Click"
+msgstr "Clic de afiliado OMC"
+
+#. module: omc_website
+#: model:ir.model,name:omc_website.model_omc_contact_lead
+msgid "OMC Contact Lead"
+msgstr "Contacto OMC"
+
+#. module: omc_website
+#: model:ir.model,name:omc_website.model_omc_demo_credentials
+msgid "OMC Demo Credentials"
+msgstr "Credenciales del demo OMC"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "OMC Free"
+msgstr "OMC Free"
+
+#. module: omc_website
+#: model:ir.model,name:omc_website.model_omc_affiliate
+msgid "OMC Odoo Affiliate Link"
+msgstr "Enlace de afiliado de Odoo"
+
+#. module: omc_website
+#: model:ir.ui.menu,name:omc_website.menu_omc_root
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Odoo Mobile Client"
+msgstr "Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Odoo Mobile Client app running on a smartphone showing business data"
+msgstr "App Odoo Mobile Client en un smartphone mostrando datos del negocio"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid ""
+"Odoo Mobile Client connects to an Odoo server you\n"
+"                                control. If you are not running Odoo yet, you can create your\n"
+"                                account and start with the apps you need."
+msgstr ""
+"Odoo Mobile Client se conecta a un servidor Odoo que tú\n"
+"                                controlas. Si todavía no usas Odoo, puedes crear tu\n"
+"                                cuenta y empezar con las aplicaciones que necesites."
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_pricing
+msgid ""
+"Odoo Mobile Client is free to download on Android and iOS. Advanced adds "
+"push notifications and alerts; you only license its server module on the "
+"Odoo App Store."
+msgstr ""
+"Odoo Mobile Client es gratis de descargar en Android y iOS. Advanced agrega "
+"notificaciones push y alertas; solo licencias su módulo de servidor en la "
+"Odoo App Store."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Odoo Mobile Client is free to use with your own server. The Advanced edition"
+" adds push notifications and automatic alerts for sales, purchases, "
+"inventory, accounting and HR."
+msgstr ""
+"Odoo Mobile Client es gratis con tu propio servidor. La edición Advanced "
+"agrega notificaciones push y alertas automáticas de ventas, compras, "
+"inventario, contabilidad y RRHH."
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_home
+msgid "Odoo Mobile Client — The Odoo mobile app for your business"
+msgstr "Odoo Mobile Client — La app móvil de Odoo para tu negocio"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Odoo in the field, in the warehouse, in the boardroom"
+msgstr "Odoo en campo, en el almacén y en la dirección"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"Odoo is a trademark of Odoo S.A. The app and this website are developed "
+"independently by Pachedev and are not affiliated with, endorsed by or "
+"sponsored by Odoo S.A."
+msgstr ""
+"Odoo es una marca registrada de Odoo S.A. La app y este sitio web son "
+"desarrollados de manera independiente por Pachedev y no están afiliados a "
+"Odoo S.A., ni cuentan con su respaldo o patrocinio."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__odoo_version
+msgid "Odoo version"
+msgstr "Versión de Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "One Odoo mobile app for your whole business"
+msgstr "Una sola app móvil de Odoo para todo tu negocio"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "One module, one click"
+msgstr "Un módulo, un clic"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"One small step: install the connector module from the Odoo App Store on your"
+" server — odoo_mobile_client (free) for the Free edition, "
+"odoo_mobile_client_advanced (paid) for Advanced. After that, everyone just "
+"signs in from the app. Your data still never leaves your server."
+msgstr ""
+"Un pequeño paso: instala el módulo conector de la Odoo App Store en tu "
+"servidor — odoo_mobile_client (gratuito) para la edición Free, "
+"odoo_mobile_client_advanced (de pago) para Advanced. Después de eso, cada "
+"quien solo inicia sesión desde la app. Tus datos siguen sin salir de tu "
+"servidor."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "One-time module"
+msgstr "Módulo único"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Only on your phone, inside the operating system's secure storage (Keychain "
+"on iOS, Keystore on Android). They are sent only to the Odoo server you "
+"configure — never to us or to anyone else. See the Privacy Policy for "
+"details."
+msgstr ""
+"Solo en tu teléfono, dentro del almacenamiento seguro del sistema operativo "
+"(Keychain en iOS, Keystore en Android). Se envían únicamente al servidor "
+"Odoo que tú configuras — nunca a nosotros ni a nadie más. Consulta la "
+"Política de Privacidad para más detalles."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "Open"
+msgstr "Abiertos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Open the exact record straight from a notification"
+msgstr "Abre el registro exacto directo desde una notificación"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Optionally, protect the app with your fingerprint or face so nobody else can"
+" open it."
+msgstr ""
+"Si quieres, protege la app con tu huella o tu rostro para que nadie más "
+"pueda abrirla."
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_affiliate_click__source__other
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__inquiry_type__other
+msgid "Other"
+msgstr "Otro"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.footer_legal_links
+msgid "Pachedev"
+msgstr "Pachedev"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__pending
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Pick the edition that fits your team"
+msgstr "Elige la edición que le queda a tu equipo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Pick the edition that matches your server: Free for everyday mobile access, "
+"Advanced if you also want push notifications."
+msgstr ""
+"Elige la edición que corresponde a tu servidor: Free para el acceso móvil "
+"del día a día, Advanced si además quieres notificaciones push."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/controllers/contact.py:0
+msgid "Please enter a valid email address."
+msgstr "Indica un correo electrónico válido."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/controllers/contact.py:0
+msgid "Please tell us how we can help."
+msgstr "Cuéntanos cómo podemos ayudarte."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/controllers/contact.py:0
+msgid "Please tell us your name."
+msgstr "Indícanos tu nombre."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"Point the app to our demo server and explore Odoo with sample data — it "
+"works for both Free and Advanced."
+msgstr ""
+"Apunta la app a nuestro servidor demo y explora Odoo con datos de ejemplo — "
+"funciona para Free y para Advanced."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Pricing"
+msgstr "Precios"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_pricing
+msgid "Pricing — Free apps, one-time Advanced module | Odoo Mobile Client"
+msgstr ""
+"Precios — Apps gratuitas, módulo Advanced de pago único | Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "Privacy Policy"
+msgstr "Política de Privacidad"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_privacy
+msgid "Privacy Policy | Odoo Mobile Client"
+msgstr "Política de Privacidad | Odoo Mobile Client"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__consent
+msgid "Privacy consent"
+msgstr "Consentimiento de privacidad"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_privacy
+msgid ""
+"Privacy policy of the Odoo Mobile Client app: credentials stored only on "
+"your device, no data collection, no third parties, optional biometrics."
+msgstr ""
+"Política de privacidad de la app Odoo Mobile Client: credenciales guardadas "
+"solo en tu dispositivo, sin recolección de datos, sin terceros, biometría "
+"opcional."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Product"
+msgstr "Producto"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Push notifications and automatic alerts, on top of everything in Free."
+msgstr "Notificaciones push y alertas automáticas, encima de todo lo de Free."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Push notifications on your phone"
+msgstr "Notificaciones push en tu teléfono"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_contact
+msgid ""
+"Questions about Odoo Mobile Client, the server modules or the demo? Write to"
+" contact@pachedev.com or use the contact form — we answer fast."
+msgstr "¿Dudas sobre Odoo Mobile Client, los módulos de servidor o el demo? Escribe a contact@pachedev.com o usa el formulario de contacto — respondemos rápido."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid ""
+"Questions about the app, the server modules or the demo? Tell us what you "
+"need and we will get back to you."
+msgstr "¿Dudas sobre la app, los módulos de servidor o el demo? Cuéntanos qué necesitas y te responderemos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "Questions about these Terms:"
+msgstr "Dudas sobre estos Términos:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Questions before you install?"
+msgstr "¿Dudas antes de instalar?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Ready to try it?"
+msgstr "¿Listo para probarla?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_form
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_list
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "Received"
+msgstr "Recibido"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Reliable session"
+msgstr "Sesión confiable"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"Removing a saved server in the app deletes its stored address, credentials "
+"and session from your device."
+msgstr ""
+"Al eliminar un servidor guardado en la app se borran de tu dispositivo su "
+"dirección, credenciales y sesión almacenadas."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Requires the free"
+msgstr "Requiere el módulo gratuito"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Requires the paid"
+msgstr "Requiere el módulo de pago"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Review dashboards and approve requests without opening your laptop."
+msgstr "Revisa tableros y aprueba solicitudes sin abrir tu laptop."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Run the business from wherever you are"
+msgstr "Dirige el negocio desde donde estés"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__inquiry_type__sales
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "Sales"
+msgstr "Ventas"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"Sales figures before breakfast, an expense approval from the airport, a "
+"quick look at cash flow between calls. The business does not pause when you "
+"leave the office — neither should your visibility."
+msgstr ""
+"Las cifras de ventas antes del desayuno, una aprobación de gastos desde el "
+"aeropuerto, un vistazo al flujo de efectivo entre llamadas. El negocio no se"
+" detiene cuando sales de la oficina — tu visibilidad tampoco debería."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Sales on the road"
+msgstr "Ventas en la calle"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Sales, inventory, projects, approvals — all of Odoo, on your phone."
+msgstr ""
+"Ventas, inventario, proyectos, aprobaciones — todo Odoo, en tu teléfono."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Sales, warehouse, management and services — each with their own Odoo apps at"
+" hand."
+msgstr ""
+"Ventas, almacén, dirección y servicios — cada quien con sus aplicaciones de "
+"Odoo a la mano."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Salesperson updating Odoo CRM opportunities from a mobile phone"
+msgstr "Vendedor actualizando oportunidades del CRM de Odoo desde un celular"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Same app experience; Advanced adds the notification layer."
+msgstr "Misma experiencia de app; Advanced agrega la capa de notificaciones."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Secure by design"
+msgstr "Segura por diseño"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "See how it works"
+msgstr "Mira cómo funciona"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "See the full setup guide"
+msgstr "Ver la guía completa de configuración"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Send message <i class=\"fa fa-paper-plane ms-1\"/>"
+msgstr "Enviar mensaje <i class=\"fa fa-paper-plane ms-1\"/>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Server"
+msgstr "Servidor:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Server module (Odoo App Store)"
+msgstr "Módulo de servidor (Odoo App Store)"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Services and consulting"
+msgstr "Servicios y consultoría"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"Shared demo environment — data is visible to other visitors and resets "
+"periodically."
+msgstr ""
+"Entorno demo compartido — los datos son visibles para otros visitantes y se "
+"reinician periódicamente."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Show or hide"
+msgstr "Mostrar u ocultar"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Simple pricing"
+msgstr "Precios simples"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Simple, native sign-in"
+msgstr "Inicio de sesión simple y nativo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"Since we do not collect personal data, there is normally nothing for us to "
+"hand over or erase. If you believe we hold any information about you, or you"
+" have any privacy question, contact us and we will respond promptly. "
+"Residents of jurisdictions with data-protection laws (such as the GDPR) may "
+"exercise their rights of access, rectification and erasure through the same "
+"channel."
+msgstr ""
+"Como no recolectamos datos personales, normalmente no hay nada que podamos "
+"entregar o borrar. Si crees que tenemos alguna información tuya, o tienes "
+"cualquier duda de privacidad, contáctanos y te responderemos a la brevedad. "
+"Quienes residan en jurisdicciones con leyes de protección de datos (como el "
+"RGPD) pueden ejercer sus derechos de acceso, rectificación y eliminación por"
+" el mismo canal."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_affiliate_click__source
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_search
+msgid "Source"
+msgstr "Origen"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Start free. Go further when you are ready."
+msgstr "Empieza gratis. Llega más lejos cuando estés listo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
+msgid "Start here"
+msgstr "Empieza aquí"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Start with the free app today. Move to Advanced when you want your Odoo to "
+"reach out to you — not the other way around. Both are available now."
+msgstr ""
+"Empieza hoy con la app gratuita. Pasa a Advanced cuando quieras que tu Odoo "
+"te busque a ti — y no al revés. Las dos ya están disponibles."
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__state
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+msgid "Status"
+msgstr "Estado"
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Stay signed in and keep working smoothly, even when your connection on the "
+"road is not perfect."
+msgstr ""
+"Mantén tu sesión abierta y sigue trabajando sin fricción, aun cuando la "
+"conexión en el camino no sea perfecta."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Still have a question?"
+msgstr "¿Todavía tienes dudas?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"Stock levels, incoming receipts and internal transfers — right where the "
+"products are. Your warehouse staff validates operations on the spot instead "
+"of writing them down for later."
+msgstr ""
+"Niveles de existencias, recepciones y transferencias internas — justo donde "
+"están los productos. Tu personal de almacén valida las operaciones en el "
+"momento en lugar de anotarlas para después."
+
+#. module: omc_website
+#: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__inquiry_type__support
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Support"
+msgstr "Soporte"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "Support is provided on a best-effort basis through"
+msgstr "El soporte se brinda con el mejor esfuerzo a través de"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Supported Odoo versions"
+msgstr "Versiones de Odoo soportadas"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Switch between companies or environments in seconds. Ideal if you work with "
+"more than one Odoo database."
+msgstr ""
+"Cambia entre empresas o entornos en segundos. Ideal si trabajas con más de "
+"una base de datos de Odoo."
+
+#. module: omc_website
+#: model:ir.model,name:omc_website.model_ir_config_parameter
+msgid "System Parameter"
+msgstr "Parámetro del sistema"
+
+#. module: omc_website
+#: model:ir.actions.act_window,name:omc_website.omc_contact_tag_action
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__tag_ids
+#: model:ir.ui.menu,name:omc_website.menu_omc_tags
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_tag_view_list
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Take your Odoo with you today"
+msgstr "Llévate tu Odoo contigo hoy"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Team member using Odoo apps on a mobile phone while away from the office"
+msgstr ""
+"Miembro del equipo usando las aplicaciones de Odoo en un celular fuera de la"
+" oficina"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Terms &amp; Conditions"
+msgstr "Términos y Condiciones"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "Terms and Conditions"
+msgstr "Términos y Condiciones"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_terms
+msgid "Terms and Conditions | Odoo Mobile Client"
+msgstr "Términos y Condiciones | Odoo Mobile Client"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_terms
+msgid ""
+"Terms of use of the Odoo Mobile Client app: access-client license, your data"
+" stays on your Odoo server, Free and Advanced editions, support terms."
+msgstr ""
+"Términos de uso de la app Odoo Mobile Client: licencia de cliente de acceso,"
+" tus datos se quedan en tu servidor Odoo, ediciones Free y Advanced, "
+"términos de soporte."
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_contact_thanks
+msgid "Thank you — Message sent | Odoo Mobile Client"
+msgstr "Gracias — Mensaje enviado | Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact_thanks
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"That is it. Your sales, inventory, projects, expenses and every other Odoo "
+"app you have access to are now in your pocket — with the same permissions "
+"and the same data as on your computer."
+msgstr ""
+"Eso es todo. Tus ventas, inventario, proyectos, gastos y cada aplicación de "
+"Odoo a la que tengas acceso ahora están en tu bolsillo — con los mismos "
+"permisos y los mismos datos que en tu computadora."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/models/omc_contact_lead.py:0
+msgid "The CRM module is not installed."
+msgstr "El módulo CRM no está instalado."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"The Free edition of the app is licensed to you free of charge, for personal "
+"or business use, on any number of devices. The upcoming Advanced edition "
+"will be offered under its own commercial terms, published before its "
+"release. You may not reverse engineer, resell or redistribute the app except"
+" where the law expressly permits it."
+msgstr ""
+"La edición Free de la app se te licencia sin costo, para uso personal o "
+"empresarial, en cualquier número de dispositivos. La próxima edición "
+"Advanced se ofrecerá bajo sus propios términos comerciales, publicados antes"
+" de su lanzamiento. No puedes aplicar ingeniería inversa, revender ni "
+"redistribuir la app salvo donde la ley lo permita expresamente."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "The OMC module on your server"
+msgstr "El módulo OMC en tu servidor"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"The app currently includes no analytics or advertising tools. If analytics "
+"are ever added, this policy will be updated first, the collection will be "
+"anonymous, and it will require your explicit consent."
+msgstr ""
+"Actualmente la app no incluye herramientas de analítica ni publicidad. Si "
+"algún día se agrega analítica, esta política se actualizará primero, la "
+"recolección será anónima y requerirá tu consentimiento explícito."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"The app does not send your information to us or to any third party. All "
+"business data you view or edit in the app travels directly between your "
+"device and the Odoo server you configured, and remains stored on that "
+"server. We have no access to it."
+msgstr ""
+"La app no envía tu información a nosotros ni a ningún tercero. Todos los "
+"datos de negocio que ves o editas en la app viajan directamente entre tu "
+"dispositivo y el servidor Odoo que configuraste, y permanecen almacenados en"
+" ese servidor. Nosotros no tenemos acceso a ellos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"The app is an access client: it lets you connect to an Odoo server that you "
+"or your organization control, and work with the data stored there. The app "
+"is not a data host. Your business data lives on your Odoo server, is owned "
+"by you or your organization, and is governed by that server's own terms and "
+"policies."
+msgstr ""
+"La app es un cliente de acceso: te permite conectarte a un servidor Odoo que"
+" tú o tu organización controlan, y trabajar con los datos ahí almacenados. "
+"La app no aloja datos. Tus datos de negocio viven en tu servidor Odoo, son "
+"propiedad tuya o de tu organización, y se rigen por los términos y políticas"
+" de ese servidor."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"The app is provided \"as is\", without warranty of any kind. We do not "
+"guarantee that the app will be error-free or uninterrupted, or that it will "
+"be compatible with every Odoo server configuration. Nothing in this section "
+"limits rights that consumer law grants you and that cannot be waived."
+msgstr ""
+"La app se proporciona \"tal cual\", sin garantía de ningún tipo. No "
+"garantizamos que la app esté libre de errores o interrupciones, ni que sea "
+"compatible con todas las configuraciones de servidor Odoo. Nada en esta "
+"sección limita los derechos que la ley del consumidor te otorga y que no "
+"pueden renunciarse."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"The app talks only to the Odoo server you configure. We do not store, copy "
+"or route your business data anywhere else."
+msgstr ""
+"La app se comunica únicamente con el servidor Odoo que tú configuras. No "
+"almacenamos, copiamos ni enviamos tus datos de negocio a ningún otro lado."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"The connector module installs from the Odoo App Store like any other app. No"
+" servers to expose, no custom deployment."
+msgstr ""
+"El módulo conector se instala desde la Odoo App Store como cualquier otra "
+"app. Sin exponer servidores ni despliegues a la medida."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid ""
+"The mobile app that puts your own\n"
+"                                    Odoo server in your team's pocket."
+msgstr ""
+"La app móvil que pone tu propio servidor Odoo en el bolsillo de tu equipo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"The price of the <strong>odoo_mobile_client_advanced</strong> module on the "
+"Odoo App Store — a one-time purchase per server. The app download stays "
+"free."
+msgstr ""
+"El precio del módulo <strong>odoo_mobile_client_advanced</strong> en la Odoo"
+" App Store — una compra única por servidor. La descarga de la app sigue "
+"siendo gratis."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "The same web address you use to open Odoo in your browser."
+msgstr "La misma dirección web que usas para abrir Odoo en tu navegador."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "The session information your Odoo server issues after you sign in."
+msgstr ""
+"La información de sesión que tu servidor Odoo emite al iniciar sesión."
+
+#. module: omc_website
+#: model:ir.model.constraint,message:omc_website.constraint_omc_contact_tag_name_uniq
+msgid "The tag already exists."
+msgstr "La etiqueta ya existe."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "The web address of the Odoo server(s) you choose to connect to."
+msgstr ""
+"La dirección web del o los servidores Odoo a los que decides conectarte."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"These Terms and Conditions (\"Terms\") govern your use of the <strong>Odoo "
+"Mobile Client</strong> mobile application (\"the app\"), published by "
+"Pachedev. By installing or using the app you agree to these Terms."
+msgstr ""
+"Estos Términos y Condiciones (\"Términos\") rigen tu uso de la aplicación "
+"móvil <strong>Odoo Mobile Client</strong> (\"la app\"), publicada por "
+"Pachedev. Al instalar o usar la app aceptas estos Términos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"This Privacy Policy describes how the <strong>Odoo Mobile Client</strong> "
+"mobile application (\"the app\"), published by Pachedev, handles your "
+"information. The short version: your data belongs to you and to the Odoo "
+"server you connect to — we do not collect it, sell it or share it."
+msgstr ""
+"Esta Política de Privacidad describe cómo la aplicación móvil <strong>Odoo "
+"Mobile Client</strong> (\"la app\"), publicada por Pachedev, maneja tu "
+"información. La versión corta: tus datos te pertenecen a ti y al servidor "
+"Odoo al que te conectas — nosotros no los recolectamos, no los vendemos ni "
+"los compartimos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"This information is used exclusively to establish and maintain your "
+"connection with your own Odoo server."
+msgstr ""
+"Esta información se usa exclusivamente para establecer y mantener tu "
+"conexión con tu propio servidor Odoo."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/models/omc_contact_lead.py:0
+msgid "This lead has already been converted to CRM."
+msgstr "Este contacto ya fue convertido a CRM."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_affiliate_click_view_search
+msgid "This month"
+msgstr "Este mes"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"To do its job, the app needs the following information, which you provide "
+"directly:"
+msgstr ""
+"Para hacer su trabajo, la app necesita la siguiente información, que tú "
+"proporcionas directamente:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"To the maximum extent permitted by law, Pachedev shall not be liable for any"
+" indirect, incidental or consequential damages — including loss of data, "
+"revenue or profits — arising from the use of, or inability to use, the app. "
+"Your data resides on your own Odoo server; its integrity and availability "
+"depend on that server, not on the app."
+msgstr ""
+"En la máxima medida permitida por la ley, Pachedev no será responsable de "
+"daños indirectos, incidentales o consecuentes — incluida la pérdida de "
+"datos, ingresos o utilidades — derivados del uso o la imposibilidad de uso "
+"de la app. Tus datos residen en tu propio servidor Odoo; su integridad y "
+"disponibilidad dependen de ese servidor, no de la app."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Try it before you connect your own server"
+msgstr "Pruébala antes de conectar tu propio servidor"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Try the demo"
+msgstr "Prueba el demo"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__turnstile_passed
+msgid "Turnstile validated"
+msgstr "Turnstile validado"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"Two editions, one experience. Both available on Google Play — the iOS "
+"release is on its way."
+msgstr ""
+"Dos ediciones, una misma experiencia. Ambas disponibles en Google Play — la "
+"versión para iOS viene en camino."
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Type the web address your company already uses to open Odoo — for example "
+"<em>mycompany.odoo.com</em> — and sign in with your usual username and "
+"password."
+msgstr ""
+"Escribe la dirección web que tu empresa ya usa para abrir Odoo — por ejemplo"
+" <em>miempresa.odoo.com</em> — e inicia sesión con tu usuario y contraseña "
+"de siempre."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Type your company's Odoo address and sign in with your usual account."
+msgstr ""
+"Escribe la dirección de Odoo de tu empresa e inicia sesión con tu cuenta de "
+"siempre."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "Uninstalling the app removes all locally stored data."
+msgstr "Desinstalar la app elimina todos los datos almacenados localmente."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Up and running in three steps"
+msgstr "Funcionando en tres pasos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Use Odoo from your phone"
+msgstr "Usa Odoo desde tu celular"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+msgid "Use cases"
+msgstr "Casos de uso"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_title:omc_website.view_use_cases
+msgid "Use cases — Mobile CRM, inventory and approvals | Odoo Mobile Client"
+msgstr ""
+"Casos de uso — CRM móvil, inventario y aprobaciones | Odoo Mobile Client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "User"
+msgstr "Usuario"
+
+#. module: omc_website
+#: model_terms:ir.actions.act_window,help:omc_website.omc_affiliate_click_action
+msgid ""
+"Visitors without an Odoo server who follow the affiliate link show up here,\n"
+"                grouped by where on the site they clicked."
+msgstr ""
+"Aquí aparecen los visitantes sin servidor Odoo que siguen el enlace de afiliado,\n"
+"                agrupados por el lugar del sitio donde hicieron clic."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Warehouse and inventory"
+msgstr "Almacén e inventario"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Warehouse worker checking Odoo inventory levels on a mobile device"
+msgstr ""
+"Almacenista consultando niveles de inventario de Odoo en un dispositivo "
+"móvil"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "We are happy to help before and after you install."
+msgstr "Con gusto te ayudamos antes y después de instalar."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/controllers/contact.py:0
+msgid "We could not verify that you are human. Please try again."
+msgstr "No pudimos verificar que eres humano. Inténtalo de nuevo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"We may update these Terms from time to time. The current version will always"
+" be available on this page with its date of last update. Continued use of "
+"the app after a change constitutes acceptance of the new Terms."
+msgstr ""
+"Podemos actualizar estos Términos de vez en cuando. La versión vigente "
+"estará siempre disponible en esta página con su fecha de última "
+"actualización. Seguir usando la app después de un cambio constituye la "
+"aceptación de los nuevos Términos."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/models/omc_contact_lead.py:0
+msgid "Web: %s"
+msgstr "Web: %s"
+
+#. module: omc_website
+#: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: omc_website
+#: model:ir.model.fields,help:omc_website.field_omc_contact_lead__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "What does Advanced cost?"
+msgstr "¿Cuánto cuesta Advanced?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "What does the Advanced edition add?"
+msgstr "¿Qué agrega la edición Advanced?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "What each edition gives you"
+msgstr "Qué te da cada edición"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "What is your question about?"
+msgstr "¿Sobre qué es tu consulta?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "What you need"
+msgstr "Lo que necesitas"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "What you pay, and what you do not"
+msgstr "Qué pagas y qué no"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid "Where are my username and password stored?"
+msgstr "¿Dónde se guardan mi usuario y contraseña?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"Wherever your team works, their Odoo apps go with them. Here is what Odoo "
+"Mobile Client looks like in real businesses."
+msgstr ""
+"Donde sea que trabaje tu equipo, sus aplicaciones de Odoo van con ellos. Así"
+" se ve Odoo Mobile Client en negocios reales."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Work from anywhere"
+msgstr "Trabaja desde donde estés"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Write to contact@pachedev.com or use the contact form on this site. Include "
+"your phone model and, if possible, a screenshot — it helps us answer faster."
+msgstr ""
+"Escribe a contact@pachedev.com o usa el formulario de contacto de este "
+"sitio. Incluye el modelo de tu teléfono y, si puedes, una captura de "
+"pantalla — nos ayuda a responder más rápido."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Yes — Community and Enterprise, wherever they are hosted (Odoo.sh or your "
+"own hosting). OMC Free supports Odoo 12 to 19+, and OMC Advanced supports "
+"Odoo 17 to 19+. If you are unsure about your specific setup, write to us and"
+" we will confirm."
+msgstr ""
+"Sí — Community y Enterprise, sin importar dónde estén alojados (Odoo.sh o tu"
+" propio hosting). OMC Free soporta Odoo 12 a 19+ y OMC Advanced soporta Odoo"
+" 17 a 19+. Si tienes dudas sobre tu configuración específica, escríbenos y "
+"te lo confirmamos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Yes — everyone with an Odoo account in your company can install the app and "
+"sign in. Each person sees exactly what their Odoo permissions allow, just "
+"like on a computer."
+msgstr ""
+"Sí — cualquier persona con cuenta de Odoo en tu empresa puede instalar la "
+"app e iniciar sesión. Cada quien ve exactamente lo que sus permisos de Odoo "
+"le permiten, igual que en una computadora."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"Yes. No trial period, no user limit, no locked screens. Free is the full "
+"mobile access experience."
+msgstr ""
+"Sí. Sin periodo de prueba, sin límite de usuarios, sin pantallas bloqueadas."
+" Free es la experiencia completa de acceso móvil."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Yes. Odoo Mobile Client is an access client: it connects to an Odoo server "
+"that you or your company control, and it does not host any data of its own."
+msgstr ""
+"Sí. Odoo Mobile Client es un cliente de acceso: se conecta a un servidor "
+"Odoo que tú o tu empresa controlan, y no aloja ningún dato por su cuenta."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Yes. Odoo Mobile Client is free to download and free to use, with no user "
+"limit and no trial period. The Advanced edition is also a free download — "
+"you only pay for its server module on the Odoo App Store."
+msgstr ""
+"Sí. Odoo Mobile Client es gratis de descargar y gratis de usar, sin límite "
+"de usuarios ni periodo de prueba. La edición Advanced también es una "
+"descarga gratuita — solo pagas su módulo de servidor en la Odoo App Store."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_faq
+msgid ""
+"Yes. You can save several servers — for example two companies, or a "
+"production and a test environment — and switch between them without typing "
+"credentials again."
+msgstr ""
+"Sí. Puedes guardar varios servidores — por ejemplo dos empresas, o un "
+"entorno de producción y uno de pruebas — y cambiar entre ellos sin volver a "
+"escribir tus credenciales."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"You agree not to use the app to attempt unauthorized access to any server, "
+"to disrupt any service, or to violate any applicable law."
+msgstr ""
+"Aceptas no usar la app para intentar accesos no autorizados a ningún "
+"servidor, interrumpir ningún servicio ni violar ninguna ley aplicable."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "You are in control at all times:"
+msgstr "Tú tienes el control en todo momento:"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"You are responsible for keeping your device and its unlock methods secure."
+msgstr ""
+"Eres responsable de mantener seguro tu dispositivo y sus métodos de "
+"desbloqueo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"You are responsible for the Odoo server you connect to, including its "
+"availability, security and backups."
+msgstr ""
+"Eres responsable del servidor Odoo al que te conectas, incluida su "
+"disponibilidad, seguridad y respaldos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "You can explore both editions right now with our"
+msgstr "Puedes explorar las dos ediciones ahora mismo con nuestro"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"You can save more than one server and switch between them at any time, which"
+" is handy if you work with several companies or with a test environment."
+msgstr ""
+"Puedes guardar más de un servidor y cambiar entre ellos en cualquier "
+"momento, muy útil si trabajas con varias empresas o con un entorno de "
+"pruebas."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"You may optionally protect the app with your fingerprint or face. Biometric "
+"verification is performed entirely by your device's operating system. The "
+"app never reads, stores or transmits your biometric data."
+msgstr ""
+"Puedes proteger opcionalmente la app con tu huella o tu rostro. La "
+"verificación biométrica la realiza por completo el sistema operativo de tu "
+"dispositivo. La app nunca lee, almacena ni transmite tus datos biométricos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"You must use credentials you are authorized to use. Access rights inside the"
+" app mirror the permissions of your Odoo account."
+msgstr ""
+"Debes usar credenciales que estés autorizado a usar. Los derechos de acceso "
+"dentro de la app reflejan los permisos de tu cuenta de Odoo."
+
+#. module: omc_website
+#. odoo-python
+#: code:addons/omc_website/controllers/contact.py:0
+msgid "You need to accept the privacy policy."
+msgstr "Es necesario aceptar la política de privacidad."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Your Odoo address"
+msgstr "Tu dirección de Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid "Your Odoo username and password for those servers."
+msgstr "Tu usuario y contraseña de Odoo para esos servidores."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "Your Odoo version"
+msgstr "Tu versión de Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Your Odoo, in your team's pocket"
+msgstr "Tu Odoo, en el bolsillo de tu equipo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Your agenda and projects, next to your client"
+msgstr "Tu agenda y tus proyectos, junto a tu cliente"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"Your business data lives on your Odoo server and is governed by your own "
+"organization's policies — deleting the app does not affect it."
+msgstr ""
+"Tus datos de negocio viven en tu servidor Odoo y se rigen por las políticas "
+"de tu propia organización — borrar la app no los afecta."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Your credentials are stored only in your phone's secure storage, with "
+"optional fingerprint or face unlock."
+msgstr ""
+"Tus credenciales se guardan solo en el almacenamiento seguro de tu teléfono,"
+" con desbloqueo opcional por huella o rostro."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Your data never leaves your server"
+msgstr "Tus datos nunca salen de tu servidor"
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_contact_thanks
+msgid ""
+"Your message has been sent to the Odoo Mobile Client team. We will get back "
+"to you shortly."
+msgstr ""
+"Tu mensaje fue enviado al equipo de Odoo Mobile Client. Te responderemos en "
+"breve."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact_thanks
+msgid "Your message has been sent. We will get back to you shortly."
+msgstr "Tu mensaje ha sido enviado. Te responderemos en breve."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "Your permissions, respected"
+msgstr "Tus permisos, respetados"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid ""
+"Your sales reps check customer history on the way in, update the opportunity"
+" on the way out, and send the quote from the parking lot. No more \"I'll do "
+"it when I'm back at the office\"."
+msgstr ""
+"Tus vendedores revisan el historial del cliente antes de entrar, actualizan "
+"la oportunidad al salir y envían la cotización desde el estacionamiento. Se "
+"acabó el \"lo hago cuando llegue a la oficina\"."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+msgid ""
+"Your server addresses, credentials and session information are stored only "
+"on your device, inside the operating system's secure, encrypted storage "
+"(Keychain on iOS, Keystore on Android). They are transmitted only to the "
+"Odoo server you configured, over the connection that server provides. "
+"Passwords and session identifiers are never written to application logs."
+msgstr ""
+"Las direcciones de tus servidores, tus credenciales y tu información de "
+"sesión se guardan únicamente en tu dispositivo, dentro del almacenamiento "
+"seguro y cifrado del sistema operativo (Keychain en iOS, Keystore en "
+"Android). Se transmiten solo al servidor Odoo que configuraste, por la "
+"conexión que ese servidor provee. Las contraseñas y los identificadores de "
+"sesión nunca se escriben en los registros de la aplicación."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
+msgid "Your team already knows Odoo. Now hand it to them."
+msgstr "Tu equipo ya conoce Odoo. Ahora pónselo en la mano."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "and agree to my data being used to answer my request. *"
+msgstr "y autorizo el uso de mis datos para responder mi solicitud. *"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid ""
+"and the contact form on this website. Support does not cover the "
+"administration of your Odoo server itself."
+msgstr ""
+"y el formulario de contacto de este sitio web. El soporte no cubre la "
+"administración de tu servidor Odoo como tal."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.omc_footer
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+#: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
+#: model_terms:ir.ui.view,arch_db:omc_website.view_terms
+msgid "contact@pachedev.com"
+msgstr "contact@pachedev.com"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "for Advanced."
+msgstr "para Advanced."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "for Advanced. One click, no configuration."
+msgstr "para Advanced. Un clic, sin configuración."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "for Free,"
+msgstr "para Free y"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "free module"
+msgstr "módulo gratuito"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "frequently asked questions"
+msgstr "preguntas frecuentes"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"module from the Odoo App Store — the module purchase is the only cost, the "
+"app itself is free."
+msgstr ""
+"de la Odoo App Store — la compra del módulo es el único costo, la app es "
+"gratis."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "module on your server, available on the Odoo App Store."
+msgstr "en tu servidor, disponible en la Odoo App Store."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "odoo_mobile_client"
+msgstr "odoo_mobile_client"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "odoo_mobile_client (free)"
+msgstr "odoo_mobile_client (gratuito)"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid "odoo_mobile_client_advanced"
+msgstr "odoo_mobile_client_advanced"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "odoo_mobile_client_advanced (paid)"
+msgstr "odoo_mobile_client_advanced (de pago)"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "or"
+msgstr "o"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "paid module"
+msgstr "módulo de pago"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "privacy policy"
+msgstr "política de privacidad"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_contact
+msgid "public demo server"
+msgstr "servidor demo público"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "write to us"
+msgstr "escríbenos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.footer_legal_links
+msgid "— Odoo Mobile Client."
+msgstr "— Odoo Mobile Client."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "— we answer fast."
+msgstr "— respondemos rápido."

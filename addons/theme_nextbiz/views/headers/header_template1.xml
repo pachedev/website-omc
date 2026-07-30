@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="theme_nextbiz_header_new1" inherit_id="website.layout" name="Header One"
+		active="False">
+		<xpath expr="//header//nav" position="replace">
+			<div class="oe_structure oe_structure_solo o_editable o_cc navbar-light"
+				id="oe_structure_header_contact_1">
+				<section class="s_text_block top-header pt8 pb8">
+					<div class="container">
+						<div class="row align-items-center text-center">
+							<div class="col-3 mobile-sidebar-toggle d-block d-md-none">
+								<button type="button" id="show-sidebar"
+									class="btn btn-md d-block d-md-none">
+									<span class="ri ri-function-line text-secondary fa-2x"></span>
+								</button>
+							</div>
+							<div class="col-9 col-md-4 col-lg-3 text-end text-md-start">
+								<div class="d-flex header_position">
+									<t t-call="website.placeholder_header_brand" />
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-6">
+								<div t-if="is_view_active('website.header_text_element')"
+									class="user-info">
+									<div class="top-header-contact mx-auto d-none d-lg-flex" id="">
+										<ul class=" mx-auto d-inline-block my-0 ps-0">
+											<li class="nav-item">
+												<a class="nav-link d-inline-flex">
+													<div class="contact-icon mr8 my-auto">
+														<i class="icon ri ri-phone-line fa-2x"></i>
+													</div>
+													<div class="contact-data">
+														<small class="text-muted">Requesting a Call:</small>
+														<h5 t-out="res_company.phone"></h5>
+													</div>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link d-inline-flex">
+													<div class="contact-icon mr8 my-auto">
+														<i class="icon ri ri-map-pin-line fa-2x"></i>
+													</div>
+													<div class="contact-data">
+														<small class="text-muted"
+															t-out="res_company.street" />
+														<h5 t-out="res_company.city"></h5>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 col-lg-3 text-end">
+								<div class="header-media text-end d-none d-md-inline-flex">
+									<t t-call="website.placeholder_header_social_links">
+										<t t-set="_div_class"
+											t-valuef="d-flex align-items-center justify-content-end h-100" />
+									</t>
+									<div class="login_nav ms-1">
+										<ul class="nav align-items-center">
+
+											<!-- Login / Signup -->
+											<t t-call="portal.placeholder_user_sign_in">
+												<t t-set="_item_class"
+													t-value="'nav-item ms-lg-auto'" />
+												<t t-set="_link_class" t-value="'nav-link fw-bold'" />
+											</t>
+
+											<!-- User Dropdown -->
+											<t t-call="portal.user_dropdown">
+												<t t-set="_icon" t-value="true" />
+												<t t-set="_user_name" t-value="false" />
+												<t t-set="_item_class"
+													t-value="'nav-item dropdown ms-lg-auto'" />
+												<t t-set="_link_class" t-value="'nav-link fw-bold'" />
+											</t>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<nav data-name="Navbar" id="nextbiz-header-new-1"
+				class="nextbiz_header navbar navbar-light navbar-expand-lg o_colored_level o_cc shadow-sm d-block py-0">
+				<div class="bottom-header">
+					<div id="top_menu_container" class="container">
+						<div class="row align-items-center">
+							<div class="col-md-8 col-lg-9 header_left">
+								<nav class="navbar navbar-expand-md p-0 d-none d-md-block bizople-header-new1" id="top_menu_collapse_mobile">
+									<div class="collapse navbar-collapse" id="header_new1-menuitem">
+										<t t-call="website.navbar_nav" _nav_class.f="me-auto" id="top_menu">
+											<t t-foreach="website.menu_id.child_id" t-as="submenu">
+												<t t-call="website.submenu">
+													<t t-set="item_class" t-value="'nav-item'" />
+													<t t-set="link_class" t-value="'nav-link'" />
+												</t>
+											</t>
+										</t>
+										<ul class="list-unstyled mb-0">
+											<t t-call="website.placeholder_header_language_selector">
+												<t t-set="_div_classes" t-valuef="my-auto ms-0"/>
+											</t>
+										</ul>
+									</div>
+								</nav>
+							</div>
+							<div class="col-md-4 col-lg-3 d-none d-md-block header_right">
+								<div class="s_btn text-end" data-name="Button">
+									<a href="#" class="btn btn-primary btn-lg">Make An Appointment <span
+											class="fa fa-long-arrow-right ps-1 fa-1x" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- <t t-call="theme_nextbiz.bizople_mbl_side_bar"/> -->
+		</xpath>
+		<xpath expr="//header" position="after">
+			<div class="d-block d-md-none">
+				<t t-call="theme_nextbiz.bizople_mobile_bottom_icon_bar" />
+			</div>
+		</xpath>
+	</template>
+	<template id="theme_nextbiz_header1_align_center"
+		inherit_id="theme_nextbiz.theme_nextbiz_header_new1"
+		active="False">
+		<xpath expr="//t[@id='top_menu']" position="attributes">
+			<attribute name="_nav_class.f">mx-auto</attribute>
+		</xpath>
+	</template>
+	<template id="theme_nextbiz_header1_align_right"
+		inherit_id="theme_nextbiz.theme_nextbiz_header_new1"
+		active="False">
+		<xpath expr="//t[@id='top_menu']" position="attributes">
+			<attribute name="_nav_class.f">ms-auto</attribute>
+		</xpath>
+	</template>
+
+</odoo>

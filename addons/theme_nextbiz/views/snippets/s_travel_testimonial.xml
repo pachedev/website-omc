@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+    <template id="s_travel_testimonial" name="Testimonial">
+        <section class="travel-testimonial">
+            <div class="container">
+                <section class="s_carousel_wrapper row" data-vxml="001"
+                    data-vcss="001"
+                    data-snippet="s_carousel">
+                    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover"
+                        data-bs-interval="7000" data-bs-ride="true" id="Traveltestimonialcarousel3"
+                        style="background-image: none;">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active pb64">
+                                <div class="position-relative justify-content-center">
+                                    <div class="col-xl-12 col-lg-12 col-md-12">
+                                        <div class="client-content">
+                                            <div class="image">
+                                                <img class="img img-fluid"
+                                                    src="/theme_nextbiz/static/src/img/vouge-team1.png"
+                                                    data-original-src="/theme_nextbiz/static/src/img/vouge-team1.png" />
+                                            </div>
+                                            <div class="client-info">
+                                                <p>"Dolor ipsum dolor sit amet, consectetuer
+                                                    adipiscing elit. Lorem commodo ligula eg dolor.
+                                                    Lorem Aenean msa. Cum sociis natoque"</p>
+                                                <span>Paul Williams</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item pb64">
+                                <div class="position-relative justify-content-center">
+                                    <div class="col-xl-12 col-lg-12 col-md-12">
+                                        <div class="client-content">
+                                            <div class="image">
+                                                <img class="img img-fluid"
+                                                    src="/theme_nextbiz/static/src/img/vouge-team2.png"
+                                                    data-original-src="/theme_nextbiz/static/src/img/vouge-team2.png" />
+                                            </div>
+                                            <div class="client-info">
+                                                <p>"Lorem ipsum dolor sit amet, consectetuer
+                                                    adipiscing elit. Aenean commodo ligula eget
+                                                    dolor. Aenean massa. Cum sociis" </p>
+                                                <span>Anita Oliver</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                            data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+                            href="#Traveltestimonialcarousel3">
+                            <span class="fa fa-angle-left" />
+                            <span class="sr-only o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                            data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                            href="#Traveltestimonialcarousel3">
+                            <span class="fa fa-angle-right" />
+                            <span class="sr-only o_default_snippet_text">Next</span>
+                        </a>
+
+                        <div class="carousel-indicators s_carousel_indicators_hidden">
+                            <button data-bs-target="#Traveltestimonialcarousel3"
+                                data-bs-slide-to="0" class="active" />
+                            <button data-bs-target="#Traveltestimonialcarousel3"
+                                data-bs-slide-to="1" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+
+</odoo>

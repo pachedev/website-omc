@@ -1,0 +1,96 @@
+# =============================================================================
+# odoo-mobile-client
+# Files that must never be committed.
+# =============================================================================
+
+# -- Secrets and local configuration ------------------------------------------
+# .env holds credentials and the host data paths, which are specific to each
+# machine. .env.example IS committed: it documents the variables, no secrets.
+.env
+.env.local
+.env.*.local
+
+# Loose certificates and keys at the project root. Anchored with "/" so that
+# fixtures shipped inside addons/ are not affected.
+/*.pem
+/*.key
+/*.cer
+/*.p12
+/*.pfx
+
+# -- Backup copies ------------------------------------------------------------
+*.bak
+*.bak.*
+*.orig
+*.rej
+
+# -- Logs ---------------------------------------------------------------------
+# logs/ is mounted as /var/log/odoo inside the container.
+logs/*.log
+logs/*.log.*
+etc/odoo-server.log*
+etc/odoo_tests/
+
+# -- Instance data ------------------------------------------------------------
+# Lives outside the repository, under the host paths defined in .env.
+etc/filestore/
+etc/sessions/
+etc/addons/
+# Anchored with "/": without the leading slash, "data/" would also ignore the
+# data/ directory of every module under addons/, where Odoo keeps its data XML.
+/data/
+
+# -- Loose dumps and archives at the project root -----------------------------
+/*.sql
+/*.sql.gz
+/*.dump
+/*.tar
+/*.tar.gz
+/*.tgz
+/*.zip
+
+# -- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+
+# -- Node (asset build tooling) -----------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# -- Editors and IDEs ---------------------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# -- Operating system ---------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini

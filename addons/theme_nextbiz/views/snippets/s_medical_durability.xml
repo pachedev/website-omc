@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_medical_durability" name="Durability">
+		<section class="business-medical-Durability">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>Comfortable. Durable. Safe</h2>
+							<p>DURABLE &amp; SAFE FACE MASKS</p>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-3 col-md-3">
+						<div class="Durability-content text-start">
+							<div class="info">
+								<h4 class="title">Anti-Pollution</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+						<div class="Durability-content text-start">
+							<div class="info">
+								<h4 class="title">Virus Protect</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="image">
+							<img src="/theme_nextbiz/static/src/img/medical-mask.png"
+								data-original-src="/theme_nextbiz/static/src/img/medical-mask.png"
+								class="img img-fluid" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="Durability-content text-end">
+							<div class="info">
+								<h4 class="title t_right">Air Filter</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+						<div class="Durability-content text-end">
+							<div class="info">
+								<h4 class="title t_right">Strap Adjust</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

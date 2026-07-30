@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_travel_services" name="Services">
+		<section class="travel-service">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="service-content">
+							<div class="service-icon">
+								<span class="ri ri-camera-line fa-4x"/>
+							</div>
+							<div class="info">
+								<h5>Photography</h5>
+								<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service-content">
+							<div class="service-icon">
+								<span class="ri ri-map-pin-line fa-4x"/>
+							</div>
+							<div class="info">
+								<h5>Sightseeing</h5>
+								<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service-content">
+							<div class="service-icon">
+								<span class="ri ri-home-4-line fa-4x"/>
+							</div>
+							<div class="info">
+								<h5>Shopping</h5>
+								<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service-content">
+							<div class="service-icon">
+								<span class="ri ri-earth-line fa-4x"/>
+							</div>
+							<div class="info">
+								<h5>Hotel &amp; Resort</h5>
+								<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

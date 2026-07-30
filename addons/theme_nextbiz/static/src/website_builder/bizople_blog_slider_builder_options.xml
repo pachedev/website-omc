@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<templates xml:space="preserve">
+
+    <!-- Blog Slider Option for Sidebar -->
+    <t t-name="theme_nextbiz.BlogSliderOptions">
+        <BuilderRow label.translate="Apply Filter">
+            <BuilderButton
+                className="'blog_slider_owl w-100'"
+                action="'openBlogSliderModal'"
+                preview="false"
+            >
+                <i class="fa fa-fw fa-plus" />
+            </BuilderButton>
+        </BuilderRow>
+    </t>
+
+
+</templates>

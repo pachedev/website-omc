@@ -1,0 +1,10 @@
+.o_required_modifier.o_input,
+.o_required_modifier .o_input {
+	background-color: #e1e1ff !important;
+}
+
+/* Fix for Odoo error Real-time connection lost when workers are not defined*/
+/* https://www.odoo.com/es_ES/forum/ayuda-1/error-real-time-connection-lost-odoo-18-community-269276 */
+/* .o-bus-ConnectionAlert{
+	display: none !important;
+} */

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_privacy" model="ir.ui.view">
+        <field name="name">OMC Privacy Policy</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.privacy</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.privacy">
+                <t t-call="website.layout">
+                    <div id="wrap">
+                        <section class="o_cc o_cc1 pt56 pb56">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-8 omc-legal">
+                                        <h1>Privacy Policy</h1>
+                                        <p class="text-muted">Last updated: July 10, 2026</p>
+
+                                        <p>This Privacy Policy describes how the <strong>Odoo Mobile Client</strong> mobile application ("the app"), published by Pachedev, handles your information. The short version: your data belongs to you and to the Odoo server you connect to — we do not collect it, sell it or share it.</p>
+
+                                        <h3>1. Information the app handles</h3>
+                                        <p>To do its job, the app needs the following information, which you provide directly:</p>
+                                        <ul>
+                                            <li>The web address of the Odoo server(s) you choose to connect to.</li>
+                                            <li>Your Odoo username and password for those servers.</li>
+                                            <li>The session information your Odoo server issues after you sign in.</li>
+                                        </ul>
+                                        <p>This information is used exclusively to establish and maintain your connection with your own Odoo server.</p>
+
+                                        <h3>2. Where your credentials are stored</h3>
+                                        <p>Your server addresses, credentials and session information are stored only on your device, inside the operating system's secure, encrypted storage (Keychain on iOS, Keystore on Android). They are transmitted only to the Odoo server you configured, over the connection that server provides. Passwords and session identifiers are never written to application logs.</p>
+
+                                        <h3>3. Biometric unlock</h3>
+                                        <p>You may optionally protect the app with your fingerprint or face. Biometric verification is performed entirely by your device's operating system. The app never reads, stores or transmits your biometric data.</p>
+
+                                        <h3>4. No data collection, no third parties</h3>
+                                        <p>The app does not send your information to us or to any third party. All business data you view or edit in the app travels directly between your device and the Odoo server you configured, and remains stored on that server. We have no access to it.</p>
+                                        <p>The app currently includes no analytics or advertising tools. If analytics are ever added, this policy will be updated first, the collection will be anonymous, and it will require your explicit consent.</p>
+
+                                        <h3>5. Data deletion</h3>
+                                        <p>You are in control at all times:</p>
+                                        <ul>
+                                            <li>Removing a saved server in the app deletes its stored address, credentials and session from your device.</li>
+                                            <li>Uninstalling the app removes all locally stored data.</li>
+                                            <li>Your business data lives on your Odoo server and is governed by your own organization's policies — deleting the app does not affect it.</li>
+                                        </ul>
+
+                                        <h3>6. Your rights</h3>
+                                        <p>Since we do not collect personal data, there is normally nothing for us to hand over or erase. If you believe we hold any information about you, or you have any privacy question, contact us and we will respond promptly. Residents of jurisdictions with data-protection laws (such as the GDPR) may exercise their rights of access, rectification and erasure through the same channel.</p>
+
+                                        <h3>7. Changes to this policy</h3>
+                                        <p>If this policy changes, the new version will be published on this page with an updated date. Material changes will be highlighted inside the app.</p>
+
+                                        <h3>8. Contact</h3>
+                                        <p>For any privacy question or request, write to <a href="mailto:contact@pachedev.com">contact@pachedev.com</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_privacy" model="website.page">
+        <field name="name">Privacy Policy</field>
+        <field name="url">/privacy</field>
+        <field name="view_id" ref="view_privacy"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">Privacy Policy | Odoo Mobile Client</field>
+        <field name="website_meta_description">Privacy policy of the Odoo Mobile Client app: credentials stored only on your device, no data collection, no third parties, optional biometrics.</field>
+    </record>
+
+</odoo>

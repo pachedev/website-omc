@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- Action for Background Images menu item -->
+		<record id="action_web_background_image" model="ir.actions.act_window">
+			<field name="name">Background images</field>
+			<field name="res_model">web.background.image</field>
+			<field name="view_mode">list,form</field>
+		</record>
+		<!-- Background Images menu item -->
+		<menuitem name="Background images"
+			id="pdev_general_utilities.menu_background_images"
+			parent="base.menu_users"
+			action="action_web_background_image"/>
+	</data>
+</odoo>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<templates xml:space="preserve">
+    <!-- show pricelist option  -->
+    <t t-inherit="website.HeaderNavigationOption" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set='align_center_views']" position="replace">
+            <t t-set="align_center_views"
+                t-value="[
+                    'website.template_header_hamburger_mobile_align_center',
+                    'website.template_header_default_align_center',
+                    'website.template_header_boxed_align_center',
+                    'website.template_header_stretch_align_center',
+                    'website.template_header_search_align_center',
+                    'website.template_header_sales_one_align_center',
+                    'website.template_header_sales_two_align_center',
+                    'website.template_header_sales_three_align_center',
+                    'website.template_header_sales_four_align_center',
+                    'website.template_header_sidebar_align_center',
+                    'website.template_header_vertical_align_center',
+                    'theme_nextbiz.theme_nextbiz_header1_align_center',
+                    'theme_nextbiz.theme_nextbiz_header2_align_center',
+                    'theme_nextbiz.theme_nextbiz_header3_align_center',
+                    'theme_nextbiz.theme_nextbiz_header4_align_center',
+                    'theme_nextbiz.theme_nextbiz_header5_align_center',
+                    'theme_nextbiz.theme_nextbiz_header6_align_center',
+                ]"
+            />
+        </xpath>
+        <xpath expr="//t[@t-set='align_right_views']" position="replace">
+            <t t-set="align_right_views"
+                t-value="[
+                'website.template_header_hamburger_mobile_align_right',
+                'website.template_header_default_align_right',
+                'website.template_header_boxed_align_right',
+                'website.template_header_stretch_align_right',
+                'website.template_header_search_align_right',
+                'website.template_header_sales_one_align_right',
+                'website.template_header_sales_two_align_right',
+                'website.template_header_sales_three_align_right',
+                'website.template_header_sales_four_align_right',
+                'website.template_header_sidebar_align_right',
+                'website.template_header_vertical_align_right',
+                'theme_nextbiz.theme_nextbiz_header1_align_right',
+                'theme_nextbiz.theme_nextbiz_header2_align_right',
+                'theme_nextbiz.theme_nextbiz_header3_align_right',
+                'theme_nextbiz.theme_nextbiz_header4_align_right',
+                'theme_nextbiz.theme_nextbiz_header5_align_right',
+                'theme_nextbiz.theme_nextbiz_header6_align_right',
+            ]" />
+        </xpath>
+
+    </t>  
+
+</templates>

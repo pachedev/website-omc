@@ -1,0 +1,5 @@
+# Extra Python dependencies for this Odoo instance.
+# Installed automatically when the container starts.
+# Example:
+#   requests==2.31.0
+#   pandas==2.0.0

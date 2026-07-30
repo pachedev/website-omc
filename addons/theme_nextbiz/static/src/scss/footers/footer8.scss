@@ -1,0 +1,55 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+@if o-website-value('footer-template') == "nextbiz-footer-8"{
+	#footer_theme_common8{
+		.apps-link{
+			.title{
+				h6{
+					font-weight: 500;
+					margin-bottom: 30px !important;
+					font-size: 20px;
+					color: inherit;
+				}
+				p{
+					line-height: 24px;
+				}
+			}
+			p.contact-info{
+				a{	
+					line-height: 30px;
+					text-decoration: none;
+					// color: inherit;
+					-webkit-transition: all 0.3s ease-in-out;
+					-moz-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+					&:hover{
+						color: white;
+					}
+				}
+				margin: 0;
+			}
+		}
+		.copyright-section{
+			a.link{
+				a{	
+					text-decoration: none;
+					color: $primary;
+					-webkit-transition: all 0.3s ease-in-out;
+					-moz-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+					&:hover{
+						color: white;
+					}
+				}
+			}
+			background-color:#0a0a0a;
+		}
+		border-top: 1px solid #e5e5e5;
+	}
+}

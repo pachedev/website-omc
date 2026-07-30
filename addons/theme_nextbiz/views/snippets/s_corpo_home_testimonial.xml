@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_home_testimonial" name="Testimonial">
+      	
+      	<section class="corpo_home_testimonial pt120 pb120 s_parallax bg-black-50 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_half_screen_height" data-scroll-background-ratio="0" data-snippet="s_parallax" data-name="Parallax" style="background-image: url(&quot;/theme_nextbiz/static/src/img/home-testibg.jpg&quot;); background-position: center;">
+      	    <div class="oe_structure"/>
+			<div class="o_we_bg_filter" style="background-color: rgba(246, 246, 246, 0.5) !important;"/>
+            <section class="s_carousel_wrapper home_testimonial_carousel   h-auto"
+                data-vxml="001" data-vcss="001"
+                data-snippet="s_carousel">
+                <div class="s_carousel s_carousel_default carousel slide s_carousel_arrows_hidden"
+                    data-bs-interval="10000" data-bs-ride="true" id="CorpoFinanceTestimonial3"
+                    style="background-image: none;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item o_colored_level oe_img_bg active p-0 pb64" data-name="Slide">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 o_colored_level">
+                                        <div class="testimonial-box bg-white shadow py-5 pe-5 d-flex">
+                                            <div class="quote-icon">
+                                                <span class="ri ri-double-quotes-r px-3 py-2 bg-light fa-3x text-800"/>
+                                            </div>
+                                            <div class="ms-3">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <div class="clients-detail d-flex pt-4 align-items-center">
+                                                    <img class="img img-fluid rounded-circle" src="/theme_nextbiz/static/src/img/home-client1.jpg" data-original-src="/theme_nextbiz/static/src/img/home-client1.jpg">
+                                                    </img>
+                                                    <div class="ps-3">
+                                                        <h5>Fawn Nichols</h5>
+                                                        <p class="mt-2 text-muted text-uppercase">MANAGER</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content mt-3 mt-lg-0 col-lg-6 o_colored_level">
+                                        <div class="testimonial-box bg-white shadow py-5 pe-5 d-flex">
+                                            <div class="quote-icon">
+                                                <span class="ri ri-double-quotes-r px-3 py-2 bg-light fa-3x text-800"/>
+                                            </div>
+                                            <div class="ms-3">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <div class="clients-detail d-flex pt-4 align-items-center">
+                                                    <img class="img img-fluid rounded-circle" src="/theme_nextbiz/static/src/img/home-client2.jpg" data-original-src="/theme_nextbiz/static/src/img/home-client2.jpg">
+                                                    </img>
+                                                    <div class="ps-3">
+                                                        <h5>Caldwell Rowe</h5>
+                                                        <p class="mt-2 text-muted text-uppercase">MANAGER</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item o_colored_level oe_img_bg p-0 pb64" data-name="Slide">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 o_colored_level">
+                                        <div class="testimonial-box bg-white shadow py-5 pe-5 d-flex">
+                                            <div class="quote-icon">
+                                                <span class="ri ri-double-quotes-r px-3 py-2 bg-light fa-3x text-800"/>
+                                            </div>
+                                            <div class="ms-3">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <div class="clients-detail d-flex pt-4 align-items-center">
+                                                    <img class="img img-fluid rounded-circle" src="/theme_nextbiz/static/src/img/home-client3.jpg" data-original-src="/theme_nextbiz/static/src/img/home-client3.jpg">
+                                                    </img>
+                                                    <div class="ps-3">
+                                                        <h5>Diana Dinwiddie</h5>
+                                                        <p class="mt-2 text-muted text-uppercase">MANAGER</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content mt-3 mt-lg-0 col-lg-6 o_colored_level">
+                                        <div class="testimonial-box bg-white shadow py-5 pe-5 d-flex">
+                                            <div class="quote-icon">
+                                                <span class="ri ri-double-quotes-r px-3 py-2 bg-light fa-3x text-800"/>
+                                            </div>
+                                            <div class="ms-3">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <div class="clients-detail d-flex pt-4 align-items-center">
+                                                    <img class="img img-fluid rounded-circle" src="/theme_nextbiz/static/src/img/home-client4.jpg" data-original-src="/theme_nextbiz/static/src/img/home-client4.jpg">
+                                                    </img>
+                                                    <div class="ps-3">
+                                                        <h5>Abby Fields</h5>
+                                                        <p class="mt-2 text-muted text-uppercase">MANAGER</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item o_colored_level oe_img_bg p-0 pb64" data-name="Slide">
+                            <div class="container">
+                                <div class="row content">
+                                    <div class="carousel-content col-lg-6 o_colored_level">
+                                        <div class="testimonial-box bg-white shadow py-5 pe-5 d-flex">
+                                            <div class="quote-icon">
+                                                <span class="ri ri-double-quotes-r px-3 py-2 bg-light fa-3x text-800"/>
+                                            </div>
+                                            <div class="ms-3">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <div class="clients-detail d-flex pt-4 align-items-center">
+                                                    <img class="img img-fluid rounded-circle" src="/theme_nextbiz/static/src/img/home-client5.jpg" data-original-src="/theme_nextbiz/static/src/img/home-client5.jpg">
+                                                    </img>
+                                                    <div class="ps-3">
+                                                        <h5>Ralph Robinson</h5>
+                                                        <p class="mt-2 text-muted text-uppercase">MANAGER</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-content mt-3 mt-lg-0 col-lg-6 o_colored_level">
+                                        <div class="testimonial-box bg-white shadow py-5 pe-5 d-flex">
+                                            <div class="quote-icon">
+                                                <span class="ri ri-double-quotes-r px-3 py-2 bg-light fa-3x text-800"/>
+                                            </div>
+                                            <div class="ms-3">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <div class="clients-detail d-flex pt-4 align-items-center">
+                                                    <img class="img img-fluid rounded-circle" src="/theme_nextbiz/static/src/img/home-client6.jpg" data-original-src="/theme_nextbiz/static/src/img/home-client6.jpg">
+                                                    </img>
+                                                    <div class="ps-3">
+                                                        <h5>Ruth Currey</h5>
+                                                        <p class="mt-2 text-muted text-uppercase">MANAGER</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                        data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+                        href="#CorpoFinanceTestimonial3">
+                        <span class="carousel-control-prev-icon" />
+                        <span class="visually-hidden o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                        data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                        href="#CorpoFinanceTestimonial3">
+                        <span class="carousel-control-next-icon" />
+                        <span class="visually-hidden o_default_snippet_text">Next</span>
+                    </a>
+                    <div class="carousel-indicators o_we_no_overlay">
+                        <button data-bs-slide-to="0" class="active" data-bs-target="#CorpoFinanceTestimonial3"></button>
+                        <button data-bs-slide-to="1" data-bs-target="#CorpoFinanceTestimonial3" class=""></button>
+                        <button data-bs-slide-to="2" data-bs-target="#CorpoFinanceTestimonial3" class=""></button>
+                    </div>
+                </div>
+            </section>
+      	    <div class="oe_structure"/>
+		</section>
+	</template>
+</odoo>

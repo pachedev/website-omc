@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+	<t t-name="pdev_general_utilities.ControlPanel" t-inherit="web.ControlPanel" t-inherit-mode="extension" owl="1">
+		<xpath expr="//div[hasclass('o_control_panel_breadcrumbs')]" position="attributes">
+			<attribute name="class">o_control_panel_breadcrumbs d-flex align-items-center gap-2 order-0 h-lg-100</attribute>
+		</xpath>
+		<xpath expr="//div[hasclass('me-auto')]" position="attributes">
+			<attribute name="class">d-none d-xl-block me-auto order-2</attribute>
+		</xpath>
+	</t>
+	<t t-name="pdev_general_utilities.Breadcrumbs" t-inherit="web.Breadcrumbs" t-inherit-mode="extension" owl="1">
+		<xpath expr="//div[hasclass('o_breadcrumb')]" position="attributes">
+			<attribute name="class">o_breadcrumb d-flex flex-row flex-md-column align-self-stretch justify-content-between min-w-0 order-1</attribute>
+		</xpath>
+	</t>
+</templates>

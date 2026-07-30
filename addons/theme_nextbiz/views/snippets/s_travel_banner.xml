@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+    <template id="s_travel_banner" name="Home Banner">
+        <section class="travel-home-banner">
+            <section class="s_carousel_wrapper s_carousel_wrapper_banner" data-vxml="001" data-vcss="001"
+                data-snippet="s_carousel">
+                <div class="s_carousel s_carousel_rounded carousel slide" data-pause="hover"
+                    data-bs-interval="7000" data-bs-ride="true" id="Travelcarousel2"
+                    style="background-image: none;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt256 pb256 active"
+                            style="background-image: url('/theme_nextbiz/static/src/img/travel-banner1.jpg');">
+                            <div class="container">
+                                <div class="justify-content-center">
+                                    <div class="banner-content text-center">
+                                        <span>Let's travel</span>
+                                        <h2 class="text-white">Travel and Discover</h2>
+                                        <div class="strip">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit. Aenean commodo ligula dolor. Aenean
+                                                massa. Cum sociis Theme</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256"
+                            style="background-image: url('/theme_nextbiz/static/src/img/travel-banner2.jpg');">
+                            <div class="container">
+                                <div class="justify-content-center">
+                                    <div class="banner-content text-center">
+                                        <span>Let's travel</span>
+                                        <h2 class="text-white">Beach is Heaven</h2>
+                                        <div class="strip">
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit. Aenean commodo ligula dolor. Aenean
+                                                massa. Cum sociis Theme</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                        data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+                        href="#Travelcarousel2">
+                        <span class="fa fa-angle-left" />
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                        data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                        href="#Travelcarousel2">
+                        <span class="fa fa-angle-right" />
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </a>
+                    <div class="carousel-indicators">
+                        <button data-bs-target="#Travelcarousel1" data-bs-slide-to="0"
+                            class="active" />
+                        <button data-bs-target="#Travelcarousel1" data-bs-slide-to="1" />
+                    </div>
+                </div>
+            </section>
+        </section>
+    </template>
+
+</odoo>

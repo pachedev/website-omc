@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+    <template id="s_snowboard_ski_brands" name="Brands">
+        <section class="snow-brand-slider pt64 pb64">
+            <div class="container brand">
+                <div class="row justify-content-center">
+                    <section class="s_carousel_wrapper" data-vxml="001"
+                        data-vcss="001"
+                        data-snippet="s_carousel">
+                        <div
+                            class="s_carousel s_carousel_default carousel slide s_carousel_arrows_hidden"
+                            data-pause="hover" data-bs-interval="7000" data-bs-ride="true"
+                            id="Snowbrandcarousel2" style="background-image: none;">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item p-0 active">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand1.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand1.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand2.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand2.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand3.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand3.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand4.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand4.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand5.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand5.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand6.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand6.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item p-0">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand1.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand1.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand2.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand2.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand3.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand3.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand4.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand4.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand5.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand5.png" />
+                                        </div>
+                                        <div class="col-md-2 text-center">
+                                            <img class="img-fluid"
+                                                src="/theme_nextbiz/static/src/img/snow-brand6.png" data-original-src="/theme_nextbiz/static/src/img/snow-brand6.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev o_not_editable o_we_no_overlay"
+                                data-bs-slide="prev" role="img" aria-label="Previous"
+                                title="Previous"
+                                href="#Snowbrandcarousel2">
+                                <span class="carousel-control-prev-icon" />
+                                <span class="visually-hidden o_default_snippet_text">Previous</span>
+                            </a>
+                            <a class="carousel-control-next o_not_editable o_we_no_overlay"
+                                data-bs-slide="next" role="img" aria-label="Next" title="Next"
+                                href="#Snowbrandcarousel2">
+                                <span class="carousel-control-next-icon" />
+                                <span class="visually-hidden o_default_snippet_text">Next</span>
+                            </a>
+                            <div
+                                class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay ">
+                                <button data-bs-slide-to="0" class="active"
+                                    data-bs-target="#Snowbrandcarousel2"></button>
+                                <button data-bs-slide-to="1" data-bs-target="#Snowbrandcarousel2"
+                                    class=""></button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

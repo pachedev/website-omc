@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_pricing" model="ir.ui.view">
+        <field name="name">OMC Pricing</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.pricing</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.pricing">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <section class="omc-hero pt56 pb56 text-center">
+                            <div class="container">
+                                <h1 class="mb-3">Simple pricing</h1>
+                                <p class="lead mb-0">Both apps are free to download. You only pay for the Advanced server module — once, on the Odoo App Store.</p>
+                            </div>
+                        </section>
+
+                        <!-- Plans -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <div class="row justify-content-center g-4">
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <div class="omc-card h-100 p-4 p-lg-5 text-center">
+                                            <h4>Free</h4>
+                                            <div class="display-5 fw-bold my-3">$0</div>
+                                            <p class="text-muted">Forever. For every user.</p>
+                                            <ul class="list-unstyled text-start mt-4 mb-4">
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Access all your Odoo apps from your phone</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 12 to 19+</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Multiple servers and environments</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Fingerprint or face unlock</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Free server module on the Odoo App Store</li>
+                                            </ul>
+                                            <a href="/download" class="btn btn-primary omc-pill w-100">Download now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <div class="omc-card omc-card-accent h-100 p-4 p-lg-5 text-center">
+                                            <h4>Advanced</h4>
+                                            <div class="display-6 fw-bold my-3">One-time module</div>
+                                            <p class="text-muted">For teams that want their Odoo to speak up.</p>
+                                            <ul class="list-unstyled text-start mt-4 mb-4">
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Everything in Free</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 17 to 19+</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Push notifications on your phone</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Automatic alerts: sales, purchases, inventory, accounting, HR</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Alert rules you configure yourself</li>
+                                            </ul>
+                                            <a href="/download" class="btn btn-primary omc-pill w-100">Download Advanced</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center mt-4">
+                                    <div class="col-12 col-lg-8 text-center">
+                                        <p class="small text-muted mb-0">Both editions use a server module from the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener"><strong>odoo_mobile_client</strong></a> (free) for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener"><strong>odoo_mobile_client_advanced</strong></a> (paid) for Advanced. The Advanced app itself is a free download — the module license is the only cost.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Pricing FAQ -->
+                        <section class="o_cc o_cc2 pt56 pb56">
+                            <div class="container">
+                                <span class="omc-badge mb-3">Pricing questions</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">What you pay, and what you do not</h2>
+                                    </div>
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <h5>Do I pay anything to Odoo?</h5>
+                                            <p class="mb-0">Nothing extra. You keep your current Odoo plan — the app simply connects to the server you already pay for (or host yourself).</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <h5>Is Free really free?</h5>
+                                            <p class="mb-0">Yes. No trial period, no user limit, no locked screens. Free is the full mobile access experience.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <h5>What does Advanced cost?</h5>
+                                            <p class="mb-0">The price of the <strong>odoo_mobile_client_advanced</strong> module on the Odoo App Store — a one-time purchase per server. The app download stays free.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_pricing" model="website.page">
+        <field name="name">Pricing</field>
+        <field name="url">/pricing</field>
+        <field name="view_id" ref="view_pricing"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">Pricing — Free apps, one-time Advanced module | Odoo Mobile Client</field>
+        <field name="website_meta_description">Odoo Mobile Client is free to download on Android and iOS. Advanced adds push notifications and alerts; you only license its server module on the Odoo App Store.</field>
+    </record>
+
+</odoo>

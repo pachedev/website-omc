@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+    <template id="s_corpo_construction_clients_testimonial" name="Clients Testimonial">
+
+        <section class="corpo_construction_clients pt80 pb80">
+            <div class="oe_structure" />
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-7">
+                        <div class="clients-title">
+                            <p
+                                class="m-0 section-heading one-side-heading-line two-line text-uppercase">
+                                Clients
+                            </p>
+                            <h2 class="o_default_snippet_text">
+                                What Our Happy Clients Say
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center mt40">
+                    <div class="col-md-12">
+                        <div class="clients-carousel">
+                            <section class="s_carousel_wrapper corpo_construct_banner">
+                                <section class="s_carousel_wrapper" data-vxml="001"
+                                    data-vcss="001"
+                                    data-snippet="s_carousel">
+                                    <div class="s_carousel s_carousel_rounded carousel slide"
+                                        data-bs-interval="10000" data-bs-ride="true"
+                                        id="ConstructClientsCarousel2"
+                                        style="background-image: none;">
+
+                                        <div class="carousel-inner ">
+                                            <div
+                                                class="carousel-item o_colored_level oe_img_bg active pt64 pb64"
+                                                data-name="Slide">
+                                                <div class="container">
+                                                    <div
+                                                        class="row content justify-content-center text-center">
+                                                        <div class="col-md-11">
+                                                            <div class="carousel-content">
+                                                                <h4>
+                                                                    Lorem ipsum dolor sit amet,
+                                                                    consectetur adipiscing elit, sed
+                                                                    do eiusmod tempor incididunt ut
+                                                                    labore et dolore magna aliqua.
+                                                                    Ut enim ad minim veniam, quis
+                                                                    nostrud exercitation ullamco
+                                                                    laboris nisi ut aliquip ex ea
+                                                                    commodo consequat.
+                                                                </h4>
+                                                                <img
+                                                                    class="img img-fluid rounded-circle mt-5"
+                                                                    src="/theme_nextbiz/static/src/img/construct-client1.png" data-original-src="/theme_nextbiz/static/src/img/construct-client1.png">
+                                                                </img>
+                                                                <div class="client-name mt-3">
+                                                                    <h3>
+                                                                        Mary J
+                                                                    </h3>
+                                                                    <p class="text-muted">
+                                                                        Founder
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item pt64 pb64 o_colored_level oe_img_bg"
+                                                data-name="Slide">
+                                                <div class="container">
+                                                    <div
+                                                        class="row content justify-content-center text-center">
+                                                        <div class="col-md-11">
+                                                            <div class="carousel-content">
+                                                                <h4>
+                                                                    Lorem ipsum dolor sit amet,
+                                                                    consectetur adipiscing elit, sed
+                                                                    do eiusmod tempor incididunt ut
+                                                                    labore et dolore magna aliqua.
+                                                                    Ut enim ad minim veniam, quis
+                                                                    nostrud exercitation ullamco
+                                                                    laboris nisi ut aliquip ex ea
+                                                                    commodo consequat.
+                                                                </h4>
+                                                                <img
+                                                                    class="img img-fluid rounded-circle mt-5"
+                                                                    src="/theme_nextbiz/static/src/img/construct-client2.jpg" data-original-src="/theme_nextbiz/static/src/img/construct-client2.jpg">
+                                                                </img>
+                                                                <div class="client-name mt-3">
+                                                                    <h3>
+                                                                        Jhon S. Gate
+                                                                    </h3>
+                                                                    <p class="text-muted">
+                                                                        Founder, Proctor &amp;
+                                                                        Gamble
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a
+                                            class="carousel-control-prev o_not_editable o_we_no_overlay"
+                                            data-bs-slide="prev" role="img" aria-label="Previous"
+                                            title="Previous" href="#ConstructClientsCarousel2">
+                                            <span class="ri ri-arrow-left-s-line fw-bold"></span>
+                                            <span class="sr-only o_default_snippet_text">Previous</span>
+                                        </a>
+                                        <a
+                                            class="carousel-control-next o_not_editable o_we_no_overlay"
+                                            data-bs-slide="next" role="img" aria-label="Next"
+                                            title="Next" href="#ConstructClientsCarousel2">
+                                            <span class="ri ri-arrow-right-s-line fw-bold"></span>
+                                            <span class="sr-only o_default_snippet_text">Next</span>
+                                        </a>
+                                        <div
+                                            class="carousel-indicators s_carousel_indicators_hidden">
+                                            <button data-bs-target="#ConstructClientsCarousel2"
+                                                data-bs-slide-to="0" class="active" />
+                                            <button data-bs-target="#ConstructClientsCarousel2"
+                                                data-bs-slide-to="1" />
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure" />
+        </section>
+    </template>
+</odoo>

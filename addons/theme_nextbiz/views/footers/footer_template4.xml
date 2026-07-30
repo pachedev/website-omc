@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="theme_common_footer4" inherit_id="website.layout" name="Footer Four"
+		active="False">
+		<xpath expr="//div[@id='footer']" position="replace">
+			<div id="footer" class="oe_structure oe_structure_solo" t-ignore="true"
+				t-if="not no_footer">
+				<section id="footer_theme_common4" class="footer_theme_common4 o_footer">
+					<section class="top-footer">
+						<div class="container">
+							<div class="row justify-content-center pt64 pb64">
+								<div class="col-md-4">
+									<div class="footer-logo mb-4">
+										<a href="/" class="navbar-brand logo p-0 m-0">
+											<img src="/theme_nextbiz/static/src/img/logo.png"
+												data-original-src="/theme_nextbiz/static/src/img/logo.png"
+												class="img-fluid" />
+										</a>
+									</div>
+									<div class="contact-content d-flex">
+										<div class="contact-icon">
+											<span class="ri ri-phone-line text-reset" />
+										</div>
+										<div class="contact-info">
+											<p>Any querys? Contact 24/7</p>
+											<h6>
+												<b>
+													<span class="text-reset">Call Us:</span>
+													<span class="phone-number">
+														<span> +1 (650)
+															555-0111</span>
+													</span>
+												</b>
+											</h6>
+											<p>
+												<span>
+													250 Executive Park Blvd,Suite 3400,
+												</span>
+												<br />
+												<span>san
+													francisco, 94314
+												</span>
+											</p>
+										</div>
+									</div>
+									<div class="footer-language">
+										<div
+											class="d-flex menu-language js_language_selector mb0 text-lg-center"
+											t-if="((request and request.is_frontend_multilang and (languages and len(languages) > 1)) or (website and (editable or translatable)))">
+											<p class="mb-0 me-2">
+												<t t-foreach="website.language_ids" t-as="lg">
+													<t
+														t-if="request.env.context.get('lang') == lg.code">
+														<img t-attf-src="{{lg.flag_image_url}}"
+															width="18" t-att-title="lg.name"
+															t-att-class="lg.code" />
+													</t>
+												</t>
+											</p>
+											<div class="dropdown">
+												<a href="#"
+													class="p-0 nav-link dropdown-toggle"
+													type="button" data-bs-toggle="dropdown"
+													aria-haspopup="true" aria-expanded="true">
+													<t t-foreach="website.language_ids" t-as="lg">
+														<t
+															t-if="request.env.context.get('lang') == lg.code">
+															<span
+																class="lang_local_code text-uppercase"
+																t-out="lg.name" />
+														</t>
+													</t>
+												</a>
+												<div class="dropdown-menu" role="menu">
+													<t t-foreach="frontend_languages.values()"
+														t-as="lg">
+														<a
+															t-att-href="url_localized(request.httprequest.path + '?' + keep_query(), lang_code=lg.code)"
+															class="dropdown-item js_change_lang"
+															t-att-data-url_code="lg.url_code">
+															<t t-out="lg.name.split('/').pop()" />
+														</a>
+													</t>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="social-share mt-4">
+										<a href="/website/social/facebook"
+											class="link"
+											target="_blank"
+											aria-label="Facebook">
+											<i
+												class="fa fa-facebook" />
+										</a>
+										<a href="/website/social/twitter"
+											class="link" target="_blank"
+											aria-label="X">
+											<i
+												class="fa fa-twitter" />
+										</a>
+										<a href="/website/social/linkedin"
+											class="link me-3" target="_blank"
+											aria-label="LinkedIn">
+											<i
+												class="fa fa-linkedin" />
+										</a>
+										<a href="/website/social/youtube"
+											class="link" target="_blank"
+											aria-label="YouTube">
+											<i class="fa fa-youtube-play" />
+
+										</a>
+										<a href="/website/social/instagram"
+											class="link" target="_blank"
+											aria-label="Instagram">
+											<i class="fa fa-instagram" />
+
+										</a>
+										<a href="/website/social/github"
+											class="link" target="_blank"
+											aria-label="GitHub">
+											<i class="fa fa-github" />
+
+										</a>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="footer-links">
+										<h6 class="mb-5">Our Services</h6>
+										<p>
+											<a href="#">About Store</a>
+										</p>
+										<p>
+											<a href="#">New Collectiokn</a>
+										</p>
+										<p>
+											<a href="#">Contact Us</a>
+										</p>
+										<p>
+											<a href="#">Latest News</a>
+										</p>
+										<p>
+											<a href="#">Our Sitemap</a>
+										</p>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="footer-links">
+										<h6 class="mb-5">Quick Links</h6>
+										<p>
+											<a href="#">Home</a>
+										</p>
+										<p>
+											<a href="#">Contact Us</a>
+										</p>
+										<p>
+											<a href="#">About Us</a>
+										</p>
+										<p>
+											<a href="#">Policy</a>
+										</p>
+										<p>
+											<a href="#">Computers</a>
+										</p>
+										<p>
+											<a href="#">Speakers</a>
+										</p>
+										<p>
+											<a href="#">Laptops</a>
+										</p>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="newsletter-content">
+										<div class="oe_structure" />
+										<div class="payment-image">
+											<img
+												src="/theme_nextbiz/static/src/img/payment-footer.png"
+												data-original-src="/theme_nextbiz/static/src/img/payment-footer.png"
+												class="img-fluid" />
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-7 col-lg-9 col-md-12 mt-5">
+									<div class="apps-link">
+										<div class="title mb-4 text-center">
+											<h6>Mobile Apps</h6>
+										</div>
+										<div class="row">
+											<div class="col-md-6 mb-3 mb-md-0">
+												<div class="d-flex app-box">
+													<div class="app-icon">
+														<span class="fa fa-apple apple-logo" />
+													</div>
+													<div class="app-content text-center">
+														<h6>
+															<a href="#">iOS Store</a>
+														</h6>
+														<p>Available on iOS Phones</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="d-flex app-box">
+													<div class="app-icon">
+														<span class="fa fa-android android-logo" />
+													</div>
+													<div class="app-content text-center">
+														<h6>
+															<a href="#">Play Store</a>
+														</h6>
+														<p>Available on Android Phones</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+			</div>
+		</xpath>
+		<xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
+			<div t-if="not no_copyright" class="o_footer_copyright">
+				<section class="copyright-section text-center py-4">
+					<span>© <span id="current-year">2025</span> All rights reserved.</span>
+                	<span t-field="res_company.name"/>
+				</section>
+			</div>
+		</xpath>
+	</template>
+</odoo>

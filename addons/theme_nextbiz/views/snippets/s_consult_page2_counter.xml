@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_consult_page2_counter" name="Consult Two Counter">
+        <section class="consult_pages">
+            <section class="consult-two-counter pt32 pb80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter1 fw-bold">1749</h2>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter2 fw-bold">17459</h2>
+                                <p>Project Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter3 fw-bold">451</h2>
+                                <p>Support Given</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter4 fw-bold">78</h2>
+                                <p>Offices Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

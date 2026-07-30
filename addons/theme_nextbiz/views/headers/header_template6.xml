@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="theme_nextbiz_header10" inherit_id="website.layout" name="Header Ten"
+		active="False">
+		<xpath expr="//header//nav" position="replace">
+			<!-- <t t-call="theme_nextbiz.search_popup"/> -->
+			<nav data-name="Navbar" id="nextbiz-header10" t-attf-class="nextbiz-header10">
+				<section class="top-header d-none d-md-block">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-md-7">
+								<div t-if="is_view_active('website.header_text_element')"
+									class="user-info">
+									<div class="contact-time d-flex">
+
+										<p class="text-white mb-0">
+											<span class="fa fa-phone text-white me-2" />
+											<span t-out="res_company.phone" />
+										</p>
+										<p class="text-white mb-0 ms-4">
+											<span class="fa fa-envelope-o text-white me-2" />
+											<span>info@bizople.com</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 pe-0">
+								<div class="d-flex justify-content-end align-items-center">
+									<div class="header-media text-end me-3">
+										<t t-call="website.placeholder_header_social_links">
+											<t t-set="_div_class"
+												t-valuef="d-flex align-items-center justify-content-end h-100" />
+										</t>
+										<div class="login_nav">
+											<ul class="list-unstyled m-0">
+												<t t-call="portal.placeholder_user_sign_in">
+													<t t-set="_item_class"
+														t-valuef="nav-item mx-auto" />
+													<t t-set="_link_class"
+														t-valuef="nav-link fw-bold" />
+												</t>
+												<!-- User Dropdown -->
+												<t t-call="portal.user_dropdown">
+													<t t-set="_icon" t-value="true" />
+													<t t-set="_user_name" t-value="false" />
+													<t t-set="_item_class"
+														t-valuef="nav-item dropdown ms-lg-auto" />
+													<t t-set="_link_class"
+														t-valuef="nav-link fw-bold" />
+												</t>
+											</ul>
+										</div>
+									</div>
+									<ul class="list-unstyled m-0">
+										<t t-call="website.placeholder_header_language_selector">
+											<t t-set="_div_classes"
+												t-valuef="my-auto ms-0 header-language" />
+										</t>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="middle-header navbar-light">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-md-3 d-flex d-md-block mbl-div header_left">
+								<div
+									class="vouge-logo text-end text-md-start ms-auto header_position">
+									<div class="d-flex header_position">
+										<t t-call="website.placeholder_header_brand" />
+									</div>
+								</div>
+								<div class="mobile-sidebar-toggle d-block d-md-none">
+									<button type="button" id="show-sidebar"
+										class="btn btn-sm btn-dark d-block d-md-none">
+										<span class="ri ri-function-line text-secondary fa-2x"></span>
+									</button>
+								</div>
+								<div class="mobile-cart d-block d-md-none">
+									<t t-if="is_view_active('website_sale.products_add_to_cart')">
+										<t t-set="website_sale_order"
+											t-value="website.sale_get_order()" />
+										<div id="my_cart"
+											t-attf-class="o_wsale_my_cart header_cart nav-item#{'' if website_sale_order and website_sale_order.cart_quantity else ''}">
+											<a href="/shop/cart" class="nav-link">
+												<span
+													class="text-secondary ri ri-shopping-cart-line"></span>
+												<sup
+													t-attf-class="my_cart_quantity badge badge-primary text-bg-primary"
+													t-out="website_sale_order and website_sale_order.cart_quantity or '0'" />
+											</a>
+										</div>
+									</t>
+								</div>
+							</div>
+							<div class="col-md-6 d-none d-md-block header-center">
+								<nav class="navbar navbar-expand-md p-0 bizople-header-ten" id="top_menu_collapse_mobile">
+									<div class="collapse navbar-collapse" id="header10-menuitem">
+										<t t-call="website.navbar_nav" id="top_menu">
+											<t t-set="_nav_class" t-valuef="me-auto" />
+											<t t-foreach="website.menu_id.child_id" t-as="submenu">
+												<t t-call="website.submenu">
+													<t t-set="item_class" t-value="'nav-item'" />
+													<t t-set="link_class" t-value="'nav-link'" />
+												</t>
+											</t>
+										</t>
+									</div>
+								</nav>
+							</div>
+							<div
+								class="col-md-3 text-end right_icons d-none d-md-block header_right">
+								<div class="wishlist align-middle d-none d-lg-inline-block">
+									<t
+										t-if="is_view_active('website_sale_wishlist.add_to_wishlist')">
+										<t t-call="website_sale_wishlist.header_wishlist_link">
+											<t t-set="_icon" t-value="True" />
+											<t t-set="_text" t-value="False" />
+											<t t-set="_icon_color" t-value="'text-secondary'" />
+											<t t-set="_item_class"
+												t-value="'nav-item header_wishlist o_wsale_my_wish d-block'" />
+											<t t-set="_link_class" t-value="'nav-link ps-3'" />
+										</t>
+										
+									</t>
+								</div>
+
+								<div class="cart align-middle d-none d-lg-inline-block" id="">
+									<t t-if="is_view_active('website_sale.products_add_to_cart')">
+										<t t-set="website_sale_order"
+											t-value="website.sale_get_order()" />
+										<div id="my_cart"
+											t-attf-class="o_wsale_my_cart header_cart nav-item#{'' if website_sale_order and website_sale_order.cart_quantity else ''}">
+											<a href="/shop/cart" class="nav-link ps-3">
+												<span
+													class="text-secondary ri ri-shopping-cart-line align-middle"></span>
+												<sup
+													t-attf-class="my_cart_quantity badge badge-primary text-bg-primary"
+													t-out="website_sale_order and website_sale_order.cart_quantity or '0'" />
+											</a>
+										</div>
+									</t>
+								</div>
+								<div
+									class="header-myaccount align-items-center align-middle d-none d-md-inline-block">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</nav>
+		</xpath>
+		<xpath expr="//header" position="after">
+			<div class="d-block d-md-none">
+				<t t-call="theme_nextbiz.bizople_mobile_bottom_icon_bar" />
+			</div>
+		</xpath>
+	</template>
+	<template id="bizople_mobile_bottom_icon_bar" name="Bizople Mobile Bottom Icon Bar">
+		<div class="bizople-mbl-bottom-bar d-block d-xl-none bg-white">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col text-center bottom-sidebar-menu">
+						<div class="text-center">
+							<a role="button" href="#" class="nav-link bottom-show-sidebar">
+								<i class="ri ri-function-line" />
+							</a>
+						</div>
+						<div class="text-center">
+							<span class="text-dark">Menu</span>
+						</div>
+					</div>
+					<div class="col text-center bottom-bar-home">
+						<div class="text-center">
+							<a href="/" class="nav-link">
+								<i class="ri ri-home-4-line" />
+							</a>
+						</div>
+						<div class="text-center">
+							<span class="text-dark">Home</span>
+						</div>
+					</div>
+					<div class="col text-center bottom-bar-language">
+						<div class="text-center">
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+								<t t-foreach="website.language_ids" t-as="lg">
+									<t t-if="request.env.context.get('lang') == lg.code">
+										<img t-attf-src="{{lg.flag_image_url}}" width="18"
+											t-att-title="lg.name" t-att-class="lg.code" />
+									</t>
+								</t>
+							</a>
+							<div class="dropdown-menu" role="menu">
+								<t t-foreach="frontend_languages.values()" t-as="lg">
+									<a
+										t-att-href="url_localized(request.httprequest.path + '?' + keep_query(), lang_code=lg.code)"
+										class="dropdown-item js_change_lang"
+										t-att-data-url_code="lg.url_code">
+										<t t-out="lg.name.split('/').pop()" />
+									</a>
+								</t>
+							</div>
+						</div>
+						<div class="text-center">
+							<span class="text-dark">Language</span>
+						</div>
+					</div>
+
+					<div class="col text-center bottom-bar-profile">
+						<div class="login_nav text-center">
+							<ul class="list-unstyled mb-0 p-0">
+								<t t-call="portal.placeholder_user_sign_in">
+									<t t-set="_item_class" t-valuef="nav-item mx-auto" />
+									<t t-set="_link_class" t-valuef="nav-link fw-bold" />
+								</t>
+
+								<!-- User Dropdown -->
+								<t t-call="portal.user_dropdown">
+									<t t-set="_icon" t-value="true" />
+									<t t-set="_user_name" t-value="false" />
+									<t t-set="_item_class" t-valuef="nav-item dropdown ms-lg-auto" />
+									<t t-set="_link_class" t-valuef="nav-link fw-bold" />
+								</t>
+							</ul>
+						</div>
+
+						<!-- Label (same as Menu, Home, Language) -->
+						<div class="text-center">
+							<span class="text-dark">Profile</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</template>
+	<template id="header10_cart_sidebar_open" inherit_id="theme_nextbiz.theme_nextbiz_header10"
+		name="Show Cart Sidebar" customize_show="True" active="True">
+		<xpath expr="//div[hasclass('cart')]//a[hasclass('nav-link')]" position="replace">
+			<a role="button" class="nav-link nav-link show_cart_sidebar">
+				<span class="text-secondary ri ri-shopping-cart-line align-middle"></span>
+				<sup t-attf-class="my_cart_quantity badge badge-primary text-bg-primary"
+					t-out="website_sale_order and website_sale_order.cart_quantity or '0'" />
+			</a>
+		</xpath>
+		<xpath expr="//div[hasclass('mobile-cart')]//a[hasclass('nav-link')]" position="replace">
+			<a role="button" class="nav-link nav-link show_cart_sidebar_mbl">
+				<span class="text-secondary ri ri-shopping-cart-line"></span>
+				<sup t-attf-class="my_cart_quantity badge badge-primary text-bg-primary"
+					t-out="website_sale_order and website_sale_order.cart_quantity or '0'" />
+			</a>
+		</xpath>
+	</template>
+
+	<template id="theme_nextbiz_header6_align_center"
+		inherit_id="theme_nextbiz.theme_nextbiz_header10"
+		active="False">
+		<xpath expr="//t[@id='top_menu']" position="attributes">
+			<attribute name="_nav_class.f">mx-auto</attribute>
+		</xpath>
+	</template>
+	<template id="theme_nextbiz_header6_align_right"
+		inherit_id="theme_nextbiz.theme_nextbiz_header10"
+		active="False">
+		<xpath expr="//t[@id='top_menu']" position="attributes">
+			<attribute name="_nav_class.f">ms-auto</attribute>
+		</xpath>
+	</template>
+</odoo>

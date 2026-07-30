@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_hotel_banner" name="Home Banner">
+		<section class="hotel-home-banner">
+            <section class="s_carousel_wrapper s_carousel_wrapper_banner" data-vxml="001"
+                data-vcss="001"
+                data-snippet="s_carousel">
+                <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-bs-interval="7000" data-bs-ride="true" id="Hotelcarousel2" style="background-image: none;">
+                 
+                    <div class="carousel-inner" >
+
+                        <div class="carousel-item active pt256 pb256" style="background-image: url('/theme_nextbiz/static/src/img/hotel-banner1.jpg');">
+                            <div class="container">
+                                <div class="banner-content text-center">
+                                    <span>
+                                        <img src="/theme_nextbiz/static/src/img/hotel-flower.png" data-original-src="/theme_nextbiz/static/src/img/hotel-flower.png" class="img img-fluid"/>
+                                    </span>
+                                    <h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+                                    <p>The Luxurious Hotel &amp; Resort Reservation</p>
+                                    <div class="s_btn" data-name="Button">
+                                        <a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256" style="background-image: url('/theme_nextbiz/static/src/img/hotel-banner2.jpg');">
+                            <div class="container">
+                                <div class="banner-content text-center">
+                                    <span>
+                                        <img src="/theme_nextbiz/static/src/img/hotel-flower.png" data-original-src="/theme_nextbiz/static/src/img/hotel-flower.png" class="img img-fluid"/>
+                                    </span>
+                                    <h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+                                    <p>The Luxurious Hotel &amp; Resort Reservation</p>
+                                    <div class="s_btn" data-name="Button">
+                                        <a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256" style="background-image: url('/theme_nextbiz/static/src/img/hotel-banner3.jpg');">
+                            <div class="container">
+                                <div class="banner-content text-center">
+                                    <span>
+                                        <img src="/theme_nextbiz/static/src/img/hotel-flower.png" data-original-src="/theme_nextbiz/static/src/img/hotel-flower.png" class="img img-fluid"/>
+                                    </span>
+                                    <h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+                                    <p>The Luxurious Hotel &amp; Resort Reservation</p>
+                                    <div class="s_btn" data-name="Button">
+                                        <a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Hotelcarousel2">
+                        <span class="fa fa-long-arrow-left"/>
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#Hotelcarousel2">
+                        <span class="fa fa-long-arrow-right"/>
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </a>
+                    <div class="carousel-indicators o_we_no_overlay">
+                        <button data-bs-slide-to="0" class="active" data-bs-target="#Hotelcarousel2"></button>
+                        <button data-bs-slide-to="1" data-bs-target="#Hotelcarousel2" class=""></button>
+                        <button data-bs-slide-to="2" data-bs-target="#Hotelcarousel2" class=""></button>
+                    </div>
+                </div>
+            </section>
+		</section>
+	</template>
+
+</odoo>

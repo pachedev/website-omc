@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_how_it_works" model="ir.ui.view">
+        <field name="name">OMC How It Works</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.how_it_works</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.how_it_works">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <section class="omc-hero pt56 pb56">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h1 class="mb-3">How Odoo Mobile Client works</h1>
+                                        <p class="lead mb-0">From the app store to your Odoo data in less than five minutes. No technical setup, no changes to how your team already works.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Step 1 -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <div class="row align-items-center g-5">
+                                    <div class="col-12 col-lg-6">
+                                        <span class="omc-badge mb-3">Step 1</span>
+                                        <h2 class="mb-3">Download the app</h2>
+                                        <p>Get Odoo Mobile Client from Google Play or the App Store. It is free, lightweight and works on any modern Android or iOS phone.</p>
+                                        <p class="mb-4">Pick the edition that matches your server: Free for everyday mobile access, Advanced if you also want push notifications.</p>
+                                        <a href="/download" class="btn btn-outline-primary">Go to downloads</a>
+                                    </div>
+                                    <div class="col-12 col-lg-6 text-center">
+                                        <img class="img-fluid" style="max-height: 380px;"
+                                             src="/theme_nextbiz/static/src/img/app2-banner-mobile.png"
+                                             alt="Downloading the Odoo Mobile Client app on a smartphone"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Step 2 -->
+                        <section class="o_cc o_cc2 pt56 pb40">
+                            <div class="container">
+                                <div class="row align-items-center g-5 flex-lg-row-reverse">
+                                    <div class="col-12 col-lg-6">
+                                        <span class="omc-badge mb-3">Step 2</span>
+                                        <h2 class="mb-3">Connect your Odoo server</h2>
+                                        <p>Type the web address your company already uses to open Odoo — for example <em>mycompany.odoo.com</em> — and sign in with your usual username and password.</p>
+                                        <p>First time? Install the connector module on your server from the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">odoo_mobile_client</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">odoo_mobile_client_advanced</a> for Advanced. One click, no configuration.</p>
+                                        <p class="mb-3">You can save more than one server and switch between them at any time, which is handy if you work with several companies or with a test environment.</p>
+                                        <t t-call="omc_website.affiliate_cta">
+                                            <t t-set="variant" t-value="'inline'"/>
+                                            <t t-set="source" t-value="'how_it_works'"/>
+                                        </t>
+                                    </div>
+                                    <div class="col-12 col-lg-6 text-center">
+                                        <img class="img-fluid" style="max-height: 380px;"
+                                             src="/theme_nextbiz/static/src/img/app2-activity.png"
+                                             alt="Connecting the app to a company Odoo server with a login form"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Step 3 -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <div class="row align-items-center g-5">
+                                    <div class="col-12 col-lg-6">
+                                        <span class="omc-badge mb-3">Step 3</span>
+                                        <h2 class="mb-3">Use Odoo from your phone</h2>
+                                        <p>That is it. Your sales, inventory, projects, expenses and every other Odoo app you have access to are now in your pocket — with the same permissions and the same data as on your computer.</p>
+                                        <p class="mb-0">Optionally, protect the app with your fingerprint or face so nobody else can open it.</p>
+                                    </div>
+                                    <div class="col-12 col-lg-6 text-center">
+                                        <img class="img-fluid" style="max-height: 380px;"
+                                             src="/theme_nextbiz/static/src/img/app2-right-there.png"
+                                             alt="Team member using Odoo apps on a mobile phone while away from the office"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Good to know -->
+                        <section class="o_cc o_cc2 pt56 pb56">
+                            <div class="container">
+                                <span class="omc-badge mb-3">Good to know</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">No surprises for your IT team</h2>
+                                    </div>
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-puzzle-piece"/></span>
+                                            <h5>One module, one click</h5>
+                                            <p class="mb-0">The connector module installs from the Odoo App Store like any other app. No servers to expose, no custom deployment.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-users"/></span>
+                                            <h5>Your permissions, respected</h5>
+                                            <p class="mb-0">Everyone sees exactly what their Odoo user allows — nothing more, nothing less. Access control stays in your hands.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-lock"/></span>
+                                            <h5>Your data never leaves your server</h5>
+                                            <p class="mb-0">The app talks only to the Odoo server you configure. We do not store, copy or route your business data anywhere else.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- CTA -->
+                        <section class="pt40 pb56">
+                            <div class="container">
+                                <div class="o_cc o_cc3 omc-band p-4 p-lg-5">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-lg-8">
+                                            <h3 class="mb-1">Ready to try it?</h3>
+                                            <p class="mb-0">Download the app, or explore it first with our demo server.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-4 text-lg-end mt-4 mt-lg-0">
+                                            <a href="/download" class="btn btn-primary">Download the app</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_how_it_works" model="website.page">
+        <field name="name">How it works</field>
+        <field name="url">/how-it-works</field>
+        <field name="view_id" ref="view_how_it_works"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">How it works — Connect your Odoo server in 3 steps | Odoo Mobile Client</field>
+        <field name="website_meta_description">Download the app, connect your company's Odoo server and use Odoo from your phone. One connector module from the Odoo App Store, no custom development.</field>
+    </record>
+
+</odoo>

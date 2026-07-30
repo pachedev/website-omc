@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_hotel_address" name="Address">
+		<section class="hotel-address">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 mb16">
+						<div class="content">
+							<div class="content-icon">
+								<span class="fa fa-mobile fa-4x">
+								</span>
+							</div>
+							<div class="info">
+								<h2>Phone</h2>
+								<h3>+1 (650) 691-3277</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb16">
+						<div class="content">
+							<div class="content-icon">
+								<span class="ri ri-road-map-line fa-4x">
+								</span>
+							</div>
+							<div class="info">
+								<h2>ADDRESS</h2>
+								<h3>250 Executive Park Blvd, Suite 3400, San Francisco, 94134</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb16">
+						<div class="content">
+							<div class="content-icon">
+								<span class="ri ri-mail-line fa-4x">
+								</span>
+							</div>
+							<div class="info">
+								<h2>E-MAIL</h2>
+								<h3>info@vouge.com</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

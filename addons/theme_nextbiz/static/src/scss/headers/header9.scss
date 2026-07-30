@@ -1,0 +1,251 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+@if o-website-value('header-template')=="nextbiz-header-9" {
+	#nextbiz-header9 {
+		.o_extra_menu_items .o-no-caret {
+			i {
+				transition: transform 0.3s ease;
+
+				&::before {
+					display: none !important;
+				}
+
+				&::after {
+					content: "\f107" !important;
+					font-family: "FontAwesome";
+					display: inline-block;
+					transition: transform 0.3s ease;
+				}
+			}
+
+			.nav-link.show i::after {
+				transform: rotate(180deg);
+			}
+		}
+
+		/* mega menu alignment */
+		.middle-header {
+			.row.align-items-center {
+				.col-md-8 {
+					.bizople-header-nine {
+						#top_menu {
+							.o_mega_menu {
+								top: 50px;
+							}
+						}
+
+						position: unset;
+					}
+
+					position: unset;
+				}
+
+				position: relative;
+			}
+
+			.js_language_selector {
+				span {
+					font-size: 16px;
+				}
+
+				.dropdown-toggle {
+					background-color: transparent !important;
+					color: inherit !important;
+				}
+			}
+		}
+
+		/* mega menu alignment end */
+		.dropdown,
+		.header-myaccount {
+			.dropdown-menu {
+				border-radius: 0;
+			}
+		}
+
+		.middle-header {
+			.dropdown-toggle:after {
+				font-family: 'remixicon' !important;
+				border: 0;
+				font-size: 12px;
+				vertical-align: middle;
+				content: '\ea4c';
+				transition: 0.2s;
+				-webkit-transition: 0.2s;
+			}
+
+			.dropdown.show {
+				.dropdown-toggle:after {
+					transform: rotate(180deg) !important;
+				}
+			}
+		}
+
+		.top-header {
+			.contact-time {
+				p {
+					.fa {
+						font-size: 19px;
+					}
+
+					font-size: 16px;
+					line-height: 1.7;
+					color: inherit !important;
+				}
+			}
+
+			padding: 25px 0;
+			background-color: transparent;
+		}
+
+		.middle-header {
+			.header-center {
+				#top_menu {
+					li.o_extra_menu_items {
+						.dropdown-menu-right {
+							li {
+								border: 0 !important;
+							}
+						}
+					}
+				}
+			}
+
+			@media (max-width: 1199.98px) {
+				.s_btn .btn {
+					border-radius: 100px !important;
+					padding: 0.45rem 1.35rem;
+					font-size: 0.875rem;
+					line-height: 1.5;
+				}
+
+				padding: 20px 15px;
+			}
+
+			@media (max-width: 767.98px) {
+				padding: 10px 0;
+			}
+
+			padding: 25px 15px;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			.middle-container {
+				background-color: #fff;
+			}
+
+			box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+		}
+	}
+}
+
+$-header-template: o-website-value('header-template');
+
+@if index(('nextbiz-header-9', 'nextbiz-header-10'), $-header-template) {
+
+	#nextbiz-header9,
+	#nextbiz-header10 {
+		.header-media {
+			align-items: center;
+			display: flex;
+			justify-content: end;
+
+			li::marker {
+				display: none !important;
+				color: transparent !important;
+			}
+
+			.s_social_media {
+				.nav-link {
+					margin-right: 0.5rem !important;
+					height: 30px;
+					width: 30px;
+					display: inline-block;
+					line-height: 30px;
+					text-align: center;
+					font-size: 16px;
+					position: relative;
+					z-index: 1;
+					color: $primary !important;
+
+					&:hover {
+						i {
+							font-weight: bolder !important;
+						}
+					}
+				}
+
+			}
+
+			.login_nav {
+				.nav-link {
+
+					&:hover {
+						i {
+							font-weight: bolder !important;
+						}
+					}
+				}
+			}
+
+
+			.dropdown {
+				.nav-link.dropdown-toggle {
+					display: flex;
+					align-items: center;
+					color: $primary !important;
+
+					&:after {
+						content: "\f107" !important;
+						font-family: 'FontAwesome';
+						vertical-align: middle;
+						border: 0 !important;
+					}
+				}
+			}
+
+
+			li.nav-item {
+				list-style-type: none;
+			}
+
+			a.dropdown-toggle {
+				padding: 0 !important;
+
+				.user_img {
+					width: 30px;
+					height: 30px;
+					display: inline-block;
+					margin-top: 0 !important;
+					margin-left: 5px;
+					padding: unset !important;
+				}
+
+				&:before {
+					display: none !important;
+					transform-origin: unset !important;
+					transform: unset !important;
+				}
+
+				&:hover {
+					&:before {
+						transform-origin: unset !important;
+						transform: unset !important;
+					}
+				}
+			}
+
+			@include media-breakpoint-up(lg) {
+				.row {
+					margin-right: 0;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

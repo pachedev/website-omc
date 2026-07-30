@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="theme_common_footer2" inherit_id="website.layout" name="Footer Two" active="False">
+		<xpath expr="//div[@id='footer']" position="replace">
+			<div id="footer" class="oe_structure oe_structure_solo" t-ignore="true"
+				t-if="not no_footer">
+				<section id="footer_theme_common" class="footer_theme_common2 o_footer">
+					<section class="top-footer font-14">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-4 col-md-6">
+										<div class="block-footer">
+											<div class="title-block-footer">
+												<h4>About Store</h4>
+											</div>
+											<div class="content-block-footer">
+												<ul class="contact-list">
+													<li class="address-contact d-flex">
+														<p class="m-0">
+															<span class="ri ri-home-4-line me-3" />
+														</p>
+														<p class="m-0">
+															<span>
+																250 Executive Park Blvd,Suite
+																3400,san francisco, 94314
+															</span>
+														</p>
+													</li>
+													<li class="address-contact d-flex">
+														<p class="m-0">
+															<span class="ri ri-mail-send-line me-3" />
+														</p>
+														<p class="m-0">
+															<span>info@yourcompany.com</span>
+														</p>
+													</li>
+													<li class="address-contact d-flex">
+														<p class="m-0">
+															<span class="ri ri-phone-line me-3" />
+														</p>
+														<p class="m-0">
+															<span> +1 (640) 555-0111 </span>
+														</p>
+													</li>
+													<li class="address-contact d-flex">
+														<p class="m-0">
+															<span class="ri ri-time-line me-3" />
+														</p>
+														<p class="m-0">
+															<span>Open Time: 8:00AM - 6:00PM</span>
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-2">
+										<div class="block-footer">
+											<div class="title-block-footer">
+												<h4>Our Services</h4>
+											</div>
+											<div class="content-block-footer">
+												<ul class="footer-links links2">
+													<li>
+														<a title="About Store" href="#" class="link">
+															About Store
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															New Collection
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															Contact Us
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															Latest News
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															Our Sitemap
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-2">
+										<div class="block-footer">
+											<div class="title-block-footer">
+												<h4>Information</h4>
+											</div>
+											<div class="content-block-footer">
+												<ul class="footer-links links2">
+													<li>
+														<a title="About Store" href="#" class="link">
+															About Store
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															New Collection
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															Contact Us
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															Latest News
+														</a>
+													</li>
+													<li>
+														<a title="About Store" href="#" class="link">
+															Our Sitemap
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="block-footer">
+											<div class="oe_structure" />
+											<div class="title-block-footer">
+												<h4>Connected With Us</h4>
+											</div>
+											<div class="footer-media mb-3">
+												<a href="/website/social/facebook"
+													class="link me-3"
+													target="_blank"
+													aria-label="Facebook">
+													<i
+														class="fa fa-facebook" />
+												</a>
+												<a href="/website/social/twitter"
+													class="link me-3" target="_blank"
+													aria-label="X">
+													<i
+														class="fa fa-twitter" />
+												</a>
+												<a href="/website/social/linkedin"
+													class="link me-3" target="_blank"
+													aria-label="LinkedIn">
+													<i
+														class="fa fa-linkedin" />
+												</a>
+												<a href="/website/social/youtube"
+													class="link me-3" target="_blank"
+													aria-label="YouTube">
+													<i class="fa fa-youtube-play" />
+
+												</a>
+												<a href="/website/social/instagram"
+													class="link me-3" target="_blank"
+													aria-label="Instagram">
+													<i class="fa fa-instagram" />
+
+												</a>
+												<a href="/website/social/github"
+													class="link me-3" target="_blank"
+													aria-label="GitHub">
+													<i class="fa fa-github" />
+
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</section>
+				</section>
+			</div>
+		</xpath>
+		<xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
+			<div t-if="not no_copyright" class="o_footer_copyright">
+				<section class="copyright text-default py-4">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+								<div class="payment-content">
+									<img src="/theme_nextbiz/static/src/img/payment-footer.png"
+										data-original-src="/theme_nextbiz/static/src/img/payment-footer.png"
+										class="img-fluid" />
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-6  company text-center text-md-end">
+								<span>© <span id="current-year">2025</span> All rights reserved.</span>
+                                <span t-field="res_company.name"/>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</xpath>
+	</template>
+</odoo>

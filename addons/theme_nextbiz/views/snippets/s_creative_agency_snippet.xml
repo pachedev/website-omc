@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_creative_agency_snippet" name="Creative Agency">
+		<section class="s_creative_agency_snippet">
+			<div class="oe_structure" />
+			<section class="creative-agency-home-banner">
+				<section class="s_carousel_wrapper" data-vxml="001" data-vcss="001"
+					data-snippet="s_carousel">
+					<div class="s_carousel s_carousel_arrows_hidden carousel slide"
+						data-bs-interval="10000" data-bs-ride="true" id="Creativeagencycarousel3"
+						style="background-image: none;">
+
+						<div class="carousel-inner">
+							<div class="carousel-item active pt256 pb256"
+								style="background-image: url('/theme_nextbiz/static/src/img/creative-banner1.jpg');">
+								<div class="container">
+									<div class="banner-content">
+										<h2>We do it with <br></br>
+                            <span>Precision</span>
+										</h2>
+										<div class="s_btn" data-name="Button">
+											<a href="#" class="btn btn-link bizople_button">View
+												more <span class="fa fa-angle-right ms-2" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item pt256 pb256"
+								style="background-image: url('/theme_nextbiz/static/src/img/creative-banner2.jpg');">
+								<div class="container">
+									<div class="banner-content">
+										<h2>Books Bring <br></br>Our <span>Smile</span>
+										</h2>
+										<div class="s_btn" data-name="Button">
+											<a href="#" class="btn btn-link bizople_button">View
+												more <span class="fa fa-angle-right ms-2" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item pt256 pb256"
+								style="background-image: url('/theme_nextbiz/static/src/img/creative-banner3.jpg');">
+								<div class="container">
+									<div class="banner-content">
+										<h2>We just made <br></br> it <span>Awesome</span>
+										</h2>
+										<div class="s_btn" data-name="Button">
+											<a href="#" class="btn btn-link bizople_button">View
+												more <span class="fa fa-angle-right ms-2" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev o_not_editable o_we_no_overlay"
+							data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+							href="#Creativeagencycarousel3">
+							<span class="carousel-control-prev-icon"></span>
+							<span class="sr-only o_default_snippet_text">Previous</span>
+						</a>
+						<a class="carousel-control-next o_not_editable o_we_no_overlay"
+							data-bs-slide="next" role="img" aria-label="Next" title="Next"
+							href="#Creativeagencycarousel3">
+							<span class="carousel-control-next-icon"></span>
+							<span class="sr-only o_default_snippet_text">Next</span>
+						</a>
+						<div class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+							<button data-bs-slide-to="0" class="active"
+								data-bs-target="#Creativeagencycarousel3"></button>
+							<button data-bs-slide-to="1" data-bs-target="#Creativeagencycarousel3"
+								class=""></button>
+							<button data-bs-slide-to="2" data-bs-target="#Creativeagencycarousel3"
+								class=""></button>
+						</div>
+					</div>
+				</section>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-service">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 mb-3">
+							<div class="service-content">
+								<div class="image">
+									<span class="ri ri-lightbulb-line fa-4x" />
+								</div>
+								<div class="info">
+									<h4>Best Ideas</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 mb-3">
+							<div class="service-content">
+								<div class="image">
+									<span class="ri ri-settings-3-line fa-4x" />
+								</div>
+								<div class="info">
+									<h4>Our Speciality</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 mb-3">
+							<div class="service-content">
+								<div class="image">
+									<span class="fa fa-refresh fa-4x" />
+								</div>
+								<div class="info">
+									<h4>Structured Process</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-projects">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-projects1.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-projects1.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Digital Marketing </h6>
+										<h4>Branding for Theme Designer</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-projects2.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-projects2.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Search Engine </h6>
+										<h4>Button Designs Free</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-projects3.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-projects3.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Admin templates </h6>
+										<h4>Branding &amp; Co Agency</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-projects4.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-projects4.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Branding </h6>
+										<h4>Zukandre Phoniex</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-projects5.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-projects5.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Wll Mockup </h6>
+										<h4>Sionage Mockup</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-projects6.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-projects6.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Hard Cover Book Mock</h6>
+										<h4>New design book </h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-8 p-0">
+							<div class="text-content">
+								<div class="text-info">
+									<h3>Our latest <span>Projects.</span> For Our Clients.</h3>
+									<div class="s_btn" data-name="Button">
+										<a href="#" class="btn btn-link bizople_button">View more <span
+												class="fa fa-angle-right ms-2" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-awards">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-12">
+							<div class="award-content">
+								<h2>Our <span> Rewards </span>and Publications</h2>
+								<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus
+									tortor varius at. Vivamus ut ullamcorper diam. Vestibulum et
+									elit lacus. Suspendisse metus nisi, iaculis sit amet risus et,
+									aliquet volutpat elit.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 ms-auto">
+							<div class="content">
+								<h5>Awards</h5>
+								<ul>
+									<li>Morbi malesuada</li>
+									<li>Vivamus ut ullamcorper</li>
+									<li>Suspendisse metus nisi</li>
+									<li>Iaculis sit amet</li>
+									<li>Maecenas non sem mauris</li>
+									<li>Aliquet volutpat elit</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="content">
+								<h5>Publications</h5>
+								<ul>
+									<li>Morbi malesuada</li>
+									<li>
+										<span>Vivamus ut ullamcorper</span>
+									</li>
+									<li>Suspendisse metus nisi</li>
+									<li>
+										<span>Iaculis sit amet</span>
+									</li>
+									<li>Maecenas non sem mauris</li>
+									<li>Aliquet <span>volutpat elit</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-counter"
+				style="background-image: url('/theme_nextbiz/static/src/img/creative-counter.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">37</div>
+								<h5>Developers</h5>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">156</div>
+								<h5>Clients</h5>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">109</div>
+								<h5>Rewards</h5>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">256</div>
+								<h5>Projects</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-features">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+							<div class="feature-content">
+								<div class="d-flex">
+									<div class="icon">
+										<span class="fa fa-smile-o fa-3x" />
+									</div>
+									<div class="info">
+										<h4>24/7 Available support</h4>
+										<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu
+											maximus tortor varius at Vivamus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+							<div class="feature-content">
+								<div class="d-flex">
+									<div class="icon">
+										<span class="ri ri-star-line fa-3x" />
+									</div>
+									<div class="info">
+										<h4>Social marketing</h4>
+										<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu
+											maximus tortor varius at Vivamus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+							<div class="feature-content">
+								<div class="d-flex">
+									<div class="icon">
+										<span class="ri ri-heart-line fa-3x" />
+									</div>
+									<div class="info">
+										<h4>Unique strategy</h4>
+										<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu
+											maximus tortor varius at Vivamus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-spain">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-xl-6 col-lg-12 col-md-12">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_nextbiz/static/src/img/creative-spain.jpg"
+										data-original-src="/theme_nextbiz/static/src/img/creative-spain.jpg" />
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-12 col-md-12">
+							<div class="content">
+								<h2>We’ve been <br></br> there: <span>Columbia</span></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+									tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean
+									finibus condimentum odio.</p>
+								<div class="s_btn" data-name="Button">
+									<a href="#" class="btn btn-link bizople_button">View more <span
+											class="fa fa-angle-right ms-2" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-team">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-team1.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-team1.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Paul Williams</h4>
+								<p>Video Editor</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-team2.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-team2.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Anita Oliver</h4>
+								<p>Video director</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-team3.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-team3.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Andrew Petersons</h4>
+								<p>Project manager</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_nextbiz/static/src/img/creative-team4.jpg"
+											data-original-src="/theme_nextbiz/static/src/img/creative-team4.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Jessy Pinkman</h4>
+								<p>Photographer</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure" />
+			<section class="creative-contact-us">
+				<div class="container">
+					<div class="row">
+						<div class="heading w-75">
+							<h3>Contact us now and receive a free quotation for your project</h3>
+						</div>
+					</div>
+					<section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+						<div class="container">
+							<form id="contactus_form" action="/website/form/" method="post"
+								enctype="multipart/form-data" class="o_mark_required" data-mark="*"
+								data-model_name="mail.mail" data-success-mode="redirect"
+								data-success-page="/thank-you" data-pre-fill="true">
+								<div class="s_website_form_rows row s_col_no_bgcolor">
+									<div data-name="Field"
+										class="s_website_form_field mb-3 col-12 s_website_form_dnone">
+										<div class="row s_col_no_resize s_col_no_bgcolor">
+											<label
+												class="col-form-label col-sm-auto s_website_form_label"
+												style="width: 200px">
+												<span class="s_website_form_label_content"></span>
+											</label>
+											<div class="col-sm">
+												<input type="hidden"
+													class="form-control s_website_form_input"
+													name="email_to"
+													value="info@yourcompany.example.com" />
+											</div>
+										</div>
+									</div>
+									<div
+										class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+										data-type="char" data-name="Field">
+										<div class="row s_col_no_resize s_col_no_bgcolor">
+											<label
+												class="col-form-label col-sm-auto s_website_form_label d-none"
+												style="width: 200px" for="contact1">
+												<span class="s_website_form_label_content">Your Name</span>
+												<span class="s_website_form_mark"> *</span>
+											</label>
+											<div class="col-sm">
+												<input id="contact1" type="text"
+													class="form-control s_website_form_input"
+													name="name" required="1" data-fill-with="name"
+													placeholder="Your Name*" />
+											</div>
+										</div>
+									</div>
+									<div
+										class="form-group col-6 s_website_form_field s_website_form_custom"
+										data-type="char" data-name="Field">
+										<div class="row s_col_no_resize s_col_no_bgcolor">
+											<label
+												class="col-form-label col-sm-auto s_website_form_label d-none"
+												style="width: 200px" for="contact2">
+												<span class="s_website_form_label_content">Phone
+													Number</span>
+											</label>
+											<div class="col-sm">
+												<input id="contact2" type="tel"
+													class="form-control s_website_form_input"
+													name="phone" data-fill-with="phone"
+													placeholder="Phone Number*" />
+											</div>
+										</div>
+									</div>
+									<div
+										class="form-group col-6 s_website_form_field s_website_form_required"
+										data-type="email" data-name="Field">
+										<div class="row s_col_no_resize s_col_no_bgcolor">
+											<label
+												class="col-form-label col-sm-auto s_website_form_label d-none"
+												style="width: 200px" for="contact3">
+												<span class="s_website_form_label_content">Your
+													Email</span>
+												<span class="s_website_form_mark"> *</span>
+											</label>
+											<div class="col-sm">
+												<input id="contact3" type="email"
+													class="form-control s_website_form_input"
+													name="email_from" required="1"
+													data-fill-with="email" placeholder="Your Email*" />
+											</div>
+										</div>
+									</div>
+									<div
+										class="form-group col-12 s_website_form_field s_website_form_required"
+										data-type="char" data-name="Field">
+										<div class="row s_col_no_resize s_col_no_bgcolor">
+											<label
+												class="col-form-label col-sm-auto s_website_form_label d-none"
+												style="width: 200px" for="contact5">
+												<span class="s_website_form_label_content">Subject</span>
+												<span class="s_website_form_mark"> *</span>
+											</label>
+											<div class="col-sm">
+												<input id="contact5" type="text"
+													class="form-control s_website_form_input"
+													name="subject" required="1"
+													placeholder="Subject*" />
+											</div>
+										</div>
+									</div>
+									<div
+										class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required"
+										data-type="text" data-name="Field">
+										<div class="row s_col_no_resize s_col_no_bgcolor">
+											<label
+												class="col-form-label col-sm-auto s_website_form_label d-none"
+												style="width: 200px" for="contact6">
+												<span class="s_website_form_label_content">Your
+													Question</span>
+											</label>
+											<div class="col-sm">
+												<textarea id="contact6"
+													class="form-control s_website_form_input"
+													name="description" required="1"
+													placeholder="Message *"></textarea>
+											</div>
+										</div>
+									</div>
+									<div
+										class="form-group col-12 s_website_form_submit text-end s_website_form_no_submit_label"
+										data-name="Submit Button">
+										<div style="width: 200px;" class="s_website_form_label" />
+										<a href="#" role="button"
+											class="btn btn-link btn-lg s_website_form_send"> Submit
+											Message <span
+												class="align-middle ri ri-arrow-right-s-line" />
+										</a>
+										<span id="s_website_form_result"></span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+				</div>
+			</section>
+			<div class="oe_structure" />
+		</section>
+	</template>
+
+</odoo>

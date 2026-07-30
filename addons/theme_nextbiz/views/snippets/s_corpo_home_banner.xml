@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_home_banner" name="Home Banner">
+
+		<section class="s_carousel_wrapper s_carousel_wrapper_banner corpo-home-banner"
+			data-vxml="001"
+			data-vcss="001"
+			data-snippet="s_carousel">
+			<div class="oe_structure" />
+			<div class="s_carousel s_carousel_default carousel slide s_carousel_arrows_hidden"
+				data-bs-interval="10000" data-bs-ride="true" id="CorpoFinance2"
+				style="background-image: none;">
+
+				<div class="carousel-inner">
+					<div
+						class="carousel-item pt256 pb256 o_colored_level oe_img_bg o_bg_img_center active p-0"
+						style="background-image: url(&quot;/theme_nextbiz/static/src/img/home-banner1.jpg&quot;);"
+						data-name="Slide">
+						<div class="container">
+							<div class="row content">
+								<div class="carousel-content col-lg-8 o_colored_level">
+									<h1>
+										<b>Make Future Better With Us</b>
+									</h1>
+									<p class="lead o_default_snippet_text mt-4 mb-0">Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </p>
+									<p class="mt-4 mb-0 d-flex">
+										<a href="/contactus"
+											class="btn btn-primary btn-lg rounded-circle o_default_snippet_text">
+											<b>Work With Us</b>
+										</a>
+										<a href="/contactus"
+											class="btn btn-secondary btn-lg rounded-circle ms-3 o_default_snippet_text">
+											<b>Learn More</b>
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="carousel-item pt256 pb256 o_colored_level oe_img_bg o_bg_img_center p-0"
+						style="background-image: url(&quot;/theme_nextbiz/static/src/img/home-banner2.jpg&quot;);"
+						data-name="Slide">
+						<div class="container">
+							<div class="row content">
+								<div class="carousel-content col-lg-8 o_colored_level">
+									<h1>
+										<b>Make Future Better With Us</b>
+									</h1>
+									<p class="lead o_default_snippet_text mt-4 mb-0">Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </p>
+									<p class="mt-4 mb-0 d-flex">
+										<a href="/contactus"
+											class="btn btn-primary btn-lg rounded-circle o_default_snippet_text">
+											<b>Work With Us</b>
+										</a>
+										<a href="/contactus"
+											class="btn btn-secondary btn-lg rounded-circle ms-3 o_default_snippet_text">
+											<b>Learn More</b>
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev o_not_editable o_we_no_overlay"
+					data-bs-slide="prev" role="img" aria-label="Previous" title="Previous"
+					href="#CorpoFinance2">
+					<span class="carousel-control-prev-icon" />
+					<span class="visually-hidden o_default_snippet_text">Previous</span>
+				</a>
+				<a class="carousel-control-next o_not_editable o_we_no_overlay"
+					data-bs-slide="next" role="img" aria-label="Next" title="Next"
+					href="#CorpoFinance2">
+					<span class="carousel-control-next-icon" />
+					<span class="visually-hidden o_default_snippet_text">Next</span>
+				</a>
+				<div class="carousel-indicators o_we_no_overlay s_carousel_indicators_dots">
+					<button data-bs-slide-to="0" class="active" data-bs-target="#CorpoFinance2"></button>
+					<button data-bs-slide-to="1" data-bs-target="#CorpoFinance2" class=""></button>
+				</div>
+			</div>
+			<div class="oe_structure" />
+		</section>
+
+	</template>
+</odoo>

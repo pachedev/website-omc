@@ -1,0 +1,579 @@
+//
+// Odoo Mobile Client — layout, hero, steps, footer
+// Colors come from the palette combos (o_ccN); nothing here fights the theme
+// with !important except where the theme uses id selectors (footer links).
+//
+
+// ── Side breathing room ────────────────────────────────────────────────────
+#wrapwrap .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    #wrapwrap .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+// ── Hero: brand gradient (the only place the gradient is used) ─────────────
+.omc-hero {
+    background: linear-gradient(135deg, #9531AD 0%, #035EBE 70%, #05A2D8 100%);
+    color: #fff;
+
+    h1,
+    h2 {
+        color: #fff;
+    }
+
+    p,
+    .lead {
+        color: rgba(255, 255, 255, .88);
+    }
+
+    a:not(.btn) {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .btn-light {
+        color: var(--omc-primary);
+
+        &:hover {
+            background-color: rgba(255, 255, 255, .88);
+            color: var(--omc-primary);
+        }
+    }
+
+    // Bootstrap's outline-light is too faint over the gradient: make the
+    // border and label solid white, and invert on hover.
+    .btn-outline-light {
+        border-color: #fff;
+        border-width: 2px;
+        color: #fff;
+
+        &:hover,
+        &:focus {
+            background-color: #fff;
+            color: var(--omc-primary);
+        }
+    }
+}
+
+// ── Steps: numbered circles joined by a line (desktop only) ────────────────
+.omc-steps>[class*="col"] {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .omc-steps>[class*="col"]::before {
+        content: "";
+        position: absolute;
+        top: 1.75rem;
+        left: -50%;
+        width: 100%;
+        height: 2px;
+        background-color: var(--omc-border);
+        z-index: 0;
+    }
+
+    .omc-steps>[class*="col"]:first-child::before {
+        display: none;
+    }
+}
+
+.omc-step-num {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #9531AD, #05A2D8);
+    color: #fff;
+    font-size: 1.375rem;
+    font-weight: 700;
+    box-shadow: var(--omc-shadow-sm);
+}
+
+// ── Feature tile (icon + text, no card chrome) ─────────────────────────────
+.omc-feature h5 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+// ── Demo credentials box on the download page ────────────────────────────
+// Values render as readonly password inputs with reveal/copy controls, so they
+// are not readable at a glance. Sits on the dark cc3 band.
+.omc-demo-box {
+    border-radius: var(--omc-radius-lg);
+    padding: 1.25rem;
+    background-color: rgba(255, 255, 255, .08);
+}
+
+.omc-demo-field + .omc-demo-field {
+    margin-top: .75rem;
+}
+
+.omc-demo-label {
+    display: block;
+    font-size: .6875rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--omc-secondary);
+    margin-bottom: .25rem;
+}
+
+.omc-demo-control {
+    display: flex;
+    align-items: stretch;
+    gap: .375rem;
+}
+
+.omc-demo-input {
+    flex: 1 1 auto;
+    min-width: 0;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: var(--omc-radius-sm);
+    color: #fff;
+    font-family: var(--bs-font-monospace, monospace);
+    font-size: .875rem;
+    padding: .5rem .75rem;
+
+    &:focus {
+        outline: none;
+        border-color: var(--omc-secondary);
+    }
+}
+
+.omc-demo-btn {
+    flex: 0 0 auto;
+    width: 2.5rem;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: var(--omc-radius-sm);
+    color: #fff;
+    transition: background-color var(--omc-transition), color var(--omc-transition);
+
+    &:hover {
+        background-color: #fff;
+        color: var(--omc-primary);
+    }
+}
+
+.omc-demo-reveal-all {
+    margin-top: 1rem;
+    background: none;
+    border: 0;
+    padding: 0;
+    color: var(--omc-secondary);
+    font-size: .8125rem;
+    font-weight: 600;
+
+    &:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+// ── Comparison table ───────────────────────────────────────────────────────
+.omc-compare {
+    th,
+    td {
+        vertical-align: middle;
+    }
+
+    thead th {
+        border-bottom-width: 2px;
+        font-size: .95rem;
+    }
+}
+
+// ── Affiliate CTA (visitors without an Odoo server) ───────────────────────
+// Deliberately secondary: outline button and a quiet disclosure, so it never
+// competes with the download CTA.
+.omc-affiliate-note {
+    font-size: .75rem;
+    opacity: .7;
+}
+
+.omc-affiliate-inline {
+    font-size: .9375rem;
+
+    a {
+        font-weight: 600;
+    }
+
+    .omc-affiliate-note {
+        margin-left: .25rem;
+    }
+}
+
+.omc-affiliate-band {
+    background-color: var(--omc-soft);
+}
+
+// ── Legal pages: comfortable reading column ───────────────────────────────
+.omc-legal {
+    h3 {
+        margin-top: 2.5rem;
+        margin-bottom: .75rem;
+    }
+
+    p,
+    li {
+        color: var(--omc-text);
+    }
+}
+
+// ── Footer ─────────────────────────────────────────────────────────────────
+// Background and text colors come from the o_cc5 combo. Links need
+// !important because theme_nextbiz styles footer anchors through
+// #footer_theme_* id selectors, which outrank any class selector.
+.omc-footer {
+
+    a {
+        color: #fff !important;
+        text-decoration: none !important;
+        opacity: .9;
+        transition: color var(--omc-transition), opacity var(--omc-transition), transform var(--omc-transition);
+
+        &:hover {
+            color: var(--omc-secondary) !important;
+            opacity: 1;
+        }
+    }
+
+    h6 {
+        color: var(--omc-secondary);
+        text-transform: uppercase;
+        font-size: .75rem;
+        letter-spacing: .08em;
+        margin-bottom: 1rem;
+    }
+
+    .omc-footer-brand {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .omc-footer-tagline {
+        max-width: 340px;
+    }
+
+    .omc-footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: .625rem;
+        }
+
+        a {
+            font-size: .95rem;
+            font-weight: 500;
+            display: inline-block;
+
+            &:hover {
+                transform: translateX(2px);
+            }
+        }
+    }
+}
+
+// Legal bar under the footer: quiet, on the soft background.
+.omc-legal-bar {
+    font-size: .8125rem;
+
+    a {
+        color: var(--omc-primary);
+        font-weight: 600;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+// ── Header ─────────────────────────────────────────────────────────────────
+// Two states: transparent while sitting on top of the hero, solid white once
+// scrolled (class added by static/src/js/header_scroll.js). Pages that open
+// with a hero get the overlay treatment; the rest keep a solid header from the
+// start, hence the :has() checks.
+#wrapwrap > header {
+    transition: background-color .25s ease, box-shadow .25s ease;
+
+    .nextbiz-header8 .middle-header {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+}
+
+// --- Overlay only on pages that start with the hero ---
+#wrapwrap:has(.omc-hero) {
+
+    > header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+        background-color: transparent !important;
+
+        // The theme's navbar carries the menu color combination, so it has to
+        // be cleared too or it paints over the transparent header.
+        > .navbar,
+        .nextbiz-header8,
+        .middle-header {
+            background-color: transparent !important;
+            background-image: none !important;
+        }
+
+        // Menu, brand and language links sit on the gradient: keep them light.
+        .nav-link,
+        .navbar-brand,
+        .dropdown-toggle {
+            color: #fff !important;
+        }
+
+        .nav-link:hover {
+            color: rgba(255, 255, 255, .75) !important;
+        }
+
+        // Inverted CTA on the gradient: white pill, brand-colored text.
+        .omc-header-cta {
+            background-color: #fff !important;
+            border-color: #fff !important;
+            color: var(--omc-primary) !important;
+        }
+
+        #show-sidebar {
+            color: #fff;
+            border-color: rgba(255, 255, 255, .5);
+        }
+
+        // The brand logo is dark-on-light artwork; over the gradient it needs
+        // to read as white. Reverted in the scrolled (white) state below.
+        .navbar-brand img,
+        img.logo {
+            filter: brightness(0) invert(1);
+        }
+    }
+
+    // Room for the overlaid header above the hero content.
+    .omc-hero {
+        padding-top: 7rem !important;
+    }
+
+    // Only pages with a hero get the fixed header on scroll: the header is out
+    // of the flow from the start there, so switching to fixed causes no jump.
+    > header.omc-scrolled,
+    > header.o_header_is_scrolled {
+        position: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+    #wrapwrap:has(.omc-hero) .omc-hero {
+        padding-top: 9rem !important;
+    }
+}
+
+// --- Scrolled state: solid white, readable menu, brand-colored CTA ---
+#wrapwrap > header.omc-scrolled,
+#wrapwrap > header.o_header_is_scrolled {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background-color: #fff !important;
+    box-shadow: 0 2px 16px rgba(8, 28, 78, .1);
+
+    // Same reason as above: clear the navbar so the white header shows through.
+    > .navbar,
+    .nextbiz-header8,
+    .middle-header {
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    .nav-link,
+    .navbar-brand,
+    .dropdown-toggle {
+        color: var(--omc-navy) !important;
+        font-weight: 600;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        color: var(--omc-primary) !important;
+    }
+
+    .omc-header-cta {
+        background-color: var(--omc-primary) !important;
+        border-color: var(--omc-primary) !important;
+        color: #fff !important;
+
+        &:hover {
+            background-color: var(--omc-blue) !important;
+            border-color: var(--omc-blue) !important;
+        }
+    }
+
+    #show-sidebar {
+        color: var(--omc-navy);
+        border-color: rgba(8, 28, 78, .2);
+    }
+
+    // Back to the original artwork on the white header.
+    .navbar-brand img,
+    img.logo {
+        filter: none;
+    }
+}
+
+// --- Pages without a hero: solid header, no overlay ---
+// Sticky (not fixed) so the content does not jump when the class flips.
+#wrapwrap:not(:has(.omc-hero)) > header {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    background-color: #fff !important;
+    border-bottom: 1px solid var(--omc-border);
+
+    > .navbar,
+    .nextbiz-header8,
+    .middle-header {
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    .nav-link,
+    .navbar-brand {
+        color: var(--omc-navy) !important;
+    }
+
+    .nav-link:hover {
+        color: var(--omc-primary) !important;
+    }
+}
+
+.omc-header-cta {
+    border-radius: var(--omc-radius-pill);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+// Keep the menu on one line on desktop so no item gets clipped.
+@media (min-width: 992px) {
+    .nextbiz-header8 .navbar-collapse .nav-link {
+        white-space: nowrap;
+        padding-left: .75rem !important;
+        padding-right: .75rem !important;
+    }
+}
+
+// ── Language selector (header, short codes next to the CTA) ────────────────
+.omc-header-lang {
+
+    .btn,
+    .dropdown-toggle {
+        border: 0;
+        background-color: transparent;
+        padding: .25rem .5rem;
+        font-size: .875rem;
+        font-weight: 600;
+    }
+
+    .dropdown-item {
+        color: var(--omc-navy) !important;
+        font-size: .875rem;
+    }
+}
+
+// Over the hero the codes are white; on the scrolled (white) header, navy.
+#wrapwrap:has(.omc-hero) > header:not(.omc-scrolled):not(.o_header_is_scrolled) .omc-header-lang {
+
+    .btn,
+    .dropdown-toggle {
+        color: #fff !important;
+    }
+}
+
+#wrapwrap > header.omc-scrolled .omc-header-lang,
+#wrapwrap > header.o_header_is_scrolled .omc-header-lang,
+#wrapwrap:not(:has(.omc-hero)) > header .omc-header-lang {
+
+    .btn,
+    .dropdown-toggle {
+        color: var(--omc-navy) !important;
+    }
+
+    .btn:hover,
+    .dropdown-toggle:hover {
+        color: var(--omc-primary) !important;
+    }
+}
+
+// ── Language selector (footer, full language names) ────────────────────────
+.omc-lang-selector {
+
+    .btn,
+    .dropdown-toggle {
+        color: #fff !important;
+        border: 1px solid rgba(255, 255, 255, .35);
+        border-radius: var(--omc-radius-sm);
+        padding: .25rem .625rem;
+        font-size: .8125rem;
+        font-weight: 600;
+        background-color: transparent;
+
+        &:hover {
+            border-color: var(--omc-secondary);
+            color: var(--omc-secondary) !important;
+        }
+    }
+
+    .dropdown-menu {
+        min-width: 8rem;
+    }
+
+    .dropdown-item {
+        color: var(--omc-navy) !important;
+        font-size: .875rem;
+    }
+}
+
+// ── Contact form ───────────────────────────────────────────────────────────
+.omc-form {
+
+    .form-label {
+        font-weight: 500;
+        margin-bottom: .375rem;
+    }
+
+    .form-control,
+    .form-select {
+        border-radius: var(--omc-radius-sm);
+        border-color: var(--omc-border);
+        padding: .625rem .875rem;
+
+        &:focus {
+            border-color: var(--omc-primary);
+            box-shadow: 0 0 0 .2rem rgba(149, 49, 173, .12);
+        }
+    }
+
+    .invalid-feedback.d-block {
+        font-size: .8125rem;
+    }
+}

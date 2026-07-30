@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Registro singleton; instance_uuid y api_key se autogeneran (default uuid4) -->
+        <record id="instance_monitoring_config" model="pdev.instance.monitoring">
+            <field name="name">Monitoreo de la instancia</field>
+        </record>
+    </data>
+</odoo>

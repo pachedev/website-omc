@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_snowboard_ski_newsletter" name="Newsletter">
+		<section class="snowboard-newsletter" style="background-image: url('/theme_nextbiz/static/src/img/snow-newsletter.png');">
+			<div class="container overflow-hidden">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<h2>NEWSLETTER</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="app-subscribe">
+							<!-- <form class="input-group js_subscribe" data-list-id="1">
+								<input type="email" name="email" class="js_subscribe_value form-control" placeholder="Email address"/>
+								<span class="input-group-append">
+						            <a role="button" href="#" class="btn btn-primary js_subscribe_btn h-100">Subscribe</a>
+						            <a role="button" href="#" class="btn btn-success js_subscribed_btn h-100 d-none" disabled="disabled">Thanks</a>
+						        </span>
+							</form> -->
+							<form class="s_newsletter_subscribe_form s_newsletter_list js_subscribe" data-vxml="001" data-list-id="1">
+								<div class="js_subscribed_wrap d-none">
+									<p class="h4-fs text-center text-success js_subscribed_btn"><i class="fa fa-check-circle-o" role="img"/>Thanks for registering!</p>
+								</div>
+								<div class="js_subscribe_wrap">
+									<div class="input-group">
+										<input type="email" name="email" class="js_subscribe_value form-control" placeholder="Enter Your Email"/>
+										<span class="input-group-append">
+											<button role="button" class="btn btn-primary js_subscribe_btn h-100 o_submit">Subscribe</button>
+										</span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

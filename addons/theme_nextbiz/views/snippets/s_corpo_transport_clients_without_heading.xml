@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_transport_clients_without_heading" name="Clients">
+      	
+      	<section class="s_references pt56 pb56 o_colored_level" data-snippet="s_references" data-name="References">
+      		<div class="oe_structure"/>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_1" data-original-src="/web/image/website.s_reference_demo_image_1" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_2" data-original-src="/web/image/website.s_reference_demo_image_2" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_3" data-original-src="/web/image/website.s_reference_demo_image_3" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_4" data-original-src="/web/image/website.s_reference_demo_image_4" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_5" data-original-src="/web/image/website.s_reference_demo_image_5" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_default_image_6"
+							data-original-src="/web/image/website.s_reference_default_image_6"
+							class="img img-fluid mx-auto" />
+					</div>
+				</div>
+			</div>
+      		<div class="oe_structure"/>
+		</section>
+	</template>
+</odoo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Copyright bar below the footer + Organization structured data.
+         Legal links are not repeated here: they live in the footer's Legal
+         column. -->
+    <template id="footer_legal_links" inherit_id="website.layout" name="OMC Footer Legal Links">
+        <xpath expr="//footer" position="inside">
+            <div class="o_cc o_cc2 omc-legal-bar pt16 pb16">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-9">
+                            <span>© 2026 <a href="https://pachedev.com/" target="_blank" rel="noopener">Pachedev</a> — Odoo Mobile Client.</span>
+                            <span>Odoo is a trademark of Odoo S.A. This application is not affiliated with or endorsed by Odoo S.A.</span>
+                        </div>
+                        <div class="col-lg-3 text-lg-end mt-2 mt-lg-0">
+                            <span>Made by <a href="https://pachedev.com/" target="_blank" rel="noopener">Pachedev</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="application/ld+json">
+                {
+                  "@context": "https://schema.org",
+                  "@type": "Organization",
+                  "name": "Pachedev",
+                  "url": "https://pachedev.com",
+                  "email": "contact@pachedev.com",
+                  "sameAs": ["https://omc.pachedev.com"]
+                }
+            </script>
+        </xpath>
+    </template>
+
+</odoo>

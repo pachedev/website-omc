@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_app_landing_one_screenshots" name="Screenshots">
+		<section class="app-screenshots">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="title">
+							<span>SCREENSHOTS</span>
+							<h3>Amazing Design Interface</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<section class="s_carousel_wrapper  h-auto" data-vxml="001" data-vcss="001"
+						data-snippet="s_carousel">
+						<div class="s_carousel s_carousel_arrows_hidden carousel slide"
+							data-bs-interval="10000" data-bs-ride="true"
+							id="AppScreenshotsCarousel2" style="background-image: none;">
+							
+							<div class="carousel-inner">
+								<div class="carousel-item oe_img_bg o_bg_img_center active p-0 pb64" style="" data-name="Slide">
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots1.png"
+															data-original-src="/theme_nextbiz/static/src/img/app-screenshots1.png"
+															class="img img-fluid" />
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots2.png"
+															data-original-src="/theme_nextbiz/static/src/img/app-screenshots2.png"
+															class="img img-fluid" />
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots3.png"
+															data-original-src="/theme_nextbiz/static/src/img/app-screenshots3.png"
+															class="img img-fluid" />
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots4.png"
+															data-original-src="/theme_nextbiz/static/src/img/app-screenshots4.png"
+															class="img img-fluid" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item oe_img_bg o_bg_img_center p-0 pb64" style="" data-name="Slide">
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots1.png" data-original-src="/theme_nextbiz/static/src/img/app-screenshots1.png" class="img img-fluid"/>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots2.png" data-original-src="/theme_nextbiz/static/src/img/app-screenshots2.png" class="img img-fluid"/>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots3.png" data-original-src="/theme_nextbiz/static/src/img/app-screenshots3.png" class="img img-fluid"/>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 mb24">
+												<div class="text-center">
+													<div class="service-img">
+														<img src="/theme_nextbiz/static/src/img/app-screenshots4.png" data-original-src="/theme_nextbiz/static/src/img/app-screenshots4.png" class="img img-fluid"/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#AppScreenshotsCarousel2">
+								<span class="carousel-control-prev-icon"></span>
+								<span class="sr-only o_default_snippet_text">Previous</span>
+							</a>
+							<a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#AppScreenshotsCarousel2">
+								<span class="carousel-control-next-icon"></span>
+								<span class="sr-only o_default_snippet_text">Next</span>
+							</a>
+							<div
+								class="carousel-indicators s_carousel_indicators_dots o_we_no_overlay">
+								<button data-bs-slide-to="0" class="active"
+									data-bs-target="#AppScreenshotsCarousel2"></button>
+								<button data-bs-slide-to="1"
+									data-bs-target="#AppScreenshotsCarousel2" class=""></button>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+	</template>
+</odoo>

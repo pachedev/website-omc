@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_faq" model="ir.ui.view">
+        <field name="name">OMC FAQ</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.faq</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.faq">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <section class="omc-hero pt56 pb56 text-center">
+                            <div class="container">
+                                <h1 class="mb-3">Frequently asked questions</h1>
+                                <p class="lead mb-0">Everything most people ask before putting Odoo in their pocket.</p>
+                            </div>
+                        </section>
+
+                        <section class="o_cc o_cc1 pt56 pb56">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-9">
+                                        <div class="accordion" id="omcFaqAccordion">
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Is the app really free?</button>
+                                                </h2>
+                                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Yes. Odoo Mobile Client is free to download and free to use, with no user limit and no trial period. The Advanced edition is also a free download — you only pay for its server module on the Odoo App Store.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqOdoo">Do I need to have Odoo to use the app?</button>
+                                                </h2>
+                                                <div id="faqOdoo" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">
+                                                        <p>Yes. Odoo Mobile Client is an access client: it connects to an Odoo server that you or your company control, and it does not host any data of its own.</p>
+                                                        <t t-call="omc_website.affiliate_cta">
+                                                            <t t-set="variant" t-value="'inline'"/>
+                                                            <t t-set="source" t-value="'faq'"/>
+                                                        </t>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Do I need to change anything on my Odoo server?</button>
+                                                </h2>
+                                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">One small step: install the connector module from the Odoo App Store on your server — odoo_mobile_client (free) for the Free edition, odoo_mobile_client_advanced (paid) for Advanced. After that, everyone just signs in from the app. Your data still never leaves your server.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Does it work with Odoo Enterprise, Odoo.sh and Community?</button>
+                                                </h2>
+                                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Yes — Community and Enterprise, wherever they are hosted (Odoo.sh or your own hosting). OMC Free supports Odoo 12 to 19+, and OMC Advanced supports Odoo 17 to 19+. If you are unsure about your specific setup, write to us and we will confirm.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Where are my username and password stored?</button>
+                                                </h2>
+                                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Only on your phone, inside the operating system's secure storage (Keychain on iOS, Keystore on Android). They are sent only to the Odoo server you configure — never to us or to anyone else. See the Privacy Policy for details.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">Can other people in my company use it too?</button>
+                                                </h2>
+                                                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Yes — everyone with an Odoo account in your company can install the app and sign in. Each person sees exactly what their Odoo permissions allow, just like on a computer.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">Can I connect more than one Odoo server?</button>
+                                                </h2>
+                                                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Yes. You can save several servers — for example two companies, or a production and a test environment — and switch between them without typing credentials again.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">What does the Advanced edition add?</button>
+                                                </h2>
+                                                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Advanced makes your Odoo reach out to you: push notifications on your phone, automatic alerts for events in sales, purchases, inventory, accounting and HR, and the ability to open the exact record straight from the notification. It is available now — get it from the Download page.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">How do I get support?</button>
+                                                </h2>
+                                                <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
+                                                    <div class="accordion-body">Write to contact@pachedev.com or use the contact form on this site. Include your phone model and, if possible, a screenshot — it helps us answer faster.</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="o_cc o_cc2 pt56 pb56 text-center">
+                            <div class="container">
+                                <h3>Still have a question?</h3>
+                                <p>We are happy to help before and after you install.</p>
+                                <a href="/contactus" class="btn btn-primary omc-pill">Contact us</a>
+                            </div>
+                        </section>
+
+                        <script type="application/ld+json">
+                            {
+                              "@context": "https://schema.org",
+                              "@type": "FAQPage",
+                              "mainEntity": [
+                                {"@type": "Question", "name": "Is the app really free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Odoo Mobile Client is free to download and free to use, with no user limit and no trial period. The Advanced edition is also a free download — you only pay for its server module on the Odoo App Store."}},
+                                {"@type": "Question", "name": "Do I need to have Odoo to use the app?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Odoo Mobile Client is an access client: it connects to an Odoo server that you or your company control, and it does not host any data of its own."}},
+                                {"@type": "Question", "name": "Do I need to change anything on my Odoo server?", "acceptedAnswer": {"@type": "Answer", "text": "One small step: install the connector module from the Odoo App Store — odoo_mobile_client (free) for the Free edition, odoo_mobile_client_advanced (paid) for Advanced."}},
+                                {"@type": "Question", "name": "Does it work with Odoo Enterprise, Odoo.sh and Community?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Community and Enterprise, wherever hosted. OMC Free supports Odoo 12 to 19+, and OMC Advanced supports Odoo 17 to 19+."}},
+                                {"@type": "Question", "name": "Where are my username and password stored?", "acceptedAnswer": {"@type": "Answer", "text": "Only on your phone, inside the operating system's secure storage (Keychain on iOS, Keystore on Android). They are sent only to the Odoo server you configure."}},
+                                {"@type": "Question", "name": "Can I connect more than one Odoo server?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can save several servers and switch between them without typing credentials again."}},
+                                {"@type": "Question", "name": "What does the Advanced edition add?", "acceptedAnswer": {"@type": "Answer", "text": "Push notifications, automatic alerts for sales, purchases, inventory, accounting and HR, and opening the exact record straight from the notification. Available now."}}
+                              ]
+                            }
+                        </script>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_faq" model="website.page">
+        <field name="name">FAQ</field>
+        <field name="url">/faq</field>
+        <field name="view_id" ref="view_faq"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">FAQ — Support and common questions | Odoo Mobile Client</field>
+        <field name="website_meta_description">Answers about the Odoo mobile app: is it free, does it need server changes, credential security, multiple servers and what the Advanced edition adds.</field>
+    </record>
+
+</odoo>

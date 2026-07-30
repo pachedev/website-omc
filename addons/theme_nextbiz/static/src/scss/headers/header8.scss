@@ -1,0 +1,136 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+@if o-website-value('header-template') == "nextbiz-header-8"{
+	#nextbiz-header8{
+		
+		.middle-header{
+			.row.align-items-center {
+				.header-center{
+					.bizople-header-eight{
+						#top_menu{
+							margin-right: auto !important;
+							.o_mega_menu{
+								margin-right: 0 !important;
+							}
+						}
+						position: unset;
+					}
+					position: unset;
+				}
+				position: relative;
+			}
+		}
+		/* mega menu alignment end */
+		.dropdown, .header-myaccount {
+			.dropdown-menu{
+				border-radius: 0;
+			}
+		}
+		.o_no_autohide_item{
+			a:not(.dropdown-item){
+				font-weight: 500 !important;
+			}
+		}
+		.o_extra_menu_items{
+			.dropdown-toggle.o-no-caret{
+				padding: 0 !important;
+			}
+			ul{
+					visibility: visible !important;
+					opacity: 1 !important;
+					margin: 0 !important;
+					
+				}
+			div.dropdown-menu{
+				overflow-y: scroll !important;
+				max-height: 90vh !important;
+			}
+		}
+		.js_language_selector{
+			.btn{
+				background-color: transparent !important;
+				color: inherit;
+				font-size: initial;
+				font-weight: 500 !important;
+			}
+			.list-inline{
+				white-space: nowrap;
+				overflow: hidden;
+				a,span{
+					color: #1b1b1b;
+				}
+			}
+		}
+		.bizople-header-eight{
+			.dropdown {
+				.dropdown-menu{
+					.dropdown-item:active,.dropdown-item.active{
+						color: initial !important;
+						background-color: transparent !important;
+					}
+					.dropdown-item{
+						color: initial;
+					}
+				}
+			}
+		}
+		.middle-header{
+			.dropdown-toggle:after{
+				font-family: 'remixicon' !important;
+				border: 0;
+				font-size: 12px;
+				vertical-align: middle;
+				content: '\ea4c';
+				transition: 0.2s;
+				-webkit-transition: 0.2s;
+			}
+			.dropdown.show{
+				.dropdown-toggle:after{
+					transform: rotate(180deg) !important;
+				}
+			}
+		}
+		/* mega menu alignment end */
+		.middle-header{
+			.header_left{
+				.navbar-brand{
+					line-height: 75px;
+				}
+			}
+			.header-center{
+				#top_menu{
+					li.o_extra_menu_items{
+						.dropdown-menu-right{
+							li{
+								border: 0 !important;
+							}
+						}
+					}
+				}		
+			}
+			@media (max-width: 1199.98px) {
+				.s_btn .btn{
+					border-radius: 100px !important;
+					padding: 0.45rem 1.35rem;
+					font-size: 0.875rem;
+					line-height: 1.5;
+				}
+				padding: 10px 0;
+			}
+			@media (max-width: 767.98px) {
+				box-shadow: 0px 0px 3px #757575;
+			}
+			padding: 15px 0;
+			background-color: transparent;
+		}
+	}
+}
+
+.o_header_overlay #nextbiz-header8, #nextbiz-header9, #nextbiz-header10{
+	@media (max-width: 767.98px) {
+	    position: unset !important;
+	    z-index: unset !important;
+    }
+}

@@ -1,0 +1,38 @@
+services:
+
+  odoo19:
+    image: odoo:19
+    container_name: odoo-mobile-client-odoo19
+    user: root
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    environment:
+      HOST: ${DB_HOST}
+      PORT: ${DB_PORT}
+      USER: ${DB_USER}
+      PASSWORD: ${DB_PASSWORD}
+      PIP_BREAK_SYSTEM_PACKAGES: "1"
+
+    volumes:
+      - ./entrypoint.sh:/entrypoint.sh
+      - ./addons:/mnt/extra-addons
+      - ./etc:/etc/odoo
+      - ./logs:/var/log/odoo
+      - "${HOST_FILESTORE_PATH:?HOST_FILESTORE_PATH is not set in .env}:/var/lib/odoo/filestore"
+      - "${HOST_SESSIONS_PATH:?HOST_SESSIONS_PATH is not set in .env}:/var/lib/odoo/sessions"
+
+    ports:
+      - "${ODOO_PORT}:${ODOO_PORT}"
+      - "${CHAT_PORT}:${CHAT_PORT}"
+
+    tty: true
+    entrypoint: ["/bin/bash", "-c", "chmod +x /entrypoint.sh && /entrypoint.sh --"]
+
+    networks:
+      - proxy
+networks:
+  proxy:
+    external: true

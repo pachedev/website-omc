@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_dessert_services" name="Services">
+		<section class="dessert-service" style="background-image: url('/theme_nextbiz/static/src/img/dessert-items.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="ri ri-wifi-line fa-3x"/>
+							<h3>Free WiFi</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="ri ri-store-line fa-3x"/>
+							<h3>Softy Cones</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="ri ri-cake-2-line fa-3x"/>
+							<h3>Birthday Cakes</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="ri ri-cup-line fa-3x"/>
+							<h3>Fresh milk</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="ri ri-checkbox-multiple-blank-line fa-3x"/>
+							<h3>Fresh products</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="fa fa-beer fa-3x"/>
+							<h3>Ice-cream Pies</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

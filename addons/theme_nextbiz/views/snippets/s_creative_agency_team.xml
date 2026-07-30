@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_creative_agency_team" name="Out Team">
+		<section class="creative-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_nextbiz/static/src/img/creative-team1.jpg"
+										data-original-src="/theme_nextbiz/static/src/img/creative-team1.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Paul Williams</h4>
+							<p>Video Editor</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_nextbiz/static/src/img/creative-team2.jpg"
+										data-original-src="/theme_nextbiz/static/src/img/creative-team2.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Anita Oliver</h4>
+							<p>Video director</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_nextbiz/static/src/img/creative-team3.jpg"
+										data-original-src="/theme_nextbiz/static/src/img/creative-team3.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Andrew Petersons</h4>
+							<p>Project manager</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_nextbiz/static/src/img/creative-team4.jpg"
+										data-original-src="/theme_nextbiz/static/src/img/creative-team4.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Jessy Pinkman</h4>
+							<p>Photographer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+    <menuitem action="theme_nextbiz.bizcommon_dynamic_blog_slider_action" id="bizcommon_dynamic_blog_slider_menu" name="Blog Slider" parent="website.menu_website_global_configuration" sequence="40" />
+</odoo>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+	<template id="s_snowboard_ski_testimonial" name="Testimonial">
+		<section class="snowboard-testimonial" style="background-image: url('/theme_nextbiz/static/src/img/snow-testimonial.jpg');">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-8">
+						<section class="s_carousel_wrapper" data-vxml="001" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-bs-interval="7000" data-bs-ride="true" id="Snowboardtestimonial3" style="background-image: none;">
+        <div class="carousel-indicators o_we_no_overlay">
+            <button data-bs-slide-to="0" class="active" data-bs-target="#Snowboardtestimonial3">
+                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team2.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team2.png" />
+            </button>
+            <button data-bs-slide-to="1" data-bs-target="#Snowboardtestimonial3" class="">
+                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team3.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team3.png" />
+            </button>
+            <button data-bs-slide-to="2" data-bs-target="#Snowboardtestimonial3" class="">
+                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team4.png" data-original-src="/theme_nextbiz/static/src/img/vouge-team4.png" />
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-content">
+                    <div class="content">
+                        <h4>Professional Skier</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="text">
+                        <p>Anita Oliver</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="content">
+                        <h4>Professional Snowboarder</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="text">
+                        <p>Paul Williams</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="content">
+                        <h4>Professional Skater</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="text">
+                        <p>Jessy Pinkman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Snowboardtestimonial3">
+            <span class="fa fa-angle-left d-none"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#Snowboardtestimonial3">
+            <span class="fa fa-angle-right d-none"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

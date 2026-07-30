@@ -1,0 +1,221 @@
+//
+// Odoo Mobile Client — design tokens and visual hierarchy
+// Brand styles live under .omc-* selectors so they never collide with the theme.
+//
+
+:root {
+    // Palette mirror, for plain CSS use
+    --omc-primary: #9531AD;
+    --omc-secondary: #05A2D8;
+    --omc-blue: #035EBE;
+    --omc-soft: #F7F8FC;
+    --omc-surface: #FFFFFF;
+    --omc-navy: #081C4E;
+    --omc-text: #4A5578;
+    --omc-border: #E4E9F5;
+
+    // Moderate rounding
+    --omc-radius-sm: .5rem;
+    --omc-radius-md: .75rem;
+    --omc-radius-lg: 1rem;
+    --omc-radius-pill: 100rem;
+
+    // Soft shadows
+    --omc-shadow-sm: 0 1px 2px rgba(8, 28, 78, .06);
+    --omc-shadow-md: 0 6px 24px rgba(8, 28, 78, .08);
+    --omc-shadow-lg: 0 16px 40px rgba(8, 28, 78, .12);
+
+    --omc-transition: .2s ease;
+}
+
+// ── Typographic hierarchy (theme font kept, only rhythm and weight tuned) ──
+#wrap {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: -.02em;
+        line-height: 1.15;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: calc(1.75rem + 1.8vw);
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: calc(1.375rem + 1.05vw);
+    }
+
+    h3 {
+        font-size: calc(1.25rem + .3vw);
+    }
+
+    p.lead {
+        font-size: 1.125rem;
+        line-height: 1.7;
+    }
+
+    p,
+    li {
+        line-height: 1.7;
+    }
+}
+
+@media (min-width: 992px) {
+    #wrap h1 {
+        font-size: 3.25rem;
+    }
+
+    #wrap h2 {
+        font-size: 2.25rem;
+    }
+}
+
+// ── Vertical rhythm: generous, uniform air between sections ────────────────
+#wrap {
+
+    section.pt56 {
+        padding-top: 4.5rem;
+    }
+
+    section.pb56 {
+        padding-bottom: 4.5rem;
+    }
+
+    section.pt40 {
+        padding-top: 3rem;
+    }
+
+    section.pb40 {
+        padding-bottom: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #wrap {
+
+        section.pt56 {
+            padding-top: 5.5rem;
+        }
+
+        section.pb56 {
+            padding-bottom: 5.5rem;
+        }
+    }
+}
+
+// ── Buttons ────────────────────────────────────────────────────────────────
+#wrap,
+.omc-footer {
+    .btn {
+        font-weight: 600;
+        border-radius: .625rem;
+        transition: all var(--omc-transition);
+    }
+
+    .btn-primary,
+    .btn-outline-primary,
+    .btn-light,
+    .btn-outline-light {
+        padding: .625rem 1.5rem;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 20px rgba(8, 28, 78, .22);
+    }
+}
+
+// Pill variant, used on store and CTA buttons.
+.omc-pill,
+.bizople_button {
+    border-radius: var(--omc-radius-pill) !important;
+}
+
+// ── Section label (pill with a dot, e.g. "● HOW IT WORKS") ─────────────────
+.omc-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .375rem 1rem;
+    border-radius: var(--omc-radius-pill);
+    background-color: rgba(149, 49, 173, .08);
+    color: var(--omc-primary);
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+
+    &::before {
+        content: "";
+        width: .375rem;
+        height: .375rem;
+        border-radius: 50%;
+        background-color: currentColor;
+    }
+}
+
+// On dark combos the badge inverts.
+.o_cc3,
+.o_cc4,
+.o_cc5 {
+    .omc-badge {
+        background-color: rgba(255, 255, 255, .12);
+        color: #fff;
+    }
+}
+
+// ── Cards ──────────────────────────────────────────────────────────────────
+.omc-card {
+    background-color: var(--omc-surface);
+    border: 1px solid var(--omc-border);
+    border-radius: var(--omc-radius-lg);
+    box-shadow: var(--omc-shadow-sm);
+    transition: box-shadow var(--omc-transition), transform var(--omc-transition);
+
+    &.omc-card-hover:hover {
+        box-shadow: var(--omc-shadow-md);
+        transform: translateY(-2px);
+    }
+
+    &.omc-card-accent {
+        border-color: var(--omc-primary);
+        box-shadow: var(--omc-shadow-md);
+    }
+}
+
+// ── Icon container ─────────────────────────────────────────────────────────
+.omc-icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--omc-radius-md);
+    background-color: rgba(149, 49, 173, .08);
+    color: var(--omc-primary);
+    font-size: 1.25rem;
+}
+
+.o_cc3 .omc-icon-box,
+.o_cc4 .omc-icon-box,
+.o_cc5 .omc-icon-box {
+    background-color: rgba(255, 255, 255, .12);
+    color: #fff;
+}
+
+// ── Highlight band: sits inside the container, not full bleed ──────────────
+.omc-band {
+    border-radius: var(--omc-radius-lg);
+    box-shadow: var(--omc-shadow-md);
+}
+
+.omc-band-outline {
+    border-radius: var(--omc-radius-lg);
+    border: 1px solid var(--omc-border);
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<template id="s_corpo_home_features" name="Features">
+      	
+      	<section class="corpo_home_services pb64" style="margin-top: -80px;">
+      		<div class="oe_structure"/>
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-6 col-lg-3 bg-white shadow">
+						<div class="services-box p-4 text-start">
+							<span class="ri ri-pie-chart-line fa-3x text-primary"/>
+							<h5 class="mt-3">
+								<b>Financial Year</b>
+							</h5>
+							<p class="my-3 text-muted">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 bg-white shadow border-md-left border-primary">
+						<div class="services-box p-4 text-start">
+							<span class="ri ri-trophy-line fa-3x text-primary"/>
+							<h5 class="mt-3">
+								<b>Achieve Goals</b>
+							</h5>
+							<p class="my-3 text-muted">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 bg-white shadow border-md-left border-primary">
+						<div class="services-box p-4 text-start">
+							<span class="ri ri-file-edit-line fa-3x text-primary"/>
+							<h5 class="mt-3">
+								<b>Business Advices</b>
+							</h5>
+							<p class="my-3 text-muted">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 bg-white shadow border-md-left border-primary">
+						<div class="services-box p-4 text-start">
+							<span class="ri ri-bar-chart-line fa-3x text-primary"/>
+							<h5 class="mt-3">
+								<b>Tax Advantages</b>
+							</h5>
+							<p class="my-3 text-muted">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+      		<div class="oe_structure"/>
+		</section>
+			
+	</template>
+</odoo>

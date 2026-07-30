@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_home" model="ir.ui.view">
+        <field name="name">OMC Home</field>
+        <field name="type">qweb</field>
+        <field name="key">omc_website.home</field>
+        <field name="arch" type="xml">
+            <t t-name="omc_website.home">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <!-- Hero -->
+                        <section class="omc-hero pt56 pb56">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6">
+                                        <h1 class="mb-3">Your Odoo, in your team's pocket</h1>
+                                        <p class="lead mb-4">Connect the Odoo Mobile Client app to your own Odoo server and run your business from anywhere — no extra development, no separate app for every module.</p>
+                                        <div class="d-flex flex-wrap gap-2 mb-4">
+                                            <a href="/download" class="btn btn-light">Download the app</a>
+                                            <a href="/how-it-works" class="btn btn-outline-light">See how it works</a>
+                                        </div>
+                                        <div class="d-flex flex-wrap gap-4">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa fa-plug"/>
+                                                <small>Works with your existing Odoo</small>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa fa-mobile"/>
+                                                <small>Android and iOS</small>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa fa-lock"/>
+                                                <small>Your data stays on your server</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 text-center mt-5 mt-lg-0">
+                                        <img class="img-fluid"
+                                             style="max-height: 460px;"
+                                             src="/theme_nextbiz/static/src/img/app2-banner-mobile.png"
+                                             alt="Odoo Mobile Client app running on a smartphone showing business data"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Supported versions strip -->
+                        <section class="o_cc o_cc2 pt40 pb40">
+                            <div class="container text-center">
+                                <small class="text-uppercase fw-semibold" style="letter-spacing:.08em;">Works with the Odoo you already run</small>
+                                <div class="d-flex flex-wrap justify-content-center gap-4 mt-3">
+                                    <span><strong>Free</strong> · Odoo 12 to 19+</span>
+                                    <span><strong>Advanced</strong> · Odoo 17 to 19+</span>
+                                    <span>Community &amp; Enterprise</span>
+                                    <span>Odoo.sh or self-hosted</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Features -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <span class="omc-badge mb-3">Features</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">One Odoo mobile app for your whole business</h2>
+                                    </div>
+                                    <div class="col-12 col-lg-5">
+                                        <p class="mb-0 mt-2 mt-lg-1">Everything your team already does in Odoo, now available on their phones.</p>
+                                    </div>
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-6 col-lg-3 omc-feature">
+                                        <span class="omc-icon-box"><i class="fa fa-sign-in"/></span>
+                                        <h5>Simple, native sign-in</h5>
+                                        <p class="mb-0">Log in with the same Odoo username and password your team already uses. No new accounts to manage.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 omc-feature">
+                                        <span class="omc-icon-box"><i class="fa fa-server"/></span>
+                                        <h5>Multiple servers</h5>
+                                        <p class="mb-0">Switch between companies or environments in seconds. Ideal if you work with more than one Odoo database.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 omc-feature">
+                                        <span class="omc-icon-box"><i class="fa fa-bolt"/></span>
+                                        <h5>Reliable session</h5>
+                                        <p class="mb-0">Stay signed in and keep working smoothly, even when your connection on the road is not perfect.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 omc-feature">
+                                        <span class="omc-icon-box"><i class="fa fa-shield"/></span>
+                                        <h5>Secure by design</h5>
+                                        <p class="mb-0">Your credentials are stored only in your phone's secure storage, with optional fingerprint or face unlock.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 3 steps -->
+                        <section class="o_cc o_cc2 pt56 pb56">
+                            <div class="container">
+                                <span class="omc-badge mb-3">How it works</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">Up and running in three steps</h2>
+                                    </div>
+                                    <div class="col-12 col-lg-5">
+                                        <p class="mb-0 mt-2 mt-lg-1">From the app store to your own Odoo data in minutes.</p>
+                                    </div>
+                                </div>
+                                <div class="row text-center g-4 omc-steps">
+                                    <div class="col-12 col-md-4">
+                                        <span class="omc-step-num mb-3">1</span>
+                                        <h5>Download the app</h5>
+                                        <p class="mb-0">Get Odoo Mobile Client for Android or iOS, free.</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <span class="omc-step-num mb-3">2</span>
+                                        <h5>Connect your Odoo server</h5>
+                                        <p class="mb-0">Type your company's Odoo address and sign in with your usual account.</p>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <span class="omc-step-num mb-3">3</span>
+                                        <h5>Work from anywhere</h5>
+                                        <p class="mb-0">Sales, inventory, projects, approvals — all of Odoo, on your phone.</p>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <a href="/how-it-works" class="btn btn-outline-primary">Learn more about how it works</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Use cases -->
+                        <section class="o_cc o_cc1 pt56 pb40">
+                            <div class="container">
+                                <span class="omc-badge mb-3">Use cases</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">Made for the people who move your business</h2>
+                                    </div>
+                                    <div class="col-12 col-lg-5">
+                                        <p class="mb-0 mt-2 mt-lg-1">Sales, warehouse, management and services — each with their own Odoo apps at hand.</p>
+                                    </div>
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card omc-card-hover h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-briefcase"/></span>
+                                            <h5>Sales on the road</h5>
+                                            <p class="mb-0">Check customers, update opportunities and send quotes between meetings.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card omc-card-hover h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-cubes"/></span>
+                                            <h5>Warehouse and inventory</h5>
+                                            <p class="mb-0">Look up stock, receive goods and validate transfers right from the floor.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card omc-card-hover h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-line-chart"/></span>
+                                            <h5>Managers and owners</h5>
+                                            <p class="mb-0">Review dashboards and approve requests without opening your laptop.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card omc-card-hover h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-calendar"/></span>
+                                            <h5>Services and consulting</h5>
+                                            <p class="mb-0">Manage your agenda, projects and timesheets while you are with clients.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <a href="/use-cases" class="btn btn-outline-primary">Explore use cases</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Free vs Advanced band -->
+                        <section class="pt40 pb40">
+                            <div class="container">
+                                <div class="o_cc o_cc3 omc-band p-4 p-lg-5">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-lg-8">
+                                            <span class="omc-badge mb-3">Two editions</span>
+                                            <h3 class="mb-2">Start free. Go further when you are ready.</h3>
+                                            <p class="mb-0">Odoo Mobile Client is free to use with your own server. The Advanced edition adds push notifications and automatic alerts for sales, purchases, inventory, accounting and HR.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-4 text-lg-end mt-4 mt-lg-0">
+                                            <a href="/free-vs-advanced" class="btn btn-primary">Compare Free vs Advanced</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Download CTA -->
+                        <section class="pt40 pb56">
+                            <div class="container">
+                                <div class="o_cc o_cc2 omc-band-outline p-4 p-lg-5 text-center">
+                                    <h3 class="mb-2">Take your Odoo with you today</h3>
+                                    <p class="mb-4">Free to download. Connects to the Odoo server you already have.</p>
+                                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                                        <a href="/download" class="btn btn-primary omc-pill">
+                                            <span class="fa fa-android me-2"/>Google Play
+                                        </a>
+                                        <a href="/download" class="btn btn-outline-primary omc-pill">
+                                            <span class="fa fa-apple me-2"/>App Store
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <script type="application/ld+json">
+                            {
+                              "@context": "https://schema.org",
+                              "@type": "MobileApplication",
+                              "name": "Odoo Mobile Client",
+                              "operatingSystem": "ANDROID, IOS",
+                              "applicationCategory": "BusinessApplication",
+                              "description": "Mobile app to access your own Odoo server from Android and iOS. Native login, multiple servers, secure credential storage.",
+                              "offers": {
+                                "@type": "Offer",
+                                "price": "0",
+                                "priceCurrency": "USD"
+                              },
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "Pachedev",
+                                "url": "https://pachedev.com"
+                              }
+                            }
+                        </script>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_home" model="website.page">
+        <field name="name">Home</field>
+        <field name="url">/</field>
+        <field name="view_id" ref="view_home"/>
+        <field name="is_published" eval="True"/>
+        <field name="website_indexed" eval="True"/>
+        <field name="website_meta_title">Odoo Mobile Client — The Odoo mobile app for your business</field>
+        <field name="website_meta_description">Access your own Odoo server from Android and iOS. Odoo Mobile Client gives your team mobile CRM, inventory, projects and more — no extra development needed.</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,555 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pdev_general_utilities
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-03 15:02+0000\n"
+"PO-Revision-Date: 2025-01-03 09:14-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_template
+msgid "Already have an account?"
+msgstr "¿Ya tienes una cuenta?"
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_signup.py:0
+msgid "Another user is already registered using this email address."
+msgstr ""
+"Ya hay otro usuario registrado usando esta dirección de correo electrónico."
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Auth Pages Set-Up"
+msgstr "Configuración de páginas de autenticación"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+msgid "Back to Login"
+msgstr "Volver a Iniciar sesión"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_background
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Background"
+msgstr "Fondo"
+
+#. module: pdev_general_utilities
+#: model:ir.model,name:pdev_general_utilities.model_web_background_image
+msgid "Background image"
+msgstr "Imágenes de fondos"
+
+#. module: pdev_general_utilities
+#: model:ir.actions.act_window,name:pdev_general_utilities.action_web_background_image
+#: model:ir.ui.menu,name:pdev_general_utilities.menu_background_images
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.web_background_image_view_tree
+msgid "Background images"
+msgstr "Imagen de fondo"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_config_settings__web_background
+msgid "Background of authentication pages"
+msgstr "Fondo de las páginas de autenticación"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/js/dialog/save_confirmation_dialog.js:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_users__is_admin
+msgid "Check if the user is an admin."
+msgstr "Compruebe si el usuario es administrador."
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_background_color
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Color"
+msgstr "Color"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_background__color
+msgid "Color Picker"
+msgstr "Color"
+
+#. module: pdev_general_utilities
+#: model:ir.model,name:pdev_general_utilities.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_template
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_signup.py:0
+msgid "Could not create a new account."
+msgstr "No se pudo crear una nueva cuenta."
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_reset_password.py:0
+msgid "Could not reset your password"
+msgstr "No se pudo restablecer tu contraseña"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid ""
+"Customize the login page with change the position of login box and "
+"customize background"
+msgstr ""
+"Personaliza la página de inicio de sesión cambiando la posición del cuadro "
+"de inicio de sesión y personalizando el fondo"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_orientation__default
+msgid "Default"
+msgstr "Predeterminado"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_config_settings__web_background_color
+msgid "Defining a background color for authentication pages"
+msgstr "Definir un color de fondo para las páginas de autenticación"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/js/dialog/save_confirmation_dialog.js:0
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Discard"
+msgstr "Descartar"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Discard changes"
+msgstr "Descartar cambios"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+msgid "Don't have an account?"
+msgstr "¿No tienes una cuenta?"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Edit"
+msgstr "Editar"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Edit manually"
+msgstr "Editar manualmente"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+msgid "Enter your email"
+msgstr "Ingresa tu correo electrónico"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+msgid "Enter your password"
+msgstr "Ingresa tu contraseña"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_users__hide_menu_ids
+msgid "Hidden Menu"
+msgstr "Menú oculto"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.view_users_form
+msgid "Hide Specific Menu"
+msgstr "Ocultar menús específicos"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Hide the option on all login, registration and password reset screens"
+msgstr ""
+"Ocultar la opción en todas las pantallas de inicio de sesión, registro y "
+"restablecimiento de contraseña"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_background_image
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_background_image_id
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__image
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_background__image
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.web_background_image_view_form
+msgid "Image"
+msgstr "Imagen"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_users__is_admin
+msgid "Is Admin"
+msgstr "Es Administrador"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_orientation__left
+msgid "Left"
+msgstr "A la izquierda"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+msgid "Log in as superuser"
+msgstr "Iniciar sesión como superusuario"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_layout
+msgid "YouTube video player"
+msgstr "Reproductor de video de YouTube"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_layout
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_layout
+msgid "Manage Databases"
+msgstr "Administrar Bases de Datos"
+
+#. module: pdev_general_utilities
+#: model:ir.model,name:pdev_general_utilities.model_ir_ui_menu
+msgid "Menu"
+msgstr "Menú"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_orientation__middle
+msgid "Middle"
+msgstr "Centrado"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_web_background_image__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_reset_password.py:0
+msgid "No login provided."
+msgstr "No hay proveedores adicionales para iniciar sesión."
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_login.py:0
+msgid ""
+"Only employees can access this database. Please contact the administrator."
+msgstr ""
+"Sólo los empleados pueden acceder a esta base de datos. Póngase en contacto "
+"con el administrador."
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_orientation
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Orientation"
+msgstr "Orientación"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_template
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_reset_password.py:0
+msgid "Password reset instructions sent to your email"
+msgstr ""
+"Instrucciones para restablecer la contraseña enviadas a su correo "
+"electrónico"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_layout
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_layout
+msgid "Powered by <span class=\"powered_by\">Pachedev</span>"
+msgstr "Powered by <span class=\"powered_by\">Pachedev</span>"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_remove_powered_by
+msgid "Remove Odoo powered option"
+msgstr "Eliminar la opción Odoo powered"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Remove powered by"
+msgstr "Eliminar powered by"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.edit_menu_access
+msgid "Restrict users"
+msgstr "Restringir usuarios"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_ir_ui_menu__restrict_user_ids
+msgid "Restricted Users"
+msgstr "Usuarios restringidos"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_orientation__right
+msgid "Right"
+msgstr "A la derecha"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Save"
+msgstr "Guardar"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/js/dialog/save_confirmation_dialog.js:0
+msgid "Save Confirmation"
+msgstr "Guardar cambios"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/js/dialog/save_confirmation_dialog.js:0
+msgid "Save changes"
+msgstr "Confirmar"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "Save manually"
+msgstr "Guardar manualmente"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_login_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_login_template
+msgid ""
+"Select <i class=\"fa fa-database\" role=\"img\" aria-label=\"Database\" "
+"title=\"Database\"/>"
+msgstr ""
+"Seleccionar <i class=\"fa-database\" role=\"img\" aria-label=\"Base de "
+"datos\" title=\"Base de datos\"/>"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Select a login background image from system."
+msgstr "Seleccione una imagen de fondo de inicio de sesión del sistema."
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_config_settings__web_background_image_url
+msgid "Select image url for the authentication pages"
+msgstr "Seleccione la url de la imagen para las páginas de autenticación"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_users__hide_menu_ids
+msgid "Select menu items that need to be hidden to this user."
+msgstr "Seleccione los elementos del menú que deben ocultarse a este usuario."
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Select orientation of login box."
+msgstr "Seleccione la orientación del cuadro de inicio de sesión."
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_config_settings__web_background_image
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_config_settings__web_background_image_id
+msgid "Select the image for the authentication pages"
+msgstr "Seleccione la imagen para las páginas de autenticación"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Set a login background color."
+msgstr "Establecer un color de fondo de inicio de sesión."
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "Set a url of background image."
+msgstr "Establece una url de imagen de fondo."
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_template
+msgid "Sign up"
+msgstr "Registrarse"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.js:0
+msgid ""
+"The record has been modified, do you want to save the changes or discard it "
+"and continue?"
+msgstr ""
+"El registro ha sido modificado, ¿desea guardar los cambios o descartarlo y "
+"continuar?"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_res_config_settings__web_orientation
+msgid "Type of visibility of authentication pages"
+msgstr "Tipo de visibilidad de las páginas de autenticación"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,field_description:pdev_general_utilities.field_res_config_settings__web_background_image_url
+#: model:ir.model.fields.selection,name:pdev_general_utilities.selection__res_config_settings__web_background__url
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.res_config_settings_form_general_utilities
+msgid "URL"
+msgstr "URL"
+
+#. module: pdev_general_utilities
+#: model:ir.model,name:pdev_general_utilities.model_res_users
+msgid "User"
+msgstr "Usuario"
+
+#. module: pdev_general_utilities
+#: model:ir.model.fields,help:pdev_general_utilities.field_ir_ui_menu__restrict_user_ids
+msgid "Users restricted from accessing this menu."
+msgstr "Usuarios con acceso restringido a este menú."
+
+#. module: pdev_general_utilities
+#. odoo-python
+#: code:addons/pdev_general_utilities/controllers/main_login.py:0
+msgid "Wrong login or password."
+msgstr "Nombre de usuario o contraseña incorrectos."
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_template
+msgid "Your Email"
+msgstr "Tu correo electrónico"
+
+#. module: pdev_general_utilities
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.left_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.middle_signup_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_reset_password_template
+#: model_terms:ir.ui.view,arch_db:pdev_general_utilities.right_signup_template
+msgid "Your Name"
+msgstr "Tu nombre"
+
+#. module: pdev_general_utilities
+#. odoo-javascript
+#: code:addons/pdev_general_utilities/static/src/views/form/form_status_indicator/form_status_indicator.xml:0
+msgid "edit manually"
+msgstr "editar manualmente"

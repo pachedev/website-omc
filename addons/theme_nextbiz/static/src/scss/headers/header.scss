@@ -1,0 +1,253 @@
+// Part of Bizople Solutions Pvt. Ltd.
+// Licensed under the Bizople Proprietary License v1.0.
+// Copyright (C) 2026 Bizople Solutions Pvt. Ltd.
+
+.editor_enable {
+	.navbar-collapse #top_menu {
+		flex-wrap: wrap !important;
+	}
+}
+
+#nextbiz-header-new-1,
+#nextbiz-header-new-2,
+#nextbiz-header8,
+#nextbiz-header9,
+#nextbiz-header10 {
+	.nav {
+		.nav-item>a.nav-link {
+			color: inherit;
+			&.active{
+				font-weight: bolder !important;
+			}
+		}
+	}
+}
+
+
+header {
+	#oe_structure_header_contact_1,
+	#oe_structure_header_contact_2,
+	#oe_structure_header_sidebar_1,
+	#oe_structure_middle-header_1
+	 {
+
+		h5 {
+			color: inherit;
+		}
+
+		a:not(.btn) {
+			color: inherit;
+
+		}
+
+	}
+
+}
+
+.o_mega_menu {
+	width: -webkit-fill-available !important;
+}
+
+#nextbiz-header3,
+#nextbiz-header6,
+#nextbiz-header9 {
+	.o_mega_menu {
+		margin: 0 !important;
+	}
+}
+
+.navbar-brand {
+	vertical-align: middle;
+}
+
+.o_header_overlay {
+	#top.o_header_is_scrolled {
+		.default-logo {
+			display: block !important;
+		}
+
+		.transparent-logo {
+			display: none !important;
+		}
+	}
+
+	#top:not(.o_header_is_scrolled) {
+		.default-logo {
+			display: none !important;
+		}
+
+		.transparent-logo {
+			display: block !important;
+		}
+
+		.middle-header {
+			.header_left {
+				#show-sidebar {
+					span {
+						color: map-get($o-user-theme-color-palette, 'overlay-header-text-color') !important;
+					}
+				}
+			}
+
+			.header-center {
+				#top_menu {
+					.nav-item>a.nav-link {
+						color: map-get($o-user-theme-color-palette, 'overlay-header-text-color') !important;
+					}
+				}
+
+				.o_no_autohide_item {
+					a:not(.dropdown-item) {
+						color: map-get($o-user-theme-color-palette, 'overlay-header-text-color') !important;
+					}
+				}
+
+				.js_language_selector {
+					.btn {
+						color: map-get($o-user-theme-color-palette, 'overlay-header-text-color') !important;
+					}
+
+					.list-inline {
+
+						a,
+						span {
+							color: map-get($o-user-theme-color-palette, 'overlay-header-text-color') !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+$-header-template: o-website-value('header-template');
+
+@if index(('nextbiz-header-8', 'nextbiz-header-9', 'nextbiz-header-10'), $-header-template) {
+
+	#nextbiz-header8,
+	#nextbiz-header9,
+	#nextbiz-header10 {
+		.o_mega_menu {
+			a.nav-link {
+				line-height: 30px;
+				border: 0;
+			}
+		}
+
+		.o_extra_menu_items>.dropdown-toggle:after {
+			display: none;
+		}
+
+		.o_extra_menu_items>.dropdown-toggle>.oi {
+			font-size: 12px;
+			font-family: 'remixicon' !important;
+			vertical-align: middle;
+			transition: 0.2s;
+			-webkit-transition: 0.2s;
+
+			&:before {
+				content: "\ea4c";
+				margin: 0.255em;
+			}
+		}
+
+		.dropdown-toggle.show {
+			.oi,&:after {
+				transform: rotate(180deg) !important;
+			}
+		}
+
+		.header-center {
+			#top_menu {
+				.nav-item>a.nav-link {
+					text-transform: capitalize;
+					letter-spacing: 0.2px;
+					font-weight: 500;
+					font-style: normal;
+					font-size: 16px;
+					line-height: 50px;
+					padding: 0 25px;
+					position: relative;
+				}
+
+				li.nav-item:first-child {
+					a.nav-link {
+						padding-left: 0;
+					}
+				}
+
+				.nav-item>dropdown-menu {
+					border-radius: 0;
+				}
+
+				li.o_extra_menu_items {
+					>.nav-link {
+						padding: 0;
+					}
+
+					.dropdown-menu-right {
+						left: 0 !important;
+						width: fit-content;
+						background-clip: unset;
+					}
+
+					>.dropdown-menu {
+						background-clip: unset;
+						width: fit-content;
+					}
+				}
+			}
+		}
+
+		.mobile-sidebar-toggle {
+			.btn {
+
+				.oi,
+				.icon,
+				.icofont,
+				.lnr,
+				.lni,
+				.ri,
+				.ti {
+					font-size: 22px;
+				}
+
+				padding: 0;
+				width: 30px;
+				height: 30px;
+				border-radius: 0;
+				background-color: transparent !important;
+				color: #1b1b1b;
+				border-color: #1b1b1b;
+				line-height: 37px;
+				border: 0;
+			}
+		}
+
+		@media (max-width: 992px) {
+			.mbl-div {
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			z-index: 1;
+			position: relative;
+		}
+	}
+	
+	.bizople-header-nine,
+	.bizople-header-ten {
+		.dropdown {
+			.dropdown-menu.show {
+				margin-top: 0 !important;
+				opacity: 1 !important;
+				visibility: visible !important;
+				@media (max-width: 1199.98px) {
+					margin-top: 35px;
+					opacity: 0;
+					visibility: hidden;
+				}
+			}
+		}
+	}
+}

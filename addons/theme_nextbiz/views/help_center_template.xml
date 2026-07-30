@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+	<record id="help_center" model="ir.ui.view">
+		<field name="name">Help Center</field>
+		<field name="type">qweb</field>
+		<field name="key">website.help_center</field>
+		<field name="arch" type="xml">
+			<t name="FAQ Three" t-name="help_center">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty" id="wrap">
+						<section class="help-center-banner">
+							<div class="container text-center">
+								<div class="main-title">
+									<h1 class="title">Help Center</h1>
+								</div>
+								<div class="sub-title d-flex">
+									<a href="/">Home</a>
+									<span class="me-2 ms-2">/</span>
+									<span>Help Center</span>
+								</div>
+							</div>
+						</section>
+					
+						<section class="help-center-content pt32 pb32 s_faq_collapse o_colored_level border-bottom border-black pb40" data-vcss="001" data-snippet="s_faq_collapse" data-name="FAQ Block">
+							<div class="s_nb_column_fixed container">
+								<div class="col-lg-12 mt16 s_col_no_bgcolor" data-name="Accordion Box">
+									<div data-name="Accordion" class="s_accordion">
+										<div id="myCollapse" class="accordion accordion-flush">
+											<h4 class="title">Answers to Your Questions</h4>
+												<div class="accordion-item position-relative z-1 border-0" data-name="Accordion Item">
+													<button type="button" class="accordion-header accordion-button justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed" data-bs-toggle="collapse" aria-expanded="false" id="accordion-button909253_1" data-bs-target="#myCollapseTab909253_1" aria-controls="myCollapseTab909253_1"><span class="flex-grow-1 o_default_snippet_text">What is your international returns policy?</span></button>
+													<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab909253_1" aria-labelledby="accordion-button909253_1">
+														<div class="accordion-body">
+															<p class="o_default_snippet_text content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-item position-relative z-1 border-0" data-name="Accordion Item">
+													<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="accordion-button909253_2" data-bs-target="#myCollapseTab909253_2" aria-controls="myCollapseTab909253_2"><span class="flex-grow-1 o_default_snippet_text">How can I find your international delivery policy?</span></button>
+													<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab909253_2" aria-labelledby="accordion-button909253_2">
+														<div class="accordion-body">
+															<p class="o_default_snippet_text content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-item position-relative z-1 border-0" data-name="Accordion Item">
+													<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="accordion-button909253_3" data-bs-target="#myCollapseTab909253_3" aria-controls="myCollapseTab909253_3"><span class="flex-grow-1 o_default_snippet_text">What should I do if my order hasn't been delivered yet?</span></button>
+													<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab909253_3" aria-labelledby="accordion-button909253_3">
+														<div class="accordion-body">
+															<p class="o_default_snippet_text content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-item position-relative z-1 border-0" data-name="Accordion Item">
+													<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="myCollapseBtn1737100519591" data-bs-target="#myCollapseTab1737100519590" aria-controls="myCollapseTab1737100519590"><span class="flex-grow-1 o_default_snippet_text">I'm an international customer, have you received my returned items?</span></button>
+													<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab1737100519590" aria-labelledby="myCollapseBtn1737100519591">
+														<div class="accordion-body">
+															<p class="o_default_snippet_text content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-item position-relative z-1 border-0" data-name="Accordion Item">
+													<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="myCollapseBtn1737101775286" data-bs-target="#myCollapseTab1737101775285" aria-controls="myCollapseTab1737101775285"><span class="flex-grow-1 o_default_snippet_text">How can I get a new returns note?</span></button>
+													<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab1737101775285" aria-labelledby="myCollapseBtn1737101775286">
+														<div class="accordion-body">
+															<p class="o_default_snippet_text content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+														</div>
+													</div>
+												</div>
+												<div class="accordion-item position-relative z-1 border-0" data-name="Accordion Item">
+													<button type="button" class="accordion-header accordion-button collapsed justify-content-between gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none" data-bs-toggle="collapse" aria-expanded="false" id="myCollapseBtn1737101776194" data-bs-target="#myCollapseTab1737101776193" aria-controls="myCollapseTab1737101776193"><span class="flex-grow-1 o_default_snippet_text">What should I do if my order hasn't been delivered yet?</span></button>
+													<div class="accordion-collapse collapse" data-bs-parent="#myCollapse" role="region" id="myCollapseTab1737101776193" aria-labelledby="myCollapseBtn1737101776194">
+														<div class="accordion-body">
+															<p class="o_default_snippet_text content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+														</div>
+													</div>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="help_center_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/help-center</field>
+		<field name="view_id" ref="help_center" />
+	</record>
+</odoo>

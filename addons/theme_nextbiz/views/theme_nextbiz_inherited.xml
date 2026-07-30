@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Bizople Solutions Pvt. Ltd. -->
+<!-- Licensed under the Bizople Proprietary License v1.0. -->
+<!-- Copyright (C) 2026 Bizople Solutions Pvt. Ltd. -->
+<odoo>
+
+    <!-- Snippets -->
+    <template id="theme_nextbiz_snippets_demo" inherit_id="website.snippets">
+
+        <xpath expr="//t[@id='installed_snippets_hook']" position="after">
+            <t snippet-group="business_homepage" t-snippet="website.s_snippet_group" string="Business Homepage" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+        </xpath>
+        
+       	<xpath expr="//snippets[@id='snippet_structure']" position="inside">
+
+            <!-- Intro group -->
+            <t t-snippet="theme_nextbiz.s_charity_banner" string="Banner - Charity" label="Banner - Charity" group="intro" />
+            <t t-snippet="theme_nextbiz.s_it_solution_banner" string="Banner - IT Solution" label="Banner - IT Solution" group="intro" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_banner" string="Banner - Creative Agency" label="Banner - Creative Agency" group="intro" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_banner" string="Banner - App Landing" group="intro" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_banner" string="Banner - App Landing New"  group="intro" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_banner" string="Banner - Snowboard &amp; Ski" group="intro" />
+            <t t-snippet="theme_nextbiz.s_medical_banner" string="Banner - Medical" group="intro" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_banner" string="Banner - Cyber Security" group="intro" />
+            <t t-snippet="theme_nextbiz.s_real_estate_banner" string="Banner - Real Estate" group="intro" />
+            <t t-snippet="theme_nextbiz.s_travel_banner" string="Banner - Travel" group="intro" />
+            <t t-snippet="theme_nextbiz.s_yoga_banner" string="Banner - Yoga" group="intro" />
+            <t t-snippet="theme_nextbiz.s_seo_banner" string="Banner - SEO" group="intro" />
+            <t t-snippet="theme_nextbiz.s_dessert_banner" string="Banner - Dessert" group="intro" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_banner" string="Banner - Corpo Company" group="intro" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_banner" string="Banner - Corpo Home"  group="intro" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_banner" string="Banner - Corpo Transport" group="intro" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_banner" string="Banner - Corpo Construction" group="intro" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_banner" string="Banner - Corpo Medical" group="intro" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_banner" string="Banner - Consult Page One" group="intro" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_banner" string="Banner - Consult Page Two" group="intro" />
+            <t t-snippet="theme_nextbiz.s_consult_page3_banner" string="Banner - Consult Page Three" group="intro" />
+
+            <!-- Columns group -->
+            <t t-snippet="theme_nextbiz.s_creative_agency_features" string="Features - Creative Agency" group="columns" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_features" string="Features - App Landing New" group="columns" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_design" string="Design - App Landing New" group="columns" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_newsletter" string="Newsletter - App Landing New" group="columns" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_welcome" string="Welcome - Snowboard &amp; Ski" group="columns" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_products" string="Best Products - Snowboard &amp; Ski" group="columns" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_brands" string="Brands - Snowboard &amp; Ski" group="columns" />
+            <t t-snippet="theme_nextbiz.s_medical_care" string="Safety Care - Medical" group="columns" />
+            <t t-snippet="theme_nextbiz.s_medical_prevent" string="Right Equipments - Medical" group="columns" />
+            <t t-snippet="theme_nextbiz.s_medical_supplies" string="Medical Supplies - Medical" group="columns" />
+            <t t-snippet="theme_nextbiz.s_medical_features" string="Features - Medical" group="columns" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_features" string="Features - Cyber Security" group="columns" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_services" string="Our Service - Cyber Security" group="columns" />
+            <t t-snippet="theme_nextbiz.s_real_estate_properties" string="Properties - Real Estate" group="columns" />
+            <t t-snippet="theme_nextbiz.s_travel_holidays" string="Holidays - Travel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_travel_services" string="Our Service - Travel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_travel_countries" string="Seaside Countries - Travel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_travel_destination" string="Destination - Travel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_travel_bags" string="Pack Your Bags - Travel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_yoga_classes" string="Browse Classes - Yoga" group="columns" />
+            <t t-snippet="theme_nextbiz.s_yoga_styles" string="Yoga Styles - Yoga" group="columns" />
+            <t t-snippet="theme_nextbiz.s_yoga_trainers" string="Our Trainers - Yoga" group="columns" />
+            <t t-snippet="theme_nextbiz.s_hotel_rooms" string="Rooms - Hotel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_hotel_services" string="Our Service - Hotel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_hotel_address" string="Address - Hotel" group="columns" />
+            <t t-snippet="theme_nextbiz.s_dessert_services" string="Our Service - Dessert" group="columns" />
+            <t t-snippet="theme_nextbiz.s_dessert_images" string="Instagram - Dessert" group="columns" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_features" string="Features - Corpo Company" group="columns" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_services_with_bgimage" string="Our Service - Corpo Company" group="columns" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_features" string="Features - Corpo Home" group="columns" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_services_with_bgcolor" string="Our Service - Corpo Transport" group="columns" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_departments" string="Our Departments - Corpo Medical" group="columns" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_feature" string="Features - Consult Page One" group="columns" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_service" string="Our Service - Consult Page One" group="columns" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_design" string="Design - Consult Page Two" group="columns" />
+
+            <!-- Content group -->
+            <t t-snippet="theme_nextbiz.s_charity_mission" string="Our Mission - Charity" group="content" />
+            <t t-snippet="theme_nextbiz.s_charity_campaigns" string="Our Capaigns - Charity" group="content" />
+            <t t-snippet="theme_nextbiz.s_it_solution_work" string="Work - IT Solution" group="content" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_projects" string="Projects - Creative Agency" group="content" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_rewards" string="Our Rewards - Creative Agency" group="content" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_reporting" string="Reprting - App Landing" group="content" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_why_choose" string="Why Choose Us - App Landing" group="content" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_work" string="Work - App Landing" group="content" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_conversions" string="Conversions - App Landing New" group="content" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_steps" string="Step To Success - App Landing New" group="content" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_questions" string="Asked Questions - App Landing New" group="content" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_accessories" string="Accessories - Snowboard &amp; Ski" group="content" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_parallax" string="Parallax - Snowboard &amp; Ski" group="content" />
+            <t t-snippet="theme_nextbiz.s_medical_parallax_protection" string="Protection Set - Medical" group="content" />
+            <t t-snippet="theme_nextbiz.s_medical_protection" string="Germs Protection- Medical" group="content" />
+            <t t-snippet="theme_nextbiz.s_medical_about_products" string="About Products- Medical" group="content" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_plateform" string="Platform - Cyber Security" group="content" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_work" string="Our Work - Cyber Security" group="content" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_faq" string="FAQ - Cyber Security" group="content" />
+            <t t-snippet="theme_nextbiz.s_travel_testimonial" string="Testimonial - Travel" group="content" />
+            <t t-snippet="theme_nextbiz.s_yoga_motivation" string="Motivation - Yoga" group="content" />
+            <t t-snippet="theme_nextbiz.s_yoga_testimonial" string="Testimonial - Yoga" group="content" />
+            <t t-snippet="theme_nextbiz.s_seo_marketing" string="Marketing Services - SEO" group="content" />
+            <t t-snippet="theme_nextbiz.s_dessert_product_menu" string="Product Menu - Dessert" group="content" />
+            <t t-snippet="theme_nextbiz.s_dessert_product_menu_two" string="Product Menu2 - Dessert" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_advantages" string="Advantages - Corpo Company" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_values" string="Values - Corpo Home" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_projects" string="Projects - Corpo Home" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_profits" string="Profits - Corpo Home" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_speciality" string="Speciality - Corpo Transport" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_projects" string="Projects - Corpo Construction" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_chooseus" string="Why Choose Us - Corpo Construction" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_quality" string="Quality - Corpo Construction" group="content" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_work" string="Our Work - Corpo Medical" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_strategy" string="Strategy - Consult Page One" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_work" string="Work - Consult Page One" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_achivement" string="Achivement - Consult Page Two" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_casestudy" string="Our Work(Casestudy) - Consult Page Two" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_faq" string="FAQ - Consult Page Two" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page3_faq" string="Tab - Consult Page Two" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_tab" string="FAQ - Consult Page Three" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page3_profit" string="Profits - Consult Page Three" group="content" />
+            <t t-snippet="theme_nextbiz.s_consult_page3_prepared" string="Prepared - Consult Page Three" group="content" />
+
+            <!-- Images group -->
+            <t t-snippet="theme_nextbiz.s_creative_agency_spain" string="Image Text - Creative Agency" group="images" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_screenshots" string="Screenshots - App Landing" group="images" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_video_banner" string="Video Banner - App Landing New" group="images" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_productivity" string="Image Text - App Landing New" group="images" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_text" string="Text Image - App Landing New" group="images" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_skating" string="Ice Skating - Snowboard &amp; Ski" group="images" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_certified" string="Original &amp; Certified - Snowboard &amp; Ski" group="images" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_best_skiz" string="Best Skiz - Snowboard &amp; Ski" group="images" />
+            <t t-snippet="theme_nextbiz.s_medical_durability" string="Durability - Medical" group="images" />
+            <t t-snippet="theme_nextbiz.s_medical_products" string="Products - Medical" group="images" />
+            <t t-snippet="theme_nextbiz.s_travel_image" string="Image - Travel" group="images" />
+            <t t-snippet="theme_nextbiz.s_travel_discover" string="Discover - Travel" group="images" />
+            <t t-snippet="theme_nextbiz.s_hotel_welcome" string="Welcome - Hotel" group="images" />
+            <t t-snippet="theme_nextbiz.s_dessert_testimonials" string="Testimonials - Dessert" group="images" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_testimonial" string="Testimonials - Corpo Company" group="images" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_testimonial" string="Testimonials - Corpo Home" group="images" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_call_to_action" string="Call To Action - Corpo Transport" group="images" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_testimonial" string="Testimonials - Corpo Transport" group="images" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_success" string="Success - Consult Page Two" group="images" />
+
+            <!-- People group -->
+            <t t-snippet="theme_nextbiz.s_charity_team" string="Team - Charity" group="people" />
+            <t t-snippet="theme_nextbiz.s_charity_help" string="Help - Charity" group="people" />
+            <t t-snippet="theme_nextbiz.s_it_solution_software" string="Software Solution For Everyone - IT Solution" group="people" />
+            <t t-snippet="theme_nextbiz.s_it_solution_clients" string="Clients - IT Solution" group="people" />
+            <t t-snippet="theme_nextbiz.s_it_solution_brands" string="Brands - IT Solution" group="people" />
+            <t t-snippet="theme_nextbiz.s_it_solution_case_studies" string="Clients - IT Solution" group="people" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_team" string="Team - Creative Agency" group="people" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_testimonial" string="What People Say(Testimonial) - App Landing" group="people" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_team" string="Our Team - App Landing" group="people" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_reviews" string="Reviews - App Landing New" group="people" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_community" string="Community - App Landing New" group="people" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_teams" string="Our Team - App Landing New" group="people" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_testimonial" string="Professional Skier(Testimonial) - Snowboard &amp; Ski" group="people" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_team" string="Our Professional - Snowboard &amp; Ski" group="people" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_team" string="Our Team - Cyber Security" group="people" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_clients" string="Our Clients - Cyber Security" group="people" />
+            <t t-snippet="theme_nextbiz.s_real_estate_clients" string="Our Clients - Real Estate" group="people" />
+            <t t-snippet="theme_nextbiz.s_travel_reviews" string="Traveler Reviews - Travel" group="people" />
+            <t t-snippet="theme_nextbiz.s_yoga_brands" string="Brands - Yoga" group="people" />
+            <t t-snippet="theme_nextbiz.s_seo_teams" string="Our Team - SEO" group="people" />
+            <t t-snippet="theme_nextbiz.s_hotel_reviews" string="Reviews - Hotel" group="people" />
+            <t t-snippet="theme_nextbiz.s_dessert_founder" string="Founders - Dessert" group="people" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_clients_with_heading" string="Our Clients - Corpo Company" group="people" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_clients_without_heading" string="Our Clients - Corpo Transport" group="people" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_owner" string="Owner - Corpo Construction" group="people" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_clients_testimonial" string="Clients Testimonial - Corpo Construction" group="people" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_teams" string="Our Team - Corpo Medical" group="people" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_testimonial" string="Our Patients - Corpo Medical" group="people" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_brand" string="Our Clients - Consult Page One" group="people" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_team" string="Our Team - Consult Page One" group="people" />
+
+            <!-- Text group -->
+            <t t-snippet="theme_nextbiz.s_charity_counter" string="Counter - Charity" group="text" />
+            <t t-snippet="theme_nextbiz.s_charity_newsletter" string="Volunteer - Charity" group="text" />
+            <t t-snippet="theme_nextbiz.s_it_solution_counter" string="Counter - IT Solution" group="text" />
+            <t t-snippet="theme_nextbiz.s_it_solution_service" string="Service Provide - IT Solution" group="text" />
+            <t t-snippet="theme_nextbiz.s_it_solution_pricing_plan" string="Pricing Plans - IT Solution" group="text" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_service" string="Service - Creative Agency" group="text" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_counter" string="Counter - Creative Agency" group="text" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_counter" string="Counter - App Landing" group="text" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_pricing_plan" string="Pricing Plans - App Landing" group="text" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_download" string="Download Now - App Landing" group="text" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_pricing_plan" string="Pricing Plans - App Landing New" group="text" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_counter"  string="Counter - App Landing New" group="text" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_newsletter" string="Newsletter - Snowboard &amp; Ski" group="text" />
+            <t t-snippet="theme_nextbiz.s_medical_service" string="Our Service - Medical" group="text" />
+            <t t-snippet="theme_nextbiz.s_real_estate_counter" string="Counter - Real Estate" group="text" />
+            <t t-snippet="theme_nextbiz.s_real_estate_text" string="Text Image - Real Estate" group="text" />
+            <t t-snippet="theme_nextbiz.s_yoga_newsletter" string="Newsletter - Yoga" group="text" />
+            <t t-snippet="theme_nextbiz.s_seo_services" string="Our Service - SEO" group="text" />
+            <t t-snippet="theme_nextbiz.s_seo_newsletter" string="Newsletter - SEO" group="text" />
+            <t t-snippet="theme_nextbiz.s_seo_pricing_plan" string="Pricing Plans - SEO" group="text" />
+            <t t-snippet="theme_nextbiz.s_dessert_offers" string="Best Offers - Dessert" group="text" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_counter_with_bgimage" string="Counter - Corpo Company" group="text" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_pricing" string="Pricing Plans - Corpo Company" group="text" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_counter" string="Counter - Corpo Home" group="text" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_counter" string="Counter - Corpo Transport" group="text" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_counter" string="Counter - Corpo Construction" group="text" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_counter" string="Counter - Consult Page One" group="text" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_pricing" string="Pricing - Consult Page One" group="text" />
+            <t t-snippet="theme_nextbiz.s_consult_page2_counter" string="Counter - Consult Page Two" group="text" />
+
+            <!-- Contact & Forms group -->
+            <t t-snippet="theme_nextbiz.s_charity_aboutus" string="About Us - Charity" label="About Us - Charity" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_it_solution_contactus" string="Contact Us - IT Solution" label="Contact Us - IT Solution" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_contactus" string="Contact Us - Creative Agency" label="Contact Us - Creative Agency" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_about" string="About Us - App Landing" label="About Us - Charity" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_contactus" string="Contact Us - App Landing" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_medical_helpline" string="Helpline - Medical" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_real_estate_aboutus" string="About Us - Real Estate" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_yoga_aboutus" string="About Us - Yoga" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_yoga_contactus" string="Contact Us - Yoga" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_seo_contactus" string="Contact Us - SEO" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_dessert_aboutus" string="About Us - Dessert" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_aboutus" string="About Us - Corpo Company" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_contactus" string="Contact Us - Corpo Company" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_aboutus" string="About Us - Corpo Home" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_aboutus" string="About Us - Corpo Medical" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_appointment" string="Book Appointment - Corpo Medical" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_about" string="About Us - Consult Page One" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_consult_page1_contact" string="Contact Us - Consult Page One" group="contact_and_forms" />
+            <t t-snippet="theme_nextbiz.s_consult_page3_about" string="About Us - Consult Page Three" group="contact_and_forms" />
+
+            <!-- Blog Group -->
+            <t t-snippet="theme_nextbiz.s_bizople_theme_blog_slider_snippet" string="Blogs" group="blogs" />
+
+            <!-- Business Group -->
+            <t t-snippet="theme_nextbiz.s_charity_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_it_solution_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_creative_agency_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_app_landing_one_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_app_landing_two_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_medical_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_snowboard_ski_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_cyber_security_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_real_estate_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_travel_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_yoga_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_seo_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_hotel_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_dessert_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_company_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_construction_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_home_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_medical_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_transport_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_contactus_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_corpo_aboutus_snippet" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_consult_page1" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_consult_page2" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            <t t-snippet="theme_nextbiz.s_consult_page3" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" group="business_homepage" />
+            
+
+            
+        </xpath>
+        <!-- </xpath> -->
+        <xpath expr="//t[@t-snippet='website.s_searchbar_input']" position="replace" />
+
+        <xpath expr="//snippets[@id='snippet_content']" position="inside">
+            <t t-snippet="theme_nextbiz.nextbiz_s_searchbar_input" string="Seacrh NextBiz" t-thumbnail="/website/static/src/img/snippets_thumbs/s_searchbar_inline.svg" />
+            <t t-snippet="theme_nextbiz.s_nextbiz_newsletter" string="Newsletter" t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+        </xpath>
+    </template>
+
+</odoo>
