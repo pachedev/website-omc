@@ -24,11 +24,12 @@
                                     <div class="col-12 col-md-6 col-lg-5">
                                         <div class="omc-card h-100 p-4 p-lg-5">
                                             <h3>OMC Free</h3>
-                                            <p class="text-muted">Everyday mobile access to your Odoo.</p>
+                                            <p class="text-muted">Everyday mobile access to your Odoo, free forever.</p>
                                             <ul class="list-unstyled mt-4 mb-4">
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 12 to 19+</li>
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>All your Odoo apps on your phone</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Multi-server and biometric unlock</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Save up to 2 Odoo servers</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Fingerprint or face unlock</li>
                                             </ul>
                                             <p class="small text-muted">Requires the free <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener"><strong>odoo_mobile_client</strong></a> module on your server, available on the Odoo App Store.</p>
                                             <a href="https://play.google.com/store/apps/details?id=com.pachedev.omc"
@@ -39,18 +40,20 @@
                                             <a href="#" class="btn btn-outline-secondary omc-pill w-100 disabled" aria-disabled="true">
                                                 <span class="fa fa-apple me-2"/>App Store — coming soon
                                             </a>
+                                            <p class="small text-muted mt-3 mb-0">Need more than 2 servers, in-app branding or push notifications? <a href="/free-vs-advanced">See what Advanced adds</a>.</p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-5">
                                         <div class="omc-card omc-card-accent h-100 p-4 p-lg-5">
                                             <h3>OMC Advanced</h3>
-                                            <p class="text-muted">Push notifications and automatic alerts, on top of everything in Free.</p>
+                                            <p class="text-muted">Everything in Free, plus the company features — one-time purchase, no subscription.</p>
                                             <ul class="list-unstyled mt-4 mb-4">
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 17 to 19+</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Alerts for sales, purchases, inventory, accounting, HR</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Open the exact record from the notification</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Unlimited saved servers</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>In-app branding and push notifications</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>QR onboarding, barcode and document scanners</li>
                                             </ul>
-                                            <p class="small text-muted">Requires the paid <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener"><strong>odoo_mobile_client_advanced</strong></a> module from the Odoo App Store — the module purchase is the only cost, the app itself is free.</p>
+                                            <p class="small text-muted">Requires the paid <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener"><strong>odoo_mobile_client_advanced</strong></a> module from the Odoo App Store, which installs the free base module for you — the module purchase is the only cost, the app itself is free.</p>
                                             <a href="https://play.google.com/store/apps/details?id=com.pachedev.omc.advanced"
                                                target="_blank" rel="noopener"
                                                class="btn btn-primary omc-pill w-100 mb-2">
@@ -177,7 +180,7 @@
                                         <div class="omc-card h-100 p-4">
                                             <span class="omc-icon-box mb-3"><i class="fa fa-puzzle-piece"/></span>
                                             <h5>The OMC module on your server</h5>
-                                            <p class="mb-0">Get it on the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">free module</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">paid module</a> for Advanced.</p>
+                                            <p class="mb-0">Get it on the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">free module</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">paid module</a> for Advanced. Advanced installs the base module automatically.</p>
                                         </div>
                                     </div>
                                 </div>

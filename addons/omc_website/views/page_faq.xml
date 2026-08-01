@@ -52,7 +52,7 @@
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Do I need to change anything on my Odoo server?</button>
                                                 </h2>
                                                 <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
-                                                    <div class="accordion-body">One small step: install the connector module from the Odoo App Store on your server — odoo_mobile_client (free) for the Free edition, odoo_mobile_client_advanced (paid) for Advanced. After that, everyone just signs in from the app. Your data still never leaves your server.</div>
+                                                    <div class="accordion-body">One small step: install the connector module from the Odoo App Store on your server — odoo_mobile_client (free) for the Free edition, or odoo_mobile_client_advanced (one-time purchase) for Advanced, which brings the free module along with it. After that, everyone just signs in from the app. Your data still never leaves your server.</div>
                                                 </div>
                                             </div>
 
@@ -88,7 +88,7 @@
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">Can I connect more than one Odoo server?</button>
                                                 </h2>
                                                 <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
-                                                    <div class="accordion-body">Yes. You can save several servers — for example two companies, or a production and a test environment — and switch between them without typing credentials again.</div>
+                                                    <div class="accordion-body">Yes. The Free edition saves up to two servers — for example two companies, or a production and a test environment — and switches between them without typing credentials again. If you need more, the Advanced edition removes the limit.</div>
                                                 </div>
                                             </div>
 
@@ -97,7 +97,7 @@
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">What does the Advanced edition add?</button>
                                                 </h2>
                                                 <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#omcFaqAccordion">
-                                                    <div class="accordion-body">Advanced makes your Odoo reach out to you: push notifications on your phone, automatic alerts for events in sales, purchases, inventory, accounting and HR, and the ability to open the exact record straight from the notification. It is available now — get it from the Download page.</div>
+                                                    <div class="accordion-body">Advanced turns the app into your company's own: unlimited saved servers, in-app branding (your colors, and your logo and company name in the side menu) managed from Odoo, push notifications for activities and messages, onboarding by QR code, barcode and document scanners, and management of the connected devices. It is a one-time purchase and it is available now — get it from the Download page.</div>
                                                 </div>
                                             </div>
 
@@ -134,8 +134,8 @@
                                 {"@type": "Question", "name": "Do I need to change anything on my Odoo server?", "acceptedAnswer": {"@type": "Answer", "text": "One small step: install the connector module from the Odoo App Store — odoo_mobile_client (free) for the Free edition, odoo_mobile_client_advanced (paid) for Advanced."}},
                                 {"@type": "Question", "name": "Does it work with Odoo Enterprise, Odoo.sh and Community?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Community and Enterprise, wherever hosted. OMC Free supports Odoo 12 to 19+, and OMC Advanced supports Odoo 17 to 19+."}},
                                 {"@type": "Question", "name": "Where are my username and password stored?", "acceptedAnswer": {"@type": "Answer", "text": "Only on your phone, inside the operating system's secure storage (Keychain on iOS, Keystore on Android). They are sent only to the Odoo server you configure."}},
-                                {"@type": "Question", "name": "Can I connect more than one Odoo server?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can save several servers and switch between them without typing credentials again."}},
-                                {"@type": "Question", "name": "What does the Advanced edition add?", "acceptedAnswer": {"@type": "Answer", "text": "Push notifications, automatic alerts for sales, purchases, inventory, accounting and HR, and opening the exact record straight from the notification. Available now."}}
+                                {"@type": "Question", "name": "Can I connect more than one Odoo server?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Free edition saves up to two servers and switches between them without typing credentials again. The Advanced edition removes the limit."}},
+                                {"@type": "Question", "name": "What does the Advanced edition add?", "acceptedAnswer": {"@type": "Answer", "text": "Unlimited saved servers, in-app branding with your colors and logo, push notifications for activities and messages, QR onboarding, barcode and document scanners, and connected device management. One-time purchase, available now."}}
                               ]
                             }
                         </script>

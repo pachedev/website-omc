@@ -15,7 +15,7 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-8">
                                         <h1 class="mb-3">Free vs Advanced</h1>
-                                        <p class="lead mb-0">Start with the free app today. Move to Advanced when you want your Odoo to reach out to you — not the other way around. Both are available now.</p>
+                                        <p class="lead mb-0">Free covers everyday mobile access to your Odoo, with up to two saved servers. Advanced turns the app into your company's own: unlimited servers, your branding, push notifications and scanners.</p>
                                     </div>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
                                         <h2 class="mb-0">What each edition gives you</h2>
                                     </div>
                                     <div class="col-12 col-lg-5">
-                                        <p class="mb-0 mt-2 mt-lg-1">Same app experience; Advanced adds the notification layer.</p>
+                                        <p class="mb-0 mt-2 mt-lg-1">Same app experience; Advanced adds the company layer.</p>
                                     </div>
                                 </div>
                                 <div class="table-responsive">
@@ -44,17 +44,12 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Mobile access to all your Odoo apps</td>
+                                                <td>Native app for all your Odoo apps</td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
                                             <tr>
-                                                <td>Native sign-in with your Odoo account</td>
-                                                <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
-                                                <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Multiple servers and environments</td>
+                                                <td>Sign in with your Odoo account</td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
@@ -63,23 +58,38 @@
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
+                                            <tr class="fw-semibold">
+                                                <td>Saved servers</td>
+                                                <td class="text-center">2</td>
+                                                <td class="text-center">Unlimited</td>
+                                            </tr>
                                             <tr>
-                                                <td>Push notifications on your phone</td>
+                                                <td>Push notifications for activities and messages</td>
                                                 <td class="text-center"><span class="fa fa-minus text-muted" title="Not included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
                                             <tr>
-                                                <td>Automatic alerts for sales, purchases, inventory, accounting and HR</td>
+                                                <td>In-app branding: your colors, logo and company name</td>
                                                 <td class="text-center"><span class="fa fa-minus text-muted" title="Not included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
                                             <tr>
-                                                <td>Open the exact record straight from a notification</td>
+                                                <td>QR onboarding for your team</td>
                                                 <td class="text-center"><span class="fa fa-minus text-muted" title="Not included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
                                             <tr>
-                                                <td>Notification rules you configure yourself</td>
+                                                <td>Barcode scanner</td>
+                                                <td class="text-center"><span class="fa fa-minus text-muted" title="Not included"/></td>
+                                                <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Document scanner</td>
+                                                <td class="text-center"><span class="fa fa-minus text-muted" title="Not included"/></td>
+                                                <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Connected device management</td>
                                                 <td class="text-center"><span class="fa fa-minus text-muted" title="Not included"/></td>
                                                 <td class="text-center"><span class="fa fa-check text-success" title="Included"/></td>
                                             </tr>
@@ -91,17 +101,62 @@
                                             <tr>
                                                 <td>Server module (Odoo App Store)</td>
                                                 <td class="text-center">odoo_mobile_client (free)</td>
-                                                <td class="text-center">odoo_mobile_client_advanced (paid)</td>
+                                                <td class="text-center">odoo_mobile_client_advanced (one-time purchase)</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                                <p class="small text-muted mb-0">Free and Advanced are two separate apps — install the one that matches the module on your server: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">odoo_mobile_client</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">odoo_mobile_client_advanced</a> for Advanced.</p>
+                                <p class="small text-muted mb-0">Free and Advanced are two separate apps — install the one that matches the module on your server: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">odoo_mobile_client</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">odoo_mobile_client_advanced</a> for Advanced, which installs the base module for you.</p>
+                            </div>
+                        </section>
+
+                        <!-- What Advanced unlocks -->
+                        <section class="o_cc o_cc2 pt56 pb56">
+                            <div class="container">
+                                <span class="omc-badge mb-3">What Advanced unlocks</span>
+                                <div class="row mb-5">
+                                    <div class="col-12 col-lg-7">
+                                        <h2 class="mb-0">Make it your company's app</h2>
+                                    </div>
+                                    <div class="col-12 col-lg-5">
+                                        <p class="mb-0 mt-2 mt-lg-1">One purchase, no subscription — your team gets a mobile app that looks and behaves like yours.</p>
+                                    </div>
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-paint-brush"/></span>
+                                            <h5>Your look inside the app</h5>
+                                            <p class="mb-0">Your colors across the app, and your logo and company name in the side menu, plus your own welcome screen — all managed from Odoo. The store icon and app name stay as published.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-bell"/></span>
+                                            <h5>Push notifications</h5>
+                                            <p class="mb-0">Activities and messages reach your people on their phone, so nothing waits until someone opens a laptop.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-camera"/></span>
+                                            <h5>Scanners built in</h5>
+                                            <p class="mb-0">Barcode and document scanning straight from the camera — useful anywhere stock or paperwork moves.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3">
+                                        <div class="omc-card h-100 p-4">
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-shield"/></span>
+                                            <h5>Easy rollout</h5>
+                                            <p class="mb-0">Each person signs in by scanning a QR code, and you keep an eye on the connected devices from Odoo.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
 
                         <!-- Which one -->
-                        <section class="o_cc o_cc2 pt56 pb56">
+                        <section class="o_cc o_cc1 pt56 pb40">
                             <div class="container">
                                 <span class="omc-badge mb-3">Which one</span>
                                 <div class="row mb-5">
@@ -115,7 +170,8 @@
                                             <span class="omc-icon-box mb-3"><i class="fa fa-mobile"/></span>
                                             <h4>Choose Free if…</h4>
                                             <ul class="list-unstyled mb-0">
-                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Your team mainly needs to consult and update Odoo on the move</li>
+                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You mainly need to consult and update Odoo on the move</li>
+                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Two saved servers are enough for you</li>
                                                 <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You run any Odoo from 12 to 19+</li>
                                                 <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You want to start today at no cost</li>
                                             </ul>
@@ -123,12 +179,13 @@
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <div class="omc-card omc-card-accent h-100 p-4 p-lg-5">
-                                            <span class="omc-icon-box mb-3"><i class="fa fa-bell"/></span>
+                                            <span class="omc-icon-box mb-3"><i class="fa fa-building"/></span>
                                             <h4>Choose Advanced if…</h4>
                                             <ul class="list-unstyled mb-0">
-                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You want your team notified the moment something happens in Odoo</li>
-                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You run Odoo 17 to 19+</li>
-                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You are ready to license the Advanced server module</li>
+                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You are rolling out Odoo to a whole team</li>
+                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You need more than two servers, or your own branding</li>
+                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>You want your people notified on their phone</li>
+                                                <li class="mb-2"><i class="fa fa-check text-primary me-2"/>Scanning barcodes or documents is part of the job</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -142,8 +199,8 @@
                                 <div class="o_cc o_cc3 omc-band p-4 p-lg-5">
                                     <div class="row align-items-center">
                                         <div class="col-12 col-lg-8">
-                                            <h3 class="mb-1">Get started with Free today</h3>
-                                            <p class="mb-0">Both editions are on Google Play. Try them with our demo server before connecting yours.</p>
+                                            <h3 class="mb-1">Try both before you decide</h3>
+                                            <p class="mb-0">Both editions are on Google Play and connect to our demo server, so you can see branding, notifications and scanners at work before buying anything.</p>
                                         </div>
                                         <div class="col-12 col-lg-4 text-lg-end mt-4 mt-lg-0">
                                             <a href="/download" class="btn btn-primary">Go to downloads</a>
@@ -166,7 +223,7 @@
         <field name="is_published" eval="True"/>
         <field name="website_indexed" eval="True"/>
         <field name="website_meta_title">Free vs Advanced — Feature comparison | Odoo Mobile Client</field>
-        <field name="website_meta_description">Compare Odoo Mobile Client Free and Advanced: mobile access to Odoo is free; Advanced adds push notifications and automatic business alerts.</field>
+        <field name="website_meta_description">Free gives mobile access to Odoo with up to 2 saved servers. Advanced adds unlimited servers, company branding, push notifications, QR onboarding and scanners.</field>
     </record>
 
 </odoo>

@@ -29,7 +29,7 @@
                                         <span class="omc-badge mb-3">Step 1</span>
                                         <h2 class="mb-3">Download the app</h2>
                                         <p>Get Odoo Mobile Client from Google Play or the App Store. It is free, lightweight and works on any modern Android or iOS phone.</p>
-                                        <p class="mb-4">Pick the edition that matches your server: Free for everyday mobile access, Advanced if you also want push notifications.</p>
+                                        <p class="mb-4">Pick the edition that matches your server: Free for everyday mobile access with up to two servers, Advanced if you also want unlimited servers, your own branding, notifications and scanners.</p>
                                         <a href="/download" class="btn btn-outline-primary">Go to downloads</a>
                                     </div>
                                     <div class="col-12 col-lg-6 text-center">
@@ -50,7 +50,7 @@
                                         <h2 class="mb-3">Connect your Odoo server</h2>
                                         <p>Type the web address your company already uses to open Odoo — for example <em>mycompany.odoo.com</em> — and sign in with your usual username and password.</p>
                                         <p>First time? Install the connector module on your server from the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener">odoo_mobile_client</a> for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener">odoo_mobile_client_advanced</a> for Advanced. One click, no configuration.</p>
-                                        <p class="mb-3">You can save more than one server and switch between them at any time, which is handy if you work with several companies or with a test environment.</p>
+                                        <p class="mb-3">Free saves up to two servers and lets you switch between them at any time — enough for a second company or a test environment. Advanced removes the limit.</p>
                                         <t t-call="omc_website.affiliate_cta">
                                             <t t-set="variant" t-value="'inline'"/>
                                             <t t-set="source" t-value="'how_it_works'"/>

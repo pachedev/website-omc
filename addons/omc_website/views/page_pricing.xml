@@ -13,7 +13,7 @@
                         <section class="omc-hero pt56 pb56 text-center">
                             <div class="container">
                                 <h1 class="mb-3">Simple pricing</h1>
-                                <p class="lead mb-0">Both apps are free to download. You only pay for the Advanced server module — once, on the Odoo App Store.</p>
+                                <p class="lead mb-0">Both apps are free to download. Advanced is a one-time purchase of its server module on the Odoo App Store — no subscription, no per-user fees.</p>
                             </div>
                         </section>
 
@@ -29,24 +29,27 @@
                                             <ul class="list-unstyled text-start mt-4 mb-4">
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Access all your Odoo apps from your phone</li>
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 12 to 19+</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Multiple servers and environments</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Save up to 2 Odoo servers</li>
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Fingerprint or face unlock</li>
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Free server module on the Odoo App Store</li>
                                             </ul>
                                             <a href="/download" class="btn btn-primary omc-pill w-100">Download now</a>
+                                            <p class="small text-muted mt-3 mb-0">Need a third server, branding or notifications? <a href="/free-vs-advanced">Compare with Advanced</a>.</p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-5">
                                         <div class="omc-card omc-card-accent h-100 p-4 p-lg-5 text-center">
                                             <h4>Advanced</h4>
-                                            <div class="display-6 fw-bold my-3">One-time module</div>
-                                            <p class="text-muted">For teams that want their Odoo to speak up.</p>
+                                            <div class="display-6 fw-bold my-3">One-time purchase</div>
+                                            <p class="text-muted">For companies rolling Odoo out to their team.</p>
                                             <ul class="list-unstyled text-start mt-4 mb-4">
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Everything in Free</li>
                                                 <li class="mb-2"><i class="fa fa-check text-success me-2"/>Works with Odoo 17 to 19+</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Push notifications on your phone</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Automatic alerts: sales, purchases, inventory, accounting, HR</li>
-                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Alert rules you configure yourself</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Unlimited saved servers</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>In-app branding: your colors, logo and company name</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Push notifications for activities and messages</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>QR onboarding, barcode and document scanners</li>
+                                                <li class="mb-2"><i class="fa fa-check text-success me-2"/>Connected device management</li>
                                             </ul>
                                             <a href="/download" class="btn btn-primary omc-pill w-100">Download Advanced</a>
                                         </div>
@@ -54,7 +57,7 @@
                                 </div>
                                 <div class="row justify-content-center mt-4">
                                     <div class="col-12 col-lg-8 text-center">
-                                        <p class="small text-muted mb-0">Both editions use a server module from the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener"><strong>odoo_mobile_client</strong></a> (free) for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener"><strong>odoo_mobile_client_advanced</strong></a> (paid) for Advanced. The Advanced app itself is a free download — the module license is the only cost.</p>
+                                        <p class="small text-muted mb-0">Both editions use a server module from the Odoo App Store: <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client" target="_blank" rel="noopener"><strong>odoo_mobile_client</strong></a> (free) for Free, <a href="https://apps.odoo.com/apps/modules/19.0/odoo_mobile_client_advanced" target="_blank" rel="noopener"><strong>odoo_mobile_client_advanced</strong></a> (one-time purchase) for Advanced, which installs the free base module for you. The Advanced app itself is a free download — the module license is the only cost, and it is yours for good.</p>
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +88,7 @@
                                     <div class="col-12 col-md-4">
                                         <div class="omc-card h-100 p-4">
                                             <h5>What does Advanced cost?</h5>
-                                            <p class="mb-0">The price of the <strong>odoo_mobile_client_advanced</strong> module on the Odoo App Store — a one-time purchase per server. The app download stays free.</p>
+                                            <p class="mb-0">The price of the <strong>odoo_mobile_client_advanced</strong> module on the Odoo App Store — a one-time purchase, not a subscription, and no per-user fees. The app download stays free.</p>
                                         </div>
                                     </div>
                                 </div>

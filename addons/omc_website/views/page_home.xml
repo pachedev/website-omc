@@ -79,8 +79,8 @@
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-3 omc-feature">
                                         <span class="omc-icon-box"><i class="fa fa-server"/></span>
-                                        <h5>Multiple servers</h5>
-                                        <p class="mb-0">Switch between companies or environments in seconds. Ideal if you work with more than one Odoo database.</p>
+                                        <h5>Two servers, one app</h5>
+                                        <p class="mb-0">Save up to two Odoo servers and switch between them in seconds — handy for a second company or a test environment. Advanced lifts the limit.</p>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-3 omc-feature">
                                         <span class="omc-icon-box"><i class="fa fa-bolt"/></span>
@@ -187,7 +187,7 @@
                                         <div class="col-12 col-lg-8">
                                             <span class="omc-badge mb-3">Two editions</span>
                                             <h3 class="mb-2">Start free. Go further when you are ready.</h3>
-                                            <p class="mb-0">Odoo Mobile Client is free to use with your own server. The Advanced edition adds push notifications and automatic alerts for sales, purchases, inventory, accounting and HR.</p>
+                                            <p class="mb-0">Free gives your team mobile access to your Odoo, with up to two saved servers. Advanced makes it your company's app: unlimited servers, your branding, push notifications and built-in scanners.</p>
                                         </div>
                                         <div class="col-12 col-lg-4 text-lg-end mt-4 mt-lg-0">
                                             <a href="/free-vs-advanced" class="btn btn-primary">Compare Free vs Advanced</a>

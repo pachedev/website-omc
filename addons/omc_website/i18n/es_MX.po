@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0-20260609\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-30 16:54+0000\n"
-"PO-Revision-Date: 2026-07-30 16:54+0000\n"
+"POT-Creation-Date: 2026-07-31 18:22+0000\n"
+"PO-Revision-Date: 2026-07-31 18:22+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,13 @@ msgstr "(gratuito) para Free y"
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid ""
-"(paid) for Advanced. The Advanced app itself is a free download — the module"
-" license is the only cost."
+"(one-time purchase) for Advanced, which installs the free base module for "
+"you. The Advanced app itself is a free download — the module license is the "
+"only cost, and it is yours for good."
 msgstr ""
-"(de pago) para Advanced. La app Advanced es una descarga gratuita — la "
-"licencia del módulo es el único costo."
+"(compra única) para Advanced, que instala por ti el módulo base gratuito. La"
+" app Advanced es una descarga gratuita — la licencia del módulo es el único "
+"costo, y es tuya para siempre."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
@@ -220,6 +222,15 @@ msgstr ""
 "desde el piso de almacén"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>Scanning barcodes or documents "
+"is part of the job"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Escanear códigos de barras o "
+"documentos es parte del trabajo"
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
 msgid ""
 "<i class=\"fa fa-check text-primary me-2\"/>Stay on top of every company you"
@@ -240,16 +251,38 @@ msgstr ""
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
 msgid ""
-"<i class=\"fa fa-check text-primary me-2\"/>You are ready to license the "
-"Advanced server module"
+"<i class=\"fa fa-check text-primary me-2\"/>Two saved servers are enough for"
+" you"
 msgstr ""
-"<i class=\"fa fa-check text-primary me-2\"/>Estás listo para licenciar el "
-"módulo de servidor de Advanced"
+"<i class=\"fa fa-check text-primary me-2\"/>Con dos servidores guardados te "
+"alcanza"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "<i class=\"fa fa-check text-primary me-2\"/>You run Odoo 17 to 19+"
-msgstr "<i class=\"fa fa-check text-primary me-2\"/>Usas Odoo 17 a 19+"
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You are rolling out Odoo to a "
+"whole team"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Vas a desplegar Odoo en todo un "
+"equipo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You mainly need to consult and "
+"update Odoo on the move"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Tu equipo sobre todo necesita "
+"consultar y actualizar Odoo en movimiento"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"<i class=\"fa fa-check text-primary me-2\"/>You need more than two servers, "
+"or your own branding"
+msgstr ""
+"<i class=\"fa fa-check text-primary me-2\"/>Necesitas más de dos servidores,"
+" o tu propia identidad visual"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
@@ -268,20 +301,11 @@ msgstr "<i class=\"fa fa-check text-primary me-2\"/>Quieres empezar hoy sin cost
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
 msgid ""
-"<i class=\"fa fa-check text-primary me-2\"/>You want your team notified the "
-"moment something happens in Odoo"
+"<i class=\"fa fa-check text-primary me-2\"/>You want your people notified on"
+" their phone"
 msgstr ""
-"<i class=\"fa fa-check text-primary me-2\"/>Quieres que tu equipo se entere "
-"en el momento en que algo pasa en Odoo"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid ""
-"<i class=\"fa fa-check text-primary me-2\"/>Your team mainly needs to "
-"consult and update Odoo on the move"
-msgstr ""
-"<i class=\"fa fa-check text-primary me-2\"/>Tu equipo sobre todo necesita "
-"consultar y actualizar Odoo en movimiento"
+"<i class=\"fa fa-check text-primary me-2\"/>Quieres que tu gente reciba "
+"avisos en su teléfono"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
@@ -293,24 +317,6 @@ msgstr ""
 "de Odoo desde tu teléfono"
 
 #. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
-msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Alert rules you configure "
-"yourself"
-msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Reglas de alerta que tú mismo "
-"configuras"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_download
-msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Alerts for sales, purchases, "
-"inventory, accounting, HR"
-msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Alertas de ventas, compras, "
-"inventario, contabilidad, RRHH"
-
-#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid ""
 "<i class=\"fa fa-check text-success me-2\"/>All your Odoo apps on your phone"
@@ -320,12 +326,10 @@ msgstr ""
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
-msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Automatic alerts: sales, "
-"purchases, inventory, accounting, HR"
+msgid "<i class=\"fa fa-check text-success me-2\"/>Connected device management"
 msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Alertas automáticas: ventas, "
-"compras, inventario, contabilidad, RRHH"
+"<i class=\"fa fa-check text-success me-2\"/>Gestión de dispositivos "
+"conectados"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
@@ -333,6 +337,7 @@ msgid "<i class=\"fa fa-check text-success me-2\"/>Everything in Free"
 msgstr "<i class=\"fa fa-check text-success me-2\"/>Todo lo de Free"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid "<i class=\"fa fa-check text-success me-2\"/>Fingerprint or face unlock"
 msgstr ""
@@ -350,36 +355,49 @@ msgstr ""
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Multi-server and biometric "
-"unlock"
-msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Multi-servidor y desbloqueo "
-"biométrico"
+"<i class=\"fa fa-check text-success me-2\"/>In-app branding and push "
+"notifications"
+msgstr "<i class=\"fa fa-check text-success me-2\"/>Personalización dentro de la app y notificaciones push"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Multiple servers and "
-"environments"
+"<i class=\"fa fa-check text-success me-2\"/>In-app branding: your colors, "
+"logo and company name"
+msgstr "<i class=\"fa fa-check text-success me-2\"/>Personalización dentro de la app: tus colores, logo y nombre de empresa"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid ""
+"<i class=\"fa fa-check text-success me-2\"/>Push notifications for "
+"activities and messages"
 msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Múltiples servidores y entornos"
+"<i class=\"fa fa-check text-success me-2\"/>Notificaciones push de "
+"actividades y mensajes"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
-msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Open the exact record from the "
-"notification"
-msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Abre el registro exacto desde la"
-" notificación"
-
-#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid ""
-"<i class=\"fa fa-check text-success me-2\"/>Push notifications on your phone"
+"<i class=\"fa fa-check text-success me-2\"/>QR onboarding, barcode and "
+"document scanners"
 msgstr ""
-"<i class=\"fa fa-check text-success me-2\"/>Notificaciones push en tu "
-"teléfono"
+"<i class=\"fa fa-check text-success me-2\"/>Alta por QR, escáner de códigos "
+"de barras y de documentos"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<i class=\"fa fa-check text-success me-2\"/>Save up to 2 Odoo servers"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Guarda hasta 2 servidores Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "<i class=\"fa fa-check text-success me-2\"/>Unlimited saved servers"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Servidores guardados ilimitados"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
@@ -611,6 +629,11 @@ msgstr "<span class=\"omc-badge mb-3\">Almacén y operaciones</span>"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "<span class=\"omc-badge mb-3\">What Advanced unlocks</span>"
+msgstr "<span class=\"omc-badge mb-3\">Qué desbloquea Advanced</span>"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
 msgid "<span class=\"omc-badge mb-3\">Which one</span>"
 msgstr "<span class=\"omc-badge mb-3\">Cuál elegir</span>"
 
@@ -690,6 +713,15 @@ msgid "Activities"
 msgstr ""
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Activities and messages reach your people on their phone, so nothing waits "
+"until someone opens a laptop."
+msgstr ""
+"Las actividades y los mensajes llegan al teléfono de tu gente, así nada "
+"espera a que alguien abra una laptop."
+
+#. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__activity_exception_decoration
 msgid "Activity Exception Decoration"
 msgstr ""
@@ -713,16 +745,13 @@ msgstr "Advanced"
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_faq
 msgid ""
-"Advanced makes your Odoo reach out to you: push notifications on your phone,"
-" automatic alerts for events in sales, purchases, inventory, accounting and "
-"HR, and the ability to open the exact record straight from the notification."
-" It is available now — get it from the Download page."
-msgstr ""
-"Advanced hace que tu Odoo te busque a ti: notificaciones push en tu "
-"teléfono, alertas automáticas de eventos en ventas, compras, inventario, "
-"contabilidad y RRHH, y la posibilidad de abrir el registro exacto "
-"directamente desde la notificación. Ya está disponible — consíguela en la "
-"página de Descargas."
+"Advanced turns the app into your company's own: unlimited saved servers, in-"
+"app branding (your colors, and your logo and company name in the side menu) "
+"managed from Odoo, push notifications for activities and messages, "
+"onboarding by QR code, barcode and document scanners, and management of the "
+"connected devices. It is a one-time purchase and it is available now — get "
+"it from the Download page."
+msgstr "Advanced convierte la app en la de tu empresa: servidores guardados ilimitados, personalización dentro de la app (tus colores, y tu logo y el nombre de tu empresa en el menú lateral) gestionada desde Odoo, notificaciones push de actividades y mensajes, alta por código QR, escáner de códigos de barras y de documentos, y gestión de los dispositivos conectados. Es una compra única y ya está disponible — consíguela en la página de Descargas."
 
 #. module: omc_website
 #: model:ir.actions.act_window,name:omc_website.omc_affiliate_click_action
@@ -759,33 +788,43 @@ msgid "Attachment Count"
 msgstr ""
 
 #. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Automatic alerts for sales, purchases, inventory, accounting and HR"
-msgstr ""
-"Alertas automáticas de ventas, compras, inventario, contabilidad y RRHH"
-
-#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_contact_thanks
 msgid "Back to home"
 msgstr "Volver al inicio"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Barcode and document scanning straight from the camera — useful anywhere "
+"stock or paperwork moves."
+msgstr ""
+"Escaneo de códigos de barras y documentos desde la cámara — útil donde se "
+"mueve inventario o papeleo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Barcode scanner"
+msgstr "Escáner de códigos de barras"
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid ""
-"Both apps are free to download. You only pay for the Advanced server module "
-"— once, on the Odoo App Store."
+"Both apps are free to download. Advanced is a one-time purchase of its "
+"server module on the Odoo App Store — no subscription, no per-user fees."
 msgstr ""
-"Las dos apps son gratis de descargar. Solo pagas el módulo de servidor de "
-"Advanced — una vez, en la Odoo App Store."
+"Las dos apps son gratis de descargar. Advanced es una compra única de su "
+"módulo de servidor en la Odoo App Store — sin suscripción y sin costo por "
+"usuario."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
 msgid ""
-"Both editions are on Google Play. Try them with our demo server before "
-"connecting yours."
+"Both editions are on Google Play and connect to our demo server, so you can "
+"see branding, notifications and scanners at work before buying anything."
 msgstr ""
-"Las dos ediciones están en Google Play. Pruébalas con nuestro servidor demo "
-"antes de conectar el tuyo."
+"Las dos ediciones están en Google Play y se conectan a nuestro servidor "
+"demo, así puedes ver la identidad visual, las notificaciones y los escáneres"
+" funcionando antes de comprar nada."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
@@ -869,14 +908,9 @@ msgid "Compare Free vs Advanced"
 msgstr "Compara Free vs Advanced"
 
 #. module: omc_website
-#: model:ir.ui.view,website_meta_description:omc_website.view_free_vs_advanced
-msgid ""
-"Compare Odoo Mobile Client Free and Advanced: mobile access to Odoo is free;"
-" Advanced adds push notifications and automatic business alerts."
-msgstr ""
-"Compara Odoo Mobile Client Free y Advanced: el acceso móvil a Odoo es "
-"gratis; Advanced agrega notificaciones push y alertas automáticas de tu "
-"negocio."
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Compare with Advanced"
+msgstr "Compara con Advanced"
 
 #. module: omc_website
 #: model:ir.ui.menu,name:omc_website.menu_omc_config
@@ -899,6 +933,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
 msgid "Connect your Odoo server"
 msgstr "Conecta tu servidor Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Connected device management"
+msgstr "Gestión de dispositivos conectados"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
@@ -1038,6 +1077,11 @@ msgid "Do I pay anything to Odoo?"
 msgstr "¿Le pago algo adicional a Odoo?"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Document scanner"
+msgstr "Escáner de documentos"
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_faq
 msgid "Does it work with Odoo Enterprise, Odoo.sh and Community?"
 msgstr "¿Funciona con Odoo Enterprise, Odoo.sh y Community?"
@@ -1104,6 +1148,20 @@ msgid "Downloading the Odoo Mobile Client app on a smartphone"
 msgstr "Descarga de la app Odoo Mobile Client en un smartphone"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Each person signs in by scanning a QR code, and you keep an eye on the "
+"connected devices from Odoo."
+msgstr ""
+"Cada persona inicia sesión escaneando un código QR, y tú vigilas los "
+"dispositivos conectados desde Odoo."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Easy rollout"
+msgstr "Despliegue sencillo"
+
+#. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__email
 #: model_terms:ir.ui.view,arch_db:omc_website.view_contact
 msgid "Email"
@@ -1116,8 +1174,8 @@ msgstr "Correo electrónico *"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
-msgid "Everyday mobile access to your Odoo."
-msgstr "Acceso móvil diario a tu Odoo."
+msgid "Everyday mobile access to your Odoo, free forever."
+msgstr "Acceso móvil diario a tu Odoo, gratis para siempre."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
@@ -1127,6 +1185,15 @@ msgid ""
 msgstr ""
 "Cada quien ve exactamente lo que su usuario de Odoo le permite — ni más, ni "
 "menos. El control de acceso sigue en tus manos."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid ""
+"Everything in Free, plus the company features — one-time purchase, no "
+"subscription."
+msgstr ""
+"Todo lo de Free, más las funciones de empresa — compra única, sin "
+"suscripción."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_faq
@@ -1202,8 +1269,8 @@ msgstr "Para cualquier duda o solicitud de privacidad, escribe a"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
-msgid "For teams that want their Odoo to speak up."
-msgstr "Para equipos que quieren que su Odoo les avise."
+msgid "For companies rolling Odoo out to their team."
+msgstr "Para empresas que despliegan Odoo en su equipo."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
@@ -1226,10 +1293,54 @@ msgstr ""
 "módulo de tu servidor:"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Free covers everyday mobile access to your Odoo, with up to two saved "
+"servers. Advanced turns the app into your company's own: unlimited servers, "
+"your branding, push notifications and scanners."
+msgstr ""
+"Free cubre el acceso móvil diario a tu Odoo, con hasta dos servidores "
+"guardados. Advanced convierte la app en la de tu empresa: servidores "
+"ilimitados, tu identidad visual, notificaciones push y escáneres."
+
+#. module: omc_website
+#: model:ir.ui.view,website_meta_description:omc_website.view_free_vs_advanced
+msgid ""
+"Free gives mobile access to Odoo with up to 2 saved servers. Advanced adds "
+"unlimited servers, company branding, push notifications, QR onboarding and "
+"scanners."
+msgstr ""
+"Free da acceso móvil a Odoo con hasta 2 servidores guardados. Advanced "
+"agrega servidores ilimitados, identidad visual de tu empresa, notificaciones"
+" push, alta por QR y escáneres."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Free gives your team mobile access to your Odoo, with up to two saved "
+"servers. Advanced makes it your company's app: unlimited servers, your "
+"branding, push notifications and built-in scanners."
+msgstr ""
+"Free le da a tu equipo acceso móvil a tu Odoo, con hasta dos servidores "
+"guardados. Advanced la convierte en la app de tu empresa: servidores "
+"ilimitados, tu identidad visual, notificaciones push y escáneres integrados."
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_use_cases
 msgid "Free on Google Play, with a public demo server to try it first."
 msgstr ""
 "Gratis en Google Play, con un servidor demo público para probarla antes."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
+msgid ""
+"Free saves up to two servers and lets you switch between them at any time — "
+"enough for a second company or a test environment. Advanced removes the "
+"limit."
+msgstr ""
+"Free guarda hasta dos servidores y te deja cambiar entre ellos en cualquier "
+"momento — suficiente para una segunda empresa o un entorno de pruebas. "
+"Advanced elimina el límite."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_home
@@ -1289,11 +1400,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid "Get it on the Odoo App Store:"
 msgstr "Consíguelo en la Odoo App Store:"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Get started with Free today"
-msgstr "Empieza hoy con Free"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
@@ -1397,6 +1503,11 @@ msgstr ""
 " fecha actualizada. Los cambios relevantes se destacarán dentro de la app."
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "In-app branding: your colors, logo and company name"
+msgstr "Personalización dentro de la app: tus colores, logo y nombre de empresa"
+
+#. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__inquiry_type
 #: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
 msgid "Inquiry type"
@@ -1491,6 +1602,11 @@ msgid "Made for the people who move your business"
 msgstr "Hecha para la gente que mueve tu negocio"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Make it your company's app"
+msgstr "Conviértela en la app de tu empresa"
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_home
 msgid ""
 "Manage your agenda, projects and timesheets while you are with clients."
@@ -1535,21 +1651,6 @@ msgstr ""
 "aquí."
 
 #. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Mobile access to all your Odoo apps"
-msgstr "Acceso móvil a todas tus aplicaciones de Odoo"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_home
-msgid "Multiple servers"
-msgstr "Múltiples servidores"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Multiple servers and environments"
-msgstr "Múltiples servidores y entornos"
-
-#. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr ""
@@ -1569,8 +1670,20 @@ msgstr "Nombre *"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Native sign-in with your Odoo account"
-msgstr "Inicio de sesión nativo con tu cuenta de Odoo"
+msgid "Native app for all your Odoo apps"
+msgstr "App nativa para todas tus aplicaciones de Odoo"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
+msgid "Need a third server, branding or notifications?"
+msgstr "¿Necesitas un tercer servidor, identidad visual o notificaciones?"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Need more than 2 servers, in-app branding or push notifications?"
+msgstr ""
+"¿Necesitas más de 2 servidores, tu propia identidad visual o notificaciones "
+"push?"
 
 #. module: omc_website
 #: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__new
@@ -1621,11 +1734,6 @@ msgid ""
 msgstr ""
 "Nada extra. Conservas tu plan actual de Odoo — la app simplemente se conecta"
 " al servidor que ya pagas (o que alojas tú mismo)."
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Notification rules you configure yourself"
-msgstr "Reglas de notificación que tú mismo configuras"
 
 #. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__message_needaction_counter
@@ -1711,17 +1819,6 @@ msgstr ""
 "Odoo App Store."
 
 #. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_home
-msgid ""
-"Odoo Mobile Client is free to use with your own server. The Advanced edition"
-" adds push notifications and automatic alerts for sales, purchases, "
-"inventory, accounting and HR."
-msgstr ""
-"Odoo Mobile Client es gratis con tu propio servidor. La edición Advanced "
-"agrega notificaciones push y alertas automáticas de ventas, compras, "
-"inventario, contabilidad y RRHH."
-
-#. module: omc_website
 #: model:ir.ui.view,website_meta_title:omc_website.view_home
 msgid "Odoo Mobile Client — The Odoo mobile app for your business"
 msgstr "Odoo Mobile Client — La app móvil de Odoo para tu negocio"
@@ -1758,23 +1855,33 @@ msgid "One module, one click"
 msgstr "Un módulo, un clic"
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"One purchase, no subscription — your team gets a mobile app that looks and "
+"behaves like yours."
+msgstr ""
+"Una sola compra, sin suscripción — tu equipo recibe una app móvil que se ve "
+"y se comporta como la tuya."
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_faq
 msgid ""
 "One small step: install the connector module from the Odoo App Store on your"
-" server — odoo_mobile_client (free) for the Free edition, "
-"odoo_mobile_client_advanced (paid) for Advanced. After that, everyone just "
-"signs in from the app. Your data still never leaves your server."
+" server — odoo_mobile_client (free) for the Free edition, or "
+"odoo_mobile_client_advanced (one-time purchase) for Advanced, which brings "
+"the free module along with it. After that, everyone just signs in from the "
+"app. Your data still never leaves your server."
 msgstr ""
 "Un pequeño paso: instala el módulo conector de la Odoo App Store en tu "
-"servidor — odoo_mobile_client (gratuito) para la edición Free, "
-"odoo_mobile_client_advanced (de pago) para Advanced. Después de eso, cada "
-"quien solo inicia sesión desde la app. Tus datos siguen sin salir de tu "
-"servidor."
+"servidor — odoo_mobile_client (gratuito) para la edición Free, o "
+"odoo_mobile_client_advanced (compra única) para Advanced, que instala el "
+"módulo gratuito junto con él. Después de eso, cada quien solo inicia sesión "
+"desde la app. Tus datos siguen sin salir de tu servidor."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
-msgid "One-time module"
-msgstr "Módulo único"
+msgid "One-time purchase"
+msgstr "Compra única"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_faq
@@ -1793,11 +1900,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.omc_contact_lead_view_search
 msgid "Open"
 msgstr "Abiertos"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Open the exact record straight from a notification"
-msgstr "Abre el registro exacto directo desde una notificación"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
@@ -1837,11 +1939,13 @@ msgstr "Elige la edición que le queda a tu equipo"
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
 msgid ""
-"Pick the edition that matches your server: Free for everyday mobile access, "
-"Advanced if you also want push notifications."
+"Pick the edition that matches your server: Free for everyday mobile access "
+"with up to two servers, Advanced if you also want unlimited servers, your "
+"own branding, notifications and scanners."
 msgstr ""
 "Elige la edición que corresponde a tu servidor: Free para el acceso móvil "
-"del día a día, Advanced si además quieres notificaciones push."
+"diario con hasta dos servidores, Advanced si además quieres servidores "
+"ilimitados, tu propia identidad visual, notificaciones y escáneres."
 
 #. module: omc_website
 #. odoo-python
@@ -1913,28 +2017,37 @@ msgid "Product"
 msgstr "Producto"
 
 #. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_download
-msgid "Push notifications and automatic alerts, on top of everything in Free."
-msgstr "Notificaciones push y alertas automáticas, encima de todo lo de Free."
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Push notifications"
+msgstr "Notificaciones push"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Push notifications on your phone"
-msgstr "Notificaciones push en tu teléfono"
+msgid "Push notifications for activities and messages"
+msgstr "Notificaciones push de actividades y mensajes"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "QR onboarding for your team"
+msgstr "Alta por código QR para tu equipo"
 
 #. module: omc_website
 #: model:ir.ui.view,website_meta_description:omc_website.view_contact
 msgid ""
 "Questions about Odoo Mobile Client, the server modules or the demo? Write to"
 " contact@pachedev.com or use the contact form — we answer fast."
-msgstr "¿Dudas sobre Odoo Mobile Client, los módulos de servidor o el demo? Escribe a contact@pachedev.com o usa el formulario de contacto — respondemos rápido."
+msgstr ""
+"¿Dudas sobre Odoo Mobile Client, los módulos de servidor o el demo? Escribe "
+"a contact@pachedev.com o usa el formulario de contacto — respondemos rápido."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_contact
 msgid ""
 "Questions about the app, the server modules or the demo? Tell us what you "
 "need and we will get back to you."
-msgstr "¿Dudas sobre la app, los módulos de servidor o el demo? Cuéntanos qué necesitas y te responderemos."
+msgstr ""
+"¿Dudas sobre la app, los módulos de servidor o el demo? Cuéntanos qué "
+"necesitas y te responderemos."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_terms
@@ -2046,8 +2159,27 @@ msgstr "Vendedor actualizando oportunidades del CRM de Odoo desde un celular"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "Same app experience; Advanced adds the notification layer."
-msgstr "Misma experiencia de app; Advanced agrega la capa de notificaciones."
+msgid "Same app experience; Advanced adds the company layer."
+msgstr "La misma experiencia de app; Advanced agrega la capa de empresa."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid ""
+"Save up to two Odoo servers and switch between them in seconds — handy for a"
+" second company or a test environment. Advanced lifts the limit."
+msgstr ""
+"Guarda hasta dos servidores Odoo y cambia entre ellos en segundos — práctico"
+" para una segunda empresa o un entorno de pruebas. Advanced quita el límite."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Saved servers"
+msgstr "Servidores guardados"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Scanners built in"
+msgstr "Escáneres integrados"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_home
@@ -2063,6 +2195,11 @@ msgstr "Mira cómo funciona"
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid "See the full setup guide"
 msgstr "Ver la guía completa de configuración"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "See what Advanced adds"
+msgstr "Mira qué agrega Advanced"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_contact
@@ -2097,6 +2234,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid "Show or hide"
 msgstr "Mostrar u ocultar"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Sign in with your Odoo account"
+msgstr "Inicia sesión con tu cuenta de Odoo"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
@@ -2140,15 +2282,6 @@ msgstr "Empieza gratis. Llega más lejos cuando estés listo."
 #: model_terms:ir.ui.view,arch_db:omc_website.affiliate_cta
 msgid "Start here"
 msgstr "Empieza aquí"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid ""
-"Start with the free app today. Move to Advanced when you want your Odoo to "
-"reach out to you — not the other way around. Both are available now."
-msgstr ""
-"Empieza hoy con la app gratuita. Pasa a Advanced cuando quieras que tu Odoo "
-"te busque a ti — y no al revés. Las dos ya están disponibles."
 
 #. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__state
@@ -2206,15 +2339,6 @@ msgstr "El soporte se brinda con el mejor esfuerzo a través de"
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
 msgid "Supported Odoo versions"
 msgstr "Versiones de Odoo soportadas"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_home
-msgid ""
-"Switch between companies or environments in seconds. Ideal if you work with "
-"more than one Odoo database."
-msgstr ""
-"Cambia entre empresas o entornos en segundos. Ideal si trabajas con más de "
-"una base de datos de Odoo."
 
 #. module: omc_website
 #: model:ir.model,name:omc_website.model_ir_config_parameter
@@ -2397,12 +2521,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid ""
 "The price of the <strong>odoo_mobile_client_advanced</strong> module on the "
-"Odoo App Store — a one-time purchase per server. The app download stays "
-"free."
+"Odoo App Store — a one-time purchase, not a subscription, and no per-user "
+"fees. The app download stays free."
 msgstr ""
 "El precio del módulo <strong>odoo_mobile_client_advanced</strong> en la Odoo"
-" App Store — una compra única por servidor. La descarga de la app sigue "
-"siendo gratis."
+" App Store — una compra única, no una suscripción, y sin costo por usuario. "
+"La descarga de la app sigue siendo gratis."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
@@ -2496,6 +2620,11 @@ msgstr ""
 "disponibilidad dependen de ese servidor, no de la app."
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Try both before you decide"
+msgstr "Prueba las dos antes de decidir"
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid "Try it before you connect your own server"
 msgstr "Pruébala antes de conectar tu propio servidor"
@@ -2518,6 +2647,11 @@ msgid ""
 msgstr ""
 "Dos ediciones, una misma experiencia. Ambas disponibles en Google Play — la "
 "versión para iOS viene en camino."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_home
+msgid "Two servers, one app"
+msgstr "Dos servidores, una app"
 
 #. module: omc_website
 #: model:ir.model.fields,help:omc_website.field_omc_contact_lead__activity_exception_decoration
@@ -2546,6 +2680,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
 msgid "Uninstalling the app removes all locally stored data."
 msgstr "Desinstalar la app elimina todos los datos almacenados localmente."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Unlimited"
+msgstr "Ilimitados"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_home
@@ -2748,13 +2887,15 @@ msgstr ""
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_faq
 msgid ""
-"Yes. You can save several servers — for example two companies, or a "
-"production and a test environment — and switch between them without typing "
-"credentials again."
+"Yes. The Free edition saves up to two servers — for example two companies, "
+"or a production and a test environment — and switches between them without "
+"typing credentials again. If you need more, the Advanced edition removes the"
+" limit."
 msgstr ""
-"Sí. Puedes guardar varios servidores — por ejemplo dos empresas, o un "
-"entorno de producción y uno de pruebas — y cambiar entre ellos sin volver a "
-"escribir tus credenciales."
+"Sí. La edición Free guarda hasta dos servidores — por ejemplo dos empresas, "
+"o un entorno de producción y uno de pruebas — y cambia entre ellos sin "
+"volver a escribir tus credenciales. Si necesitas más, la edición Advanced "
+"elimina el límite."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_terms
@@ -2791,16 +2932,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_contact
 msgid "You can explore both editions right now with our"
 msgstr "Puedes explorar las dos ediciones ahora mismo con nuestro"
-
-#. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
-msgid ""
-"You can save more than one server and switch between them at any time, which"
-" is handy if you work with several companies or with a test environment."
-msgstr ""
-"Puedes guardar más de un servidor y cambiar entre ellos en cualquier "
-"momento, muy útil si trabajas con varias empresas o con un entorno de "
-"pruebas."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_privacy
@@ -2863,6 +2994,14 @@ msgstr ""
 "de tu propia organización — borrar la app no los afecta."
 
 #. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid ""
+"Your colors across the app, and your logo and company name in the side menu,"
+" plus your own welcome screen — all managed from Odoo. The store icon and "
+"app name stay as published."
+msgstr "Tus colores en toda la app, y tu logo y el nombre de tu empresa en el menú lateral, más una pantalla de bienvenida propia — todo gestionado desde Odoo. El ícono y el nombre en la tienda se mantienen como se publicaron."
+
+#. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_home
 msgid ""
 "Your credentials are stored only in your phone's secure storage, with "
@@ -2875,6 +3014,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
 msgid "Your data never leaves your server"
 msgstr "Tus datos nunca salen de tu servidor"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
+msgid "Your look inside the app"
+msgstr "Tu imagen dentro de la app"
 
 #. module: omc_website
 #: model:ir.ui.view,website_meta_description:omc_website.view_contact_thanks
@@ -2950,10 +3094,14 @@ msgid "contact@pachedev.com"
 msgstr "contact@pachedev.com"
 
 #. module: omc_website
-#: model_terms:ir.ui.view,arch_db:omc_website.view_download
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "for Advanced."
-msgstr "para Advanced."
+msgid "for Advanced, which installs the base module for you."
+msgstr "para Advanced, que instala por ti el módulo base."
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "for Advanced. Advanced installs the base module automatically."
+msgstr "para Advanced. Advanced instala el módulo base automáticamente."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_how_it_works
@@ -2981,11 +3129,11 @@ msgstr "preguntas frecuentes"
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid ""
-"module from the Odoo App Store — the module purchase is the only cost, the "
-"app itself is free."
+"module from the Odoo App Store, which installs the free base module for you "
+"— the module purchase is the only cost, the app itself is free."
 msgstr ""
-"de la Odoo App Store — la compra del módulo es el único costo, la app es "
-"gratis."
+"de la Odoo App Store, que instala por ti el módulo base gratuito — la compra"
+" del módulo es el único costo, la app es gratis."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
@@ -3011,8 +3159,8 @@ msgstr "odoo_mobile_client_advanced"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
-msgid "odoo_mobile_client_advanced (paid)"
-msgstr "odoo_mobile_client_advanced (de pago)"
+msgid "odoo_mobile_client_advanced (one-time purchase)"
+msgstr "odoo_mobile_client_advanced (compra única)"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
