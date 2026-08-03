@@ -10,6 +10,7 @@ PARAM_KEY = "omc_website.demo_credentials"
 
 DEFAULTS = {
     "server": "https://demo-omc.pachedev.com",
+    "database": "omc_v19_demo",
     "user": "demo",
     "password": "7x8PU_8V65iM",
 }

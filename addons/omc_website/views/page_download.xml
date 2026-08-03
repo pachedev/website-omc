@@ -104,6 +104,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="omc-demo-field">
+                                                    <label class="omc-demo-label" for="omcDemoDatabase">Database</label>
+                                                    <div class="omc-demo-control">
+                                                        <input id="omcDemoDatabase" type="password" class="omc-demo-input"
+                                                               readonly="readonly" autocomplete="off"
+                                                               t-att-value="demo['database']"/>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_toggle"
+                                                                data-omc-target="omcDemoDatabase"
+                                                                aria-label="Show or hide">
+                                                            <i class="fa fa-eye"/>
+                                                        </button>
+                                                        <button type="button" class="omc-demo-btn js_omc_demo_copy"
+                                                                data-omc-target="omcDemoDatabase"
+                                                                aria-label="Copy">
+                                                            <i class="fa fa-clone"/>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="omc-demo-field">
                                                     <label class="omc-demo-label" for="omcDemoUser">User</label>
                                                     <div class="omc-demo-control">
                                                         <input id="omcDemoUser" type="password" class="omc-demo-input"

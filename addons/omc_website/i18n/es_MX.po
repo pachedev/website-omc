@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0-20260609\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-31 18:22+0000\n"
-"PO-Revision-Date: 2026-07-31 18:22+0000\n"
+"POT-Creation-Date: 2026-08-03 16:46+0000\n"
+"PO-Revision-Date: 2026-08-03 16:46+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -357,14 +357,18 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-check text-success me-2\"/>In-app branding and push "
 "notifications"
-msgstr "<i class=\"fa fa-check text-success me-2\"/>Personalización dentro de la app y notificaciones push"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Personalización dentro de la app"
+" y notificaciones push"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
 msgid ""
 "<i class=\"fa fa-check text-success me-2\"/>In-app branding: your colors, "
 "logo and company name"
-msgstr "<i class=\"fa fa-check text-success me-2\"/>Personalización dentro de la app: tus colores, logo y nombre de empresa"
+msgstr ""
+"<i class=\"fa fa-check text-success me-2\"/>Personalización dentro de la "
+"app: tus colores, logo y nombre de empresa"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_pricing
@@ -751,7 +755,14 @@ msgid ""
 "onboarding by QR code, barcode and document scanners, and management of the "
 "connected devices. It is a one-time purchase and it is available now — get "
 "it from the Download page."
-msgstr "Advanced convierte la app en la de tu empresa: servidores guardados ilimitados, personalización dentro de la app (tus colores, y tu logo y el nombre de tu empresa en el menú lateral) gestionada desde Odoo, notificaciones push de actividades y mensajes, alta por código QR, escáner de códigos de barras y de documentos, y gestión de los dispositivos conectados. Es una compra única y ya está disponible — consíguela en la página de Descargas."
+msgstr ""
+"Advanced convierte la app en la de tu empresa: servidores guardados "
+"ilimitados, personalización dentro de la app (tus colores, y tu logo y el "
+"nombre de tu empresa en el menú lateral) gestionada desde Odoo, "
+"notificaciones push de actividades y mensajes, alta por código QR, escáner "
+"de códigos de barras y de documentos, y gestión de los dispositivos "
+"conectados. Es una compra única y ya está disponible — consíguela en la "
+"página de Descargas."
 
 #. module: omc_website
 #: model:ir.actions.act_window,name:omc_website.omc_affiliate_click_action
@@ -1045,6 +1056,11 @@ msgstr "CRM instalado"
 #: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__customer
 msgid "Customer"
 msgstr "Cliente"
+
+#. module: omc_website
+#: model_terms:ir.ui.view,arch_db:omc_website.view_download
+msgid "Database"
+msgstr "Base de datos"
 
 #. module: omc_website
 #: model:ir.model.fields.selection,name:omc_website.selection__omc_contact_lead__state__discarded
@@ -1505,7 +1521,8 @@ msgstr ""
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
 msgid "In-app branding: your colors, logo and company name"
-msgstr "Personalización dentro de la app: tus colores, logo y nombre de empresa"
+msgstr ""
+"Personalización dentro de la app: tus colores, logo y nombre de empresa"
 
 #. module: omc_website
 #: model:ir.model.fields,field_description:omc_website.field_omc_contact_lead__inquiry_type
@@ -2209,7 +2226,7 @@ msgstr "Enviar mensaje <i class=\"fa fa-paper-plane ms-1\"/>"
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_download
 msgid "Server"
-msgstr "Servidor:"
+msgstr "Servidor"
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_free_vs_advanced
@@ -2999,7 +3016,10 @@ msgid ""
 "Your colors across the app, and your logo and company name in the side menu,"
 " plus your own welcome screen — all managed from Odoo. The store icon and "
 "app name stay as published."
-msgstr "Tus colores en toda la app, y tu logo y el nombre de tu empresa en el menú lateral, más una pantalla de bienvenida propia — todo gestionado desde Odoo. El ícono y el nombre en la tienda se mantienen como se publicaron."
+msgstr ""
+"Tus colores en toda la app, y tu logo y el nombre de tu empresa en el menú "
+"lateral, más una pantalla de bienvenida propia — todo gestionado desde Odoo."
+" El ícono y el nombre en la tienda se mantienen como se publicaron."
 
 #. module: omc_website
 #: model_terms:ir.ui.view,arch_db:omc_website.view_home
